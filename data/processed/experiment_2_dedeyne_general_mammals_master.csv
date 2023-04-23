@@ -1,0 +1,1673 @@
+,pid,tid,domain,conclusion_type,is_osherson,premises,conclusion,rating,argument,is_single_premise,is_control,cut_participant
+0,101,0,Mammals,General,False,"('Elephants',)",All mammals,42,"(('Elephants',), 'All mammals')",True,False,False
+1,101,1,Mammals,General,False,"('Cows',)",All mammals,27,"(('Cows',), 'All mammals')",True,False,False
+2,101,10,Mammals,General,False,"('Horses',)",All mammals,40,"(('Horses',), 'All mammals')",True,False,False
+3,101,11,Mammals,General,False,"('Rhinos',)",All mammals,31,"(('Rhinos',), 'All mammals')",True,False,False
+4,101,12,Mammals,General,False,"('Dogs',)",All mammals,41,"(('Dogs',), 'All mammals')",True,False,False
+5,101,13,Mammals,General,False,"('Hippos',)",All mammals,38,"(('Hippos',), 'All mammals')",True,False,False
+6,101,14,Mammals,General,False,"('Hedgehogs',)",All mammals,29,"(('Hedgehogs',), 'All mammals')",True,False,False
+7,101,15,Mammals,General,False,"('Zebras',)",All mammals,23,"(('Zebras',), 'All mammals')",True,False,False
+8,101,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+9,101,17,Mammals,General,False,"('Deer',)",All mammals,39,"(('Deer',), 'All mammals')",True,False,False
+10,101,18,Mammals,General,False,"('Beavers',)",All mammals,23,"(('Beavers',), 'All mammals')",True,False,False
+11,101,19,Mammals,General,False,"('Squirrels',)",All mammals,18,"(('Squirrels',), 'All mammals')",True,False,False
+12,101,2,Mammals,General,False,"('Giraffes',)",All mammals,32,"(('Giraffes',), 'All mammals')",True,False,False
+13,101,20,Mammals,General,False,"('Donkeys',)",All mammals,31,"(('Donkeys',), 'All mammals')",True,False,False
+14,101,21,Mammals,General,False,"('Cats',)",All mammals,23,"(('Cats',), 'All mammals')",True,False,False
+15,101,22,Mammals,General,False,"('Llamas',)",All mammals,28,"(('Llamas',), 'All mammals')",True,False,False
+16,101,23,Mammals,General,False,"('Sheep',)",All mammals,25,"(('Sheep',), 'All mammals')",True,False,False
+17,101,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+18,101,25,Mammals,General,False,"('Camels',)",All mammals,26,"(('Camels',), 'All mammals')",True,False,False
+19,101,26,Mammals,General,False,"('Tigers',)",All mammals,23,"(('Tigers',), 'All mammals')",True,False,False
+20,101,27,Mammals,General,False,"('Camels', 'Giraffes')",All mammals,55,"(('Camels', 'Giraffes'), 'All mammals')",False,False,False
+21,101,28,Mammals,General,False,"('Sheep', 'Beavers')",All mammals,71,"(('Sheep', 'Beavers'), 'All mammals')",False,False,False
+22,101,29,Mammals,General,False,"('Tigers', 'Hedgehogs')",All mammals,63,"(('Tigers', 'Hedgehogs'), 'All mammals')",False,False,False
+23,101,3,Mammals,General,False,"('Hamsters',)",All mammals,40,"(('Hamsters',), 'All mammals')",True,False,False
+24,101,30,Mammals,General,False,"('Donkeys', 'Horses')",All mammals,54,"(('Donkeys', 'Horses'), 'All mammals')",False,False,False
+25,101,31,Mammals,General,False,"('Dogs', 'Foxes')",All mammals,60,"(('Dogs', 'Foxes'), 'All mammals')",False,False,False
+26,101,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+27,101,33,Mammals,General,False,"('Hamsters', 'Hedgehogs')",All mammals,53,"(('Hamsters', 'Hedgehogs'), 'All mammals')",False,False,False
+28,101,34,Mammals,General,False,"('Zebras', 'Llamas')",All mammals,45,"(('Zebras', 'Llamas'), 'All mammals')",False,False,False
+29,101,35,Mammals,General,False,"('Foxes', 'Donkeys')",All mammals,69,"(('Foxes', 'Donkeys'), 'All mammals')",False,False,False
+30,101,36,Mammals,General,False,"('Cats', 'Donkeys')",All mammals,71,"(('Cats', 'Donkeys'), 'All mammals')",False,False,False
+31,101,37,Mammals,General,False,"('Squirrels', 'Zebras')",All mammals,79,"(('Squirrels', 'Zebras'), 'All mammals')",False,False,False
+32,101,4,Mammals,General,False,"('Lions',)",All mammals,28,"(('Lions',), 'All mammals')",True,False,False
+33,101,5,Mammals,General,False,"('Rabbits',)",All mammals,36,"(('Rabbits',), 'All mammals')",True,False,False
+34,101,6,Mammals,General,False,"('Mice',)",All mammals,33,"(('Mice',), 'All mammals')",True,False,False
+35,101,7,Mammals,General,False,"('Wolves',)",All mammals,40,"(('Wolves',), 'All mammals')",True,False,False
+36,101,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+37,101,9,Mammals,General,False,"('Foxes',)",All mammals,40,"(('Foxes',), 'All mammals')",True,False,False
+38,102,0,Mammals,General,False,"('Cats',)",All mammals,30,"(('Cats',), 'All mammals')",True,False,False
+39,102,1,Mammals,General,False,"('Donkeys',)",All mammals,30,"(('Donkeys',), 'All mammals')",True,False,False
+40,102,10,Mammals,General,False,"('Squirrels',)",All mammals,75,"(('Squirrels',), 'All mammals')",True,False,False
+41,102,11,Mammals,General,False,"('Horses',)",All mammals,89,"(('Horses',), 'All mammals')",True,False,False
+42,102,12,Mammals,General,False,"('Lions',)",All mammals,81,"(('Lions',), 'All mammals')",True,False,False
+43,102,13,Mammals,General,False,"('Beavers',)",All mammals,86,"(('Beavers',), 'All mammals')",True,False,False
+44,102,14,Mammals,General,False,"('Zebras',)",All mammals,85,"(('Zebras',), 'All mammals')",True,False,False
+45,102,15,Mammals,General,False,"('Sheep',)",All mammals,77,"(('Sheep',), 'All mammals')",True,False,False
+46,102,16,Mammals,General,False,"('All living things',)",All mammals,61,"(('All living things',), 'All mammals')",True,True,False
+47,102,17,Mammals,General,False,"('Rhinos',)",All mammals,79,"(('Rhinos',), 'All mammals')",True,False,False
+48,102,18,Mammals,General,False,"('Mice',)",All mammals,74,"(('Mice',), 'All mammals')",True,False,False
+49,102,19,Mammals,General,False,"('Rabbits',)",All mammals,86,"(('Rabbits',), 'All mammals')",True,False,False
+50,102,2,Mammals,General,False,"('Hamsters',)",All mammals,28,"(('Hamsters',), 'All mammals')",True,False,False
+51,102,20,Mammals,General,False,"('Cows',)",All mammals,85,"(('Cows',), 'All mammals')",True,False,False
+52,102,21,Mammals,General,False,"('Giraffes',)",All mammals,89,"(('Giraffes',), 'All mammals')",True,False,False
+53,102,22,Mammals,General,False,"('Wolves',)",All mammals,87,"(('Wolves',), 'All mammals')",True,False,False
+54,102,23,Mammals,General,False,"('Elephants',)",All mammals,97,"(('Elephants',), 'All mammals')",True,False,False
+55,102,24,Mammals,General,False,"('All plants and animals',)",All mammals,50,"(('All plants and animals',), 'All mammals')",True,True,False
+56,102,25,Mammals,General,False,"('Hedgehogs',)",All mammals,79,"(('Hedgehogs',), 'All mammals')",True,False,False
+57,102,26,Mammals,General,False,"('Foxes',)",All mammals,86,"(('Foxes',), 'All mammals')",True,False,False
+58,102,27,Mammals,General,False,"('Cats', 'Donkeys')",All mammals,80,"(('Cats', 'Donkeys'), 'All mammals')",False,False,False
+59,102,28,Mammals,General,False,"('Sheep', 'Beavers')",All mammals,82,"(('Sheep', 'Beavers'), 'All mammals')",False,False,False
+60,102,29,Mammals,General,False,"('Camels', 'Giraffes')",All mammals,87,"(('Camels', 'Giraffes'), 'All mammals')",False,False,False
+61,102,3,Mammals,General,False,"('Hippos',)",All mammals,37,"(('Hippos',), 'All mammals')",True,False,False
+62,102,30,Mammals,General,False,"('Foxes', 'Donkeys')",All mammals,89,"(('Foxes', 'Donkeys'), 'All mammals')",False,False,False
+63,102,31,Mammals,General,False,"('Squirrels', 'Zebras')",All mammals,89,"(('Squirrels', 'Zebras'), 'All mammals')",False,False,False
+64,102,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+65,102,33,Mammals,General,False,"('Dogs', 'Foxes')",All mammals,83,"(('Dogs', 'Foxes'), 'All mammals')",False,False,False
+66,102,34,Mammals,General,False,"('Donkeys', 'Horses')",All mammals,84,"(('Donkeys', 'Horses'), 'All mammals')",False,False,False
+67,102,35,Mammals,General,False,"('Tigers', 'Hedgehogs')",All mammals,91,"(('Tigers', 'Hedgehogs'), 'All mammals')",False,False,False
+68,102,36,Mammals,General,False,"('Zebras', 'Llamas')",All mammals,84,"(('Zebras', 'Llamas'), 'All mammals')",False,False,False
+69,102,37,Mammals,General,False,"('Hamsters', 'Hedgehogs')",All mammals,88,"(('Hamsters', 'Hedgehogs'), 'All mammals')",False,False,False
+70,102,4,Mammals,General,False,"('Tigers',)",All mammals,50,"(('Tigers',), 'All mammals')",True,False,False
+71,102,5,Mammals,General,False,"('Llamas',)",All mammals,59,"(('Llamas',), 'All mammals')",True,False,False
+72,102,6,Mammals,General,False,"('Deer',)",All mammals,68,"(('Deer',), 'All mammals')",True,False,False
+73,102,7,Mammals,General,False,"('Camels',)",All mammals,76,"(('Camels',), 'All mammals')",True,False,False
+74,102,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+75,102,9,Mammals,General,False,"('Dogs',)",All mammals,70,"(('Dogs',), 'All mammals')",True,False,False
+76,104,0,Mammals,General,False,"('Llamas',)",All mammals,67,"(('Llamas',), 'All mammals')",True,False,False
+77,104,1,Mammals,General,False,"('Hedgehogs',)",All mammals,56,"(('Hedgehogs',), 'All mammals')",True,False,False
+78,104,10,Mammals,General,False,"('Squirrels',)",All mammals,58,"(('Squirrels',), 'All mammals')",True,False,False
+79,104,11,Mammals,General,False,"('Mice',)",All mammals,61,"(('Mice',), 'All mammals')",True,False,False
+80,104,12,Mammals,General,False,"('Tigers',)",All mammals,55,"(('Tigers',), 'All mammals')",True,False,False
+81,104,13,Mammals,General,False,"('Rabbits',)",All mammals,56,"(('Rabbits',), 'All mammals')",True,False,False
+82,104,14,Mammals,General,False,"('Dogs',)",All mammals,59,"(('Dogs',), 'All mammals')",True,False,False
+83,104,15,Mammals,General,False,"('Zebras',)",All mammals,60,"(('Zebras',), 'All mammals')",True,False,False
+84,104,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+85,104,17,Mammals,General,False,"('Deer',)",All mammals,57,"(('Deer',), 'All mammals')",True,False,False
+86,104,18,Mammals,General,False,"('Foxes',)",All mammals,59,"(('Foxes',), 'All mammals')",True,False,False
+87,104,19,Mammals,General,False,"('Lions',)",All mammals,58,"(('Lions',), 'All mammals')",True,False,False
+88,104,2,Mammals,General,False,"('Horses',)",All mammals,55,"(('Horses',), 'All mammals')",True,False,False
+89,104,20,Mammals,General,False,"('Cows',)",All mammals,58,"(('Cows',), 'All mammals')",True,False,False
+90,104,21,Mammals,General,False,"('Hamsters',)",All mammals,61,"(('Hamsters',), 'All mammals')",True,False,False
+91,104,22,Mammals,General,False,"('Sheep',)",All mammals,54,"(('Sheep',), 'All mammals')",True,False,False
+92,104,23,Mammals,General,False,"('Hippos',)",All mammals,49,"(('Hippos',), 'All mammals')",True,False,False
+93,104,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+94,104,25,Mammals,General,False,"('Beavers',)",All mammals,53,"(('Beavers',), 'All mammals')",True,False,False
+95,104,26,Mammals,General,False,"('Elephants',)",All mammals,52,"(('Elephants',), 'All mammals')",True,False,False
+96,104,27,Mammals,General,False,"('Tigers', 'Hedgehogs')",All mammals,64,"(('Tigers', 'Hedgehogs'), 'All mammals')",False,False,False
+97,104,28,Mammals,General,False,"('Foxes', 'Donkeys')",All mammals,63,"(('Foxes', 'Donkeys'), 'All mammals')",False,False,False
+98,104,29,Mammals,General,False,"('Hamsters', 'Hedgehogs')",All mammals,45,"(('Hamsters', 'Hedgehogs'), 'All mammals')",False,False,False
+99,104,3,Mammals,General,False,"('Cats',)",All mammals,59,"(('Cats',), 'All mammals')",True,False,False
+100,104,30,Mammals,General,False,"('Camels', 'Giraffes')",All mammals,55,"(('Camels', 'Giraffes'), 'All mammals')",False,False,False
+101,104,31,Mammals,General,False,"('Cats', 'Donkeys')",All mammals,71,"(('Cats', 'Donkeys'), 'All mammals')",False,False,False
+102,104,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+103,104,33,Mammals,General,False,"('Squirrels', 'Zebras')",All mammals,61,"(('Squirrels', 'Zebras'), 'All mammals')",False,False,False
+104,104,34,Mammals,General,False,"('Sheep', 'Beavers')",All mammals,59,"(('Sheep', 'Beavers'), 'All mammals')",False,False,False
+105,104,35,Mammals,General,False,"('Dogs', 'Foxes')",All mammals,56,"(('Dogs', 'Foxes'), 'All mammals')",False,False,False
+106,104,36,Mammals,General,False,"('Zebras', 'Llamas')",All mammals,61,"(('Zebras', 'Llamas'), 'All mammals')",False,False,False
+107,104,37,Mammals,General,False,"('Donkeys', 'Horses')",All mammals,52,"(('Donkeys', 'Horses'), 'All mammals')",False,False,False
+108,104,4,Mammals,General,False,"('Giraffes',)",All mammals,57,"(('Giraffes',), 'All mammals')",True,False,False
+109,104,5,Mammals,General,False,"('Wolves',)",All mammals,57,"(('Wolves',), 'All mammals')",True,False,False
+110,104,6,Mammals,General,False,"('Rhinos',)",All mammals,60,"(('Rhinos',), 'All mammals')",True,False,False
+111,104,7,Mammals,General,False,"('Donkeys',)",All mammals,55,"(('Donkeys',), 'All mammals')",True,False,False
+112,104,8,Mammals,General,False,"('All animals',)",All mammals,80,"(('All animals',), 'All mammals')",True,True,False
+113,104,9,Mammals,General,False,"('Camels',)",All mammals,59,"(('Camels',), 'All mammals')",True,False,False
+114,11,0,Mammals,General,False,"('Zebras',)",All mammals,17,"(('Zebras',), 'All mammals')",True,False,False
+115,11,1,Mammals,General,False,"('Llamas',)",All mammals,21,"(('Llamas',), 'All mammals')",True,False,False
+116,11,10,Mammals,General,False,"('Squirrels',)",All mammals,13,"(('Squirrels',), 'All mammals')",True,False,False
+117,11,11,Mammals,General,False,"('Hippos',)",All mammals,17,"(('Hippos',), 'All mammals')",True,False,False
+118,11,12,Mammals,General,False,"('Deer',)",All mammals,8,"(('Deer',), 'All mammals')",True,False,False
+119,11,13,Mammals,General,False,"('Cows',)",All mammals,17,"(('Cows',), 'All mammals')",True,False,False
+120,11,14,Mammals,General,False,"('Wolves',)",All mammals,15,"(('Wolves',), 'All mammals')",True,False,False
+121,11,15,Mammals,General,False,"('Lions',)",All mammals,17,"(('Lions',), 'All mammals')",True,False,False
+122,11,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+123,11,17,Mammals,General,False,"('Foxes',)",All mammals,13,"(('Foxes',), 'All mammals')",True,False,False
+124,11,18,Mammals,General,False,"('Tigers',)",All mammals,15,"(('Tigers',), 'All mammals')",True,False,False
+125,11,19,Mammals,General,False,"('Sheep',)",All mammals,17,"(('Sheep',), 'All mammals')",True,False,False
+126,11,2,Mammals,General,False,"('Mice',)",All mammals,3,"(('Mice',), 'All mammals')",True,False,False
+127,11,20,Mammals,General,False,"('Horses',)",All mammals,14,"(('Horses',), 'All mammals')",True,False,False
+128,11,21,Mammals,General,False,"('Camels',)",All mammals,14,"(('Camels',), 'All mammals')",True,False,False
+129,11,22,Mammals,General,False,"('Elephants',)",All mammals,11,"(('Elephants',), 'All mammals')",True,False,False
+130,11,23,Mammals,General,False,"('Beavers',)",All mammals,14,"(('Beavers',), 'All mammals')",True,False,False
+131,11,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+132,11,25,Mammals,General,False,"('Giraffes',)",All mammals,12,"(('Giraffes',), 'All mammals')",True,False,False
+133,11,26,Mammals,General,False,"('Rhinos',)",All mammals,11,"(('Rhinos',), 'All mammals')",True,False,False
+134,11,27,Mammals,General,False,"('Hippos', 'Hedgehogs')",All mammals,25,"(('Hippos', 'Hedgehogs'), 'All mammals')",False,False,False
+135,11,28,Mammals,General,False,"('Horses', 'Cows')",All mammals,28,"(('Horses', 'Cows'), 'All mammals')",False,False,False
+136,11,29,Mammals,General,False,"('Rabbits', 'Llamas')",All mammals,27,"(('Rabbits', 'Llamas'), 'All mammals')",False,False,False
+137,11,3,Mammals,General,False,"('Hedgehogs',)",All mammals,16,"(('Hedgehogs',), 'All mammals')",True,False,False
+138,11,30,Mammals,General,False,"('Deer', 'Squirrels')",All mammals,42,"(('Deer', 'Squirrels'), 'All mammals')",False,False,False
+139,11,31,Mammals,General,False,"('Wolves', 'Llamas')",All mammals,23,"(('Wolves', 'Llamas'), 'All mammals')",False,False,False
+140,11,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+141,11,33,Mammals,General,False,"('Hamsters', 'Squirrels')",All mammals,25,"(('Hamsters', 'Squirrels'), 'All mammals')",False,False,False
+142,11,34,Mammals,General,False,"('Horses', 'Cats')",All mammals,42,"(('Horses', 'Cats'), 'All mammals')",False,False,False
+143,11,35,Mammals,General,False,"('Cows', 'Giraffes')",All mammals,31,"(('Cows', 'Giraffes'), 'All mammals')",False,False,False
+144,11,36,Mammals,General,False,"('Beavers', 'Rabbits')",All mammals,40,"(('Beavers', 'Rabbits'), 'All mammals')",False,False,False
+145,11,37,Mammals,General,False,"('Camels', 'Cows')",All mammals,34,"(('Camels', 'Cows'), 'All mammals')",False,False,False
+146,11,4,Mammals,General,False,"('Cats',)",All mammals,21,"(('Cats',), 'All mammals')",True,False,False
+147,11,5,Mammals,General,False,"('Rabbits',)",All mammals,20,"(('Rabbits',), 'All mammals')",True,False,False
+148,11,6,Mammals,General,False,"('Donkeys',)",All mammals,15,"(('Donkeys',), 'All mammals')",True,False,False
+149,11,7,Mammals,General,False,"('Dogs',)",All mammals,16,"(('Dogs',), 'All mammals')",True,False,False
+150,11,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+151,11,9,Mammals,General,False,"('Hamsters',)",All mammals,19,"(('Hamsters',), 'All mammals')",True,False,False
+152,130,0,Mammals,General,False,"('Rhinos',)",All mammals,0,"(('Rhinos',), 'All mammals')",True,False,False
+153,130,1,Mammals,General,False,"('Elephants',)",All mammals,0,"(('Elephants',), 'All mammals')",True,False,False
+154,130,10,Mammals,General,False,"('Camels',)",All mammals,85,"(('Camels',), 'All mammals')",True,False,False
+155,130,11,Mammals,General,False,"('Cats',)",All mammals,89,"(('Cats',), 'All mammals')",True,False,False
+156,130,12,Mammals,General,False,"('Tigers',)",All mammals,85,"(('Tigers',), 'All mammals')",True,False,False
+157,130,13,Mammals,General,False,"('Squirrels',)",All mammals,80,"(('Squirrels',), 'All mammals')",True,False,False
+158,130,14,Mammals,General,False,"('Lions',)",All mammals,85,"(('Lions',), 'All mammals')",True,False,False
+159,130,15,Mammals,General,False,"('Hippos',)",All mammals,94,"(('Hippos',), 'All mammals')",True,False,False
+160,130,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+161,130,17,Mammals,General,False,"('Horses',)",All mammals,70,"(('Horses',), 'All mammals')",True,False,False
+162,130,18,Mammals,General,False,"('Wolves',)",All mammals,77,"(('Wolves',), 'All mammals')",True,False,False
+163,130,19,Mammals,General,False,"('Donkeys',)",All mammals,73,"(('Donkeys',), 'All mammals')",True,False,False
+164,130,2,Mammals,General,False,"('Hamsters',)",All mammals,14,"(('Hamsters',), 'All mammals')",True,False,False
+165,130,20,Mammals,General,False,"('Hedgehogs',)",All mammals,81,"(('Hedgehogs',), 'All mammals')",True,False,False
+166,130,21,Mammals,General,False,"('Sheep',)",All mammals,89,"(('Sheep',), 'All mammals')",True,False,False
+167,130,22,Mammals,General,False,"('Cows',)",All mammals,89,"(('Cows',), 'All mammals')",True,False,False
+168,130,23,Mammals,General,False,"('Foxes',)",All mammals,69,"(('Foxes',), 'All mammals')",True,False,False
+169,130,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+170,130,25,Mammals,General,False,"('Deer',)",All mammals,63,"(('Deer',), 'All mammals')",True,False,False
+171,130,26,Mammals,General,False,"('Mice',)",All mammals,28,"(('Mice',), 'All mammals')",True,False,False
+172,130,27,Mammals,General,False,"('Wolves', 'Elephants')",All mammals,70,"(('Wolves', 'Elephants'), 'All mammals')",False,False,False
+173,130,28,Mammals,General,False,"('Llamas', 'Squirrels')",All mammals,83,"(('Llamas', 'Squirrels'), 'All mammals')",False,False,False
+174,130,29,Mammals,General,False,"('Wolves', 'Zebras')",All mammals,79,"(('Wolves', 'Zebras'), 'All mammals')",False,False,False
+175,130,3,Mammals,General,False,"('Giraffes',)",All mammals,18,"(('Giraffes',), 'All mammals')",True,False,False
+176,130,30,Mammals,General,False,"('Llamas', 'Camels')",All mammals,25,"(('Llamas', 'Camels'), 'All mammals')",False,False,False
+177,130,31,Mammals,General,False,"('Dogs', 'Horses')",All mammals,76,"(('Dogs', 'Horses'), 'All mammals')",False,False,False
+178,130,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+179,130,33,Mammals,General,False,"('Mice', 'Dogs')",All mammals,59,"(('Mice', 'Dogs'), 'All mammals')",False,False,False
+180,130,34,Mammals,General,False,"('Squirrels', 'Beavers')",All mammals,27,"(('Squirrels', 'Beavers'), 'All mammals')",False,False,False
+181,130,35,Mammals,General,False,"('Elephants', 'Giraffes')",All mammals,42,"(('Elephants', 'Giraffes'), 'All mammals')",False,False,False
+182,130,36,Mammals,General,False,"('Dogs', 'Hamsters')",All mammals,72,"(('Dogs', 'Hamsters'), 'All mammals')",False,False,False
+183,130,37,Mammals,General,False,"('Rhinos', 'Giraffes')",All mammals,67,"(('Rhinos', 'Giraffes'), 'All mammals')",False,False,False
+184,130,4,Mammals,General,False,"('Dogs',)",All mammals,54,"(('Dogs',), 'All mammals')",True,False,False
+185,130,5,Mammals,General,False,"('Rabbits',)",All mammals,64,"(('Rabbits',), 'All mammals')",True,False,False
+186,130,6,Mammals,General,False,"('Llamas',)",All mammals,73,"(('Llamas',), 'All mammals')",True,False,False
+187,130,7,Mammals,General,False,"('Beavers',)",All mammals,76,"(('Beavers',), 'All mammals')",True,False,False
+188,130,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+189,130,9,Mammals,General,False,"('Zebras',)",All mammals,100,"(('Zebras',), 'All mammals')",True,False,False
+190,132,0,Mammals,General,False,"('Mice',)",All mammals,14,"(('Mice',), 'All mammals')",True,False,False
+191,132,1,Mammals,General,False,"('Giraffes',)",All mammals,33,"(('Giraffes',), 'All mammals')",True,False,False
+192,132,10,Mammals,General,False,"('Squirrels',)",All mammals,53,"(('Squirrels',), 'All mammals')",True,False,False
+193,132,11,Mammals,General,False,"('Zebras',)",All mammals,50,"(('Zebras',), 'All mammals')",True,False,False
+194,132,12,Mammals,General,False,"('Horses',)",All mammals,59,"(('Horses',), 'All mammals')",True,False,False
+195,132,13,Mammals,General,False,"('Tigers',)",All mammals,16,"(('Tigers',), 'All mammals')",True,False,False
+196,132,14,Mammals,General,False,"('Wolves',)",All mammals,28,"(('Wolves',), 'All mammals')",True,False,False
+197,132,15,Mammals,General,False,"('Hamsters',)",All mammals,40,"(('Hamsters',), 'All mammals')",True,False,False
+198,132,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+199,132,17,Mammals,General,False,"('Deer',)",All mammals,33,"(('Deer',), 'All mammals')",True,False,False
+200,132,18,Mammals,General,False,"('Cows',)",All mammals,40,"(('Cows',), 'All mammals')",True,False,False
+201,132,19,Mammals,General,False,"('Beavers',)",All mammals,36,"(('Beavers',), 'All mammals')",True,False,False
+202,132,2,Mammals,General,False,"('Camels',)",All mammals,21,"(('Camels',), 'All mammals')",True,False,False
+203,132,20,Mammals,General,False,"('Dogs',)",All mammals,29,"(('Dogs',), 'All mammals')",True,False,False
+204,132,21,Mammals,General,False,"('Rhinos',)",All mammals,11,"(('Rhinos',), 'All mammals')",True,False,False
+205,132,22,Mammals,General,False,"('Llamas',)",All mammals,20,"(('Llamas',), 'All mammals')",True,False,False
+206,132,23,Mammals,General,False,"('Hedgehogs',)",All mammals,23,"(('Hedgehogs',), 'All mammals')",True,False,False
+207,132,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+208,132,25,Mammals,General,False,"('Donkeys',)",All mammals,31,"(('Donkeys',), 'All mammals')",True,False,False
+209,132,26,Mammals,General,False,"('Hippos',)",All mammals,35,"(('Hippos',), 'All mammals')",True,False,False
+210,132,27,Mammals,General,False,"('Elephants', 'Giraffes')",All mammals,18,"(('Elephants', 'Giraffes'), 'All mammals')",False,False,False
+211,132,28,Mammals,General,False,"('Dogs', 'Horses')",All mammals,25,"(('Dogs', 'Horses'), 'All mammals')",False,False,False
+212,132,29,Mammals,General,False,"('Rhinos', 'Giraffes')",All mammals,34,"(('Rhinos', 'Giraffes'), 'All mammals')",False,False,False
+213,132,3,Mammals,General,False,"('Rabbits',)",All mammals,18,"(('Rabbits',), 'All mammals')",True,False,False
+214,132,30,Mammals,General,False,"('Mice', 'Dogs')",All mammals,36,"(('Mice', 'Dogs'), 'All mammals')",False,False,False
+215,132,31,Mammals,General,False,"('Dogs', 'Hamsters')",All mammals,46,"(('Dogs', 'Hamsters'), 'All mammals')",False,False,False
+216,132,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+217,132,33,Mammals,General,False,"('Wolves', 'Elephants')",All mammals,48,"(('Wolves', 'Elephants'), 'All mammals')",False,False,False
+218,132,34,Mammals,General,False,"('Llamas', 'Squirrels')",All mammals,63,"(('Llamas', 'Squirrels'), 'All mammals')",False,False,False
+219,132,35,Mammals,General,False,"('Wolves', 'Zebras')",All mammals,57,"(('Wolves', 'Zebras'), 'All mammals')",False,False,False
+220,132,36,Mammals,General,False,"('Squirrels', 'Beavers')",All mammals,67,"(('Squirrels', 'Beavers'), 'All mammals')",False,False,False
+221,132,37,Mammals,General,False,"('Llamas', 'Camels')",All mammals,20,"(('Llamas', 'Camels'), 'All mammals')",False,False,False
+222,132,4,Mammals,General,False,"('Cats',)",All mammals,29,"(('Cats',), 'All mammals')",True,False,False
+223,132,5,Mammals,General,False,"('Elephants',)",All mammals,30,"(('Elephants',), 'All mammals')",True,False,False
+224,132,6,Mammals,General,False,"('Lions',)",All mammals,13,"(('Lions',), 'All mammals')",True,False,False
+225,132,7,Mammals,General,False,"('Foxes',)",All mammals,37,"(('Foxes',), 'All mammals')",True,False,False
+226,132,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+227,132,9,Mammals,General,False,"('Sheep',)",All mammals,20,"(('Sheep',), 'All mammals')",True,False,False
+228,133,0,Mammals,General,False,"('Dogs',)",All mammals,40,"(('Dogs',), 'All mammals')",True,False,False
+229,133,1,Mammals,General,False,"('Camels',)",All mammals,35,"(('Camels',), 'All mammals')",True,False,False
+230,133,10,Mammals,General,False,"('Deer',)",All mammals,71,"(('Deer',), 'All mammals')",True,False,False
+231,133,11,Mammals,General,False,"('Hippos',)",All mammals,72,"(('Hippos',), 'All mammals')",True,False,False
+232,133,12,Mammals,General,False,"('Cats',)",All mammals,80,"(('Cats',), 'All mammals')",True,False,False
+233,133,13,Mammals,General,False,"('Horses',)",All mammals,80,"(('Horses',), 'All mammals')",True,False,False
+234,133,14,Mammals,General,False,"('Rhinos',)",All mammals,70,"(('Rhinos',), 'All mammals')",True,False,False
+235,133,15,Mammals,General,False,"('Elephants',)",All mammals,71,"(('Elephants',), 'All mammals')",True,False,False
+236,133,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+237,133,17,Mammals,General,False,"('Hedgehogs',)",All mammals,80,"(('Hedgehogs',), 'All mammals')",True,False,False
+238,133,18,Mammals,General,False,"('Mice',)",All mammals,75,"(('Mice',), 'All mammals')",True,False,False
+239,133,19,Mammals,General,False,"('Lions',)",All mammals,70,"(('Lions',), 'All mammals')",True,False,False
+240,133,2,Mammals,General,False,"('Rabbits',)",All mammals,63,"(('Rabbits',), 'All mammals')",True,False,False
+241,133,20,Mammals,General,False,"('Cows',)",All mammals,60,"(('Cows',), 'All mammals')",True,False,False
+242,133,21,Mammals,General,False,"('Donkeys',)",All mammals,67,"(('Donkeys',), 'All mammals')",True,False,False
+243,133,22,Mammals,General,False,"('Wolves',)",All mammals,56,"(('Wolves',), 'All mammals')",True,False,False
+244,133,23,Mammals,General,False,"('Tigers',)",All mammals,55,"(('Tigers',), 'All mammals')",True,False,False
+245,133,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+246,133,25,Mammals,General,False,"('Giraffes',)",All mammals,74,"(('Giraffes',), 'All mammals')",True,False,False
+247,133,26,Mammals,General,False,"('Zebras',)",All mammals,55,"(('Zebras',), 'All mammals')",True,False,False
+248,133,27,Mammals,General,False,"('Squirrels', 'Beavers')",All mammals,90,"(('Squirrels', 'Beavers'), 'All mammals')",False,False,False
+249,133,28,Mammals,General,False,"('Mice', 'Dogs')",All mammals,90,"(('Mice', 'Dogs'), 'All mammals')",False,False,False
+250,133,29,Mammals,General,False,"('Llamas', 'Camels')",All mammals,85,"(('Llamas', 'Camels'), 'All mammals')",False,False,False
+251,133,3,Mammals,General,False,"('Foxes',)",All mammals,59,"(('Foxes',), 'All mammals')",True,False,False
+252,133,30,Mammals,General,False,"('Llamas', 'Squirrels')",All mammals,90,"(('Llamas', 'Squirrels'), 'All mammals')",False,False,False
+253,133,31,Mammals,General,False,"('Elephants', 'Giraffes')",All mammals,85,"(('Elephants', 'Giraffes'), 'All mammals')",False,False,False
+254,133,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+255,133,33,Mammals,General,False,"('Dogs', 'Horses')",All mammals,86,"(('Dogs', 'Horses'), 'All mammals')",False,False,False
+256,133,34,Mammals,General,False,"('Rhinos', 'Giraffes')",All mammals,84,"(('Rhinos', 'Giraffes'), 'All mammals')",False,False,False
+257,133,35,Mammals,General,False,"('Wolves', 'Elephants')",All mammals,90,"(('Wolves', 'Elephants'), 'All mammals')",False,False,False
+258,133,36,Mammals,General,False,"('Wolves', 'Zebras')",All mammals,90,"(('Wolves', 'Zebras'), 'All mammals')",False,False,False
+259,133,37,Mammals,General,False,"('Dogs', 'Hamsters')",All mammals,90,"(('Dogs', 'Hamsters'), 'All mammals')",False,False,False
+260,133,4,Mammals,General,False,"('Beavers',)",All mammals,71,"(('Beavers',), 'All mammals')",True,False,False
+261,133,5,Mammals,General,False,"('Sheep',)",All mammals,74,"(('Sheep',), 'All mammals')",True,False,False
+262,133,6,Mammals,General,False,"('Squirrels',)",All mammals,77,"(('Squirrels',), 'All mammals')",True,False,False
+263,133,7,Mammals,General,False,"('Hamsters',)",All mammals,60,"(('Hamsters',), 'All mammals')",True,False,False
+264,133,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+265,133,9,Mammals,General,False,"('Llamas',)",All mammals,75,"(('Llamas',), 'All mammals')",True,False,False
+266,160,0,Mammals,General,False,"('Beavers',)",All mammals,67,"(('Beavers',), 'All mammals')",True,False,False
+267,160,1,Mammals,General,False,"('Hippos',)",All mammals,73,"(('Hippos',), 'All mammals')",True,False,False
+268,160,10,Mammals,General,False,"('Deer',)",All mammals,73,"(('Deer',), 'All mammals')",True,False,False
+269,160,11,Mammals,General,False,"('Dogs',)",All mammals,80,"(('Dogs',), 'All mammals')",True,False,False
+270,160,12,Mammals,General,False,"('Zebras',)",All mammals,73,"(('Zebras',), 'All mammals')",True,False,False
+271,160,13,Mammals,General,False,"('Elephants',)",All mammals,83,"(('Elephants',), 'All mammals')",True,False,False
+272,160,14,Mammals,General,False,"('Horses',)",All mammals,73,"(('Horses',), 'All mammals')",True,False,False
+273,160,15,Mammals,General,False,"('Camels',)",All mammals,83,"(('Camels',), 'All mammals')",True,False,False
+274,160,16,Mammals,General,False,"('All living things',)",All mammals,91,"(('All living things',), 'All mammals')",True,True,False
+275,160,17,Mammals,General,False,"('Squirrels',)",All mammals,77,"(('Squirrels',), 'All mammals')",True,False,False
+276,160,18,Mammals,General,False,"('Wolves',)",All mammals,81,"(('Wolves',), 'All mammals')",True,False,False
+277,160,19,Mammals,General,False,"('Cows',)",All mammals,72,"(('Cows',), 'All mammals')",True,False,False
+278,160,2,Mammals,General,False,"('Rabbits',)",All mammals,81,"(('Rabbits',), 'All mammals')",True,False,False
+279,160,20,Mammals,General,False,"('Donkeys',)",All mammals,83,"(('Donkeys',), 'All mammals')",True,False,False
+280,160,21,Mammals,General,False,"('Llamas',)",All mammals,69,"(('Llamas',), 'All mammals')",True,False,False
+281,160,22,Mammals,General,False,"('Hamsters',)",All mammals,72,"(('Hamsters',), 'All mammals')",True,False,False
+282,160,23,Mammals,General,False,"('Lions',)",All mammals,83,"(('Lions',), 'All mammals')",True,False,False
+283,160,24,Mammals,General,False,"('All plants and animals',)",All mammals,93,"(('All plants and animals',), 'All mammals')",True,True,False
+284,160,25,Mammals,General,False,"('Tigers',)",All mammals,72,"(('Tigers',), 'All mammals')",True,False,False
+285,160,26,Mammals,General,False,"('Foxes',)",All mammals,70,"(('Foxes',), 'All mammals')",True,False,False
+286,160,27,Mammals,General,False,"('Cows', 'Squirrels')",All mammals,73,"(('Cows', 'Squirrels'), 'All mammals')",False,False,False
+287,160,28,Mammals,General,False,"('Hippos', 'Elephants')",All mammals,81,"(('Hippos', 'Elephants'), 'All mammals')",False,False,False
+288,160,29,Mammals,General,False,"('Hedgehogs', 'Beavers')",All mammals,85,"(('Hedgehogs', 'Beavers'), 'All mammals')",False,False,False
+289,160,3,Mammals,General,False,"('Giraffes',)",All mammals,75,"(('Giraffes',), 'All mammals')",True,False,False
+290,160,30,Mammals,General,False,"('Squirrels', 'Sheep')",All mammals,73,"(('Squirrels', 'Sheep'), 'All mammals')",False,False,False
+291,160,31,Mammals,General,False,"('Zebras', 'Cats')",All mammals,75,"(('Zebras', 'Cats'), 'All mammals')",False,False,False
+292,160,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,83,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+293,160,33,Mammals,General,False,"('Donkeys', 'Giraffes')",All mammals,66,"(('Donkeys', 'Giraffes'), 'All mammals')",False,False,False
+294,160,34,Mammals,General,False,"('Rhinos', 'Donkeys')",All mammals,74,"(('Rhinos', 'Donkeys'), 'All mammals')",False,False,False
+295,160,35,Mammals,General,False,"('Hamsters', 'Deer')",All mammals,71,"(('Hamsters', 'Deer'), 'All mammals')",False,False,False
+296,160,36,Mammals,General,False,"('Elephants', 'Camels')",All mammals,82,"(('Elephants', 'Camels'), 'All mammals')",False,False,False
+297,160,37,Mammals,General,False,"('Wolves', 'Horses')",All mammals,71,"(('Wolves', 'Horses'), 'All mammals')",False,False,False
+298,160,4,Mammals,General,False,"('Rhinos',)",All mammals,71,"(('Rhinos',), 'All mammals')",True,False,False
+299,160,5,Mammals,General,False,"('Cats',)",All mammals,80,"(('Cats',), 'All mammals')",True,False,False
+300,160,6,Mammals,General,False,"('Sheep',)",All mammals,71,"(('Sheep',), 'All mammals')",True,False,False
+301,160,7,Mammals,General,False,"('Hedgehogs',)",All mammals,82,"(('Hedgehogs',), 'All mammals')",True,False,False
+302,160,8,Mammals,General,False,"('All animals',)",All mammals,95,"(('All animals',), 'All mammals')",True,True,False
+303,160,9,Mammals,General,False,"('Mice',)",All mammals,67,"(('Mice',), 'All mammals')",True,False,False
+304,161,0,Mammals,General,False,"('Dogs',)",All mammals,60,"(('Dogs',), 'All mammals')",True,False,False
+305,161,1,Mammals,General,False,"('Donkeys',)",All mammals,60,"(('Donkeys',), 'All mammals')",True,False,False
+306,161,10,Mammals,General,False,"('Horses',)",All mammals,54,"(('Horses',), 'All mammals')",True,False,False
+307,161,11,Mammals,General,False,"('Cows',)",All mammals,32,"(('Cows',), 'All mammals')",True,False,False
+308,161,12,Mammals,General,False,"('Foxes',)",All mammals,62,"(('Foxes',), 'All mammals')",True,False,False
+309,161,13,Mammals,General,False,"('Llamas',)",All mammals,33,"(('Llamas',), 'All mammals')",True,False,False
+310,161,14,Mammals,General,False,"('Tigers',)",All mammals,68,"(('Tigers',), 'All mammals')",True,False,False
+311,161,15,Mammals,General,False,"('Hedgehogs',)",All mammals,25,"(('Hedgehogs',), 'All mammals')",True,False,False
+312,161,16,Mammals,General,False,"('All living things',)",All mammals,91,"(('All living things',), 'All mammals')",True,True,False
+313,161,17,Mammals,General,False,"('Cats',)",All mammals,84,"(('Cats',), 'All mammals')",True,False,False
+314,161,18,Mammals,General,False,"('Rabbits',)",All mammals,42,"(('Rabbits',), 'All mammals')",True,False,False
+315,161,19,Mammals,General,False,"('Giraffes',)",All mammals,8,"(('Giraffes',), 'All mammals')",True,False,False
+316,161,2,Mammals,General,False,"('Sheep',)",All mammals,40,"(('Sheep',), 'All mammals')",True,False,False
+317,161,20,Mammals,General,False,"('Beavers',)",All mammals,35,"(('Beavers',), 'All mammals')",True,False,False
+318,161,21,Mammals,General,False,"('Deer',)",All mammals,30,"(('Deer',), 'All mammals')",True,False,False
+319,161,22,Mammals,General,False,"('Squirrels',)",All mammals,26,"(('Squirrels',), 'All mammals')",True,False,False
+320,161,23,Mammals,General,False,"('Rhinos',)",All mammals,12,"(('Rhinos',), 'All mammals')",True,False,False
+321,161,24,Mammals,General,False,"('All plants and animals',)",All mammals,93,"(('All plants and animals',), 'All mammals')",True,True,False
+322,161,25,Mammals,General,False,"('Elephants',)",All mammals,15,"(('Elephants',), 'All mammals')",True,False,False
+323,161,26,Mammals,General,False,"('Wolves',)",All mammals,72,"(('Wolves',), 'All mammals')",True,False,False
+324,161,27,Mammals,General,False,"('Rhinos', 'Donkeys')",All mammals,89,"(('Rhinos', 'Donkeys'), 'All mammals')",False,False,False
+325,161,28,Mammals,General,False,"('Zebras', 'Cats')",All mammals,92,"(('Zebras', 'Cats'), 'All mammals')",False,False,False
+326,161,29,Mammals,General,False,"('Wolves', 'Horses')",All mammals,92,"(('Wolves', 'Horses'), 'All mammals')",False,False,False
+327,161,3,Mammals,General,False,"('Camels',)",All mammals,20,"(('Camels',), 'All mammals')",True,False,False
+328,161,30,Mammals,General,False,"('Cows', 'Squirrels')",All mammals,86,"(('Cows', 'Squirrels'), 'All mammals')",False,False,False
+329,161,31,Mammals,General,False,"('Squirrels', 'Sheep')",All mammals,69,"(('Squirrels', 'Sheep'), 'All mammals')",False,False,False
+330,161,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,94,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+331,161,33,Mammals,General,False,"('Hippos', 'Elephants')",All mammals,55,"(('Hippos', 'Elephants'), 'All mammals')",False,False,False
+332,161,34,Mammals,General,False,"('Hamsters', 'Deer')",All mammals,66,"(('Hamsters', 'Deer'), 'All mammals')",False,False,False
+333,161,35,Mammals,General,False,"('Elephants', 'Camels')",All mammals,53,"(('Elephants', 'Camels'), 'All mammals')",False,False,False
+334,161,36,Mammals,General,False,"('Donkeys', 'Giraffes')",All mammals,62,"(('Donkeys', 'Giraffes'), 'All mammals')",False,False,False
+335,161,37,Mammals,General,False,"('Hedgehogs', 'Beavers')",All mammals,44,"(('Hedgehogs', 'Beavers'), 'All mammals')",False,False,False
+336,161,4,Mammals,General,False,"('Hippos',)",All mammals,40,"(('Hippos',), 'All mammals')",True,False,False
+337,161,5,Mammals,General,False,"('Hamsters',)",All mammals,28,"(('Hamsters',), 'All mammals')",True,False,False
+338,161,6,Mammals,General,False,"('Mice',)",All mammals,25,"(('Mice',), 'All mammals')",True,False,False
+339,161,7,Mammals,General,False,"('Zebras',)",All mammals,62,"(('Zebras',), 'All mammals')",True,False,False
+340,161,8,Mammals,General,False,"('All animals',)",All mammals,85,"(('All animals',), 'All mammals')",True,True,False
+341,161,9,Mammals,General,False,"('Lions',)",All mammals,66,"(('Lions',), 'All mammals')",True,False,False
+342,162,0,Mammals,General,False,"('Squirrels',)",All mammals,20,"(('Squirrels',), 'All mammals')",True,False,False
+343,162,1,Mammals,General,False,"('Elephants',)",All mammals,20,"(('Elephants',), 'All mammals')",True,False,False
+344,162,10,Mammals,General,False,"('Llamas',)",All mammals,20,"(('Llamas',), 'All mammals')",True,False,False
+345,162,11,Mammals,General,False,"('Beavers',)",All mammals,15,"(('Beavers',), 'All mammals')",True,False,False
+346,162,12,Mammals,General,False,"('Deer',)",All mammals,31,"(('Deer',), 'All mammals')",True,False,False
+347,162,13,Mammals,General,False,"('Sheep',)",All mammals,30,"(('Sheep',), 'All mammals')",True,False,False
+348,162,14,Mammals,General,False,"('Foxes',)",All mammals,30,"(('Foxes',), 'All mammals')",True,False,False
+349,162,15,Mammals,General,False,"('Hamsters',)",All mammals,26,"(('Hamsters',), 'All mammals')",True,False,False
+350,162,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+351,162,17,Mammals,General,False,"('Tigers',)",All mammals,27,"(('Tigers',), 'All mammals')",True,False,False
+352,162,18,Mammals,General,False,"('Dogs',)",All mammals,41,"(('Dogs',), 'All mammals')",True,False,False
+353,162,19,Mammals,General,False,"('Hedgehogs',)",All mammals,19,"(('Hedgehogs',), 'All mammals')",True,False,False
+354,162,2,Mammals,General,False,"('Hippos',)",All mammals,20,"(('Hippos',), 'All mammals')",True,False,False
+355,162,20,Mammals,General,False,"('Lions',)",All mammals,25,"(('Lions',), 'All mammals')",True,False,False
+356,162,21,Mammals,General,False,"('Mice',)",All mammals,30,"(('Mice',), 'All mammals')",True,False,False
+357,162,22,Mammals,General,False,"('Cats',)",All mammals,33,"(('Cats',), 'All mammals')",True,False,False
+358,162,23,Mammals,General,False,"('Cows',)",All mammals,33,"(('Cows',), 'All mammals')",True,False,False
+359,162,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+360,162,25,Mammals,General,False,"('Donkeys',)",All mammals,30,"(('Donkeys',), 'All mammals')",True,False,False
+361,162,26,Mammals,General,False,"('Rhinos',)",All mammals,20,"(('Rhinos',), 'All mammals')",True,False,False
+362,162,27,Mammals,General,False,"('Wolves', 'Horses')",All mammals,68,"(('Wolves', 'Horses'), 'All mammals')",False,False,False
+363,162,28,Mammals,General,False,"('Hamsters', 'Deer')",All mammals,66,"(('Hamsters', 'Deer'), 'All mammals')",False,False,False
+364,162,29,Mammals,General,False,"('Zebras', 'Cats')",All mammals,76,"(('Zebras', 'Cats'), 'All mammals')",False,False,False
+365,162,3,Mammals,General,False,"('Giraffes',)",All mammals,11,"(('Giraffes',), 'All mammals')",True,False,False
+366,162,30,Mammals,General,False,"('Hedgehogs', 'Beavers')",All mammals,50,"(('Hedgehogs', 'Beavers'), 'All mammals')",False,False,False
+367,162,31,Mammals,General,False,"('Hippos', 'Elephants')",All mammals,43,"(('Hippos', 'Elephants'), 'All mammals')",False,False,False
+368,162,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+369,162,33,Mammals,General,False,"('Squirrels', 'Sheep')",All mammals,65,"(('Squirrels', 'Sheep'), 'All mammals')",False,False,False
+370,162,34,Mammals,General,False,"('Donkeys', 'Giraffes')",All mammals,61,"(('Donkeys', 'Giraffes'), 'All mammals')",False,False,False
+371,162,35,Mammals,General,False,"('Elephants', 'Camels')",All mammals,50,"(('Elephants', 'Camels'), 'All mammals')",False,False,False
+372,162,36,Mammals,General,False,"('Rhinos', 'Donkeys')",All mammals,70,"(('Rhinos', 'Donkeys'), 'All mammals')",False,False,False
+373,162,37,Mammals,General,False,"('Cows', 'Squirrels')",All mammals,70,"(('Cows', 'Squirrels'), 'All mammals')",False,False,False
+374,162,4,Mammals,General,False,"('Zebras',)",All mammals,21,"(('Zebras',), 'All mammals')",True,False,False
+375,162,5,Mammals,General,False,"('Horses',)",All mammals,30,"(('Horses',), 'All mammals')",True,False,False
+376,162,6,Mammals,General,False,"('Wolves',)",All mammals,29,"(('Wolves',), 'All mammals')",True,False,False
+377,162,7,Mammals,General,False,"('Rabbits',)",All mammals,30,"(('Rabbits',), 'All mammals')",True,False,False
+378,162,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+379,162,9,Mammals,General,False,"('Camels',)",All mammals,20,"(('Camels',), 'All mammals')",True,False,False
+380,163,0,Mammals,General,False,"('Mice',)",All mammals,54,"(('Mice',), 'All mammals')",True,False,False
+381,163,1,Mammals,General,False,"('Rhinos',)",All mammals,41,"(('Rhinos',), 'All mammals')",True,False,False
+382,163,10,Mammals,General,False,"('Hamsters',)",All mammals,36,"(('Hamsters',), 'All mammals')",True,False,False
+383,163,11,Mammals,General,False,"('Beavers',)",All mammals,34,"(('Beavers',), 'All mammals')",True,False,False
+384,163,12,Mammals,General,False,"('Deer',)",All mammals,44,"(('Deer',), 'All mammals')",True,False,False
+385,163,13,Mammals,General,False,"('Zebras',)",All mammals,35,"(('Zebras',), 'All mammals')",True,False,False
+386,163,14,Mammals,General,False,"('Donkeys',)",All mammals,39,"(('Donkeys',), 'All mammals')",True,False,False
+387,163,15,Mammals,General,False,"('Squirrels',)",All mammals,36,"(('Squirrels',), 'All mammals')",True,False,False
+388,163,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+389,163,17,Mammals,General,False,"('Tigers',)",All mammals,40,"(('Tigers',), 'All mammals')",True,False,False
+390,163,18,Mammals,General,False,"('Dogs',)",All mammals,38,"(('Dogs',), 'All mammals')",True,False,False
+391,163,19,Mammals,General,False,"('Cats',)",All mammals,44,"(('Cats',), 'All mammals')",True,False,False
+392,163,2,Mammals,General,False,"('Horses',)",All mammals,54,"(('Horses',), 'All mammals')",True,False,False
+393,163,20,Mammals,General,False,"('Llamas',)",All mammals,36,"(('Llamas',), 'All mammals')",True,False,False
+394,163,21,Mammals,General,False,"('Rabbits',)",All mammals,30,"(('Rabbits',), 'All mammals')",True,False,False
+395,163,22,Mammals,General,False,"('Hedgehogs',)",All mammals,31,"(('Hedgehogs',), 'All mammals')",True,False,False
+396,163,23,Mammals,General,False,"('Sheep',)",All mammals,32,"(('Sheep',), 'All mammals')",True,False,False
+397,163,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+398,163,25,Mammals,General,False,"('Hippos',)",All mammals,42,"(('Hippos',), 'All mammals')",True,False,False
+399,163,26,Mammals,General,False,"('Foxes',)",All mammals,36,"(('Foxes',), 'All mammals')",True,False,False
+400,163,27,Mammals,General,False,"('Hedgehogs', 'Beavers')",All mammals,44,"(('Hedgehogs', 'Beavers'), 'All mammals')",False,False,False
+401,163,28,Mammals,General,False,"('Zebras', 'Cats')",All mammals,47,"(('Zebras', 'Cats'), 'All mammals')",False,False,False
+402,163,29,Mammals,General,False,"('Elephants', 'Camels')",All mammals,56,"(('Elephants', 'Camels'), 'All mammals')",False,False,False
+403,163,3,Mammals,General,False,"('Camels',)",All mammals,42,"(('Camels',), 'All mammals')",True,False,False
+404,163,30,Mammals,General,False,"('Cows', 'Squirrels')",All mammals,69,"(('Cows', 'Squirrels'), 'All mammals')",False,False,False
+405,163,31,Mammals,General,False,"('Hamsters', 'Deer')",All mammals,55,"(('Hamsters', 'Deer'), 'All mammals')",False,False,False
+406,163,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+407,163,33,Mammals,General,False,"('Squirrels', 'Sheep')",All mammals,53,"(('Squirrels', 'Sheep'), 'All mammals')",False,False,False
+408,163,34,Mammals,General,False,"('Rhinos', 'Donkeys')",All mammals,59,"(('Rhinos', 'Donkeys'), 'All mammals')",False,False,False
+409,163,35,Mammals,General,False,"('Donkeys', 'Giraffes')",All mammals,45,"(('Donkeys', 'Giraffes'), 'All mammals')",False,False,False
+410,163,36,Mammals,General,False,"('Hippos', 'Elephants')",All mammals,34,"(('Hippos', 'Elephants'), 'All mammals')",False,False,False
+411,163,37,Mammals,General,False,"('Wolves', 'Horses')",All mammals,46,"(('Wolves', 'Horses'), 'All mammals')",False,False,False
+412,163,4,Mammals,General,False,"('Wolves',)",All mammals,42,"(('Wolves',), 'All mammals')",True,False,False
+413,163,5,Mammals,General,False,"('Giraffes',)",All mammals,35,"(('Giraffes',), 'All mammals')",True,False,False
+414,163,6,Mammals,General,False,"('Lions',)",All mammals,43,"(('Lions',), 'All mammals')",True,False,False
+415,163,7,Mammals,General,False,"('Cows',)",All mammals,56,"(('Cows',), 'All mammals')",True,False,False
+416,163,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+417,163,9,Mammals,General,False,"('Elephants',)",All mammals,44,"(('Elephants',), 'All mammals')",True,False,False
+418,191,0,Mammals,General,False,"('Hippos',)",All mammals,90,"(('Hippos',), 'All mammals')",True,False,False
+419,191,1,Mammals,General,False,"('Cats',)",All mammals,91,"(('Cats',), 'All mammals')",True,False,False
+420,191,10,Mammals,General,False,"('Hedgehogs',)",All mammals,82,"(('Hedgehogs',), 'All mammals')",True,False,False
+421,191,11,Mammals,General,False,"('Zebras',)",All mammals,86,"(('Zebras',), 'All mammals')",True,False,False
+422,191,12,Mammals,General,False,"('Beavers',)",All mammals,72,"(('Beavers',), 'All mammals')",True,False,False
+423,191,13,Mammals,General,False,"('Rabbits',)",All mammals,57,"(('Rabbits',), 'All mammals')",True,False,False
+424,191,14,Mammals,General,False,"('Camels',)",All mammals,85,"(('Camels',), 'All mammals')",True,False,False
+425,191,15,Mammals,General,False,"('Tigers',)",All mammals,92,"(('Tigers',), 'All mammals')",True,False,False
+426,191,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+427,191,17,Mammals,General,False,"('Rhinos',)",All mammals,97,"(('Rhinos',), 'All mammals')",True,False,False
+428,191,18,Mammals,General,False,"('Horses',)",All mammals,95,"(('Horses',), 'All mammals')",True,False,False
+429,191,19,Mammals,General,False,"('Wolves',)",All mammals,95,"(('Wolves',), 'All mammals')",True,False,False
+430,191,2,Mammals,General,False,"('Dogs',)",All mammals,94,"(('Dogs',), 'All mammals')",True,False,False
+431,191,20,Mammals,General,False,"('Elephants',)",All mammals,98,"(('Elephants',), 'All mammals')",True,False,False
+432,191,21,Mammals,General,False,"('Hamsters',)",All mammals,95,"(('Hamsters',), 'All mammals')",True,False,False
+433,191,22,Mammals,General,False,"('Giraffes',)",All mammals,95,"(('Giraffes',), 'All mammals')",True,False,False
+434,191,23,Mammals,General,False,"('Deer',)",All mammals,83,"(('Deer',), 'All mammals')",True,False,False
+435,191,24,Mammals,General,False,"('All plants and animals',)",All mammals,99,"(('All plants and animals',), 'All mammals')",True,True,False
+436,191,25,Mammals,General,False,"('Donkeys',)",All mammals,99,"(('Donkeys',), 'All mammals')",True,False,False
+437,191,26,Mammals,General,False,"('Cows',)",All mammals,97,"(('Cows',), 'All mammals')",True,False,False
+438,191,27,Mammals,General,False,"('Rabbits', 'Lions')",All mammals,54,"(('Rabbits', 'Lions'), 'All mammals')",False,False,False
+439,191,28,Mammals,General,False,"('Rabbits', 'Hamsters')",All mammals,70,"(('Rabbits', 'Hamsters'), 'All mammals')",False,False,False
+440,191,29,Mammals,General,False,"('Hedgehogs', 'Sheep')",All mammals,37,"(('Hedgehogs', 'Sheep'), 'All mammals')",False,False,False
+441,191,3,Mammals,General,False,"('Lions',)",All mammals,85,"(('Lions',), 'All mammals')",True,False,False
+442,191,30,Mammals,General,False,"('Beavers', 'Mice')",All mammals,30,"(('Beavers', 'Mice'), 'All mammals')",False,False,False
+443,191,31,Mammals,General,False,"('Deer', 'Rhinos')",All mammals,48,"(('Deer', 'Rhinos'), 'All mammals')",False,False,False
+444,191,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,92,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+445,191,33,Mammals,General,False,"('Foxes', 'Hamsters')",All mammals,71,"(('Foxes', 'Hamsters'), 'All mammals')",False,False,False
+446,191,34,Mammals,General,False,"('Zebras', 'Mice')",All mammals,38,"(('Zebras', 'Mice'), 'All mammals')",False,False,False
+447,191,35,Mammals,General,False,"('Sheep', 'Camels')",All mammals,60,"(('Sheep', 'Camels'), 'All mammals')",False,False,False
+448,191,36,Mammals,General,False,"('Tigers', 'Hamsters')",All mammals,26,"(('Tigers', 'Hamsters'), 'All mammals')",False,False,False
+449,191,37,Mammals,General,False,"('Rabbits', 'Horses')",All mammals,38,"(('Rabbits', 'Horses'), 'All mammals')",False,False,False
+450,191,4,Mammals,General,False,"('Squirrels',)",All mammals,39,"(('Squirrels',), 'All mammals')",True,False,False
+451,191,5,Mammals,General,False,"('Llamas',)",All mammals,74,"(('Llamas',), 'All mammals')",True,False,False
+452,191,6,Mammals,General,False,"('Foxes',)",All mammals,74,"(('Foxes',), 'All mammals')",True,False,False
+453,191,7,Mammals,General,False,"('Sheep',)",All mammals,83,"(('Sheep',), 'All mammals')",True,False,False
+454,191,8,Mammals,General,False,"('All animals',)",All mammals,97,"(('All animals',), 'All mammals')",True,True,False
+455,191,9,Mammals,General,False,"('Mice',)",All mammals,26,"(('Mice',), 'All mammals')",True,False,False
+456,220,0,Mammals,General,False,"('Foxes',)",All mammals,71,"(('Foxes',), 'All mammals')",True,False,False
+457,220,1,Mammals,General,False,"('Giraffes',)",All mammals,23,"(('Giraffes',), 'All mammals')",True,False,False
+458,220,10,Mammals,General,False,"('Donkeys',)",All mammals,26,"(('Donkeys',), 'All mammals')",True,False,False
+459,220,11,Mammals,General,False,"('Horses',)",All mammals,19,"(('Horses',), 'All mammals')",True,False,False
+460,220,12,Mammals,General,False,"('Beavers',)",All mammals,35,"(('Beavers',), 'All mammals')",True,False,False
+461,220,13,Mammals,General,False,"('Deer',)",All mammals,65,"(('Deer',), 'All mammals')",True,False,False
+462,220,14,Mammals,General,False,"('Sheep',)",All mammals,55,"(('Sheep',), 'All mammals')",True,False,False
+463,220,15,Mammals,General,False,"('Mice',)",All mammals,13,"(('Mice',), 'All mammals')",True,False,False
+464,220,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+465,220,17,Mammals,General,False,"('Rhinos',)",All mammals,32,"(('Rhinos',), 'All mammals')",True,False,False
+466,220,18,Mammals,General,False,"('Camels',)",All mammals,6,"(('Camels',), 'All mammals')",True,False,False
+467,220,19,Mammals,General,False,"('Dogs',)",All mammals,70,"(('Dogs',), 'All mammals')",True,False,False
+468,220,2,Mammals,General,False,"('Elephants',)",All mammals,25,"(('Elephants',), 'All mammals')",True,False,False
+469,220,20,Mammals,General,False,"('Tigers',)",All mammals,42,"(('Tigers',), 'All mammals')",True,False,False
+470,220,21,Mammals,General,False,"('Squirrels',)",All mammals,22,"(('Squirrels',), 'All mammals')",True,False,False
+471,220,22,Mammals,General,False,"('Hamsters',)",All mammals,22,"(('Hamsters',), 'All mammals')",True,False,False
+472,220,23,Mammals,General,False,"('Zebras',)",All mammals,24,"(('Zebras',), 'All mammals')",True,False,False
+473,220,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+474,220,25,Mammals,General,False,"('Cows',)",All mammals,16,"(('Cows',), 'All mammals')",True,False,False
+475,220,26,Mammals,General,False,"('Rabbits',)",All mammals,25,"(('Rabbits',), 'All mammals')",True,False,False
+476,220,27,Mammals,General,False,"('Hedgehogs', 'Cats')",All mammals,28,"(('Hedgehogs', 'Cats'), 'All mammals')",False,False,False
+477,220,28,Mammals,General,False,"('Lions', 'Camels')",All mammals,31,"(('Lions', 'Camels'), 'All mammals')",False,False,False
+478,220,29,Mammals,General,False,"('Zebras', 'Giraffes')",All mammals,10,"(('Zebras', 'Giraffes'), 'All mammals')",False,False,False
+479,220,3,Mammals,General,False,"('Hippos',)",All mammals,31,"(('Hippos',), 'All mammals')",True,False,False
+480,220,30,Mammals,General,False,"('Llamas', 'Dogs')",All mammals,38,"(('Llamas', 'Dogs'), 'All mammals')",False,False,False
+481,220,31,Mammals,General,False,"('Hamsters', 'Beavers')",All mammals,21,"(('Hamsters', 'Beavers'), 'All mammals')",False,False,False
+482,220,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+483,220,33,Mammals,General,False,"('Zebras', 'Dogs')",All mammals,30,"(('Zebras', 'Dogs'), 'All mammals')",False,False,False
+484,220,34,Mammals,General,False,"('Zebras', 'Hamsters')",All mammals,67,"(('Zebras', 'Hamsters'), 'All mammals')",False,False,False
+485,220,35,Mammals,General,False,"('Mice', 'Rabbits')",All mammals,10,"(('Mice', 'Rabbits'), 'All mammals')",False,False,False
+486,220,36,Mammals,General,False,"('Elephants', 'Zebras')",All mammals,34,"(('Elephants', 'Zebras'), 'All mammals')",False,False,False
+487,220,37,Mammals,General,False,"('Foxes', 'Elephants')",All mammals,18,"(('Foxes', 'Elephants'), 'All mammals')",False,False,False
+488,220,4,Mammals,General,False,"('Llamas',)",All mammals,63,"(('Llamas',), 'All mammals')",True,False,False
+489,220,5,Mammals,General,False,"('Wolves',)",All mammals,49,"(('Wolves',), 'All mammals')",True,False,False
+490,220,6,Mammals,General,False,"('Hedgehogs',)",All mammals,15,"(('Hedgehogs',), 'All mammals')",True,False,False
+491,220,7,Mammals,General,False,"('Cats',)",All mammals,70,"(('Cats',), 'All mammals')",True,False,False
+492,220,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+493,220,9,Mammals,General,False,"('Lions',)",All mammals,48,"(('Lions',), 'All mammals')",True,False,False
+494,221,0,Mammals,General,False,"('Horses',)",All mammals,25,"(('Horses',), 'All mammals')",True,False,False
+495,221,1,Mammals,General,False,"('Hamsters',)",All mammals,19,"(('Hamsters',), 'All mammals')",True,False,False
+496,221,10,Mammals,General,False,"('Cats',)",All mammals,35,"(('Cats',), 'All mammals')",True,False,False
+497,221,11,Mammals,General,False,"('Beavers',)",All mammals,25,"(('Beavers',), 'All mammals')",True,False,False
+498,221,12,Mammals,General,False,"('Hedgehogs',)",All mammals,19,"(('Hedgehogs',), 'All mammals')",True,False,False
+499,221,13,Mammals,General,False,"('Foxes',)",All mammals,30,"(('Foxes',), 'All mammals')",True,False,False
+500,221,14,Mammals,General,False,"('Llamas',)",All mammals,39,"(('Llamas',), 'All mammals')",True,False,False
+501,221,15,Mammals,General,False,"('Donkeys',)",All mammals,40,"(('Donkeys',), 'All mammals')",True,False,False
+502,221,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+503,221,17,Mammals,General,False,"('Tigers',)",All mammals,59,"(('Tigers',), 'All mammals')",True,False,False
+504,221,18,Mammals,General,False,"('Giraffes',)",All mammals,40,"(('Giraffes',), 'All mammals')",True,False,False
+505,221,19,Mammals,General,False,"('Hippos',)",All mammals,31,"(('Hippos',), 'All mammals')",True,False,False
+506,221,2,Mammals,General,False,"('Zebras',)",All mammals,20,"(('Zebras',), 'All mammals')",True,False,False
+507,221,20,Mammals,General,False,"('Dogs',)",All mammals,60,"(('Dogs',), 'All mammals')",True,False,False
+508,221,21,Mammals,General,False,"('Deer',)",All mammals,40,"(('Deer',), 'All mammals')",True,False,False
+509,221,22,Mammals,General,False,"('Camels',)",All mammals,31,"(('Camels',), 'All mammals')",True,False,False
+510,221,23,Mammals,General,False,"('Rabbits',)",All mammals,25,"(('Rabbits',), 'All mammals')",True,False,False
+511,221,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+512,221,25,Mammals,General,False,"('Lions',)",All mammals,60,"(('Lions',), 'All mammals')",True,False,False
+513,221,26,Mammals,General,False,"('Cows',)",All mammals,41,"(('Cows',), 'All mammals')",True,False,False
+514,221,27,Mammals,General,False,"('Llamas', 'Dogs')",All mammals,70,"(('Llamas', 'Dogs'), 'All mammals')",False,False,False
+515,221,28,Mammals,General,False,"('Zebras', 'Giraffes')",All mammals,60,"(('Zebras', 'Giraffes'), 'All mammals')",False,False,False
+516,221,29,Mammals,General,False,"('Elephants', 'Zebras')",All mammals,69,"(('Elephants', 'Zebras'), 'All mammals')",False,False,False
+517,221,3,Mammals,General,False,"('Mice',)",All mammals,30,"(('Mice',), 'All mammals')",True,False,False
+518,221,30,Mammals,General,False,"('Zebras', 'Dogs')",All mammals,80,"(('Zebras', 'Dogs'), 'All mammals')",False,False,False
+519,221,31,Mammals,General,False,"('Hamsters', 'Beavers')",All mammals,68,"(('Hamsters', 'Beavers'), 'All mammals')",False,False,False
+520,221,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+521,221,33,Mammals,General,False,"('Foxes', 'Elephants')",All mammals,70,"(('Foxes', 'Elephants'), 'All mammals')",False,False,False
+522,221,34,Mammals,General,False,"('Zebras', 'Hamsters')",All mammals,80,"(('Zebras', 'Hamsters'), 'All mammals')",False,False,False
+523,221,35,Mammals,General,False,"('Hedgehogs', 'Cats')",All mammals,60,"(('Hedgehogs', 'Cats'), 'All mammals')",False,False,False
+524,221,36,Mammals,General,False,"('Lions', 'Camels')",All mammals,61,"(('Lions', 'Camels'), 'All mammals')",False,False,False
+525,221,37,Mammals,General,False,"('Mice', 'Rabbits')",All mammals,60,"(('Mice', 'Rabbits'), 'All mammals')",False,False,False
+526,221,4,Mammals,General,False,"('Squirrels',)",All mammals,27,"(('Squirrels',), 'All mammals')",True,False,False
+527,221,5,Mammals,General,False,"('Wolves',)",All mammals,30,"(('Wolves',), 'All mammals')",True,False,False
+528,221,6,Mammals,General,False,"('Rhinos',)",All mammals,30,"(('Rhinos',), 'All mammals')",True,False,False
+529,221,7,Mammals,General,False,"('Sheep',)",All mammals,30,"(('Sheep',), 'All mammals')",True,False,False
+530,221,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+531,221,9,Mammals,General,False,"('Elephants',)",All mammals,40,"(('Elephants',), 'All mammals')",True,False,False
+532,252,0,Mammals,General,False,"('Tigers',)",All mammals,90,"(('Tigers',), 'All mammals')",True,False,False
+533,252,1,Mammals,General,False,"('Wolves',)",All mammals,85,"(('Wolves',), 'All mammals')",True,False,False
+534,252,10,Mammals,General,False,"('Giraffes',)",All mammals,75,"(('Giraffes',), 'All mammals')",True,False,False
+535,252,11,Mammals,General,False,"('Horses',)",All mammals,80,"(('Horses',), 'All mammals')",True,False,False
+536,252,12,Mammals,General,False,"('Hippos',)",All mammals,50,"(('Hippos',), 'All mammals')",True,False,False
+537,252,13,Mammals,General,False,"('Rhinos',)",All mammals,60,"(('Rhinos',), 'All mammals')",True,False,False
+538,252,14,Mammals,General,False,"('Elephants',)",All mammals,85,"(('Elephants',), 'All mammals')",True,False,False
+539,252,15,Mammals,General,False,"('Deer',)",All mammals,50,"(('Deer',), 'All mammals')",True,False,False
+540,252,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+541,252,17,Mammals,General,False,"('Cats',)",All mammals,70,"(('Cats',), 'All mammals')",True,False,False
+542,252,18,Mammals,General,False,"('Llamas',)",All mammals,60,"(('Llamas',), 'All mammals')",True,False,False
+543,252,19,Mammals,General,False,"('Hedgehogs',)",All mammals,40,"(('Hedgehogs',), 'All mammals')",True,False,False
+544,252,2,Mammals,General,False,"('Donkeys',)",All mammals,75,"(('Donkeys',), 'All mammals')",True,False,False
+545,252,20,Mammals,General,False,"('Squirrels',)",All mammals,50,"(('Squirrels',), 'All mammals')",True,False,False
+546,252,21,Mammals,General,False,"('Cows',)",All mammals,80,"(('Cows',), 'All mammals')",True,False,False
+547,252,22,Mammals,General,False,"('Dogs',)",All mammals,75,"(('Dogs',), 'All mammals')",True,False,False
+548,252,23,Mammals,General,False,"('Beavers',)",All mammals,40,"(('Beavers',), 'All mammals')",True,False,False
+549,252,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+550,252,25,Mammals,General,False,"('Mice',)",All mammals,40,"(('Mice',), 'All mammals')",True,False,False
+551,252,26,Mammals,General,False,"('Hamsters',)",All mammals,40,"(('Hamsters',), 'All mammals')",True,False,False
+552,252,27,Mammals,General,False,"('Horses', 'Squirrels')",All mammals,60,"(('Horses', 'Squirrels'), 'All mammals')",False,False,False
+553,252,28,Mammals,General,False,"('Mice', 'Hamsters')",All mammals,40,"(('Mice', 'Hamsters'), 'All mammals')",False,False,False
+554,252,29,Mammals,General,False,"('Wolves', 'Beavers')",All mammals,30,"(('Wolves', 'Beavers'), 'All mammals')",False,False,False
+555,252,3,Mammals,General,False,"('Zebras',)",All mammals,80,"(('Zebras',), 'All mammals')",True,False,False
+556,252,30,Mammals,General,False,"('Elephants', 'Rhinos')",All mammals,65,"(('Elephants', 'Rhinos'), 'All mammals')",False,False,False
+557,252,31,Mammals,General,False,"('Mice', 'Horses')",All mammals,50,"(('Mice', 'Horses'), 'All mammals')",False,False,False
+558,252,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+559,252,33,Mammals,General,False,"('Donkeys', 'Lions')",All mammals,40,"(('Donkeys', 'Lions'), 'All mammals')",False,False,False
+560,252,34,Mammals,General,False,"('Dogs', 'Wolves')",All mammals,60,"(('Dogs', 'Wolves'), 'All mammals')",False,False,False
+561,252,35,Mammals,General,False,"('Beavers', 'Cats')",All mammals,40,"(('Beavers', 'Cats'), 'All mammals')",False,False,False
+562,252,36,Mammals,General,False,"('Deer', 'Cats')",All mammals,35,"(('Deer', 'Cats'), 'All mammals')",False,False,False
+563,252,37,Mammals,General,False,"('Tigers', 'Cats')",All mammals,60,"(('Tigers', 'Cats'), 'All mammals')",False,False,False
+564,252,4,Mammals,General,False,"('Rabbits',)",All mammals,55,"(('Rabbits',), 'All mammals')",True,False,False
+565,252,5,Mammals,General,False,"('Sheep',)",All mammals,85,"(('Sheep',), 'All mammals')",True,False,False
+566,252,6,Mammals,General,False,"('Foxes',)",All mammals,60,"(('Foxes',), 'All mammals')",True,False,False
+567,252,7,Mammals,General,False,"('Lions',)",All mammals,75,"(('Lions',), 'All mammals')",True,False,False
+568,252,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+569,252,9,Mammals,General,False,"('Camels',)",All mammals,60,"(('Camels',), 'All mammals')",True,False,False
+570,253,0,Mammals,General,False,"('Deer',)",All mammals,39,"(('Deer',), 'All mammals')",True,False,False
+571,253,1,Mammals,General,False,"('Tigers',)",All mammals,51,"(('Tigers',), 'All mammals')",True,False,False
+572,253,10,Mammals,General,False,"('Cows',)",All mammals,50,"(('Cows',), 'All mammals')",True,False,False
+573,253,11,Mammals,General,False,"('Cats',)",All mammals,70,"(('Cats',), 'All mammals')",True,False,False
+574,253,12,Mammals,General,False,"('Beavers',)",All mammals,13,"(('Beavers',), 'All mammals')",True,False,False
+575,253,13,Mammals,General,False,"('Sheep',)",All mammals,28,"(('Sheep',), 'All mammals')",True,False,False
+576,253,14,Mammals,General,False,"('Donkeys',)",All mammals,40,"(('Donkeys',), 'All mammals')",True,False,False
+577,253,15,Mammals,General,False,"('Hedgehogs',)",All mammals,9,"(('Hedgehogs',), 'All mammals')",True,False,False
+578,253,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+579,253,17,Mammals,General,False,"('Dogs',)",All mammals,70,"(('Dogs',), 'All mammals')",True,False,False
+580,253,18,Mammals,General,False,"('Wolves',)",All mammals,59,"(('Wolves',), 'All mammals')",True,False,False
+581,253,19,Mammals,General,False,"('Camels',)",All mammals,30,"(('Camels',), 'All mammals')",True,False,False
+582,253,2,Mammals,General,False,"('Squirrels',)",All mammals,31,"(('Squirrels',), 'All mammals')",True,False,False
+583,253,20,Mammals,General,False,"('Foxes',)",All mammals,41,"(('Foxes',), 'All mammals')",True,False,False
+584,253,21,Mammals,General,False,"('Hippos',)",All mammals,20,"(('Hippos',), 'All mammals')",True,False,False
+585,253,22,Mammals,General,False,"('Llamas',)",All mammals,29,"(('Llamas',), 'All mammals')",True,False,False
+586,253,23,Mammals,General,False,"('Mice',)",All mammals,39,"(('Mice',), 'All mammals')",True,False,False
+587,253,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+588,253,25,Mammals,General,False,"('Zebras',)",All mammals,39,"(('Zebras',), 'All mammals')",True,False,False
+589,253,26,Mammals,General,False,"('Hamsters',)",All mammals,29,"(('Hamsters',), 'All mammals')",True,False,False
+590,253,27,Mammals,General,False,"('Tigers', 'Cats')",All mammals,50,"(('Tigers', 'Cats'), 'All mammals')",False,False,False
+591,253,28,Mammals,General,False,"('Donkeys', 'Lions')",All mammals,82,"(('Donkeys', 'Lions'), 'All mammals')",False,False,False
+592,253,29,Mammals,General,False,"('Mice', 'Hamsters')",All mammals,28,"(('Mice', 'Hamsters'), 'All mammals')",False,False,False
+593,253,3,Mammals,General,False,"('Elephants',)",All mammals,60,"(('Elephants',), 'All mammals')",True,False,False
+594,253,30,Mammals,General,False,"('Elephants', 'Rhinos')",All mammals,21,"(('Elephants', 'Rhinos'), 'All mammals')",False,False,False
+595,253,31,Mammals,General,False,"('Horses', 'Squirrels')",All mammals,42,"(('Horses', 'Squirrels'), 'All mammals')",False,False,False
+596,253,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+597,253,33,Mammals,General,False,"('Deer', 'Cats')",All mammals,61,"(('Deer', 'Cats'), 'All mammals')",False,False,False
+598,253,34,Mammals,General,False,"('Mice', 'Horses')",All mammals,74,"(('Mice', 'Horses'), 'All mammals')",False,False,False
+599,253,35,Mammals,General,False,"('Dogs', 'Wolves')",All mammals,60,"(('Dogs', 'Wolves'), 'All mammals')",False,False,False
+600,253,36,Mammals,General,False,"('Wolves', 'Beavers')",All mammals,80,"(('Wolves', 'Beavers'), 'All mammals')",False,False,False
+601,253,37,Mammals,General,False,"('Beavers', 'Cats')",All mammals,60,"(('Beavers', 'Cats'), 'All mammals')",False,False,False
+602,253,4,Mammals,General,False,"('Giraffes',)",All mammals,30,"(('Giraffes',), 'All mammals')",True,False,False
+603,253,5,Mammals,General,False,"('Lions',)",All mammals,70,"(('Lions',), 'All mammals')",True,False,False
+604,253,6,Mammals,General,False,"('Rhinos',)",All mammals,20,"(('Rhinos',), 'All mammals')",True,False,False
+605,253,7,Mammals,General,False,"('Horses',)",All mammals,61,"(('Horses',), 'All mammals')",True,False,False
+606,253,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+607,253,9,Mammals,General,False,"('Rabbits',)",All mammals,31,"(('Rabbits',), 'All mammals')",True,False,False
+608,281,0,Mammals,General,False,"('Mice',)",All mammals,23,"(('Mice',), 'All mammals')",True,False,False
+609,281,1,Mammals,General,False,"('Hamsters',)",All mammals,20,"(('Hamsters',), 'All mammals')",True,False,False
+610,281,10,Mammals,General,False,"('Horses',)",All mammals,22,"(('Horses',), 'All mammals')",True,False,False
+611,281,11,Mammals,General,False,"('Llamas',)",All mammals,20,"(('Llamas',), 'All mammals')",True,False,False
+612,281,12,Mammals,General,False,"('Wolves',)",All mammals,22,"(('Wolves',), 'All mammals')",True,False,False
+613,281,13,Mammals,General,False,"('Cows',)",All mammals,23,"(('Cows',), 'All mammals')",True,False,False
+614,281,14,Mammals,General,False,"('Donkeys',)",All mammals,22,"(('Donkeys',), 'All mammals')",True,False,False
+615,281,15,Mammals,General,False,"('Lions',)",All mammals,22,"(('Lions',), 'All mammals')",True,False,False
+616,281,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+617,281,17,Mammals,General,False,"('Foxes',)",All mammals,18,"(('Foxes',), 'All mammals')",True,False,False
+618,281,18,Mammals,General,False,"('Deer',)",All mammals,21,"(('Deer',), 'All mammals')",True,False,False
+619,281,19,Mammals,General,False,"('Rhinos',)",All mammals,22,"(('Rhinos',), 'All mammals')",True,False,False
+620,281,2,Mammals,General,False,"('Elephants',)",All mammals,19,"(('Elephants',), 'All mammals')",True,False,False
+621,281,20,Mammals,General,False,"('Rabbits',)",All mammals,21,"(('Rabbits',), 'All mammals')",True,False,False
+622,281,21,Mammals,General,False,"('Camels',)",All mammals,17,"(('Camels',), 'All mammals')",True,False,False
+623,281,22,Mammals,General,False,"('Tigers',)",All mammals,20,"(('Tigers',), 'All mammals')",True,False,False
+624,281,23,Mammals,General,False,"('Squirrels',)",All mammals,19,"(('Squirrels',), 'All mammals')",True,False,False
+625,281,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+626,281,25,Mammals,General,False,"('Hippos',)",All mammals,14,"(('Hippos',), 'All mammals')",True,False,False
+627,281,26,Mammals,General,False,"('Sheep',)",All mammals,22,"(('Sheep',), 'All mammals')",True,False,False
+628,281,27,Mammals,General,False,"('Donkeys', 'Beavers')",All mammals,61,"(('Donkeys', 'Beavers'), 'All mammals')",False,False,False
+629,281,28,Mammals,General,False,"('Cats', 'Squirrels')",All mammals,62,"(('Cats', 'Squirrels'), 'All mammals')",False,False,False
+630,281,29,Mammals,General,False,"('Donkeys', 'Hamsters')",All mammals,58,"(('Donkeys', 'Hamsters'), 'All mammals')",False,False,False
+631,281,3,Mammals,General,False,"('Zebras',)",All mammals,20,"(('Zebras',), 'All mammals')",True,False,False
+632,281,30,Mammals,General,False,"('Rhinos', 'Hippos')",All mammals,61,"(('Rhinos', 'Hippos'), 'All mammals')",False,False,False
+633,281,31,Mammals,General,False,"('Squirrels', 'Hedgehogs')",All mammals,62,"(('Squirrels', 'Hedgehogs'), 'All mammals')",False,False,False
+634,281,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+635,281,33,Mammals,General,False,"('Camels', 'Donkeys')",All mammals,66,"(('Camels', 'Donkeys'), 'All mammals')",False,False,False
+636,281,34,Mammals,General,False,"('Foxes', 'Lions')",All mammals,61,"(('Foxes', 'Lions'), 'All mammals')",False,False,False
+637,281,35,Mammals,General,False,"('Horses', 'Foxes')",All mammals,55,"(('Horses', 'Foxes'), 'All mammals')",False,False,False
+638,281,36,Mammals,General,False,"('Tigers', 'Donkeys')",All mammals,62,"(('Tigers', 'Donkeys'), 'All mammals')",False,False,False
+639,281,37,Mammals,General,False,"('Foxes', 'Wolves')",All mammals,64,"(('Foxes', 'Wolves'), 'All mammals')",False,False,False
+640,281,4,Mammals,General,False,"('Beavers',)",All mammals,18,"(('Beavers',), 'All mammals')",True,False,False
+641,281,5,Mammals,General,False,"('Giraffes',)",All mammals,22,"(('Giraffes',), 'All mammals')",True,False,False
+642,281,6,Mammals,General,False,"('Cats',)",All mammals,21,"(('Cats',), 'All mammals')",True,False,False
+643,281,7,Mammals,General,False,"('Hedgehogs',)",All mammals,21,"(('Hedgehogs',), 'All mammals')",True,False,False
+644,281,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+645,281,9,Mammals,General,False,"('Dogs',)",All mammals,21,"(('Dogs',), 'All mammals')",True,False,False
+646,282,0,Mammals,General,False,"('Foxes',)",All mammals,9,"(('Foxes',), 'All mammals')",True,False,False
+647,282,1,Mammals,General,False,"('Beavers',)",All mammals,60,"(('Beavers',), 'All mammals')",True,False,False
+648,282,10,Mammals,General,False,"('Camels',)",All mammals,40,"(('Camels',), 'All mammals')",True,False,False
+649,282,11,Mammals,General,False,"('Lions',)",All mammals,40,"(('Lions',), 'All mammals')",True,False,False
+650,282,12,Mammals,General,False,"('Deer',)",All mammals,20,"(('Deer',), 'All mammals')",True,False,False
+651,282,13,Mammals,General,False,"('Hedgehogs',)",All mammals,15,"(('Hedgehogs',), 'All mammals')",True,False,False
+652,282,14,Mammals,General,False,"('Rabbits',)",All mammals,20,"(('Rabbits',), 'All mammals')",True,False,False
+653,282,15,Mammals,General,False,"('Elephants',)",All mammals,35,"(('Elephants',), 'All mammals')",True,False,False
+654,282,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+655,282,17,Mammals,General,False,"('Cats',)",All mammals,20,"(('Cats',), 'All mammals')",True,False,False
+656,282,18,Mammals,General,False,"('Zebras',)",All mammals,21,"(('Zebras',), 'All mammals')",True,False,False
+657,282,19,Mammals,General,False,"('Rhinos',)",All mammals,60,"(('Rhinos',), 'All mammals')",True,False,False
+658,282,2,Mammals,General,False,"('Hippos',)",All mammals,60,"(('Hippos',), 'All mammals')",True,False,False
+659,282,20,Mammals,General,False,"('Donkeys',)",All mammals,40,"(('Donkeys',), 'All mammals')",True,False,False
+660,282,21,Mammals,General,False,"('Wolves',)",All mammals,60,"(('Wolves',), 'All mammals')",True,False,False
+661,282,22,Mammals,General,False,"('Sheep',)",All mammals,39,"(('Sheep',), 'All mammals')",True,False,False
+662,282,23,Mammals,General,False,"('Mice',)",All mammals,15,"(('Mice',), 'All mammals')",True,False,False
+663,282,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+664,282,25,Mammals,General,False,"('Giraffes',)",All mammals,40,"(('Giraffes',), 'All mammals')",True,False,False
+665,282,26,Mammals,General,False,"('Tigers',)",All mammals,60,"(('Tigers',), 'All mammals')",True,False,False
+666,282,27,Mammals,General,False,"('Donkeys', 'Beavers')",All mammals,80,"(('Donkeys', 'Beavers'), 'All mammals')",False,False,False
+667,282,28,Mammals,General,False,"('Tigers', 'Donkeys')",All mammals,70,"(('Tigers', 'Donkeys'), 'All mammals')",False,False,False
+668,282,29,Mammals,General,False,"('Rhinos', 'Hippos')",All mammals,80,"(('Rhinos', 'Hippos'), 'All mammals')",False,False,False
+669,282,3,Mammals,General,False,"('Hamsters',)",All mammals,30,"(('Hamsters',), 'All mammals')",True,False,False
+670,282,30,Mammals,General,False,"('Horses', 'Foxes')",All mammals,25,"(('Horses', 'Foxes'), 'All mammals')",False,False,False
+671,282,31,Mammals,General,False,"('Foxes', 'Wolves')",All mammals,60,"(('Foxes', 'Wolves'), 'All mammals')",False,False,False
+672,282,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+673,282,33,Mammals,General,False,"('Camels', 'Donkeys')",All mammals,70,"(('Camels', 'Donkeys'), 'All mammals')",False,False,False
+674,282,34,Mammals,General,False,"('Cats', 'Squirrels')",All mammals,20,"(('Cats', 'Squirrels'), 'All mammals')",False,False,False
+675,282,35,Mammals,General,False,"('Donkeys', 'Hamsters')",All mammals,35,"(('Donkeys', 'Hamsters'), 'All mammals')",False,False,False
+676,282,36,Mammals,General,False,"('Foxes', 'Lions')",All mammals,20,"(('Foxes', 'Lions'), 'All mammals')",False,False,False
+677,282,37,Mammals,General,False,"('Squirrels', 'Hedgehogs')",All mammals,20,"(('Squirrels', 'Hedgehogs'), 'All mammals')",False,False,False
+678,282,4,Mammals,General,False,"('Squirrels',)",All mammals,20,"(('Squirrels',), 'All mammals')",True,False,False
+679,282,5,Mammals,General,False,"('Llamas',)",All mammals,12,"(('Llamas',), 'All mammals')",True,False,False
+680,282,6,Mammals,General,False,"('Cows',)",All mammals,65,"(('Cows',), 'All mammals')",True,False,False
+681,282,7,Mammals,General,False,"('Horses',)",All mammals,75,"(('Horses',), 'All mammals')",True,False,False
+682,282,8,Mammals,General,False,"('All animals',)",All mammals,80,"(('All animals',), 'All mammals')",True,True,False
+683,282,9,Mammals,General,False,"('Dogs',)",All mammals,75,"(('Dogs',), 'All mammals')",True,False,False
+684,283,0,Mammals,General,False,"('Dogs',)",All mammals,79,"(('Dogs',), 'All mammals')",True,False,False
+685,283,1,Mammals,General,False,"('Cows',)",All mammals,61,"(('Cows',), 'All mammals')",True,False,False
+686,283,10,Mammals,General,False,"('Squirrels',)",All mammals,9,"(('Squirrels',), 'All mammals')",True,False,False
+687,283,11,Mammals,General,False,"('Zebras',)",All mammals,22,"(('Zebras',), 'All mammals')",True,False,False
+688,283,12,Mammals,General,False,"('Mice',)",All mammals,84,"(('Mice',), 'All mammals')",True,False,False
+689,283,13,Mammals,General,False,"('Giraffes',)",All mammals,38,"(('Giraffes',), 'All mammals')",True,False,False
+690,283,14,Mammals,General,False,"('Hamsters',)",All mammals,61,"(('Hamsters',), 'All mammals')",True,False,False
+691,283,15,Mammals,General,False,"('Camels',)",All mammals,22,"(('Camels',), 'All mammals')",True,False,False
+692,283,16,Mammals,General,False,"('All living things',)",All mammals,92,"(('All living things',), 'All mammals')",True,True,False
+693,283,17,Mammals,General,False,"('Foxes',)",All mammals,61,"(('Foxes',), 'All mammals')",True,False,False
+694,283,18,Mammals,General,False,"('Hedgehogs',)",All mammals,69,"(('Hedgehogs',), 'All mammals')",True,False,False
+695,283,19,Mammals,General,False,"('Llamas',)",All mammals,61,"(('Llamas',), 'All mammals')",True,False,False
+696,283,2,Mammals,General,False,"('Lions',)",All mammals,63,"(('Lions',), 'All mammals')",True,False,False
+697,283,20,Mammals,General,False,"('Horses',)",All mammals,59,"(('Horses',), 'All mammals')",True,False,False
+698,283,21,Mammals,General,False,"('Cats',)",All mammals,62,"(('Cats',), 'All mammals')",True,False,False
+699,283,22,Mammals,General,False,"('Tigers',)",All mammals,61,"(('Tigers',), 'All mammals')",True,False,False
+700,283,23,Mammals,General,False,"('Rhinos',)",All mammals,61,"(('Rhinos',), 'All mammals')",True,False,False
+701,283,24,Mammals,General,False,"('All plants and animals',)",All mammals,99,"(('All plants and animals',), 'All mammals')",True,True,False
+702,283,25,Mammals,General,False,"('Wolves',)",All mammals,59,"(('Wolves',), 'All mammals')",True,False,False
+703,283,26,Mammals,General,False,"('Sheep',)",All mammals,59,"(('Sheep',), 'All mammals')",True,False,False
+704,283,27,Mammals,General,False,"('Donkeys', 'Hamsters')",All mammals,84,"(('Donkeys', 'Hamsters'), 'All mammals')",False,False,False
+705,283,28,Mammals,General,False,"('Camels', 'Donkeys')",All mammals,76,"(('Camels', 'Donkeys'), 'All mammals')",False,False,False
+706,283,29,Mammals,General,False,"('Cats', 'Squirrels')",All mammals,84,"(('Cats', 'Squirrels'), 'All mammals')",False,False,False
+707,283,3,Mammals,General,False,"('Rabbits',)",All mammals,20,"(('Rabbits',), 'All mammals')",True,False,False
+708,283,30,Mammals,General,False,"('Horses', 'Foxes')",All mammals,82,"(('Horses', 'Foxes'), 'All mammals')",False,False,False
+709,283,31,Mammals,General,False,"('Donkeys', 'Beavers')",All mammals,100,"(('Donkeys', 'Beavers'), 'All mammals')",False,False,False
+710,283,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,99,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+711,283,33,Mammals,General,False,"('Tigers', 'Donkeys')",All mammals,81,"(('Tigers', 'Donkeys'), 'All mammals')",False,False,False
+712,283,34,Mammals,General,False,"('Foxes', 'Lions')",All mammals,59,"(('Foxes', 'Lions'), 'All mammals')",False,False,False
+713,283,35,Mammals,General,False,"('Rhinos', 'Hippos')",All mammals,38,"(('Rhinos', 'Hippos'), 'All mammals')",False,False,False
+714,283,36,Mammals,General,False,"('Foxes', 'Wolves')",All mammals,57,"(('Foxes', 'Wolves'), 'All mammals')",False,False,False
+715,283,37,Mammals,General,False,"('Squirrels', 'Hedgehogs')",All mammals,60,"(('Squirrels', 'Hedgehogs'), 'All mammals')",False,False,False
+716,283,4,Mammals,General,False,"('Donkeys',)",All mammals,15,"(('Donkeys',), 'All mammals')",True,False,False
+717,283,5,Mammals,General,False,"('Hippos',)",All mammals,62,"(('Hippos',), 'All mammals')",True,False,False
+718,283,6,Mammals,General,False,"('Elephants',)",All mammals,41,"(('Elephants',), 'All mammals')",True,False,False
+719,283,7,Mammals,General,False,"('Deer',)",All mammals,24,"(('Deer',), 'All mammals')",True,False,False
+720,283,8,Mammals,General,False,"('All animals',)",All mammals,78,"(('All animals',), 'All mammals')",True,True,False
+721,283,9,Mammals,General,False,"('Beavers',)",All mammals,7,"(('Beavers',), 'All mammals')",True,False,False
+722,284,0,Mammals,General,False,"('Wolves',)",All mammals,13,"(('Wolves',), 'All mammals')",True,False,False
+723,284,1,Mammals,General,False,"('Cats',)",All mammals,27,"(('Cats',), 'All mammals')",True,False,False
+724,284,10,Mammals,General,False,"('Donkeys',)",All mammals,14,"(('Donkeys',), 'All mammals')",True,False,False
+725,284,11,Mammals,General,False,"('Elephants',)",All mammals,17,"(('Elephants',), 'All mammals')",True,False,False
+726,284,12,Mammals,General,False,"('Giraffes',)",All mammals,9,"(('Giraffes',), 'All mammals')",True,False,False
+727,284,13,Mammals,General,False,"('Dogs',)",All mammals,25,"(('Dogs',), 'All mammals')",True,False,False
+728,284,14,Mammals,General,False,"('Rhinos',)",All mammals,12,"(('Rhinos',), 'All mammals')",True,False,False
+729,284,15,Mammals,General,False,"('Hippos',)",All mammals,11,"(('Hippos',), 'All mammals')",True,False,False
+730,284,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+731,284,17,Mammals,General,False,"('Hedgehogs',)",All mammals,16,"(('Hedgehogs',), 'All mammals')",True,False,False
+732,284,18,Mammals,General,False,"('Zebras',)",All mammals,14,"(('Zebras',), 'All mammals')",True,False,False
+733,284,19,Mammals,General,False,"('Rabbits',)",All mammals,13,"(('Rabbits',), 'All mammals')",True,False,False
+734,284,2,Mammals,General,False,"('Deer',)",All mammals,20,"(('Deer',), 'All mammals')",True,False,False
+735,284,20,Mammals,General,False,"('Squirrels',)",All mammals,6,"(('Squirrels',), 'All mammals')",True,False,False
+736,284,21,Mammals,General,False,"('Horses',)",All mammals,28,"(('Horses',), 'All mammals')",True,False,False
+737,284,22,Mammals,General,False,"('Foxes',)",All mammals,21,"(('Foxes',), 'All mammals')",True,False,False
+738,284,23,Mammals,General,False,"('Lions',)",All mammals,17,"(('Lions',), 'All mammals')",True,False,False
+739,284,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+740,284,25,Mammals,General,False,"('Mice',)",All mammals,13,"(('Mice',), 'All mammals')",True,False,False
+741,284,26,Mammals,General,False,"('Camels',)",All mammals,14,"(('Camels',), 'All mammals')",True,False,False
+742,284,27,Mammals,General,False,"('Donkeys', 'Hamsters')",All mammals,62,"(('Donkeys', 'Hamsters'), 'All mammals')",False,False,False
+743,284,28,Mammals,General,False,"('Rhinos', 'Hippos')",All mammals,33,"(('Rhinos', 'Hippos'), 'All mammals')",False,False,False
+744,284,29,Mammals,General,False,"('Foxes', 'Lions')",All mammals,54,"(('Foxes', 'Lions'), 'All mammals')",False,False,False
+745,284,3,Mammals,General,False,"('Cows',)",All mammals,24,"(('Cows',), 'All mammals')",True,False,False
+746,284,30,Mammals,General,False,"('Camels', 'Donkeys')",All mammals,32,"(('Camels', 'Donkeys'), 'All mammals')",False,False,False
+747,284,31,Mammals,General,False,"('Donkeys', 'Beavers')",All mammals,71,"(('Donkeys', 'Beavers'), 'All mammals')",False,False,False
+748,284,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+749,284,33,Mammals,General,False,"('Foxes', 'Wolves')",All mammals,27,"(('Foxes', 'Wolves'), 'All mammals')",False,False,False
+750,284,34,Mammals,General,False,"('Horses', 'Foxes')",All mammals,23,"(('Horses', 'Foxes'), 'All mammals')",False,False,False
+751,284,35,Mammals,General,False,"('Cats', 'Squirrels')",All mammals,41,"(('Cats', 'Squirrels'), 'All mammals')",False,False,False
+752,284,36,Mammals,General,False,"('Squirrels', 'Hedgehogs')",All mammals,28,"(('Squirrels', 'Hedgehogs'), 'All mammals')",False,False,False
+753,284,37,Mammals,General,False,"('Tigers', 'Donkeys')",All mammals,63,"(('Tigers', 'Donkeys'), 'All mammals')",False,False,False
+754,284,4,Mammals,General,False,"('Hamsters',)",All mammals,10,"(('Hamsters',), 'All mammals')",True,False,False
+755,284,5,Mammals,General,False,"('Sheep',)",All mammals,15,"(('Sheep',), 'All mammals')",True,False,False
+756,284,6,Mammals,General,False,"('Llamas',)",All mammals,17,"(('Llamas',), 'All mammals')",True,False,False
+757,284,7,Mammals,General,False,"('Beavers',)",All mammals,11,"(('Beavers',), 'All mammals')",True,False,False
+758,284,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+759,284,9,Mammals,General,False,"('Tigers',)",All mammals,14,"(('Tigers',), 'All mammals')",True,False,False
+760,317,0,Mammals,General,False,"('Beavers', 'Rabbits')",All mammals,7,"(('Beavers', 'Rabbits'), 'All mammals')",False,False,False
+761,317,1,Mammals,General,False,"('Hippos', 'Hedgehogs')",All mammals,22,"(('Hippos', 'Hedgehogs'), 'All mammals')",False,False,False
+762,317,10,Mammals,General,False,"('Deer', 'Squirrels')",All mammals,85,"(('Deer', 'Squirrels'), 'All mammals')",False,False,False
+763,317,11,Mammals,General,False,"('Dogs',)",All mammals,36,"(('Dogs',), 'All mammals')",True,False,False
+764,317,12,Mammals,General,False,"('Mice',)",All mammals,52,"(('Mice',), 'All mammals')",True,False,False
+765,317,13,Mammals,General,False,"('Tigers',)",All mammals,55,"(('Tigers',), 'All mammals')",True,False,False
+766,317,14,Mammals,General,False,"('Hedgehogs',)",All mammals,58,"(('Hedgehogs',), 'All mammals')",True,False,False
+767,317,15,Mammals,General,False,"('Cats',)",All mammals,60,"(('Cats',), 'All mammals')",True,False,False
+768,317,16,Mammals,General,False,"('All animals',)",All mammals,96,"(('All animals',), 'All mammals')",True,True,False
+769,317,17,Mammals,General,False,"('Lions',)",All mammals,63,"(('Lions',), 'All mammals')",True,False,False
+770,317,18,Mammals,General,False,"('Deer',)",All mammals,67,"(('Deer',), 'All mammals')",True,False,False
+771,317,19,Mammals,General,False,"('Foxes',)",All mammals,69,"(('Foxes',), 'All mammals')",True,False,False
+772,317,2,Mammals,General,False,"('Wolves', 'Llamas')",All mammals,44,"(('Wolves', 'Llamas'), 'All mammals')",False,False,False
+773,317,20,Mammals,General,False,"('Llamas',)",All mammals,70,"(('Llamas',), 'All mammals')",True,False,False
+774,317,21,Mammals,General,False,"('Hippos',)",All mammals,70,"(('Hippos',), 'All mammals')",True,False,False
+775,317,22,Mammals,General,False,"('Donkeys',)",All mammals,63,"(('Donkeys',), 'All mammals')",True,False,False
+776,317,23,Mammals,General,False,"('Cows',)",All mammals,69,"(('Cows',), 'All mammals')",True,False,False
+777,317,24,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+778,317,25,Mammals,General,False,"('Camels',)",All mammals,69,"(('Camels',), 'All mammals')",True,False,False
+779,317,26,Mammals,General,False,"('Rabbits',)",All mammals,70,"(('Rabbits',), 'All mammals')",True,False,False
+780,317,27,Mammals,General,False,"('Elephants',)",All mammals,70,"(('Elephants',), 'All mammals')",True,False,False
+781,317,28,Mammals,General,False,"('Rhinos',)",All mammals,73,"(('Rhinos',), 'All mammals')",True,False,False
+782,317,29,Mammals,General,False,"('Sheep',)",All mammals,70,"(('Sheep',), 'All mammals')",True,False,False
+783,317,3,Mammals,General,False,"('Horses', 'Cats')",All mammals,58,"(('Horses', 'Cats'), 'All mammals')",False,False,False
+784,317,30,Mammals,General,False,"('Hamsters',)",All mammals,73,"(('Hamsters',), 'All mammals')",True,False,False
+785,317,31,Mammals,General,False,"('Squirrels',)",All mammals,72,"(('Squirrels',), 'All mammals')",True,False,False
+786,317,32,Mammals,General,False,"('All plants and animals',)",All mammals,71,"(('All plants and animals',), 'All mammals')",True,True,False
+787,317,33,Mammals,General,False,"('Zebras',)",All mammals,71,"(('Zebras',), 'All mammals')",True,False,False
+788,317,34,Mammals,General,False,"('Wolves',)",All mammals,71,"(('Wolves',), 'All mammals')",True,False,False
+789,317,35,Mammals,General,False,"('Beavers',)",All mammals,77,"(('Beavers',), 'All mammals')",True,False,False
+790,317,36,Mammals,General,False,"('Horses',)",All mammals,75,"(('Horses',), 'All mammals')",True,False,False
+791,317,37,Mammals,General,False,"('Giraffes',)",All mammals,68,"(('Giraffes',), 'All mammals')",True,False,False
+792,317,4,Mammals,General,False,"('Horses', 'Cows')",All mammals,58,"(('Horses', 'Cows'), 'All mammals')",False,False,False
+793,317,5,Mammals,General,False,"('Cows', 'Giraffes')",All mammals,61,"(('Cows', 'Giraffes'), 'All mammals')",False,False,False
+794,317,6,Mammals,General,False,"('Camels', 'Cows')",All mammals,67,"(('Camels', 'Cows'), 'All mammals')",False,False,False
+795,317,7,Mammals,General,False,"('Hamsters', 'Squirrels')",All mammals,64,"(('Hamsters', 'Squirrels'), 'All mammals')",False,False,False
+796,317,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,99,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+797,317,9,Mammals,General,False,"('Rabbits', 'Llamas')",All mammals,83,"(('Rabbits', 'Llamas'), 'All mammals')",False,False,False
+798,318,0,Mammals,General,False,"('Camels', 'Cows')",All mammals,81,"(('Camels', 'Cows'), 'All mammals')",False,False,False
+799,318,1,Mammals,General,False,"('Beavers', 'Rabbits')",All mammals,73,"(('Beavers', 'Rabbits'), 'All mammals')",False,False,False
+800,318,10,Mammals,General,False,"('Horses', 'Cows')",All mammals,77,"(('Horses', 'Cows'), 'All mammals')",False,False,False
+801,318,11,Mammals,General,False,"('Cows',)",All mammals,63,"(('Cows',), 'All mammals')",True,False,False
+802,318,12,Mammals,General,False,"('Beavers',)",All mammals,33,"(('Beavers',), 'All mammals')",True,False,False
+803,318,13,Mammals,General,False,"('Wolves',)",All mammals,42,"(('Wolves',), 'All mammals')",True,False,False
+804,318,14,Mammals,General,False,"('Rabbits',)",All mammals,32,"(('Rabbits',), 'All mammals')",True,False,False
+805,318,15,Mammals,General,False,"('Llamas',)",All mammals,27,"(('Llamas',), 'All mammals')",True,False,False
+806,318,16,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+807,318,17,Mammals,General,False,"('Cats',)",All mammals,52,"(('Cats',), 'All mammals')",True,False,False
+808,318,18,Mammals,General,False,"('Deer',)",All mammals,53,"(('Deer',), 'All mammals')",True,False,False
+809,318,19,Mammals,General,False,"('Horses',)",All mammals,55,"(('Horses',), 'All mammals')",True,False,False
+810,318,2,Mammals,General,False,"('Rabbits', 'Llamas')",All mammals,88,"(('Rabbits', 'Llamas'), 'All mammals')",False,False,False
+811,318,20,Mammals,General,False,"('Squirrels',)",All mammals,36,"(('Squirrels',), 'All mammals')",True,False,False
+812,318,21,Mammals,General,False,"('Tigers',)",All mammals,35,"(('Tigers',), 'All mammals')",True,False,False
+813,318,22,Mammals,General,False,"('Zebras',)",All mammals,30,"(('Zebras',), 'All mammals')",True,False,False
+814,318,23,Mammals,General,False,"('Mice',)",All mammals,39,"(('Mice',), 'All mammals')",True,False,False
+815,318,24,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+816,318,25,Mammals,General,False,"('Donkeys',)",All mammals,64,"(('Donkeys',), 'All mammals')",True,False,False
+817,318,26,Mammals,General,False,"('Dogs',)",All mammals,60,"(('Dogs',), 'All mammals')",True,False,False
+818,318,27,Mammals,General,False,"('Lions',)",All mammals,40,"(('Lions',), 'All mammals')",True,False,False
+819,318,28,Mammals,General,False,"('Hamsters',)",All mammals,25,"(('Hamsters',), 'All mammals')",True,False,False
+820,318,29,Mammals,General,False,"('Rhinos',)",All mammals,15,"(('Rhinos',), 'All mammals')",True,False,False
+821,318,3,Mammals,General,False,"('Deer', 'Squirrels')",All mammals,85,"(('Deer', 'Squirrels'), 'All mammals')",False,False,False
+822,318,30,Mammals,General,False,"('Elephants',)",All mammals,17,"(('Elephants',), 'All mammals')",True,False,False
+823,318,31,Mammals,General,False,"('Sheep',)",All mammals,26,"(('Sheep',), 'All mammals')",True,False,False
+824,318,32,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+825,318,33,Mammals,General,False,"('Giraffes',)",All mammals,26,"(('Giraffes',), 'All mammals')",True,False,False
+826,318,34,Mammals,General,False,"('Hedgehogs',)",All mammals,16,"(('Hedgehogs',), 'All mammals')",True,False,False
+827,318,35,Mammals,General,False,"('Camels',)",All mammals,19,"(('Camels',), 'All mammals')",True,False,False
+828,318,36,Mammals,General,False,"('Hippos',)",All mammals,12,"(('Hippos',), 'All mammals')",True,False,False
+829,318,37,Mammals,General,False,"('Foxes',)",All mammals,28,"(('Foxes',), 'All mammals')",True,False,False
+830,318,4,Mammals,General,False,"('Wolves', 'Llamas')",All mammals,93,"(('Wolves', 'Llamas'), 'All mammals')",False,False,False
+831,318,5,Mammals,General,False,"('Hippos', 'Hedgehogs')",All mammals,91,"(('Hippos', 'Hedgehogs'), 'All mammals')",False,False,False
+832,318,6,Mammals,General,False,"('Hamsters', 'Squirrels')",All mammals,42,"(('Hamsters', 'Squirrels'), 'All mammals')",False,False,False
+833,318,7,Mammals,General,False,"('Cows', 'Giraffes')",All mammals,87,"(('Cows', 'Giraffes'), 'All mammals')",False,False,False
+834,318,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+835,318,9,Mammals,General,False,"('Horses', 'Cats')",All mammals,85,"(('Horses', 'Cats'), 'All mammals')",False,False,False
+836,346,0,Mammals,General,False,"('Dogs', 'Hedgehogs')",All mammals,58,"(('Dogs', 'Hedgehogs'), 'All mammals')",False,False,False
+837,346,1,Mammals,General,False,"('Elephants', 'Llamas')",All mammals,73,"(('Elephants', 'Llamas'), 'All mammals')",False,False,False
+838,346,10,Mammals,General,False,"('Lions', 'Zebras')",All mammals,69,"(('Lions', 'Zebras'), 'All mammals')",False,False,False
+839,346,11,Mammals,General,False,"('Tigers',)",All mammals,69,"(('Tigers',), 'All mammals')",True,False,False
+840,346,12,Mammals,General,False,"('Beavers',)",All mammals,75,"(('Beavers',), 'All mammals')",True,False,False
+841,346,13,Mammals,General,False,"('Cats',)",All mammals,63,"(('Cats',), 'All mammals')",True,False,False
+842,346,14,Mammals,General,False,"('Camels',)",All mammals,67,"(('Camels',), 'All mammals')",True,False,False
+843,346,15,Mammals,General,False,"('Lions',)",All mammals,57,"(('Lions',), 'All mammals')",True,False,False
+844,346,16,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+845,346,17,Mammals,General,False,"('Rabbits',)",All mammals,80,"(('Rabbits',), 'All mammals')",True,False,False
+846,346,18,Mammals,General,False,"('Rhinos',)",All mammals,66,"(('Rhinos',), 'All mammals')",True,False,False
+847,346,19,Mammals,General,False,"('Squirrels',)",All mammals,73,"(('Squirrels',), 'All mammals')",True,False,False
+848,346,2,Mammals,General,False,"('Giraffes', 'Hippos')",All mammals,56,"(('Giraffes', 'Hippos'), 'All mammals')",False,False,False
+849,346,20,Mammals,General,False,"('Foxes',)",All mammals,76,"(('Foxes',), 'All mammals')",True,False,False
+850,346,21,Mammals,General,False,"('Hamsters',)",All mammals,75,"(('Hamsters',), 'All mammals')",True,False,False
+851,346,22,Mammals,General,False,"('Deer',)",All mammals,86,"(('Deer',), 'All mammals')",True,False,False
+852,346,23,Mammals,General,False,"('Donkeys',)",All mammals,73,"(('Donkeys',), 'All mammals')",True,False,False
+853,346,24,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+854,346,25,Mammals,General,False,"('Sheep',)",All mammals,84,"(('Sheep',), 'All mammals')",True,False,False
+855,346,26,Mammals,General,False,"('Hippos',)",All mammals,33,"(('Hippos',), 'All mammals')",True,False,False
+856,346,27,Mammals,General,False,"('Mice',)",All mammals,61,"(('Mice',), 'All mammals')",True,False,False
+857,346,28,Mammals,General,False,"('Llamas',)",All mammals,43,"(('Llamas',), 'All mammals')",True,False,False
+858,346,29,Mammals,General,False,"('Dogs',)",All mammals,91,"(('Dogs',), 'All mammals')",True,False,False
+859,346,3,Mammals,General,False,"('Mice', 'Squirrels')",All mammals,95,"(('Mice', 'Squirrels'), 'All mammals')",False,False,False
+860,346,30,Mammals,General,False,"('Giraffes',)",All mammals,27,"(('Giraffes',), 'All mammals')",True,False,False
+861,346,31,Mammals,General,False,"('Horses',)",All mammals,69,"(('Horses',), 'All mammals')",True,False,False
+862,346,32,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+863,346,33,Mammals,General,False,"('Cows',)",All mammals,100,"(('Cows',), 'All mammals')",True,False,False
+864,346,34,Mammals,General,False,"('Zebras',)",All mammals,94,"(('Zebras',), 'All mammals')",True,False,False
+865,346,35,Mammals,General,False,"('Wolves',)",All mammals,89,"(('Wolves',), 'All mammals')",True,False,False
+866,346,36,Mammals,General,False,"('Elephants',)",All mammals,52,"(('Elephants',), 'All mammals')",True,False,False
+867,346,37,Mammals,General,False,"('Hedgehogs',)",All mammals,10,"(('Hedgehogs',), 'All mammals')",True,False,False
+868,346,4,Mammals,General,False,"('Elephants', 'Hedgehogs')",All mammals,31,"(('Elephants', 'Hedgehogs'), 'All mammals')",False,False,False
+869,346,5,Mammals,General,False,"('Mice', 'Llamas')",All mammals,23,"(('Mice', 'Llamas'), 'All mammals')",False,False,False
+870,346,6,Mammals,General,False,"('Cats', 'Cows')",All mammals,61,"(('Cats', 'Cows'), 'All mammals')",False,False,False
+871,346,7,Mammals,General,False,"('Rabbits', 'Hedgehogs')",All mammals,53,"(('Rabbits', 'Hedgehogs'), 'All mammals')",False,False,False
+872,346,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+873,346,9,Mammals,General,False,"('Horses', 'Hamsters')",All mammals,56,"(('Horses', 'Hamsters'), 'All mammals')",False,False,False
+874,375,0,Mammals,General,False,"('Hamsters', 'Llamas')",All mammals,67,"(('Hamsters', 'Llamas'), 'All mammals')",False,False,False
+875,375,1,Mammals,General,False,"('Lions', 'Hamsters')",All mammals,64,"(('Lions', 'Hamsters'), 'All mammals')",False,False,False
+876,375,10,Mammals,General,False,"('Mice', 'Hedgehogs')",All mammals,30,"(('Mice', 'Hedgehogs'), 'All mammals')",False,False,False
+877,375,11,Mammals,General,False,"('Wolves',)",All mammals,41,"(('Wolves',), 'All mammals')",True,False,False
+878,375,12,Mammals,General,False,"('Tigers',)",All mammals,40,"(('Tigers',), 'All mammals')",True,False,False
+879,375,13,Mammals,General,False,"('Donkeys',)",All mammals,39,"(('Donkeys',), 'All mammals')",True,False,False
+880,375,14,Mammals,General,False,"('Foxes',)",All mammals,40,"(('Foxes',), 'All mammals')",True,False,False
+881,375,15,Mammals,General,False,"('Lions',)",All mammals,40,"(('Lions',), 'All mammals')",True,False,False
+882,375,16,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+883,375,17,Mammals,General,False,"('Hamsters',)",All mammals,37,"(('Hamsters',), 'All mammals')",True,False,False
+884,375,18,Mammals,General,False,"('Zebras',)",All mammals,39,"(('Zebras',), 'All mammals')",True,False,False
+885,375,19,Mammals,General,False,"('Beavers',)",All mammals,36,"(('Beavers',), 'All mammals')",True,False,False
+886,375,2,Mammals,General,False,"('Rabbits', 'Squirrels')",All mammals,60,"(('Rabbits', 'Squirrels'), 'All mammals')",False,False,False
+887,375,20,Mammals,General,False,"('Deer',)",All mammals,36,"(('Deer',), 'All mammals')",True,False,False
+888,375,21,Mammals,General,False,"('Rhinos',)",All mammals,27,"(('Rhinos',), 'All mammals')",True,False,False
+889,375,22,Mammals,General,False,"('Horses',)",All mammals,34,"(('Horses',), 'All mammals')",True,False,False
+890,375,23,Mammals,General,False,"('Sheep',)",All mammals,29,"(('Sheep',), 'All mammals')",True,False,False
+891,375,24,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+892,375,25,Mammals,General,False,"('Squirrels',)",All mammals,36,"(('Squirrels',), 'All mammals')",True,False,False
+893,375,26,Mammals,General,False,"('Rabbits',)",All mammals,36,"(('Rabbits',), 'All mammals')",True,False,False
+894,375,27,Mammals,General,False,"('Elephants',)",All mammals,29,"(('Elephants',), 'All mammals')",True,False,False
+895,375,28,Mammals,General,False,"('Cats',)",All mammals,36,"(('Cats',), 'All mammals')",True,False,False
+896,375,29,Mammals,General,False,"('Mice',)",All mammals,35,"(('Mice',), 'All mammals')",True,False,False
+897,375,3,Mammals,General,False,"('Foxes', 'Beavers')",All mammals,60,"(('Foxes', 'Beavers'), 'All mammals')",False,False,False
+898,375,30,Mammals,General,False,"('Dogs',)",All mammals,36,"(('Dogs',), 'All mammals')",True,False,False
+899,375,31,Mammals,General,False,"('Giraffes',)",All mammals,26,"(('Giraffes',), 'All mammals')",True,False,False
+900,375,32,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+901,375,33,Mammals,General,False,"('Llamas',)",All mammals,23,"(('Llamas',), 'All mammals')",True,False,False
+902,375,34,Mammals,General,False,"('Hippos',)",All mammals,23,"(('Hippos',), 'All mammals')",True,False,False
+903,375,35,Mammals,General,False,"('Cows',)",All mammals,25,"(('Cows',), 'All mammals')",True,False,False
+904,375,36,Mammals,General,False,"('Camels',)",All mammals,25,"(('Camels',), 'All mammals')",True,False,False
+905,375,37,Mammals,General,False,"('Hedgehogs',)",All mammals,31,"(('Hedgehogs',), 'All mammals')",True,False,False
+906,375,4,Mammals,General,False,"('Tigers', 'Horses')",All mammals,78,"(('Tigers', 'Horses'), 'All mammals')",False,False,False
+907,375,5,Mammals,General,False,"('Rhinos', 'Beavers')",All mammals,78,"(('Rhinos', 'Beavers'), 'All mammals')",False,False,False
+908,375,6,Mammals,General,False,"('Cows', 'Elephants')",All mammals,59,"(('Cows', 'Elephants'), 'All mammals')",False,False,False
+909,375,7,Mammals,General,False,"('Llamas', 'Lions')",All mammals,77,"(('Llamas', 'Lions'), 'All mammals')",False,False,False
+910,375,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+911,375,9,Mammals,General,False,"('Mice', 'Wolves')",All mammals,76,"(('Mice', 'Wolves'), 'All mammals')",False,False,False
+912,376,0,Mammals,General,False,"('Llamas', 'Lions')",All mammals,9,"(('Llamas', 'Lions'), 'All mammals')",False,False,False
+913,376,1,Mammals,General,False,"('Mice', 'Hedgehogs')",All mammals,6,"(('Mice', 'Hedgehogs'), 'All mammals')",False,False,False
+914,376,10,Mammals,General,False,"('Mice', 'Wolves')",All mammals,21,"(('Mice', 'Wolves'), 'All mammals')",False,False,False
+915,376,11,Mammals,General,False,"('Zebras',)",All mammals,7,"(('Zebras',), 'All mammals')",True,False,False
+916,376,12,Mammals,General,False,"('Dogs',)",All mammals,7,"(('Dogs',), 'All mammals')",True,False,False
+917,376,13,Mammals,General,False,"('Giraffes',)",All mammals,6,"(('Giraffes',), 'All mammals')",True,False,False
+918,376,14,Mammals,General,False,"('Mice',)",All mammals,11,"(('Mice',), 'All mammals')",True,False,False
+919,376,15,Mammals,General,False,"('Lions',)",All mammals,4,"(('Lions',), 'All mammals')",True,False,False
+920,376,16,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+921,376,17,Mammals,General,False,"('Beavers',)",All mammals,6,"(('Beavers',), 'All mammals')",True,False,False
+922,376,18,Mammals,General,False,"('Sheep',)",All mammals,3,"(('Sheep',), 'All mammals')",True,False,False
+923,376,19,Mammals,General,False,"('Foxes',)",All mammals,5,"(('Foxes',), 'All mammals')",True,False,False
+924,376,2,Mammals,General,False,"('Tigers', 'Horses')",All mammals,9,"(('Tigers', 'Horses'), 'All mammals')",False,False,False
+925,376,20,Mammals,General,False,"('Llamas',)",All mammals,4,"(('Llamas',), 'All mammals')",True,False,False
+926,376,21,Mammals,General,False,"('Cats',)",All mammals,10,"(('Cats',), 'All mammals')",True,False,False
+927,376,22,Mammals,General,False,"('Horses',)",All mammals,5,"(('Horses',), 'All mammals')",True,False,False
+928,376,23,Mammals,General,False,"('Camels',)",All mammals,1,"(('Camels',), 'All mammals')",True,False,False
+929,376,24,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+930,376,25,Mammals,General,False,"('Wolves',)",All mammals,4,"(('Wolves',), 'All mammals')",True,False,False
+931,376,26,Mammals,General,False,"('Deer',)",All mammals,1,"(('Deer',), 'All mammals')",True,False,False
+932,376,27,Mammals,General,False,"('Hippos',)",All mammals,0,"(('Hippos',), 'All mammals')",True,False,False
+933,376,28,Mammals,General,False,"('Cows',)",All mammals,2,"(('Cows',), 'All mammals')",True,False,False
+934,376,29,Mammals,General,False,"('Tigers',)",All mammals,1,"(('Tigers',), 'All mammals')",True,False,False
+935,376,3,Mammals,General,False,"('Hamsters', 'Llamas')",All mammals,19,"(('Hamsters', 'Llamas'), 'All mammals')",False,False,False
+936,376,30,Mammals,General,False,"('Donkeys',)",All mammals,3,"(('Donkeys',), 'All mammals')",True,False,False
+937,376,31,Mammals,General,False,"('Rhinos',)",All mammals,3,"(('Rhinos',), 'All mammals')",True,False,False
+938,376,32,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+939,376,33,Mammals,General,False,"('Squirrels',)",All mammals,4,"(('Squirrels',), 'All mammals')",True,False,False
+940,376,34,Mammals,General,False,"('Hamsters',)",All mammals,6,"(('Hamsters',), 'All mammals')",True,False,False
+941,376,35,Mammals,General,False,"('Elephants',)",All mammals,2,"(('Elephants',), 'All mammals')",True,False,False
+942,376,36,Mammals,General,False,"('Hedgehogs',)",All mammals,2,"(('Hedgehogs',), 'All mammals')",True,False,False
+943,376,37,Mammals,General,False,"('Rabbits',)",All mammals,2,"(('Rabbits',), 'All mammals')",True,False,False
+944,376,4,Mammals,General,False,"('Foxes', 'Beavers')",All mammals,18,"(('Foxes', 'Beavers'), 'All mammals')",False,False,False
+945,376,5,Mammals,General,False,"('Cows', 'Elephants')",All mammals,12,"(('Cows', 'Elephants'), 'All mammals')",False,False,False
+946,376,6,Mammals,General,False,"('Rhinos', 'Beavers')",All mammals,21,"(('Rhinos', 'Beavers'), 'All mammals')",False,False,False
+947,376,7,Mammals,General,False,"('Rabbits', 'Squirrels')",All mammals,4,"(('Rabbits', 'Squirrels'), 'All mammals')",False,False,False
+948,376,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+949,376,9,Mammals,General,False,"('Lions', 'Hamsters')",All mammals,16,"(('Lions', 'Hamsters'), 'All mammals')",False,False,False
+950,406,0,Mammals,General,False,"('Foxes', 'Donkeys')",All mammals,70,"(('Foxes', 'Donkeys'), 'All mammals')",False,False,False
+951,406,1,Mammals,General,False,"('Tigers', 'Hedgehogs')",All mammals,71,"(('Tigers', 'Hedgehogs'), 'All mammals')",False,False,False
+952,406,10,Mammals,General,False,"('Sheep', 'Beavers')",All mammals,86,"(('Sheep', 'Beavers'), 'All mammals')",False,False,False
+953,406,11,Mammals,General,False,"('Wolves',)",All mammals,53,"(('Wolves',), 'All mammals')",True,False,False
+954,406,12,Mammals,General,False,"('Lions',)",All mammals,57,"(('Lions',), 'All mammals')",True,False,False
+955,406,13,Mammals,General,False,"('Beavers',)",All mammals,69,"(('Beavers',), 'All mammals')",True,False,False
+956,406,14,Mammals,General,False,"('Mice',)",All mammals,94,"(('Mice',), 'All mammals')",True,False,False
+957,406,15,Mammals,General,False,"('Llamas',)",All mammals,50,"(('Llamas',), 'All mammals')",True,False,False
+958,406,16,Mammals,General,False,"('All animals',)",All mammals,99,"(('All animals',), 'All mammals')",True,True,False
+959,406,17,Mammals,General,False,"('Tigers',)",All mammals,58,"(('Tigers',), 'All mammals')",True,False,False
+960,406,18,Mammals,General,False,"('Giraffes',)",All mammals,46,"(('Giraffes',), 'All mammals')",True,False,False
+961,406,19,Mammals,General,False,"('Rabbits',)",All mammals,71,"(('Rabbits',), 'All mammals')",True,False,False
+962,406,2,Mammals,General,False,"('Cats', 'Donkeys')",All mammals,70,"(('Cats', 'Donkeys'), 'All mammals')",False,False,False
+963,406,20,Mammals,General,False,"('Elephants',)",All mammals,66,"(('Elephants',), 'All mammals')",True,False,False
+964,406,21,Mammals,General,False,"('Squirrels',)",All mammals,81,"(('Squirrels',), 'All mammals')",True,False,False
+965,406,22,Mammals,General,False,"('Cats',)",All mammals,91,"(('Cats',), 'All mammals')",True,False,False
+966,406,23,Mammals,General,False,"('Cows',)",All mammals,81,"(('Cows',), 'All mammals')",True,False,False
+967,406,24,Mammals,General,False,"('All living things',)",All mammals,95,"(('All living things',), 'All mammals')",True,True,False
+968,406,25,Mammals,General,False,"('Deer',)",All mammals,59,"(('Deer',), 'All mammals')",True,False,False
+969,406,26,Mammals,General,False,"('Dogs',)",All mammals,60,"(('Dogs',), 'All mammals')",True,False,False
+970,406,27,Mammals,General,False,"('Hedgehogs',)",All mammals,41,"(('Hedgehogs',), 'All mammals')",True,False,False
+971,406,28,Mammals,General,False,"('Camels',)",All mammals,38,"(('Camels',), 'All mammals')",True,False,False
+972,406,29,Mammals,General,False,"('Donkeys',)",All mammals,49,"(('Donkeys',), 'All mammals')",True,False,False
+973,406,3,Mammals,General,False,"('Hamsters', 'Hedgehogs')",All mammals,78,"(('Hamsters', 'Hedgehogs'), 'All mammals')",False,False,False
+974,406,30,Mammals,General,False,"('Horses',)",All mammals,64,"(('Horses',), 'All mammals')",True,False,False
+975,406,31,Mammals,General,False,"('Hamsters',)",All mammals,60,"(('Hamsters',), 'All mammals')",True,False,False
+976,406,32,Mammals,General,False,"('All plants and animals',)",All mammals,94,"(('All plants and animals',), 'All mammals')",True,True,False
+977,406,33,Mammals,General,False,"('Sheep',)",All mammals,68,"(('Sheep',), 'All mammals')",True,False,False
+978,406,34,Mammals,General,False,"('Hippos',)",All mammals,23,"(('Hippos',), 'All mammals')",True,False,False
+979,406,35,Mammals,General,False,"('Zebras',)",All mammals,39,"(('Zebras',), 'All mammals')",True,False,False
+980,406,36,Mammals,General,False,"('Foxes',)",All mammals,59,"(('Foxes',), 'All mammals')",True,False,False
+981,406,37,Mammals,General,False,"('Rhinos',)",All mammals,45,"(('Rhinos',), 'All mammals')",True,False,False
+982,406,4,Mammals,General,False,"('Dogs', 'Foxes')",All mammals,73,"(('Dogs', 'Foxes'), 'All mammals')",False,False,False
+983,406,5,Mammals,General,False,"('Donkeys', 'Horses')",All mammals,72,"(('Donkeys', 'Horses'), 'All mammals')",False,False,False
+984,406,6,Mammals,General,False,"('Squirrels', 'Zebras')",All mammals,69,"(('Squirrels', 'Zebras'), 'All mammals')",False,False,False
+985,406,7,Mammals,General,False,"('Zebras', 'Llamas')",All mammals,64,"(('Zebras', 'Llamas'), 'All mammals')",False,False,False
+986,406,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,39,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+987,406,9,Mammals,General,False,"('Camels', 'Giraffes')",All mammals,60,"(('Camels', 'Giraffes'), 'All mammals')",False,False,False
+988,407,0,Mammals,General,False,"('Cats', 'Donkeys')",All mammals,84,"(('Cats', 'Donkeys'), 'All mammals')",False,False,False
+989,407,1,Mammals,General,False,"('Hamsters', 'Hedgehogs')",All mammals,55,"(('Hamsters', 'Hedgehogs'), 'All mammals')",False,False,False
+990,407,10,Mammals,General,False,"('Tigers', 'Hedgehogs')",All mammals,91,"(('Tigers', 'Hedgehogs'), 'All mammals')",False,False,False
+991,407,11,Mammals,General,False,"('Foxes',)",All mammals,77,"(('Foxes',), 'All mammals')",True,False,False
+992,407,12,Mammals,General,False,"('Beavers',)",All mammals,65,"(('Beavers',), 'All mammals')",True,False,False
+993,407,13,Mammals,General,False,"('Rhinos',)",All mammals,28,"(('Rhinos',), 'All mammals')",True,False,False
+994,407,14,Mammals,General,False,"('Zebras',)",All mammals,59,"(('Zebras',), 'All mammals')",True,False,False
+995,407,15,Mammals,General,False,"('Lions',)",All mammals,66,"(('Lions',), 'All mammals')",True,False,False
+996,407,16,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+997,407,17,Mammals,General,False,"('Hedgehogs',)",All mammals,41,"(('Hedgehogs',), 'All mammals')",True,False,False
+998,407,18,Mammals,General,False,"('Wolves',)",All mammals,51,"(('Wolves',), 'All mammals')",True,False,False
+999,407,19,Mammals,General,False,"('Horses',)",All mammals,53,"(('Horses',), 'All mammals')",True,False,False
+1000,407,2,Mammals,General,False,"('Camels', 'Giraffes')",All mammals,61,"(('Camels', 'Giraffes'), 'All mammals')",False,False,False
+1001,407,20,Mammals,General,False,"('Squirrels',)",All mammals,37,"(('Squirrels',), 'All mammals')",True,False,False
+1002,407,21,Mammals,General,False,"('Sheep',)",All mammals,63,"(('Sheep',), 'All mammals')",True,False,False
+1003,407,22,Mammals,General,False,"('Tigers',)",All mammals,40,"(('Tigers',), 'All mammals')",True,False,False
+1004,407,23,Mammals,General,False,"('Elephants',)",All mammals,33,"(('Elephants',), 'All mammals')",True,False,False
+1005,407,24,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+1006,407,25,Mammals,General,False,"('Dogs',)",All mammals,47,"(('Dogs',), 'All mammals')",True,False,False
+1007,407,26,Mammals,General,False,"('Deer',)",All mammals,46,"(('Deer',), 'All mammals')",True,False,False
+1008,407,27,Mammals,General,False,"('Cows',)",All mammals,61,"(('Cows',), 'All mammals')",True,False,False
+1009,407,28,Mammals,General,False,"('Camels',)",All mammals,45,"(('Camels',), 'All mammals')",True,False,False
+1010,407,29,Mammals,General,False,"('Hippos',)",All mammals,26,"(('Hippos',), 'All mammals')",True,False,False
+1011,407,3,Mammals,General,False,"('Zebras', 'Llamas')",All mammals,74,"(('Zebras', 'Llamas'), 'All mammals')",False,False,False
+1012,407,30,Mammals,General,False,"('Mice',)",All mammals,63,"(('Mice',), 'All mammals')",True,False,False
+1013,407,31,Mammals,General,False,"('Hamsters',)",All mammals,62,"(('Hamsters',), 'All mammals')",True,False,False
+1014,407,32,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+1015,407,33,Mammals,General,False,"('Giraffes',)",All mammals,23,"(('Giraffes',), 'All mammals')",True,False,False
+1016,407,34,Mammals,General,False,"('Rabbits',)",All mammals,40,"(('Rabbits',), 'All mammals')",True,False,False
+1017,407,35,Mammals,General,False,"('Donkeys',)",All mammals,31,"(('Donkeys',), 'All mammals')",True,False,False
+1018,407,36,Mammals,General,False,"('Cats',)",All mammals,55,"(('Cats',), 'All mammals')",True,False,False
+1019,407,37,Mammals,General,False,"('Llamas',)",All mammals,43,"(('Llamas',), 'All mammals')",True,False,False
+1020,407,4,Mammals,General,False,"('Foxes', 'Donkeys')",All mammals,93,"(('Foxes', 'Donkeys'), 'All mammals')",False,False,False
+1021,407,5,Mammals,General,False,"('Donkeys', 'Horses')",All mammals,21,"(('Donkeys', 'Horses'), 'All mammals')",False,False,False
+1022,407,6,Mammals,General,False,"('Squirrels', 'Zebras')",All mammals,95,"(('Squirrels', 'Zebras'), 'All mammals')",False,False,False
+1023,407,7,Mammals,General,False,"('Sheep', 'Beavers')",All mammals,91,"(('Sheep', 'Beavers'), 'All mammals')",False,False,False
+1024,407,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1025,407,9,Mammals,General,False,"('Dogs', 'Foxes')",All mammals,31,"(('Dogs', 'Foxes'), 'All mammals')",False,False,False
+1026,436,0,Mammals,General,False,"('Wolves', 'Elephants')",All mammals,39,"(('Wolves', 'Elephants'), 'All mammals')",False,False,False
+1027,436,1,Mammals,General,False,"('Dogs', 'Hamsters')",All mammals,0,"(('Dogs', 'Hamsters'), 'All mammals')",False,False,False
+1028,436,10,Mammals,General,False,"('Llamas', 'Camels')",All mammals,69,"(('Llamas', 'Camels'), 'All mammals')",False,False,False
+1029,436,11,Mammals,General,False,"('Hippos',)",All mammals,9,"(('Hippos',), 'All mammals')",True,False,False
+1030,436,12,Mammals,General,False,"('Rhinos',)",All mammals,4,"(('Rhinos',), 'All mammals')",True,False,False
+1031,436,13,Mammals,General,False,"('Foxes',)",All mammals,29,"(('Foxes',), 'All mammals')",True,False,False
+1032,436,14,Mammals,General,False,"('Cats',)",All mammals,14,"(('Cats',), 'All mammals')",True,False,False
+1033,436,15,Mammals,General,False,"('Rabbits',)",All mammals,8,"(('Rabbits',), 'All mammals')",True,False,False
+1034,436,16,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+1035,436,17,Mammals,General,False,"('Llamas',)",All mammals,41,"(('Llamas',), 'All mammals')",True,False,False
+1036,436,18,Mammals,General,False,"('Tigers',)",All mammals,29,"(('Tigers',), 'All mammals')",True,False,False
+1037,436,19,Mammals,General,False,"('Lions',)",All mammals,41,"(('Lions',), 'All mammals')",True,False,False
+1038,436,2,Mammals,General,False,"('Llamas', 'Squirrels')",All mammals,15,"(('Llamas', 'Squirrels'), 'All mammals')",False,False,False
+1039,436,20,Mammals,General,False,"('Hedgehogs',)",All mammals,4,"(('Hedgehogs',), 'All mammals')",True,False,False
+1040,436,21,Mammals,General,False,"('Wolves',)",All mammals,45,"(('Wolves',), 'All mammals')",True,False,False
+1041,436,22,Mammals,General,False,"('Camels',)",All mammals,36,"(('Camels',), 'All mammals')",True,False,False
+1042,436,23,Mammals,General,False,"('Cows',)",All mammals,5,"(('Cows',), 'All mammals')",True,False,False
+1043,436,24,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+1044,436,25,Mammals,General,False,"('Donkeys',)",All mammals,13,"(('Donkeys',), 'All mammals')",True,False,False
+1045,436,26,Mammals,General,False,"('Deer',)",All mammals,24,"(('Deer',), 'All mammals')",True,False,False
+1046,436,27,Mammals,General,False,"('Hamsters',)",All mammals,7,"(('Hamsters',), 'All mammals')",True,False,False
+1047,436,28,Mammals,General,False,"('Beavers',)",All mammals,10,"(('Beavers',), 'All mammals')",True,False,False
+1048,436,29,Mammals,General,False,"('Elephants',)",All mammals,33,"(('Elephants',), 'All mammals')",True,False,False
+1049,436,3,Mammals,General,False,"('Elephants', 'Giraffes')",All mammals,40,"(('Elephants', 'Giraffes'), 'All mammals')",False,False,False
+1050,436,30,Mammals,General,False,"('Squirrels',)",All mammals,8,"(('Squirrels',), 'All mammals')",True,False,False
+1051,436,31,Mammals,General,False,"('Dogs',)",All mammals,38,"(('Dogs',), 'All mammals')",True,False,False
+1052,436,32,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+1053,436,33,Mammals,General,False,"('Mice',)",All mammals,3,"(('Mice',), 'All mammals')",True,False,False
+1054,436,34,Mammals,General,False,"('Giraffes',)",All mammals,5,"(('Giraffes',), 'All mammals')",True,False,False
+1055,436,35,Mammals,General,False,"('Sheep',)",All mammals,13,"(('Sheep',), 'All mammals')",True,False,False
+1056,436,36,Mammals,General,False,"('Zebras',)",All mammals,7,"(('Zebras',), 'All mammals')",True,False,False
+1057,436,37,Mammals,General,False,"('Horses',)",All mammals,40,"(('Horses',), 'All mammals')",True,False,False
+1058,436,4,Mammals,General,False,"('Mice', 'Dogs')",All mammals,28,"(('Mice', 'Dogs'), 'All mammals')",False,False,False
+1059,436,5,Mammals,General,False,"('Dogs', 'Horses')",All mammals,58,"(('Dogs', 'Horses'), 'All mammals')",False,False,False
+1060,436,6,Mammals,General,False,"('Wolves', 'Zebras')",All mammals,5,"(('Wolves', 'Zebras'), 'All mammals')",False,False,False
+1061,436,7,Mammals,General,False,"('Rhinos', 'Giraffes')",All mammals,62,"(('Rhinos', 'Giraffes'), 'All mammals')",False,False,False
+1062,436,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,0,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1063,436,9,Mammals,General,False,"('Squirrels', 'Beavers')",All mammals,42,"(('Squirrels', 'Beavers'), 'All mammals')",False,False,False
+1064,44,0,Mammals,General,False,"('Cows',)",All mammals,78,"(('Cows',), 'All mammals')",True,False,False
+1065,44,1,Mammals,General,False,"('Wolves',)",All mammals,83,"(('Wolves',), 'All mammals')",True,False,False
+1066,44,10,Mammals,General,False,"('Giraffes',)",All mammals,89,"(('Giraffes',), 'All mammals')",True,False,False
+1067,44,11,Mammals,General,False,"('Dogs',)",All mammals,89,"(('Dogs',), 'All mammals')",True,False,False
+1068,44,12,Mammals,General,False,"('Elephants',)",All mammals,90,"(('Elephants',), 'All mammals')",True,False,False
+1069,44,13,Mammals,General,False,"('Squirrels',)",All mammals,88,"(('Squirrels',), 'All mammals')",True,False,False
+1070,44,14,Mammals,General,False,"('Hedgehogs',)",All mammals,85,"(('Hedgehogs',), 'All mammals')",True,False,False
+1071,44,15,Mammals,General,False,"('Camels',)",All mammals,88,"(('Camels',), 'All mammals')",True,False,False
+1072,44,16,Mammals,General,False,"('All living things',)",All mammals,50,"(('All living things',), 'All mammals')",True,True,False
+1073,44,17,Mammals,General,False,"('Llamas',)",All mammals,89,"(('Llamas',), 'All mammals')",True,False,False
+1074,44,18,Mammals,General,False,"('Cats',)",All mammals,92,"(('Cats',), 'All mammals')",True,False,False
+1075,44,19,Mammals,General,False,"('Foxes',)",All mammals,94,"(('Foxes',), 'All mammals')",True,False,False
+1076,44,2,Mammals,General,False,"('Sheep',)",All mammals,89,"(('Sheep',), 'All mammals')",True,False,False
+1077,44,20,Mammals,General,False,"('Hippos',)",All mammals,92,"(('Hippos',), 'All mammals')",True,False,False
+1078,44,21,Mammals,General,False,"('Mice',)",All mammals,87,"(('Mice',), 'All mammals')",True,False,False
+1079,44,22,Mammals,General,False,"('Deer',)",All mammals,90,"(('Deer',), 'All mammals')",True,False,False
+1080,44,23,Mammals,General,False,"('Zebras',)",All mammals,90,"(('Zebras',), 'All mammals')",True,False,False
+1081,44,24,Mammals,General,False,"('All plants and animals',)",All mammals,34,"(('All plants and animals',), 'All mammals')",True,True,False
+1082,44,25,Mammals,General,False,"('Horses',)",All mammals,91,"(('Horses',), 'All mammals')",True,False,False
+1083,44,26,Mammals,General,False,"('Rhinos',)",All mammals,90,"(('Rhinos',), 'All mammals')",True,False,False
+1084,44,27,Mammals,General,False,"('Horses', 'Hamsters')",All mammals,50,"(('Horses', 'Hamsters'), 'All mammals')",False,False,False
+1085,44,28,Mammals,General,False,"('Elephants', 'Llamas')",All mammals,51,"(('Elephants', 'Llamas'), 'All mammals')",False,False,False
+1086,44,29,Mammals,General,False,"('Elephants', 'Hedgehogs')",All mammals,51,"(('Elephants', 'Hedgehogs'), 'All mammals')",False,False,False
+1087,44,3,Mammals,General,False,"('Lions',)",All mammals,88,"(('Lions',), 'All mammals')",True,False,False
+1088,44,30,Mammals,General,False,"('Cats', 'Cows')",All mammals,51,"(('Cats', 'Cows'), 'All mammals')",False,False,False
+1089,44,31,Mammals,General,False,"('Giraffes', 'Hippos')",All mammals,51,"(('Giraffes', 'Hippos'), 'All mammals')",False,False,False
+1090,44,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,51,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1091,44,33,Mammals,General,False,"('Mice', 'Squirrels')",All mammals,51,"(('Mice', 'Squirrels'), 'All mammals')",False,False,False
+1092,44,34,Mammals,General,False,"('Dogs', 'Hedgehogs')",All mammals,51,"(('Dogs', 'Hedgehogs'), 'All mammals')",False,False,False
+1093,44,35,Mammals,General,False,"('Mice', 'Llamas')",All mammals,55,"(('Mice', 'Llamas'), 'All mammals')",False,False,False
+1094,44,36,Mammals,General,False,"('Rabbits', 'Hedgehogs')",All mammals,55,"(('Rabbits', 'Hedgehogs'), 'All mammals')",False,False,False
+1095,44,37,Mammals,General,False,"('Lions', 'Zebras')",All mammals,56,"(('Lions', 'Zebras'), 'All mammals')",False,False,False
+1096,44,4,Mammals,General,False,"('Hamsters',)",All mammals,90,"(('Hamsters',), 'All mammals')",True,False,False
+1097,44,5,Mammals,General,False,"('Beavers',)",All mammals,91,"(('Beavers',), 'All mammals')",True,False,False
+1098,44,6,Mammals,General,False,"('Rabbits',)",All mammals,90,"(('Rabbits',), 'All mammals')",True,False,False
+1099,44,7,Mammals,General,False,"('Tigers',)",All mammals,91,"(('Tigers',), 'All mammals')",True,False,False
+1100,44,8,Mammals,General,False,"('All animals',)",All mammals,50,"(('All animals',), 'All mammals')",True,True,False
+1101,44,9,Mammals,General,False,"('Donkeys',)",All mammals,88,"(('Donkeys',), 'All mammals')",True,False,False
+1102,465,0,Mammals,General,False,"('Squirrels', 'Sheep')",All mammals,37,"(('Squirrels', 'Sheep'), 'All mammals')",False,False,False
+1103,465,1,Mammals,General,False,"('Rhinos', 'Donkeys')",All mammals,37,"(('Rhinos', 'Donkeys'), 'All mammals')",False,False,False
+1104,465,10,Mammals,General,False,"('Cows', 'Squirrels')",All mammals,28,"(('Cows', 'Squirrels'), 'All mammals')",False,False,False
+1105,465,11,Mammals,General,False,"('Cats',)",All mammals,58,"(('Cats',), 'All mammals')",True,False,False
+1106,465,12,Mammals,General,False,"('Sheep',)",All mammals,56,"(('Sheep',), 'All mammals')",True,False,False
+1107,465,13,Mammals,General,False,"('Tigers',)",All mammals,57,"(('Tigers',), 'All mammals')",True,False,False
+1108,465,14,Mammals,General,False,"('Rabbits',)",All mammals,59,"(('Rabbits',), 'All mammals')",True,False,False
+1109,465,15,Mammals,General,False,"('Hippos',)",All mammals,60,"(('Hippos',), 'All mammals')",True,False,False
+1110,465,16,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+1111,465,17,Mammals,General,False,"('Dogs',)",All mammals,82,"(('Dogs',), 'All mammals')",True,False,False
+1112,465,18,Mammals,General,False,"('Foxes',)",All mammals,71,"(('Foxes',), 'All mammals')",True,False,False
+1113,465,19,Mammals,General,False,"('Mice',)",All mammals,33,"(('Mice',), 'All mammals')",True,False,False
+1114,465,2,Mammals,General,False,"('Elephants', 'Camels')",All mammals,38,"(('Elephants', 'Camels'), 'All mammals')",False,False,False
+1115,465,20,Mammals,General,False,"('Giraffes',)",All mammals,68,"(('Giraffes',), 'All mammals')",True,False,False
+1116,465,21,Mammals,General,False,"('Zebras',)",All mammals,51,"(('Zebras',), 'All mammals')",True,False,False
+1117,465,22,Mammals,General,False,"('Lions',)",All mammals,55,"(('Lions',), 'All mammals')",True,False,False
+1118,465,23,Mammals,General,False,"('Beavers',)",All mammals,61,"(('Beavers',), 'All mammals')",True,False,False
+1119,465,24,Mammals,General,False,"('All living things',)",All mammals,98,"(('All living things',), 'All mammals')",True,True,False
+1120,465,25,Mammals,General,False,"('Hedgehogs',)",All mammals,0,"(('Hedgehogs',), 'All mammals')",True,False,False
+1121,465,26,Mammals,General,False,"('Elephants',)",All mammals,68,"(('Elephants',), 'All mammals')",True,False,False
+1122,465,27,Mammals,General,False,"('Hamsters',)",All mammals,68,"(('Hamsters',), 'All mammals')",True,False,False
+1123,465,28,Mammals,General,False,"('Deer',)",All mammals,49,"(('Deer',), 'All mammals')",True,False,False
+1124,465,29,Mammals,General,False,"('Squirrels',)",All mammals,27,"(('Squirrels',), 'All mammals')",True,False,False
+1125,465,3,Mammals,General,False,"('Wolves', 'Horses')",All mammals,56,"(('Wolves', 'Horses'), 'All mammals')",False,False,False
+1126,465,30,Mammals,General,False,"('Camels',)",All mammals,61,"(('Camels',), 'All mammals')",True,False,False
+1127,465,31,Mammals,General,False,"('Wolves',)",All mammals,72,"(('Wolves',), 'All mammals')",True,False,False
+1128,465,32,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+1129,465,33,Mammals,General,False,"('Horses',)",All mammals,65,"(('Horses',), 'All mammals')",True,False,False
+1130,465,34,Mammals,General,False,"('Llamas',)",All mammals,63,"(('Llamas',), 'All mammals')",True,False,False
+1131,465,35,Mammals,General,False,"('Donkeys',)",All mammals,60,"(('Donkeys',), 'All mammals')",True,False,False
+1132,465,36,Mammals,General,False,"('Cows',)",All mammals,75,"(('Cows',), 'All mammals')",True,False,False
+1133,465,37,Mammals,General,False,"('Rhinos',)",All mammals,62,"(('Rhinos',), 'All mammals')",True,False,False
+1134,465,4,Mammals,General,False,"('Hamsters', 'Deer')",All mammals,44,"(('Hamsters', 'Deer'), 'All mammals')",False,False,False
+1135,465,5,Mammals,General,False,"('Donkeys', 'Giraffes')",All mammals,47,"(('Donkeys', 'Giraffes'), 'All mammals')",False,False,False
+1136,465,6,Mammals,General,False,"('Hedgehogs', 'Beavers')",All mammals,30,"(('Hedgehogs', 'Beavers'), 'All mammals')",False,False,False
+1137,465,7,Mammals,General,False,"('Hippos', 'Elephants')",All mammals,57,"(('Hippos', 'Elephants'), 'All mammals')",False,False,False
+1138,465,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,16,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1139,465,9,Mammals,General,False,"('Zebras', 'Cats')",All mammals,21,"(('Zebras', 'Cats'), 'All mammals')",False,False,False
+1140,467,0,Mammals,General,False,"('Wolves', 'Horses')",All mammals,59,"(('Wolves', 'Horses'), 'All mammals')",False,False,False
+1141,467,1,Mammals,General,False,"('Zebras', 'Cats')",All mammals,59,"(('Zebras', 'Cats'), 'All mammals')",False,False,False
+1142,467,10,Mammals,General,False,"('Squirrels', 'Sheep')",All mammals,58,"(('Squirrels', 'Sheep'), 'All mammals')",False,False,False
+1143,467,11,Mammals,General,False,"('Mice',)",All mammals,17,"(('Mice',), 'All mammals')",True,False,False
+1144,467,12,Mammals,General,False,"('Dogs',)",All mammals,45,"(('Dogs',), 'All mammals')",True,False,False
+1145,467,13,Mammals,General,False,"('Rabbits',)",All mammals,53,"(('Rabbits',), 'All mammals')",True,False,False
+1146,467,14,Mammals,General,False,"('Wolves',)",All mammals,52,"(('Wolves',), 'All mammals')",True,False,False
+1147,467,15,Mammals,General,False,"('Giraffes',)",All mammals,40,"(('Giraffes',), 'All mammals')",True,False,False
+1148,467,16,Mammals,General,False,"('All animals',)",All mammals,99,"(('All animals',), 'All mammals')",True,True,False
+1149,467,17,Mammals,General,False,"('Elephants',)",All mammals,56,"(('Elephants',), 'All mammals')",True,False,False
+1150,467,18,Mammals,General,False,"('Zebras',)",All mammals,41,"(('Zebras',), 'All mammals')",True,False,False
+1151,467,19,Mammals,General,False,"('Beavers',)",All mammals,58,"(('Beavers',), 'All mammals')",True,False,False
+1152,467,2,Mammals,General,False,"('Hippos', 'Elephants')",All mammals,57,"(('Hippos', 'Elephants'), 'All mammals')",False,False,False
+1153,467,20,Mammals,General,False,"('Donkeys',)",All mammals,57,"(('Donkeys',), 'All mammals')",True,False,False
+1154,467,21,Mammals,General,False,"('Deer',)",All mammals,44,"(('Deer',), 'All mammals')",True,False,False
+1155,467,22,Mammals,General,False,"('Llamas',)",All mammals,56,"(('Llamas',), 'All mammals')",True,False,False
+1156,467,23,Mammals,General,False,"('Foxes',)",All mammals,54,"(('Foxes',), 'All mammals')",True,False,False
+1157,467,24,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+1158,467,25,Mammals,General,False,"('Squirrels',)",All mammals,47,"(('Squirrels',), 'All mammals')",True,False,False
+1159,467,26,Mammals,General,False,"('Camels',)",All mammals,38,"(('Camels',), 'All mammals')",True,False,False
+1160,467,27,Mammals,General,False,"('Rhinos',)",All mammals,51,"(('Rhinos',), 'All mammals')",True,False,False
+1161,467,28,Mammals,General,False,"('Cows',)",All mammals,54,"(('Cows',), 'All mammals')",True,False,False
+1162,467,29,Mammals,General,False,"('Cats',)",All mammals,54,"(('Cats',), 'All mammals')",True,False,False
+1163,467,3,Mammals,General,False,"('Donkeys', 'Giraffes')",All mammals,55,"(('Donkeys', 'Giraffes'), 'All mammals')",False,False,False
+1164,467,30,Mammals,General,False,"('Hippos',)",All mammals,52,"(('Hippos',), 'All mammals')",True,False,False
+1165,467,31,Mammals,General,False,"('Hedgehogs',)",All mammals,55,"(('Hedgehogs',), 'All mammals')",True,False,False
+1166,467,32,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+1167,467,33,Mammals,General,False,"('Lions',)",All mammals,56,"(('Lions',), 'All mammals')",True,False,False
+1168,467,34,Mammals,General,False,"('Horses',)",All mammals,59,"(('Horses',), 'All mammals')",True,False,False
+1169,467,35,Mammals,General,False,"('Tigers',)",All mammals,55,"(('Tigers',), 'All mammals')",True,False,False
+1170,467,36,Mammals,General,False,"('Hamsters',)",All mammals,42,"(('Hamsters',), 'All mammals')",True,False,False
+1171,467,37,Mammals,General,False,"('Sheep',)",All mammals,42,"(('Sheep',), 'All mammals')",True,False,False
+1172,467,4,Mammals,General,False,"('Elephants', 'Camels')",All mammals,55,"(('Elephants', 'Camels'), 'All mammals')",False,False,False
+1173,467,5,Mammals,General,False,"('Rhinos', 'Donkeys')",All mammals,55,"(('Rhinos', 'Donkeys'), 'All mammals')",False,False,False
+1174,467,6,Mammals,General,False,"('Hedgehogs', 'Beavers')",All mammals,55,"(('Hedgehogs', 'Beavers'), 'All mammals')",False,False,False
+1175,467,7,Mammals,General,False,"('Cows', 'Squirrels')",All mammals,35,"(('Cows', 'Squirrels'), 'All mammals')",False,False,False
+1176,467,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,79,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1177,467,9,Mammals,General,False,"('Hamsters', 'Deer')",All mammals,41,"(('Hamsters', 'Deer'), 'All mammals')",False,False,False
+1178,495,0,Mammals,General,False,"('Tigers', 'Hamsters')",All mammals,13,"(('Tigers', 'Hamsters'), 'All mammals')",False,False,False
+1179,495,1,Mammals,General,False,"('Beavers', 'Mice')",All mammals,14,"(('Beavers', 'Mice'), 'All mammals')",False,False,False
+1180,495,10,Mammals,General,False,"('Deer', 'Rhinos')",All mammals,21,"(('Deer', 'Rhinos'), 'All mammals')",False,False,False
+1181,495,11,Mammals,General,False,"('Tigers',)",All mammals,8,"(('Tigers',), 'All mammals')",True,False,False
+1182,495,12,Mammals,General,False,"('Horses',)",All mammals,6,"(('Horses',), 'All mammals')",True,False,False
+1183,495,13,Mammals,General,False,"('Hamsters',)",All mammals,9,"(('Hamsters',), 'All mammals')",True,False,False
+1184,495,14,Mammals,General,False,"('Lions',)",All mammals,9,"(('Lions',), 'All mammals')",True,False,False
+1185,495,15,Mammals,General,False,"('Donkeys',)",All mammals,10,"(('Donkeys',), 'All mammals')",True,False,False
+1186,495,16,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+1187,495,17,Mammals,General,False,"('Hedgehogs',)",All mammals,3,"(('Hedgehogs',), 'All mammals')",True,False,False
+1188,495,18,Mammals,General,False,"('Hippos',)",All mammals,6,"(('Hippos',), 'All mammals')",True,False,False
+1189,495,19,Mammals,General,False,"('Beavers',)",All mammals,7,"(('Beavers',), 'All mammals')",True,False,False
+1190,495,2,Mammals,General,False,"('Foxes', 'Hamsters')",All mammals,11,"(('Foxes', 'Hamsters'), 'All mammals')",False,False,False
+1191,495,20,Mammals,General,False,"('Cows',)",All mammals,4,"(('Cows',), 'All mammals')",True,False,False
+1192,495,21,Mammals,General,False,"('Rabbits',)",All mammals,11,"(('Rabbits',), 'All mammals')",True,False,False
+1193,495,22,Mammals,General,False,"('Camels',)",All mammals,4,"(('Camels',), 'All mammals')",True,False,False
+1194,495,23,Mammals,General,False,"('Sheep',)",All mammals,5,"(('Sheep',), 'All mammals')",True,False,False
+1195,495,24,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+1196,495,25,Mammals,General,False,"('Cats',)",All mammals,11,"(('Cats',), 'All mammals')",True,False,False
+1197,495,26,Mammals,General,False,"('Wolves',)",All mammals,11,"(('Wolves',), 'All mammals')",True,False,False
+1198,495,27,Mammals,General,False,"('Foxes',)",All mammals,9,"(('Foxes',), 'All mammals')",True,False,False
+1199,495,28,Mammals,General,False,"('Rhinos',)",All mammals,6,"(('Rhinos',), 'All mammals')",True,False,False
+1200,495,29,Mammals,General,False,"('Llamas',)",All mammals,6,"(('Llamas',), 'All mammals')",True,False,False
+1201,495,3,Mammals,General,False,"('Sheep', 'Camels')",All mammals,9,"(('Sheep', 'Camels'), 'All mammals')",False,False,False
+1202,495,30,Mammals,General,False,"('Mice',)",All mammals,22,"(('Mice',), 'All mammals')",True,False,False
+1203,495,31,Mammals,General,False,"('Elephants',)",All mammals,7,"(('Elephants',), 'All mammals')",True,False,False
+1204,495,32,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+1205,495,33,Mammals,General,False,"('Zebras',)",All mammals,8,"(('Zebras',), 'All mammals')",True,False,False
+1206,495,34,Mammals,General,False,"('Giraffes',)",All mammals,7,"(('Giraffes',), 'All mammals')",True,False,False
+1207,495,35,Mammals,General,False,"('Squirrels',)",All mammals,14,"(('Squirrels',), 'All mammals')",True,False,False
+1208,495,36,Mammals,General,False,"('Deer',)",All mammals,8,"(('Deer',), 'All mammals')",True,False,False
+1209,495,37,Mammals,General,False,"('Dogs',)",All mammals,13,"(('Dogs',), 'All mammals')",True,False,False
+1210,495,4,Mammals,General,False,"('Zebras', 'Mice')",All mammals,29,"(('Zebras', 'Mice'), 'All mammals')",False,False,False
+1211,495,5,Mammals,General,False,"('Rabbits', 'Horses')",All mammals,34,"(('Rabbits', 'Horses'), 'All mammals')",False,False,False
+1212,495,6,Mammals,General,False,"('Hedgehogs', 'Sheep')",All mammals,43,"(('Hedgehogs', 'Sheep'), 'All mammals')",False,False,False
+1213,495,7,Mammals,General,False,"('Rabbits', 'Hamsters')",All mammals,10,"(('Rabbits', 'Hamsters'), 'All mammals')",False,False,False
+1214,495,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1215,495,9,Mammals,General,False,"('Rabbits', 'Lions')",All mammals,34,"(('Rabbits', 'Lions'), 'All mammals')",False,False,False
+1216,496,0,Mammals,General,False,"('Sheep', 'Camels')",All mammals,78,"(('Sheep', 'Camels'), 'All mammals')",False,False,False
+1217,496,1,Mammals,General,False,"('Rabbits', 'Lions')",All mammals,19,"(('Rabbits', 'Lions'), 'All mammals')",False,False,False
+1218,496,10,Mammals,General,False,"('Zebras', 'Mice')",All mammals,59,"(('Zebras', 'Mice'), 'All mammals')",False,False,False
+1219,496,11,Mammals,General,False,"('Elephants',)",All mammals,62,"(('Elephants',), 'All mammals')",True,False,False
+1220,496,12,Mammals,General,False,"('Lions',)",All mammals,73,"(('Lions',), 'All mammals')",True,False,False
+1221,496,13,Mammals,General,False,"('Dogs',)",All mammals,43,"(('Dogs',), 'All mammals')",True,False,False
+1222,496,14,Mammals,General,False,"('Hippos',)",All mammals,82,"(('Hippos',), 'All mammals')",True,False,False
+1223,496,15,Mammals,General,False,"('Sheep',)",All mammals,72,"(('Sheep',), 'All mammals')",True,False,False
+1224,496,16,Mammals,General,False,"('All animals',)",All mammals,80,"(('All animals',), 'All mammals')",True,True,False
+1225,496,17,Mammals,General,False,"('Cats',)",All mammals,64,"(('Cats',), 'All mammals')",True,False,False
+1226,496,18,Mammals,General,False,"('Deer',)",All mammals,64,"(('Deer',), 'All mammals')",True,False,False
+1227,496,19,Mammals,General,False,"('Hedgehogs',)",All mammals,23,"(('Hedgehogs',), 'All mammals')",True,False,False
+1228,496,2,Mammals,General,False,"('Beavers', 'Mice')",All mammals,84,"(('Beavers', 'Mice'), 'All mammals')",False,False,False
+1229,496,20,Mammals,General,False,"('Llamas',)",All mammals,26,"(('Llamas',), 'All mammals')",True,False,False
+1230,496,21,Mammals,General,False,"('Rhinos',)",All mammals,63,"(('Rhinos',), 'All mammals')",True,False,False
+1231,496,22,Mammals,General,False,"('Mice',)",All mammals,27,"(('Mice',), 'All mammals')",True,False,False
+1232,496,23,Mammals,General,False,"('Wolves',)",All mammals,60,"(('Wolves',), 'All mammals')",True,False,False
+1233,496,24,Mammals,General,False,"('All living things',)",All mammals,79,"(('All living things',), 'All mammals')",True,True,False
+1234,496,25,Mammals,General,False,"('Donkeys',)",All mammals,62,"(('Donkeys',), 'All mammals')",True,False,False
+1235,496,26,Mammals,General,False,"('Giraffes',)",All mammals,62,"(('Giraffes',), 'All mammals')",True,False,False
+1236,496,27,Mammals,General,False,"('Horses',)",All mammals,25,"(('Horses',), 'All mammals')",True,False,False
+1237,496,28,Mammals,General,False,"('Rabbits',)",All mammals,47,"(('Rabbits',), 'All mammals')",True,False,False
+1238,496,29,Mammals,General,False,"('Squirrels',)",All mammals,25,"(('Squirrels',), 'All mammals')",True,False,False
+1239,496,3,Mammals,General,False,"('Rabbits', 'Hamsters')",All mammals,35,"(('Rabbits', 'Hamsters'), 'All mammals')",False,False,False
+1240,496,30,Mammals,General,False,"('Beavers',)",All mammals,61,"(('Beavers',), 'All mammals')",True,False,False
+1241,496,31,Mammals,General,False,"('Camels',)",All mammals,62,"(('Camels',), 'All mammals')",True,False,False
+1242,496,32,Mammals,General,False,"('All plants and animals',)",All mammals,68,"(('All plants and animals',), 'All mammals')",True,True,False
+1243,496,33,Mammals,General,False,"('Zebras',)",All mammals,55,"(('Zebras',), 'All mammals')",True,False,False
+1244,496,34,Mammals,General,False,"('Hamsters',)",All mammals,21,"(('Hamsters',), 'All mammals')",True,False,False
+1245,496,35,Mammals,General,False,"('Foxes',)",All mammals,29,"(('Foxes',), 'All mammals')",True,False,False
+1246,496,36,Mammals,General,False,"('Cows',)",All mammals,69,"(('Cows',), 'All mammals')",True,False,False
+1247,496,37,Mammals,General,False,"('Tigers',)",All mammals,77,"(('Tigers',), 'All mammals')",True,False,False
+1248,496,4,Mammals,General,False,"('Tigers', 'Hamsters')",All mammals,17,"(('Tigers', 'Hamsters'), 'All mammals')",False,False,False
+1249,496,5,Mammals,General,False,"('Deer', 'Rhinos')",All mammals,49,"(('Deer', 'Rhinos'), 'All mammals')",False,False,False
+1250,496,6,Mammals,General,False,"('Foxes', 'Hamsters')",All mammals,28,"(('Foxes', 'Hamsters'), 'All mammals')",False,False,False
+1251,496,7,Mammals,General,False,"('Hedgehogs', 'Sheep')",All mammals,57,"(('Hedgehogs', 'Sheep'), 'All mammals')",False,False,False
+1252,496,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,74,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1253,496,9,Mammals,General,False,"('Rabbits', 'Horses')",All mammals,56,"(('Rabbits', 'Horses'), 'All mammals')",False,False,False
+1254,497,0,Mammals,General,False,"('Foxes', 'Hamsters')",All mammals,82,"(('Foxes', 'Hamsters'), 'All mammals')",False,False,False
+1255,497,1,Mammals,General,False,"('Beavers', 'Mice')",All mammals,4,"(('Beavers', 'Mice'), 'All mammals')",False,False,False
+1256,497,10,Mammals,General,False,"('Zebras', 'Mice')",All mammals,94,"(('Zebras', 'Mice'), 'All mammals')",False,False,False
+1257,497,11,Mammals,General,False,"('Foxes',)",All mammals,76,"(('Foxes',), 'All mammals')",True,False,False
+1258,497,12,Mammals,General,False,"('Horses',)",All mammals,81,"(('Horses',), 'All mammals')",True,False,False
+1259,497,13,Mammals,General,False,"('Squirrels',)",All mammals,19,"(('Squirrels',), 'All mammals')",True,False,False
+1260,497,14,Mammals,General,False,"('Giraffes',)",All mammals,82,"(('Giraffes',), 'All mammals')",True,False,False
+1261,497,15,Mammals,General,False,"('Sheep',)",All mammals,79,"(('Sheep',), 'All mammals')",True,False,False
+1262,497,16,Mammals,General,False,"('All animals',)",All mammals,99,"(('All animals',), 'All mammals')",True,True,False
+1263,497,17,Mammals,General,False,"('Hamsters',)",All mammals,4,"(('Hamsters',), 'All mammals')",True,False,False
+1264,497,18,Mammals,General,False,"('Beavers',)",All mammals,11,"(('Beavers',), 'All mammals')",True,False,False
+1265,497,19,Mammals,General,False,"('Hedgehogs',)",All mammals,7,"(('Hedgehogs',), 'All mammals')",True,False,False
+1266,497,2,Mammals,General,False,"('Rabbits', 'Horses')",All mammals,95,"(('Rabbits', 'Horses'), 'All mammals')",False,False,False
+1267,497,20,Mammals,General,False,"('Cows',)",All mammals,77,"(('Cows',), 'All mammals')",True,False,False
+1268,497,21,Mammals,General,False,"('Mice',)",All mammals,13,"(('Mice',), 'All mammals')",True,False,False
+1269,497,22,Mammals,General,False,"('Camels',)",All mammals,80,"(('Camels',), 'All mammals')",True,False,False
+1270,497,23,Mammals,General,False,"('Rhinos',)",All mammals,76,"(('Rhinos',), 'All mammals')",True,False,False
+1271,497,24,Mammals,General,False,"('All living things',)",All mammals,99,"(('All living things',), 'All mammals')",True,True,False
+1272,497,25,Mammals,General,False,"('Dogs',)",All mammals,5,"(('Dogs',), 'All mammals')",True,False,False
+1273,497,26,Mammals,General,False,"('Tigers',)",All mammals,4,"(('Tigers',), 'All mammals')",True,False,False
+1274,497,27,Mammals,General,False,"('Rabbits',)",All mammals,7,"(('Rabbits',), 'All mammals')",True,False,False
+1275,497,28,Mammals,General,False,"('Cats',)",All mammals,10,"(('Cats',), 'All mammals')",True,False,False
+1276,497,29,Mammals,General,False,"('Llamas',)",All mammals,80,"(('Llamas',), 'All mammals')",True,False,False
+1277,497,3,Mammals,General,False,"('Rabbits', 'Lions')",All mammals,85,"(('Rabbits', 'Lions'), 'All mammals')",False,False,False
+1278,497,30,Mammals,General,False,"('Hippos',)",All mammals,13,"(('Hippos',), 'All mammals')",True,False,False
+1279,497,31,Mammals,General,False,"('Wolves',)",All mammals,61,"(('Wolves',), 'All mammals')",True,False,False
+1280,497,32,Mammals,General,False,"('All plants and animals',)",All mammals,2,"(('All plants and animals',), 'All mammals')",True,True,False
+1281,497,33,Mammals,General,False,"('Donkeys',)",All mammals,81,"(('Donkeys',), 'All mammals')",True,False,False
+1282,497,34,Mammals,General,False,"('Lions',)",All mammals,80,"(('Lions',), 'All mammals')",True,False,False
+1283,497,35,Mammals,General,False,"('Elephants',)",All mammals,80,"(('Elephants',), 'All mammals')",True,False,False
+1284,497,36,Mammals,General,False,"('Deer',)",All mammals,13,"(('Deer',), 'All mammals')",True,False,False
+1285,497,37,Mammals,General,False,"('Zebras',)",All mammals,80,"(('Zebras',), 'All mammals')",True,False,False
+1286,497,4,Mammals,General,False,"('Sheep', 'Camels')",All mammals,13,"(('Sheep', 'Camels'), 'All mammals')",False,False,False
+1287,497,5,Mammals,General,False,"('Deer', 'Rhinos')",All mammals,91,"(('Deer', 'Rhinos'), 'All mammals')",False,False,False
+1288,497,6,Mammals,General,False,"('Hedgehogs', 'Sheep')",All mammals,90,"(('Hedgehogs', 'Sheep'), 'All mammals')",False,False,False
+1289,497,7,Mammals,General,False,"('Rabbits', 'Hamsters')",All mammals,3,"(('Rabbits', 'Hamsters'), 'All mammals')",False,False,False
+1290,497,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,98,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1291,497,9,Mammals,General,False,"('Tigers', 'Hamsters')",All mammals,95,"(('Tigers', 'Hamsters'), 'All mammals')",False,False,False
+1292,498,0,Mammals,General,False,"('Zebras', 'Mice')",All mammals,81,"(('Zebras', 'Mice'), 'All mammals')",False,False,False
+1293,498,1,Mammals,General,False,"('Sheep', 'Camels')",All mammals,55,"(('Sheep', 'Camels'), 'All mammals')",False,False,False
+1294,498,10,Mammals,General,False,"('Rabbits', 'Horses')",All mammals,81,"(('Rabbits', 'Horses'), 'All mammals')",False,False,False
+1295,498,11,Mammals,General,False,"('Donkeys',)",All mammals,59,"(('Donkeys',), 'All mammals')",True,False,False
+1296,498,12,Mammals,General,False,"('Hippos',)",All mammals,54,"(('Hippos',), 'All mammals')",True,False,False
+1297,498,13,Mammals,General,False,"('Rabbits',)",All mammals,57,"(('Rabbits',), 'All mammals')",True,False,False
+1298,498,14,Mammals,General,False,"('Wolves',)",All mammals,61,"(('Wolves',), 'All mammals')",True,False,False
+1299,498,15,Mammals,General,False,"('Hedgehogs',)",All mammals,38,"(('Hedgehogs',), 'All mammals')",True,False,False
+1300,498,16,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+1301,498,17,Mammals,General,False,"('Hamsters',)",All mammals,39,"(('Hamsters',), 'All mammals')",True,False,False
+1302,498,18,Mammals,General,False,"('Giraffes',)",All mammals,42,"(('Giraffes',), 'All mammals')",True,False,False
+1303,498,19,Mammals,General,False,"('Deer',)",All mammals,74,"(('Deer',), 'All mammals')",True,False,False
+1304,498,2,Mammals,General,False,"('Foxes', 'Hamsters')",All mammals,81,"(('Foxes', 'Hamsters'), 'All mammals')",False,False,False
+1305,498,20,Mammals,General,False,"('Beavers',)",All mammals,42,"(('Beavers',), 'All mammals')",True,False,False
+1306,498,21,Mammals,General,False,"('Zebras',)",All mammals,59,"(('Zebras',), 'All mammals')",True,False,False
+1307,498,22,Mammals,General,False,"('Camels',)",All mammals,51,"(('Camels',), 'All mammals')",True,False,False
+1308,498,23,Mammals,General,False,"('Lions',)",All mammals,39,"(('Lions',), 'All mammals')",True,False,False
+1309,498,24,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+1310,498,25,Mammals,General,False,"('Elephants',)",All mammals,62,"(('Elephants',), 'All mammals')",True,False,False
+1311,498,26,Mammals,General,False,"('Horses',)",All mammals,54,"(('Horses',), 'All mammals')",True,False,False
+1312,498,27,Mammals,General,False,"('Mice',)",All mammals,77,"(('Mice',), 'All mammals')",True,False,False
+1313,498,28,Mammals,General,False,"('Llamas',)",All mammals,57,"(('Llamas',), 'All mammals')",True,False,False
+1314,498,29,Mammals,General,False,"('Dogs',)",All mammals,59,"(('Dogs',), 'All mammals')",True,False,False
+1315,498,3,Mammals,General,False,"('Rabbits', 'Lions')",All mammals,79,"(('Rabbits', 'Lions'), 'All mammals')",False,False,False
+1316,498,30,Mammals,General,False,"('Tigers',)",All mammals,54,"(('Tigers',), 'All mammals')",True,False,False
+1317,498,31,Mammals,General,False,"('Rhinos',)",All mammals,38,"(('Rhinos',), 'All mammals')",True,False,False
+1318,498,32,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+1319,498,33,Mammals,General,False,"('Foxes',)",All mammals,54,"(('Foxes',), 'All mammals')",True,False,False
+1320,498,34,Mammals,General,False,"('Cows',)",All mammals,51,"(('Cows',), 'All mammals')",True,False,False
+1321,498,35,Mammals,General,False,"('Sheep',)",All mammals,62,"(('Sheep',), 'All mammals')",True,False,False
+1322,498,36,Mammals,General,False,"('Squirrels',)",All mammals,54,"(('Squirrels',), 'All mammals')",True,False,False
+1323,498,37,Mammals,General,False,"('Cats',)",All mammals,59,"(('Cats',), 'All mammals')",True,False,False
+1324,498,4,Mammals,General,False,"('Beavers', 'Mice')",All mammals,87,"(('Beavers', 'Mice'), 'All mammals')",False,False,False
+1325,498,5,Mammals,General,False,"('Rabbits', 'Hamsters')",All mammals,58,"(('Rabbits', 'Hamsters'), 'All mammals')",False,False,False
+1326,498,6,Mammals,General,False,"('Deer', 'Rhinos')",All mammals,74,"(('Deer', 'Rhinos'), 'All mammals')",False,False,False
+1327,498,7,Mammals,General,False,"('Tigers', 'Hamsters')",All mammals,79,"(('Tigers', 'Hamsters'), 'All mammals')",False,False,False
+1328,498,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1329,498,9,Mammals,General,False,"('Hedgehogs', 'Sheep')",All mammals,81,"(('Hedgehogs', 'Sheep'), 'All mammals')",False,False,False
+1330,556,0,Mammals,General,False,"('Deer', 'Cats')",All mammals,60,"(('Deer', 'Cats'), 'All mammals')",False,False,False
+1331,556,1,Mammals,General,False,"('Mice', 'Horses')",All mammals,39,"(('Mice', 'Horses'), 'All mammals')",False,False,False
+1332,556,10,Mammals,General,False,"('Mice', 'Hamsters')",All mammals,35,"(('Mice', 'Hamsters'), 'All mammals')",False,False,False
+1333,556,11,Mammals,General,False,"('Elephants',)",All mammals,40,"(('Elephants',), 'All mammals')",True,False,False
+1334,556,12,Mammals,General,False,"('Hedgehogs',)",All mammals,31,"(('Hedgehogs',), 'All mammals')",True,False,False
+1335,556,13,Mammals,General,False,"('Rhinos',)",All mammals,35,"(('Rhinos',), 'All mammals')",True,False,False
+1336,556,14,Mammals,General,False,"('Horses',)",All mammals,47,"(('Horses',), 'All mammals')",True,False,False
+1337,556,15,Mammals,General,False,"('Deer',)",All mammals,42,"(('Deer',), 'All mammals')",True,False,False
+1338,556,16,Mammals,General,False,"('All animals',)",All mammals,59,"(('All animals',), 'All mammals')",True,True,False
+1339,556,17,Mammals,General,False,"('Hamsters',)",All mammals,28,"(('Hamsters',), 'All mammals')",True,False,False
+1340,556,18,Mammals,General,False,"('Tigers',)",All mammals,51,"(('Tigers',), 'All mammals')",True,False,False
+1341,556,19,Mammals,General,False,"('Cats',)",All mammals,44,"(('Cats',), 'All mammals')",True,False,False
+1342,556,2,Mammals,General,False,"('Donkeys', 'Lions')",All mammals,58,"(('Donkeys', 'Lions'), 'All mammals')",False,False,False
+1343,556,20,Mammals,General,False,"('Hippos',)",All mammals,40,"(('Hippos',), 'All mammals')",True,False,False
+1344,556,21,Mammals,General,False,"('Cows',)",All mammals,48,"(('Cows',), 'All mammals')",True,False,False
+1345,556,22,Mammals,General,False,"('Wolves',)",All mammals,56,"(('Wolves',), 'All mammals')",True,False,False
+1346,556,23,Mammals,General,False,"('Zebras',)",All mammals,44,"(('Zebras',), 'All mammals')",True,False,False
+1347,556,24,Mammals,General,False,"('All living things',)",All mammals,77,"(('All living things',), 'All mammals')",True,True,False
+1348,556,25,Mammals,General,False,"('Squirrels',)",All mammals,42,"(('Squirrels',), 'All mammals')",True,False,False
+1349,556,26,Mammals,General,False,"('Llamas',)",All mammals,31,"(('Llamas',), 'All mammals')",True,False,False
+1350,556,27,Mammals,General,False,"('Foxes',)",All mammals,36,"(('Foxes',), 'All mammals')",True,False,False
+1351,556,28,Mammals,General,False,"('Lions',)",All mammals,48,"(('Lions',), 'All mammals')",True,False,False
+1352,556,29,Mammals,General,False,"('Rabbits',)",All mammals,32,"(('Rabbits',), 'All mammals')",True,False,False
+1353,556,3,Mammals,General,False,"('Wolves', 'Beavers')",All mammals,33,"(('Wolves', 'Beavers'), 'All mammals')",False,False,False
+1354,556,30,Mammals,General,False,"('Donkeys',)",All mammals,36,"(('Donkeys',), 'All mammals')",True,False,False
+1355,556,31,Mammals,General,False,"('Giraffes',)",All mammals,22,"(('Giraffes',), 'All mammals')",True,False,False
+1356,556,32,Mammals,General,False,"('All plants and animals',)",All mammals,78,"(('All plants and animals',), 'All mammals')",True,True,False
+1357,556,33,Mammals,General,False,"('Beavers',)",All mammals,42,"(('Beavers',), 'All mammals')",True,False,False
+1358,556,34,Mammals,General,False,"('Sheep',)",All mammals,50,"(('Sheep',), 'All mammals')",True,False,False
+1359,556,35,Mammals,General,False,"('Camels',)",All mammals,45,"(('Camels',), 'All mammals')",True,False,False
+1360,556,36,Mammals,General,False,"('Mice',)",All mammals,38,"(('Mice',), 'All mammals')",True,False,False
+1361,556,37,Mammals,General,False,"('Dogs',)",All mammals,45,"(('Dogs',), 'All mammals')",True,False,False
+1362,556,4,Mammals,General,False,"('Beavers', 'Cats')",All mammals,34,"(('Beavers', 'Cats'), 'All mammals')",False,False,False
+1363,556,5,Mammals,General,False,"('Dogs', 'Wolves')",All mammals,91,"(('Dogs', 'Wolves'), 'All mammals')",False,False,False
+1364,556,6,Mammals,General,False,"('Tigers', 'Cats')",All mammals,35,"(('Tigers', 'Cats'), 'All mammals')",False,False,False
+1365,556,7,Mammals,General,False,"('Elephants', 'Rhinos')",All mammals,78,"(('Elephants', 'Rhinos'), 'All mammals')",False,False,False
+1366,556,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,94,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1367,556,9,Mammals,General,False,"('Horses', 'Squirrels')",All mammals,86,"(('Horses', 'Squirrels'), 'All mammals')",False,False,False
+1368,557,0,Mammals,General,False,"('Deer', 'Cats')",All mammals,60,"(('Deer', 'Cats'), 'All mammals')",False,False,False
+1369,557,1,Mammals,General,False,"('Mice', 'Hamsters')",All mammals,20,"(('Mice', 'Hamsters'), 'All mammals')",False,False,False
+1370,557,10,Mammals,General,False,"('Beavers', 'Cats')",All mammals,35,"(('Beavers', 'Cats'), 'All mammals')",False,False,False
+1371,557,11,Mammals,General,False,"('Cats',)",All mammals,36,"(('Cats',), 'All mammals')",True,False,False
+1372,557,12,Mammals,General,False,"('Hippos',)",All mammals,24,"(('Hippos',), 'All mammals')",True,False,False
+1373,557,13,Mammals,General,False,"('Hedgehogs',)",All mammals,23,"(('Hedgehogs',), 'All mammals')",True,False,False
+1374,557,14,Mammals,General,False,"('Donkeys',)",All mammals,21,"(('Donkeys',), 'All mammals')",True,False,False
+1375,557,15,Mammals,General,False,"('Zebras',)",All mammals,25,"(('Zebras',), 'All mammals')",True,False,False
+1376,557,16,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+1377,557,17,Mammals,General,False,"('Mice',)",All mammals,21,"(('Mice',), 'All mammals')",True,False,False
+1378,557,18,Mammals,General,False,"('Elephants',)",All mammals,21,"(('Elephants',), 'All mammals')",True,False,False
+1379,557,19,Mammals,General,False,"('Squirrels',)",All mammals,22,"(('Squirrels',), 'All mammals')",True,False,False
+1380,557,2,Mammals,General,False,"('Wolves', 'Beavers')",All mammals,55,"(('Wolves', 'Beavers'), 'All mammals')",False,False,False
+1381,557,20,Mammals,General,False,"('Horses',)",All mammals,31,"(('Horses',), 'All mammals')",True,False,False
+1382,557,21,Mammals,General,False,"('Cows',)",All mammals,30,"(('Cows',), 'All mammals')",True,False,False
+1383,557,22,Mammals,General,False,"('Rhinos',)",All mammals,24,"(('Rhinos',), 'All mammals')",True,False,False
+1384,557,23,Mammals,General,False,"('Lions',)",All mammals,22,"(('Lions',), 'All mammals')",True,False,False
+1385,557,24,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+1386,557,25,Mammals,General,False,"('Foxes',)",All mammals,32,"(('Foxes',), 'All mammals')",True,False,False
+1387,557,26,Mammals,General,False,"('Sheep',)",All mammals,19,"(('Sheep',), 'All mammals')",True,False,False
+1388,557,27,Mammals,General,False,"('Llamas',)",All mammals,18,"(('Llamas',), 'All mammals')",True,False,False
+1389,557,28,Mammals,General,False,"('Camels',)",All mammals,22,"(('Camels',), 'All mammals')",True,False,False
+1390,557,29,Mammals,General,False,"('Tigers',)",All mammals,29,"(('Tigers',), 'All mammals')",True,False,False
+1391,557,3,Mammals,General,False,"('Horses', 'Squirrels')",All mammals,77,"(('Horses', 'Squirrels'), 'All mammals')",False,False,False
+1392,557,30,Mammals,General,False,"('Beavers',)",All mammals,38,"(('Beavers',), 'All mammals')",True,False,False
+1393,557,31,Mammals,General,False,"('Hamsters',)",All mammals,35,"(('Hamsters',), 'All mammals')",True,False,False
+1394,557,32,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+1395,557,33,Mammals,General,False,"('Dogs',)",All mammals,40,"(('Dogs',), 'All mammals')",True,False,False
+1396,557,34,Mammals,General,False,"('Wolves',)",All mammals,38,"(('Wolves',), 'All mammals')",True,False,False
+1397,557,35,Mammals,General,False,"('Giraffes',)",All mammals,18,"(('Giraffes',), 'All mammals')",True,False,False
+1398,557,36,Mammals,General,False,"('Rabbits',)",All mammals,27,"(('Rabbits',), 'All mammals')",True,False,False
+1399,557,37,Mammals,General,False,"('Deer',)",All mammals,35,"(('Deer',), 'All mammals')",True,False,False
+1400,557,4,Mammals,General,False,"('Mice', 'Horses')",All mammals,78,"(('Mice', 'Horses'), 'All mammals')",False,False,False
+1401,557,5,Mammals,General,False,"('Tigers', 'Cats')",All mammals,29,"(('Tigers', 'Cats'), 'All mammals')",False,False,False
+1402,557,6,Mammals,General,False,"('Donkeys', 'Lions')",All mammals,69,"(('Donkeys', 'Lions'), 'All mammals')",False,False,False
+1403,557,7,Mammals,General,False,"('Dogs', 'Wolves')",All mammals,25,"(('Dogs', 'Wolves'), 'All mammals')",False,False,False
+1404,557,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,95,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1405,557,9,Mammals,General,False,"('Elephants', 'Rhinos')",All mammals,20,"(('Elephants', 'Rhinos'), 'All mammals')",False,False,False
+1406,558,0,Mammals,General,False,"('Tigers', 'Cats')",All mammals,27,"(('Tigers', 'Cats'), 'All mammals')",False,False,False
+1407,558,1,Mammals,General,False,"('Beavers', 'Cats')",All mammals,69,"(('Beavers', 'Cats'), 'All mammals')",False,False,False
+1408,558,10,Mammals,General,False,"('Elephants', 'Rhinos')",All mammals,39,"(('Elephants', 'Rhinos'), 'All mammals')",False,False,False
+1409,558,11,Mammals,General,False,"('Hedgehogs',)",All mammals,24,"(('Hedgehogs',), 'All mammals')",True,False,False
+1410,558,12,Mammals,General,False,"('Rhinos',)",All mammals,24,"(('Rhinos',), 'All mammals')",True,False,False
+1411,558,13,Mammals,General,False,"('Deer',)",All mammals,32,"(('Deer',), 'All mammals')",True,False,False
+1412,558,14,Mammals,General,False,"('Hippos',)",All mammals,27,"(('Hippos',), 'All mammals')",True,False,False
+1413,558,15,Mammals,General,False,"('Rabbits',)",All mammals,36,"(('Rabbits',), 'All mammals')",True,False,False
+1414,558,16,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+1415,558,17,Mammals,General,False,"('Giraffes',)",All mammals,17,"(('Giraffes',), 'All mammals')",True,False,False
+1416,558,18,Mammals,General,False,"('Sheep',)",All mammals,32,"(('Sheep',), 'All mammals')",True,False,False
+1417,558,19,Mammals,General,False,"('Wolves',)",All mammals,31,"(('Wolves',), 'All mammals')",True,False,False
+1418,558,2,Mammals,General,False,"('Dogs', 'Wolves')",All mammals,19,"(('Dogs', 'Wolves'), 'All mammals')",False,False,False
+1419,558,20,Mammals,General,False,"('Foxes',)",All mammals,26,"(('Foxes',), 'All mammals')",True,False,False
+1420,558,21,Mammals,General,False,"('Cows',)",All mammals,35,"(('Cows',), 'All mammals')",True,False,False
+1421,558,22,Mammals,General,False,"('Lions',)",All mammals,27,"(('Lions',), 'All mammals')",True,False,False
+1422,558,23,Mammals,General,False,"('Cats',)",All mammals,17,"(('Cats',), 'All mammals')",True,False,False
+1423,558,24,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+1424,558,25,Mammals,General,False,"('Camels',)",All mammals,16,"(('Camels',), 'All mammals')",True,False,False
+1425,558,26,Mammals,General,False,"('Squirrels',)",All mammals,19,"(('Squirrels',), 'All mammals')",True,False,False
+1426,558,27,Mammals,General,False,"('Donkeys',)",All mammals,34,"(('Donkeys',), 'All mammals')",True,False,False
+1427,558,28,Mammals,General,False,"('Dogs',)",All mammals,32,"(('Dogs',), 'All mammals')",True,False,False
+1428,558,29,Mammals,General,False,"('Mice',)",All mammals,22,"(('Mice',), 'All mammals')",True,False,False
+1429,558,3,Mammals,General,False,"('Donkeys', 'Lions')",All mammals,84,"(('Donkeys', 'Lions'), 'All mammals')",False,False,False
+1430,558,30,Mammals,General,False,"('Elephants',)",All mammals,21,"(('Elephants',), 'All mammals')",True,False,False
+1431,558,31,Mammals,General,False,"('Beavers',)",All mammals,31,"(('Beavers',), 'All mammals')",True,False,False
+1432,558,32,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+1433,558,33,Mammals,General,False,"('Zebras',)",All mammals,15,"(('Zebras',), 'All mammals')",True,False,False
+1434,558,34,Mammals,General,False,"('Tigers',)",All mammals,20,"(('Tigers',), 'All mammals')",True,False,False
+1435,558,35,Mammals,General,False,"('Hamsters',)",All mammals,25,"(('Hamsters',), 'All mammals')",True,False,False
+1436,558,36,Mammals,General,False,"('Horses',)",All mammals,34,"(('Horses',), 'All mammals')",True,False,False
+1437,558,37,Mammals,General,False,"('Llamas',)",All mammals,26,"(('Llamas',), 'All mammals')",True,False,False
+1438,558,4,Mammals,General,False,"('Deer', 'Cats')",All mammals,86,"(('Deer', 'Cats'), 'All mammals')",False,False,False
+1439,558,5,Mammals,General,False,"('Horses', 'Squirrels')",All mammals,88,"(('Horses', 'Squirrels'), 'All mammals')",False,False,False
+1440,558,6,Mammals,General,False,"('Mice', 'Horses')",All mammals,84,"(('Mice', 'Horses'), 'All mammals')",False,False,False
+1441,558,7,Mammals,General,False,"('Mice', 'Hamsters')",All mammals,19,"(('Mice', 'Hamsters'), 'All mammals')",False,False,False
+1442,558,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1443,558,9,Mammals,General,False,"('Wolves', 'Beavers')",All mammals,61,"(('Wolves', 'Beavers'), 'All mammals')",False,False,False
+1444,586,0,Mammals,General,False,"('Camels', 'Donkeys')",All mammals,60,"(('Camels', 'Donkeys'), 'All mammals')",False,False,False
+1445,586,1,Mammals,General,False,"('Squirrels', 'Hedgehogs')",All mammals,80,"(('Squirrels', 'Hedgehogs'), 'All mammals')",False,False,False
+1446,586,10,Mammals,General,False,"('Foxes', 'Wolves')",All mammals,81,"(('Foxes', 'Wolves'), 'All mammals')",False,False,False
+1447,586,11,Mammals,General,False,"('Donkeys',)",All mammals,10,"(('Donkeys',), 'All mammals')",True,False,False
+1448,586,12,Mammals,General,False,"('Rhinos',)",All mammals,31,"(('Rhinos',), 'All mammals')",True,False,False
+1449,586,13,Mammals,General,False,"('Deer',)",All mammals,38,"(('Deer',), 'All mammals')",True,False,False
+1450,586,14,Mammals,General,False,"('Elephants',)",All mammals,28,"(('Elephants',), 'All mammals')",True,False,False
+1451,586,15,Mammals,General,False,"('Camels',)",All mammals,19,"(('Camels',), 'All mammals')",True,False,False
+1452,586,16,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+1453,586,17,Mammals,General,False,"('Foxes',)",All mammals,10,"(('Foxes',), 'All mammals')",True,False,False
+1454,586,18,Mammals,General,False,"('Sheep',)",All mammals,20,"(('Sheep',), 'All mammals')",True,False,False
+1455,586,19,Mammals,General,False,"('Hedgehogs',)",All mammals,41,"(('Hedgehogs',), 'All mammals')",True,False,False
+1456,586,2,Mammals,General,False,"('Donkeys', 'Beavers')",All mammals,19,"(('Donkeys', 'Beavers'), 'All mammals')",False,False,False
+1457,586,20,Mammals,General,False,"('Cows',)",All mammals,30,"(('Cows',), 'All mammals')",True,False,False
+1458,586,21,Mammals,General,False,"('Cats',)",All mammals,38,"(('Cats',), 'All mammals')",True,False,False
+1459,586,22,Mammals,General,False,"('Rabbits',)",All mammals,21,"(('Rabbits',), 'All mammals')",True,False,False
+1460,586,23,Mammals,General,False,"('Dogs',)",All mammals,11,"(('Dogs',), 'All mammals')",True,False,False
+1461,586,24,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+1462,586,25,Mammals,General,False,"('Tigers',)",All mammals,19,"(('Tigers',), 'All mammals')",True,False,False
+1463,586,26,Mammals,General,False,"('Beavers',)",All mammals,10,"(('Beavers',), 'All mammals')",True,False,False
+1464,586,27,Mammals,General,False,"('Wolves',)",All mammals,14,"(('Wolves',), 'All mammals')",True,False,False
+1465,586,28,Mammals,General,False,"('Llamas',)",All mammals,11,"(('Llamas',), 'All mammals')",True,False,False
+1466,586,29,Mammals,General,False,"('Lions',)",All mammals,22,"(('Lions',), 'All mammals')",True,False,False
+1467,586,3,Mammals,General,False,"('Donkeys', 'Hamsters')",All mammals,39,"(('Donkeys', 'Hamsters'), 'All mammals')",False,False,False
+1468,586,30,Mammals,General,False,"('Hamsters',)",All mammals,13,"(('Hamsters',), 'All mammals')",True,False,False
+1469,586,31,Mammals,General,False,"('Zebras',)",All mammals,29,"(('Zebras',), 'All mammals')",True,False,False
+1470,586,32,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+1471,586,33,Mammals,General,False,"('Horses',)",All mammals,11,"(('Horses',), 'All mammals')",True,False,False
+1472,586,34,Mammals,General,False,"('Mice',)",All mammals,10,"(('Mice',), 'All mammals')",True,False,False
+1473,586,35,Mammals,General,False,"('Hippos',)",All mammals,11,"(('Hippos',), 'All mammals')",True,False,False
+1474,586,36,Mammals,General,False,"('Squirrels',)",All mammals,7,"(('Squirrels',), 'All mammals')",True,False,False
+1475,586,37,Mammals,General,False,"('Giraffes',)",All mammals,19,"(('Giraffes',), 'All mammals')",True,False,False
+1476,586,4,Mammals,General,False,"('Rhinos', 'Hippos')",All mammals,79,"(('Rhinos', 'Hippos'), 'All mammals')",False,False,False
+1477,586,5,Mammals,General,False,"('Horses', 'Foxes')",All mammals,19,"(('Horses', 'Foxes'), 'All mammals')",False,False,False
+1478,586,6,Mammals,General,False,"('Cats', 'Squirrels')",All mammals,40,"(('Cats', 'Squirrels'), 'All mammals')",False,False,False
+1479,586,7,Mammals,General,False,"('Tigers', 'Donkeys')",All mammals,21,"(('Tigers', 'Donkeys'), 'All mammals')",False,False,False
+1480,586,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,61,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1481,586,9,Mammals,General,False,"('Foxes', 'Lions')",All mammals,41,"(('Foxes', 'Lions'), 'All mammals')",False,False,False
+1482,587,0,Mammals,General,False,"('Horses', 'Foxes')",All mammals,51,"(('Horses', 'Foxes'), 'All mammals')",False,False,False
+1483,587,1,Mammals,General,False,"('Donkeys', 'Beavers')",All mammals,61,"(('Donkeys', 'Beavers'), 'All mammals')",False,False,False
+1484,587,10,Mammals,General,False,"('Rhinos', 'Hippos')",All mammals,64,"(('Rhinos', 'Hippos'), 'All mammals')",False,False,False
+1485,587,11,Mammals,General,False,"('Cats',)",All mammals,42,"(('Cats',), 'All mammals')",True,False,False
+1486,587,12,Mammals,General,False,"('Deer',)",All mammals,55,"(('Deer',), 'All mammals')",True,False,False
+1487,587,13,Mammals,General,False,"('Wolves',)",All mammals,60,"(('Wolves',), 'All mammals')",True,False,False
+1488,587,14,Mammals,General,False,"('Rhinos',)",All mammals,41,"(('Rhinos',), 'All mammals')",True,False,False
+1489,587,15,Mammals,General,False,"('Rabbits',)",All mammals,63,"(('Rabbits',), 'All mammals')",True,False,False
+1490,587,16,Mammals,General,False,"('All animals',)",All mammals,85,"(('All animals',), 'All mammals')",True,True,False
+1491,587,17,Mammals,General,False,"('Hippos',)",All mammals,45,"(('Hippos',), 'All mammals')",True,False,False
+1492,587,18,Mammals,General,False,"('Foxes',)",All mammals,76,"(('Foxes',), 'All mammals')",True,False,False
+1493,587,19,Mammals,General,False,"('Beavers',)",All mammals,55,"(('Beavers',), 'All mammals')",True,False,False
+1494,587,2,Mammals,General,False,"('Cats', 'Squirrels')",All mammals,80,"(('Cats', 'Squirrels'), 'All mammals')",False,False,False
+1495,587,20,Mammals,General,False,"('Elephants',)",All mammals,56,"(('Elephants',), 'All mammals')",True,False,False
+1496,587,21,Mammals,General,False,"('Hamsters',)",All mammals,64,"(('Hamsters',), 'All mammals')",True,False,False
+1497,587,22,Mammals,General,False,"('Hedgehogs',)",All mammals,76,"(('Hedgehogs',), 'All mammals')",True,False,False
+1498,587,23,Mammals,General,False,"('Cows',)",All mammals,80,"(('Cows',), 'All mammals')",True,False,False
+1499,587,24,Mammals,General,False,"('All living things',)",All mammals,71,"(('All living things',), 'All mammals')",True,True,False
+1500,587,25,Mammals,General,False,"('Lions',)",All mammals,72,"(('Lions',), 'All mammals')",True,False,False
+1501,587,26,Mammals,General,False,"('Dogs',)",All mammals,79,"(('Dogs',), 'All mammals')",True,False,False
+1502,587,27,Mammals,General,False,"('Mice',)",All mammals,70,"(('Mice',), 'All mammals')",True,False,False
+1503,587,28,Mammals,General,False,"('Zebras',)",All mammals,62,"(('Zebras',), 'All mammals')",True,False,False
+1504,587,29,Mammals,General,False,"('Tigers',)",All mammals,78,"(('Tigers',), 'All mammals')",True,False,False
+1505,587,3,Mammals,General,False,"('Camels', 'Donkeys')",All mammals,70,"(('Camels', 'Donkeys'), 'All mammals')",False,False,False
+1506,587,30,Mammals,General,False,"('Donkeys',)",All mammals,65,"(('Donkeys',), 'All mammals')",True,False,False
+1507,587,31,Mammals,General,False,"('Horses',)",All mammals,67,"(('Horses',), 'All mammals')",True,False,False
+1508,587,32,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+1509,587,33,Mammals,General,False,"('Camels',)",All mammals,69,"(('Camels',), 'All mammals')",True,False,False
+1510,587,34,Mammals,General,False,"('Llamas',)",All mammals,70,"(('Llamas',), 'All mammals')",True,False,False
+1511,587,35,Mammals,General,False,"('Squirrels',)",All mammals,82,"(('Squirrels',), 'All mammals')",True,False,False
+1512,587,36,Mammals,General,False,"('Giraffes',)",All mammals,71,"(('Giraffes',), 'All mammals')",True,False,False
+1513,587,37,Mammals,General,False,"('Sheep',)",All mammals,79,"(('Sheep',), 'All mammals')",True,False,False
+1514,587,4,Mammals,General,False,"('Foxes', 'Lions')",All mammals,62,"(('Foxes', 'Lions'), 'All mammals')",False,False,False
+1515,587,5,Mammals,General,False,"('Donkeys', 'Hamsters')",All mammals,47,"(('Donkeys', 'Hamsters'), 'All mammals')",False,False,False
+1516,587,6,Mammals,General,False,"('Squirrels', 'Hedgehogs')",All mammals,83,"(('Squirrels', 'Hedgehogs'), 'All mammals')",False,False,False
+1517,587,7,Mammals,General,False,"('Tigers', 'Donkeys')",All mammals,66,"(('Tigers', 'Donkeys'), 'All mammals')",False,False,False
+1518,587,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,24,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1519,587,9,Mammals,General,False,"('Foxes', 'Wolves')",All mammals,76,"(('Foxes', 'Wolves'), 'All mammals')",False,False,False
+1520,588,0,Mammals,General,False,"('Donkeys', 'Hamsters')",All mammals,21,"(('Donkeys', 'Hamsters'), 'All mammals')",False,False,False
+1521,588,1,Mammals,General,False,"('Horses', 'Foxes')",All mammals,88,"(('Horses', 'Foxes'), 'All mammals')",False,False,False
+1522,588,10,Mammals,General,False,"('Foxes', 'Wolves')",All mammals,74,"(('Foxes', 'Wolves'), 'All mammals')",False,False,False
+1523,588,11,Mammals,General,False,"('Squirrels',)",All mammals,67,"(('Squirrels',), 'All mammals')",True,False,False
+1524,588,12,Mammals,General,False,"('Deer',)",All mammals,67,"(('Deer',), 'All mammals')",True,False,False
+1525,588,13,Mammals,General,False,"('Elephants',)",All mammals,56,"(('Elephants',), 'All mammals')",True,False,False
+1526,588,14,Mammals,General,False,"('Beavers',)",All mammals,61,"(('Beavers',), 'All mammals')",True,False,False
+1527,588,15,Mammals,General,False,"('Donkeys',)",All mammals,56,"(('Donkeys',), 'All mammals')",True,False,False
+1528,588,16,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+1529,588,17,Mammals,General,False,"('Dogs',)",All mammals,100,"(('Dogs',), 'All mammals')",True,False,False
+1530,588,18,Mammals,General,False,"('Cows',)",All mammals,69,"(('Cows',), 'All mammals')",True,False,False
+1531,588,19,Mammals,General,False,"('Llamas',)",All mammals,60,"(('Llamas',), 'All mammals')",True,False,False
+1532,588,2,Mammals,General,False,"('Foxes', 'Lions')",All mammals,68,"(('Foxes', 'Lions'), 'All mammals')",False,False,False
+1533,588,20,Mammals,General,False,"('Foxes',)",All mammals,55,"(('Foxes',), 'All mammals')",True,False,False
+1534,588,21,Mammals,General,False,"('Horses',)",All mammals,59,"(('Horses',), 'All mammals')",True,False,False
+1535,588,22,Mammals,General,False,"('Rhinos',)",All mammals,62,"(('Rhinos',), 'All mammals')",True,False,False
+1536,588,23,Mammals,General,False,"('Hamsters',)",All mammals,36,"(('Hamsters',), 'All mammals')",True,False,False
+1537,588,24,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+1538,588,25,Mammals,General,False,"('Mice',)",All mammals,41,"(('Mice',), 'All mammals')",True,False,False
+1539,588,26,Mammals,General,False,"('Hippos',)",All mammals,57,"(('Hippos',), 'All mammals')",True,False,False
+1540,588,27,Mammals,General,False,"('Giraffes',)",All mammals,57,"(('Giraffes',), 'All mammals')",True,False,False
+1541,588,28,Mammals,General,False,"('Rabbits',)",All mammals,60,"(('Rabbits',), 'All mammals')",True,False,False
+1542,588,29,Mammals,General,False,"('Zebras',)",All mammals,54,"(('Zebras',), 'All mammals')",True,False,False
+1543,588,3,Mammals,General,False,"('Rhinos', 'Hippos')",All mammals,80,"(('Rhinos', 'Hippos'), 'All mammals')",False,False,False
+1544,588,30,Mammals,General,False,"('Wolves',)",All mammals,69,"(('Wolves',), 'All mammals')",True,False,False
+1545,588,31,Mammals,General,False,"('Hedgehogs',)",All mammals,49,"(('Hedgehogs',), 'All mammals')",True,False,False
+1546,588,32,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+1547,588,33,Mammals,General,False,"('Cats',)",All mammals,53,"(('Cats',), 'All mammals')",True,False,False
+1548,588,34,Mammals,General,False,"('Tigers',)",All mammals,56,"(('Tigers',), 'All mammals')",True,False,False
+1549,588,35,Mammals,General,False,"('Lions',)",All mammals,53,"(('Lions',), 'All mammals')",True,False,False
+1550,588,36,Mammals,General,False,"('Camels',)",All mammals,65,"(('Camels',), 'All mammals')",True,False,False
+1551,588,37,Mammals,General,False,"('Sheep',)",All mammals,43,"(('Sheep',), 'All mammals')",True,False,False
+1552,588,4,Mammals,General,False,"('Donkeys', 'Beavers')",All mammals,30,"(('Donkeys', 'Beavers'), 'All mammals')",False,False,False
+1553,588,5,Mammals,General,False,"('Squirrels', 'Hedgehogs')",All mammals,12,"(('Squirrels', 'Hedgehogs'), 'All mammals')",False,False,False
+1554,588,6,Mammals,General,False,"('Cats', 'Squirrels')",All mammals,71,"(('Cats', 'Squirrels'), 'All mammals')",False,False,False
+1555,588,7,Mammals,General,False,"('Camels', 'Donkeys')",All mammals,73,"(('Camels', 'Donkeys'), 'All mammals')",False,False,False
+1556,588,8,Mammals,General,False,"('All animals', 'All organisms')",All mammals,23,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1557,588,9,Mammals,General,False,"('Tigers', 'Donkeys')",All mammals,79,"(('Tigers', 'Donkeys'), 'All mammals')",False,False,False
+1558,71,0,Mammals,General,False,"('Llamas',)",All mammals,50,"(('Llamas',), 'All mammals')",True,False,False
+1559,71,1,Mammals,General,False,"('Hedgehogs',)",All mammals,40,"(('Hedgehogs',), 'All mammals')",True,False,False
+1560,71,10,Mammals,General,False,"('Deer',)",All mammals,45,"(('Deer',), 'All mammals')",True,False,False
+1561,71,11,Mammals,General,False,"('Horses',)",All mammals,45,"(('Horses',), 'All mammals')",True,False,False
+1562,71,12,Mammals,General,False,"('Cows',)",All mammals,39,"(('Cows',), 'All mammals')",True,False,False
+1563,71,13,Mammals,General,False,"('Elephants',)",All mammals,34,"(('Elephants',), 'All mammals')",True,False,False
+1564,71,14,Mammals,General,False,"('Rabbits',)",All mammals,37,"(('Rabbits',), 'All mammals')",True,False,False
+1565,71,15,Mammals,General,False,"('Dogs',)",All mammals,44,"(('Dogs',), 'All mammals')",True,False,False
+1566,71,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+1567,71,17,Mammals,General,False,"('Wolves',)",All mammals,38,"(('Wolves',), 'All mammals')",True,False,False
+1568,71,18,Mammals,General,False,"('Tigers',)",All mammals,35,"(('Tigers',), 'All mammals')",True,False,False
+1569,71,19,Mammals,General,False,"('Hamsters',)",All mammals,34,"(('Hamsters',), 'All mammals')",True,False,False
+1570,71,2,Mammals,General,False,"('Hippos',)",All mammals,41,"(('Hippos',), 'All mammals')",True,False,False
+1571,71,20,Mammals,General,False,"('Lions',)",All mammals,45,"(('Lions',), 'All mammals')",True,False,False
+1572,71,21,Mammals,General,False,"('Giraffes',)",All mammals,41,"(('Giraffes',), 'All mammals')",True,False,False
+1573,71,22,Mammals,General,False,"('Foxes',)",All mammals,41,"(('Foxes',), 'All mammals')",True,False,False
+1574,71,23,Mammals,General,False,"('Sheep',)",All mammals,40,"(('Sheep',), 'All mammals')",True,False,False
+1575,71,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+1576,71,25,Mammals,General,False,"('Zebras',)",All mammals,29,"(('Zebras',), 'All mammals')",True,False,False
+1577,71,26,Mammals,General,False,"('Cats',)",All mammals,41,"(('Cats',), 'All mammals')",True,False,False
+1578,71,27,Mammals,General,False,"('Llamas', 'Lions')",All mammals,50,"(('Llamas', 'Lions'), 'All mammals')",False,False,False
+1579,71,28,Mammals,General,False,"('Lions', 'Hamsters')",All mammals,56,"(('Lions', 'Hamsters'), 'All mammals')",False,False,False
+1580,71,29,Mammals,General,False,"('Rhinos', 'Beavers')",All mammals,68,"(('Rhinos', 'Beavers'), 'All mammals')",False,False,False
+1581,71,3,Mammals,General,False,"('Rhinos',)",All mammals,32,"(('Rhinos',), 'All mammals')",True,False,False
+1582,71,30,Mammals,General,False,"('Mice', 'Wolves')",All mammals,69,"(('Mice', 'Wolves'), 'All mammals')",False,False,False
+1583,71,31,Mammals,General,False,"('Cows', 'Elephants')",All mammals,68,"(('Cows', 'Elephants'), 'All mammals')",False,False,False
+1584,71,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1585,71,33,Mammals,General,False,"('Rabbits', 'Squirrels')",All mammals,74,"(('Rabbits', 'Squirrels'), 'All mammals')",False,False,False
+1586,71,34,Mammals,General,False,"('Tigers', 'Horses')",All mammals,69,"(('Tigers', 'Horses'), 'All mammals')",False,False,False
+1587,71,35,Mammals,General,False,"('Mice', 'Hedgehogs')",All mammals,79,"(('Mice', 'Hedgehogs'), 'All mammals')",False,False,False
+1588,71,36,Mammals,General,False,"('Foxes', 'Beavers')",All mammals,60,"(('Foxes', 'Beavers'), 'All mammals')",False,False,False
+1589,71,37,Mammals,General,False,"('Hamsters', 'Llamas')",All mammals,79,"(('Hamsters', 'Llamas'), 'All mammals')",False,False,False
+1590,71,4,Mammals,General,False,"('Squirrels',)",All mammals,32,"(('Squirrels',), 'All mammals')",True,False,False
+1591,71,5,Mammals,General,False,"('Mice',)",All mammals,60,"(('Mice',), 'All mammals')",True,False,False
+1592,71,6,Mammals,General,False,"('Donkeys',)",All mammals,44,"(('Donkeys',), 'All mammals')",True,False,False
+1593,71,7,Mammals,General,False,"('Camels',)",All mammals,40,"(('Camels',), 'All mammals')",True,False,False
+1594,71,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+1595,71,9,Mammals,General,False,"('Beavers',)",All mammals,39,"(('Beavers',), 'All mammals')",True,False,False
+1596,72,0,Mammals,General,False,"('Mice',)",All mammals,31,"(('Mice',), 'All mammals')",True,False,False
+1597,72,1,Mammals,General,False,"('Giraffes',)",All mammals,38,"(('Giraffes',), 'All mammals')",True,False,False
+1598,72,10,Mammals,General,False,"('Rhinos',)",All mammals,82,"(('Rhinos',), 'All mammals')",True,False,False
+1599,72,11,Mammals,General,False,"('Donkeys',)",All mammals,84,"(('Donkeys',), 'All mammals')",True,False,False
+1600,72,12,Mammals,General,False,"('Rabbits',)",All mammals,84,"(('Rabbits',), 'All mammals')",True,False,False
+1601,72,13,Mammals,General,False,"('Lions',)",All mammals,85,"(('Lions',), 'All mammals')",True,False,False
+1602,72,14,Mammals,General,False,"('Sheep',)",All mammals,86,"(('Sheep',), 'All mammals')",True,False,False
+1603,72,15,Mammals,General,False,"('Beavers',)",All mammals,87,"(('Beavers',), 'All mammals')",True,False,False
+1604,72,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+1605,72,17,Mammals,General,False,"('Cows',)",All mammals,88,"(('Cows',), 'All mammals')",True,False,False
+1606,72,18,Mammals,General,False,"('Hippos',)",All mammals,90,"(('Hippos',), 'All mammals')",True,False,False
+1607,72,19,Mammals,General,False,"('Hedgehogs',)",All mammals,90,"(('Hedgehogs',), 'All mammals')",True,False,False
+1608,72,2,Mammals,General,False,"('Zebras',)",All mammals,45,"(('Zebras',), 'All mammals')",True,False,False
+1609,72,20,Mammals,General,False,"('Dogs',)",All mammals,91,"(('Dogs',), 'All mammals')",True,False,False
+1610,72,21,Mammals,General,False,"('Deer',)",All mammals,91,"(('Deer',), 'All mammals')",True,False,False
+1611,72,22,Mammals,General,False,"('Squirrels',)",All mammals,91,"(('Squirrels',), 'All mammals')",True,False,False
+1612,72,23,Mammals,General,False,"('Horses',)",All mammals,91,"(('Horses',), 'All mammals')",True,False,False
+1613,72,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+1614,72,25,Mammals,General,False,"('Wolves',)",All mammals,91,"(('Wolves',), 'All mammals')",True,False,False
+1615,72,26,Mammals,General,False,"('Foxes',)",All mammals,91,"(('Foxes',), 'All mammals')",True,False,False
+1616,72,27,Mammals,General,False,"('Hamsters', 'Llamas')",All mammals,67,"(('Hamsters', 'Llamas'), 'All mammals')",False,False,False
+1617,72,28,Mammals,General,False,"('Mice', 'Wolves')",All mammals,66,"(('Mice', 'Wolves'), 'All mammals')",False,False,False
+1618,72,29,Mammals,General,False,"('Rabbits', 'Squirrels')",All mammals,67,"(('Rabbits', 'Squirrels'), 'All mammals')",False,False,False
+1619,72,3,Mammals,General,False,"('Llamas',)",All mammals,57,"(('Llamas',), 'All mammals')",True,False,False
+1620,72,30,Mammals,General,False,"('Rhinos', 'Beavers')",All mammals,70,"(('Rhinos', 'Beavers'), 'All mammals')",False,False,False
+1621,72,31,Mammals,General,False,"('Foxes', 'Beavers')",All mammals,71,"(('Foxes', 'Beavers'), 'All mammals')",False,False,False
+1622,72,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1623,72,33,Mammals,General,False,"('Cows', 'Elephants')",All mammals,72,"(('Cows', 'Elephants'), 'All mammals')",False,False,False
+1624,72,34,Mammals,General,False,"('Llamas', 'Lions')",All mammals,75,"(('Llamas', 'Lions'), 'All mammals')",False,False,False
+1625,72,35,Mammals,General,False,"('Mice', 'Hedgehogs')",All mammals,76,"(('Mice', 'Hedgehogs'), 'All mammals')",False,False,False
+1626,72,36,Mammals,General,False,"('Lions', 'Hamsters')",All mammals,78,"(('Lions', 'Hamsters'), 'All mammals')",False,False,False
+1627,72,37,Mammals,General,False,"('Tigers', 'Horses')",All mammals,79,"(('Tigers', 'Horses'), 'All mammals')",False,False,False
+1628,72,4,Mammals,General,False,"('Elephants',)",All mammals,62,"(('Elephants',), 'All mammals')",True,False,False
+1629,72,5,Mammals,General,False,"('Cats',)",All mammals,65,"(('Cats',), 'All mammals')",True,False,False
+1630,72,6,Mammals,General,False,"('Tigers',)",All mammals,67,"(('Tigers',), 'All mammals')",True,False,False
+1631,72,7,Mammals,General,False,"('Camels',)",All mammals,70,"(('Camels',), 'All mammals')",True,False,False
+1632,72,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+1633,72,9,Mammals,General,False,"('Hamsters',)",All mammals,80,"(('Hamsters',), 'All mammals')",True,False,False
+1634,73,0,Mammals,General,False,"('Zebras',)",All mammals,24,"(('Zebras',), 'All mammals')",True,False,False
+1635,73,1,Mammals,General,False,"('Beavers',)",All mammals,15,"(('Beavers',), 'All mammals')",True,False,False
+1636,73,10,Mammals,General,False,"('Camels',)",All mammals,22,"(('Camels',), 'All mammals')",True,False,False
+1637,73,11,Mammals,General,False,"('Lions',)",All mammals,27,"(('Lions',), 'All mammals')",True,False,False
+1638,73,12,Mammals,General,False,"('Tigers',)",All mammals,27,"(('Tigers',), 'All mammals')",True,False,False
+1639,73,13,Mammals,General,False,"('Squirrels',)",All mammals,20,"(('Squirrels',), 'All mammals')",True,False,False
+1640,73,14,Mammals,General,False,"('Donkeys',)",All mammals,24,"(('Donkeys',), 'All mammals')",True,False,False
+1641,73,15,Mammals,General,False,"('Hedgehogs',)",All mammals,17,"(('Hedgehogs',), 'All mammals')",True,False,False
+1642,73,16,Mammals,General,False,"('All living things',)",All mammals,100,"(('All living things',), 'All mammals')",True,True,False
+1643,73,17,Mammals,General,False,"('Giraffes',)",All mammals,19,"(('Giraffes',), 'All mammals')",True,False,False
+1644,73,18,Mammals,General,False,"('Elephants',)",All mammals,17,"(('Elephants',), 'All mammals')",True,False,False
+1645,73,19,Mammals,General,False,"('Foxes',)",All mammals,28,"(('Foxes',), 'All mammals')",True,False,False
+1646,73,2,Mammals,General,False,"('Sheep',)",All mammals,23,"(('Sheep',), 'All mammals')",True,False,False
+1647,73,20,Mammals,General,False,"('Horses',)",All mammals,24,"(('Horses',), 'All mammals')",True,False,False
+1648,73,21,Mammals,General,False,"('Deer',)",All mammals,25,"(('Deer',), 'All mammals')",True,False,False
+1649,73,22,Mammals,General,False,"('Cows',)",All mammals,23,"(('Cows',), 'All mammals')",True,False,False
+1650,73,23,Mammals,General,False,"('Hamsters',)",All mammals,20,"(('Hamsters',), 'All mammals')",True,False,False
+1651,73,24,Mammals,General,False,"('All plants and animals',)",All mammals,100,"(('All plants and animals',), 'All mammals')",True,True,False
+1652,73,25,Mammals,General,False,"('Rabbits',)",All mammals,19,"(('Rabbits',), 'All mammals')",True,False,False
+1653,73,26,Mammals,General,False,"('Hippos',)",All mammals,16,"(('Hippos',), 'All mammals')",True,False,False
+1654,73,27,Mammals,General,False,"('Hamsters', 'Llamas')",All mammals,66,"(('Hamsters', 'Llamas'), 'All mammals')",False,False,False
+1655,73,28,Mammals,General,False,"('Llamas', 'Lions')",All mammals,54,"(('Llamas', 'Lions'), 'All mammals')",False,False,False
+1656,73,29,Mammals,General,False,"('Foxes', 'Beavers')",All mammals,64,"(('Foxes', 'Beavers'), 'All mammals')",False,False,False
+1657,73,3,Mammals,General,False,"('Rhinos',)",All mammals,20,"(('Rhinos',), 'All mammals')",True,False,False
+1658,73,30,Mammals,General,False,"('Mice', 'Hedgehogs')",All mammals,45,"(('Mice', 'Hedgehogs'), 'All mammals')",False,False,False
+1659,73,31,Mammals,General,False,"('Rabbits', 'Squirrels')",All mammals,47,"(('Rabbits', 'Squirrels'), 'All mammals')",False,False,False
+1660,73,32,Mammals,General,False,"('All animals', 'All organisms')",All mammals,100,"(('All animals', 'All organisms'), 'All mammals')",False,True,False
+1661,73,33,Mammals,General,False,"('Mice', 'Wolves')",All mammals,67,"(('Mice', 'Wolves'), 'All mammals')",False,False,False
+1662,73,34,Mammals,General,False,"('Cows', 'Elephants')",All mammals,60,"(('Cows', 'Elephants'), 'All mammals')",False,False,False
+1663,73,35,Mammals,General,False,"('Rhinos', 'Beavers')",All mammals,72,"(('Rhinos', 'Beavers'), 'All mammals')",False,False,False
+1664,73,36,Mammals,General,False,"('Tigers', 'Horses')",All mammals,62,"(('Tigers', 'Horses'), 'All mammals')",False,False,False
+1665,73,37,Mammals,General,False,"('Lions', 'Hamsters')",All mammals,70,"(('Lions', 'Hamsters'), 'All mammals')",False,False,False
+1666,73,4,Mammals,General,False,"('Cats',)",All mammals,28,"(('Cats',), 'All mammals')",True,False,False
+1667,73,5,Mammals,General,False,"('Mice',)",All mammals,20,"(('Mice',), 'All mammals')",True,False,False
+1668,73,6,Mammals,General,False,"('Llamas',)",All mammals,23,"(('Llamas',), 'All mammals')",True,False,False
+1669,73,7,Mammals,General,False,"('Dogs',)",All mammals,32,"(('Dogs',), 'All mammals')",True,False,False
+1670,73,8,Mammals,General,False,"('All animals',)",All mammals,100,"(('All animals',), 'All mammals')",True,True,False
+1671,73,9,Mammals,General,False,"('Wolves',)",All mammals,30,"(('Wolves',), 'All mammals')",True,False,False

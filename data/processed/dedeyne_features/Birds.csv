@@ -1,0 +1,29 @@
+,feature,freq,Eagles,Doves,Ducks,Magpies,Vultures,Roosters,Turkeys,Canaries,Chickens,Crows,Seagulls,Blackbirds,Sparrows,Storks,Parrots,Parrots,Parrots,Parrots,Peacocks,Pelicans,Penguins,Herons,Robins,Woodpeckers,Ostriches,Owls,Falcons,Swans,Swallows
+0,builds nests,16,True,True,True,True,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+1,eats small animals,2,True,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,True,True,True,False,False,True,True,True,False,False
+2,eats worms,8,False,True,False,True,False,True,False,False,True,True,False,True,True,True,False,False,False,False,True,False,False,False,True,True,False,True,False,False,True
+3,sings (whistles),7,False,False,False,False,False,False,False,True,False,False,False,True,True,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False
+4,has a bill,15,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+5,has two paws,3,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+6,has feathers,20,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+7,has wings,9,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+8,lives in a cage,2,False,False,False,False,False,False,False,True,False,False,False,False,False,False,True,True,True,True,False,False,False,False,False,False,False,False,False,False,False
+9,is an animal,3,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+10,is a migratory bird,4,False,False,True,False,False,False,False,False,False,False,False,False,False,True,True,False,True,False,False,False,False,True,False,False,False,False,False,True,True
+11,can fly,20,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True,True,False,True,True,True,True
+12, in the morning,2,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+13,has beady eyes,2,False,False,False,True,False,False,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+14,lives in the wild,3,True,True,True,True,True,False,False,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+15,lays eggs,20,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+16,chirps,6,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+17,sings,3,False,False,False,False,False,False,False,True,False,False,False,True,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,True
+18,flutters,2,True,True,True,True,True,False,False,True,False,True,True,True,True,True,True,True,True,True,False,True,False,True,True,True,False,True,True,True,True
+19,has a beak,6,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+20,has air sacs,3,True,True,True,True,True,False,False,True,False,True,True,True,True,True,True,True,True,True,False,True,True,True,True,True,False,True,True,True,True
+21,has legs,3,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+22,has two wings,3,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+23,can walk,2,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+24,is able to reproduce,4,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+25,is found in trees,5,True,True,False,True,True,False,False,True,False,True,False,True,True,True,True,True,True,True,False,True,False,True,True,True,False,True,True,False,True
+26,is sometimes kept as a pet,2,False,True,True,False,False,True,True,True,True,False,False,False,False,False,True,True,True,True,True,False,False,False,False,False,False,False,False,True,False
+27,is sometimes eaten by man,2,False,True,True,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False

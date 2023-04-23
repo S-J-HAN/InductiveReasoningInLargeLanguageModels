@@ -1,0 +1,1195 @@
+,argument_id,response
+0,"(('Airplanes', 'Buses'), 'All vehicles')",40
+1,"(('Airplanes', 'Helicopters'), 'All vehicles')",40
+2,"(('Airplanes', 'Taxis'), 'All vehicles')",40
+3,"(('Airplanes', 'Trams'), 'Trains')",75
+4,"(('Airplanes', 'Zeppelins'), 'All vehicles')",40
+5,"(('Airplanes',), 'All vehicles')",40
+6,"(('Airplanes',), 'Bicycles')",60
+7,"(('Airplanes',), 'Helicopters')",80
+8,"(('Airplanes',), 'Jeeps')",50
+9,"(('Airplanes',), 'Skateboards')",40
+10,"(('Airplanes',), 'Tractors')",40
+11,"(('Airplanes',), 'Trains')",60
+12,"(('Beavers', 'Camels'), 'Tigers')",50
+13,"(('Beavers', 'Cats'), 'All mammals')",40
+14,"(('Beavers', 'Hedgehogs'), 'Elephants')",50
+15,"(('Beavers', 'Horses'), 'Tigers')",50
+16,"(('Beavers', 'Llamas'), 'Dogs')",50
+17,"(('Beavers', 'Mice'), 'All mammals')",40
+18,"(('Beavers', 'Mice'), 'Giraffes')",50
+19,"(('Beavers', 'Mice'), 'Hamsters')",70
+20,"(('Beavers', 'Rabbits'), 'All mammals')",40
+21,"(('Beavers', 'Zebras'), 'Horses')",50
+22,"(('Beavers',), 'All mammals')",30
+23,"(('Beavers',), 'Dogs')",60
+24,"(('Beavers',), 'Donkeys')",40
+25,"(('Beavers',), 'Elephants')",50
+26,"(('Beavers',), 'Giraffes')",40
+27,"(('Beavers',), 'Hamsters')",60
+28,"(('Beavers',), 'Horses')",50
+29,"(('Beavers',), 'Tigers')",50
+30,"(('Bicycles', 'Airplanes'), 'Skateboards')",50
+31,"(('Bicycles', 'Carts'), 'Carriages')",75
+32,"(('Bicycles', 'Mopeds'), 'All vehicles')",40
+33,"(('Bicycles', 'Mopeds'), 'Rockets')",40
+34,"(('Bicycles', 'Motorbikes'), 'All vehicles')",40
+35,"(('Bicycles', 'Sleds'), 'All vehicles')",40
+36,"(('Bicycles', 'Submarines'), 'All vehicles')",40
+37,"(('Bicycles', 'Tractors'), 'All vehicles')",40
+38,"(('Bicycles', 'Trains'), 'All vehicles')",40
+39,"(('Bicycles', 'Trains'), 'Trams')",75
+40,"(('Bicycles', 'Trams'), 'All vehicles')",40
+41,"(('Bicycles',), 'All vehicles')",40
+42,"(('Bicycles',), 'Boats')",50
+43,"(('Bicycles',), 'Buses')",60
+44,"(('Bicycles',), 'Carriages')",70
+45,"(('Bicycles',), 'Rockets')",40
+46,"(('Bicycles',), 'Skateboards')",70
+47,"(('Bicycles',), 'Submarines')",40
+48,"(('Bicycles',), 'Trams')",60
+49,"(('Blackbirds', 'Crows'), 'Pelicans')",50
+50,"(('Blackbirds', 'Doves'), 'All birds')",40
+51,"(('Blackbirds', 'Ducks'), 'Seagulls')",70
+52,"(('Blackbirds', 'Eagles'), 'Falcons')",75
+53,"(('Blackbirds', 'Parrots'), 'Ostriches')",50
+54,"(('Blackbirds', 'Robins'), 'Roosters')",60
+55,"(('Blackbirds', 'Storks'), 'Canaries')",70
+56,"(('Blackbirds',), 'All birds')",30
+57,"(('Blackbirds',), 'Canaries')",70
+58,"(('Blackbirds',), 'Doves')",70
+59,"(('Blackbirds',), 'Falcons')",70
+60,"(('Blackbirds',), 'Magpies')",70
+61,"(('Blackbirds',), 'Ostriches')",60
+62,"(('Blackbirds',), 'Pelicans')",60
+63,"(('Blackbirds',), 'Roosters')",70
+64,"(('Blackbirds',), 'Seagulls')",70
+65,"(('Blackbirds',), 'Sparrows')",70
+66,"(('Blackbirds',), 'Swallows')",70
+67,"(('Boats', 'Bicycles'), 'Buses')",50
+68,"(('Boats', 'Hovercraft'), 'All vehicles')",40
+69,"(('Boats', 'Jeeps'), 'Cars')",80
+70,"(('Boats', 'Skateboards'), 'Mopeds')",50
+71,"(('Boats', 'Submarines'), 'Vans')",50
+72,"(('Boats', 'Trams'), 'All vehicles')",40
+73,"(('Boats', 'Trams'), 'Buses')",70
+74,"(('Boats',), 'All vehicles')",30
+75,"(('Boats',), 'Buses')",50
+76,"(('Boats',), 'Caravans')",60
+77,"(('Boats',), 'Cars')",70
+78,"(('Boats',), 'Carts')",60
+79,"(('Boats',), 'Hovercraft')",70
+80,"(('Boats',), 'Mopeds')",40
+81,"(('Boats',), 'Skateboards')",40
+82,"(('Boats',), 'Tractors')",50
+83,"(('Boats',), 'Trams')",50
+84,"(('Boats',), 'Vans')",50
+85,"(('Buses', 'Cars'), 'Zeppelins')",50
+86,"(('Buses', 'Mopeds'), 'Cars')",75
+87,"(('Buses', 'Rockets'), 'Airplanes')",75
+88,"(('Buses', 'Sleds'), 'All vehicles')",40
+89,"(('Buses', 'Trucks'), 'Zeppelins')",40
+90,"(('Buses',), 'Airplanes')",60
+91,"(('Buses',), 'All vehicles')",40
+92,"(('Buses',), 'Boats')",60
+93,"(('Buses',), 'Carriages')",70
+94,"(('Buses',), 'Cars')",80
+95,"(('Buses',), 'Trains')",70
+96,"(('Buses',), 'Vans')",70
+97,"(('Buses',), 'Zeppelins')",40
+98,"(('Camels', 'Beavers'), 'Donkeys')",50
+99,"(('Camels', 'Beavers'), 'Elephants')",50
+100,"(('Camels', 'Cows'), 'All mammals')",40
+101,"(('Camels', 'Donkeys'), 'All mammals')",40
+102,"(('Camels', 'Giraffes'), 'All mammals')",40
+103,"(('Camels', 'Giraffes'), 'Cats')",40
+104,"(('Camels', 'Horses'), 'Cats')",50
+105,"(('Camels', 'Wolves'), 'Dogs')",75
+106,"(('Camels', 'Wolves'), 'Llamas')",50
+107,"(('Camels',), 'All mammals')",30
+108,"(('Camels',), 'Cats')",40
+109,"(('Camels',), 'Dogs')",50
+110,"(('Camels',), 'Donkeys')",60
+111,"(('Camels',), 'Elephants')",60
+112,"(('Camels',), 'Hedgehogs')",40
+113,"(('Camels',), 'Llamas')",70
+114,"(('Camels',), 'Mice')",50
+115,"(('Camels',), 'Tigers')",50
+116,"(('Canaries', 'Blackbirds'), 'All birds')",40
+117,"(('Canaries', 'Blackbirds'), 'Ostriches')",50
+118,"(('Canaries', 'Chickens'), 'Storks')",60
+119,"(('Canaries', 'Robins'), 'All birds')",40
+120,"(('Canaries', 'Robins'), 'Falcons')",60
+121,"(('Canaries', 'Seagulls'), 'Storks')",60
+122,"(('Canaries', 'Sparrows'), 'Pelicans')",60
+123,"(('Canaries',), 'All birds')",30
+124,"(('Canaries',), 'Eagles')",60
+125,"(('Canaries',), 'Falcons')",60
+126,"(('Canaries',), 'Ostriches')",60
+127,"(('Canaries',), 'Pelicans')",40
+128,"(('Canaries',), 'Storks')",40
+129,"(('Canaries',), 'Swans')",60
+130,"(('Caravans', 'Boats'), 'Skateboards')",40
+131,"(('Caravans', 'Sleds'), 'All vehicles')",40
+132,"(('Caravans',), 'All vehicles')",30
+133,"(('Caravans',), 'Jeeps')",60
+134,"(('Caravans',), 'Skateboards')",40
+135,"(('Carriages', 'Boats'), 'All vehicles')",40
+136,"(('Carriages', 'Buses'), 'All vehicles')",40
+137,"(('Carriages', 'Cars'), 'All vehicles')",40
+138,"(('Carriages', 'Hovercraft'), 'All vehicles')",40
+139,"(('Carriages', 'Hovercraft'), 'Boats')",60
+140,"(('Carriages', 'Mopeds'), 'Motorbikes')",70
+141,"(('Carriages', 'Motorbikes'), 'Rockets')",50
+142,"(('Carriages', 'Rockets'), 'Bicycles')",50
+143,"(('Carriages', 'Skateboards'), 'All vehicles')",40
+144,"(('Carriages', 'Sleds'), 'Tractors')",50
+145,"(('Carriages', 'Zeppelins'), 'All vehicles')",40
+146,"(('Carriages', 'Zeppelins'), 'Caravans')",50
+147,"(('Carriages',), 'Airplanes')",40
+148,"(('Carriages',), 'All vehicles')",30
+149,"(('Carriages',), 'Bicycles')",60
+150,"(('Carriages',), 'Boats')",40
+151,"(('Carriages',), 'Caravans')",70
+152,"(('Carriages',), 'Carts')",80
+153,"(('Carriages',), 'Jeeps')",60
+154,"(('Carriages',), 'Motorbikes')",40
+155,"(('Carriages',), 'Rockets')",40
+156,"(('Carriages',), 'Submarines')",40
+157,"(('Carriages',), 'Tractors')",50
+158,"(('Cars', 'Airplanes'), 'All vehicles')",40
+159,"(('Cars', 'Bicycles'), 'Carriages')",75
+160,"(('Cars', 'Boats'), 'All vehicles')",40
+161,"(('Cars', 'Buses'), 'All vehicles')",40
+162,"(('Cars', 'Caravans'), 'Jeeps')",80
+163,"(('Cars', 'Helicopters'), 'All vehicles')",40
+164,"(('Cars', 'Motorbikes'), 'Jeeps')",80
+165,"(('Cars', 'Rockets'), 'All vehicles')",40
+166,"(('Cars', 'Taxis'), 'All vehicles')",40
+167,"(('Cars', 'Zeppelins'), 'All vehicles')",40
+168,"(('Cars',), 'All vehicles')",50
+169,"(('Cars',), 'Caravans')",80
+170,"(('Cars',), 'Carriages')",70
+171,"(('Cars',), 'Jeeps')",90
+172,"(('Cars',), 'Motorbikes')",80
+173,"(('Cars',), 'Sleds')",40
+174,"(('Cars',), 'Taxis')",90
+175,"(('Cars',), 'Zeppelins')",60
+176,"(('Carts', 'Airplanes'), 'Helicopters')",70
+177,"(('Carts', 'Cars'), 'Caravans')",70
+178,"(('Carts', 'Mopeds'), 'Jeeps')",60
+179,"(('Carts', 'Motorbikes'), 'Carriages')",70
+180,"(('Carts', 'Skateboards'), 'All vehicles')",40
+181,"(('Carts', 'Sleds'), 'All vehicles')",40
+182,"(('Carts', 'Submarines'), 'Sleds')",50
+183,"(('Carts', 'Vans'), 'Carriages')",70
+184,"(('Carts', 'Zeppelins'), 'Sleds')",50
+185,"(('Carts',), 'All vehicles')",35
+186,"(('Carts',), 'Caravans')",70
+187,"(('Carts',), 'Carriages')",80
+188,"(('Carts',), 'Helicopters')",40
+189,"(('Carts',), 'Jeeps')",60
+190,"(('Carts',), 'Sleds')",70
+191,"(('Cats', 'Cows'), 'All mammals')",40
+192,"(('Cats', 'Donkeys'), 'All mammals')",40
+193,"(('Cats', 'Foxes'), 'Cows')",50
+194,"(('Cats', 'Hippos'), 'Cows')",50
+195,"(('Cats', 'Sheep'), 'Llamas')",60
+196,"(('Cats', 'Squirrels'), 'All mammals')",40
+197,"(('Cats',), 'All mammals')",30
+198,"(('Cats',), 'Cows')",50
+199,"(('Cats',), 'Felines')",90
+200,"(('Cats',), 'Lions')",80
+201,"(('Cats',), 'Llamas')",40
+202,"(('Cats',), 'Rabbits')",60
+203,"(('Cats',), 'Squirrels')",60
+204,"(('Cats',), 'Tigers')",80
+205,"(('Chickens', 'Ducks'), 'All birds')",40
+206,"(('Chickens', 'Eagles'), 'All birds')",40
+207,"(('Chickens', 'Herons'), 'All birds')",40
+208,"(('Chickens', 'Magpies'), 'All birds')",40
+209,"(('Chickens', 'Ostriches'), 'Pelicans')",60
+210,"(('Chickens', 'Parrots'), 'Turkeys')",70
+211,"(('Chickens', 'Sparrows'), 'Canaries')",75
+212,"(('Chickens', 'Sparrows'), 'Robins')",75
+213,"(('Chickens',), 'All birds')",40
+214,"(('Chickens',), 'Blackbirds')",70
+215,"(('Chickens',), 'Canaries')",70
+216,"(('Chickens',), 'Pelicans')",60
+217,"(('Chickens',), 'Robins')",70
+218,"(('Chickens',), 'Roosters')",90
+219,"(('Chickens',), 'Storks')",60
+220,"(('Chickens',), 'Turkeys')",80
+221,"(('Chickens',), 'Woodpeckers')",60
+222,"(('Chimps', 'Rhinos'), 'Horses')",50
+223,"(('Chimps', 'Squirrels'), 'Horses')",50
+224,"(('Chimps',), 'Horses')",40
+225,"(('Cows', 'Beavers'), 'Donkeys')",50
+226,"(('Cows', 'Chimps'), 'Horses')",60
+227,"(('Cows', 'Dolphins'), 'Horses')",50
+228,"(('Cows', 'Elephants'), 'All mammals')",40
+229,"(('Cows', 'Giraffes'), 'All mammals')",40
+230,"(('Cows', 'Giraffes'), 'Llamas')",60
+231,"(('Cows', 'Mice'), 'Horses')",60
+232,"(('Cows', 'Rhinos'), 'Horses')",60
+233,"(('Cows', 'Sheep'), 'Mice')",40
+234,"(('Cows', 'Squirrels'), 'All mammals')",40
+235,"(('Cows', 'Squirrels'), 'Horses')",60
+236,"(('Cows',), 'All mammals')",35
+237,"(('Cows',), 'Cats')",50
+238,"(('Cows',), 'Donkeys')",60
+239,"(('Cows',), 'Hippos')",60
+240,"(('Cows',), 'Horses')",70
+241,"(('Cows',), 'Llamas')",60
+242,"(('Cows',), 'Mice')",60
+243,"(('Cows',), 'Rhinos')",40
+244,"(('Crows', 'Chickens'), 'All birds')",40
+245,"(('Crows', 'Chickens'), 'Woodpeckers')",60
+246,"(('Crows', 'Eagles'), 'Robins')",60
+247,"(('Crows', 'Roosters'), 'All birds')",40
+248,"(('Crows', 'Sparrows'), 'All birds')",40
+249,"(('Crows',), 'All birds')",30
+250,"(('Crows',), 'Peacocks')",60
+251,"(('Crows',), 'Pelicans')",60
+252,"(('Crows',), 'Ravens')",80
+253,"(('Crows',), 'Robins')",70
+254,"(('Crows',), 'Swans')",60
+255,"(('Crows',), 'Woodpeckers')",60
+256,"(('Deer', 'Cats'), 'All mammals')",40
+257,"(('Deer', 'Horses'), 'Donkeys')",70
+258,"(('Deer', 'Rabbits'), 'Foxes')",60
+259,"(('Deer', 'Rabbits'), 'Rhinos')",40
+260,"(('Deer', 'Rhinos'), 'All mammals')",40
+261,"(('Deer', 'Squirrels'), 'All mammals')",40
+262,"(('Deer', 'Wolves'), 'Hedgehogs')",40
+263,"(('Deer', 'Zebras'), 'Lions')",50
+264,"(('Deer',), 'All mammals')",35
+265,"(('Deer',), 'Donkeys')",60
+266,"(('Deer',), 'Foxes')",60
+267,"(('Deer',), 'Hedgehogs')",40
+268,"(('Deer',), 'Hippos')",40
+269,"(('Deer',), 'Lions')",60
+270,"(('Deer',), 'Rhinos')",60
+271,"(('Deer',), 'Squirrels')",60
+272,"(('Deer',), 'Zebras')",60
+273,"(('Dogs', 'Cows'), 'Cats')",60
+274,"(('Dogs', 'Foxes'), 'All mammals')",40
+275,"(('Dogs', 'Hamsters'), 'All mammals')",40
+276,"(('Dogs', 'Hedgehogs'), 'All mammals')",40
+277,"(('Dogs', 'Horses'), 'All mammals')",40
+278,"(('Dogs', 'Wolves'), 'All mammals')",40
+279,"(('Dogs',), 'All mammals')",30
+280,"(('Dogs',), 'Canines')",90
+281,"(('Dogs',), 'Cats')",70
+282,"(('Dogs',), 'Foxes')",80
+283,"(('Dogs',), 'Rabbits')",60
+284,"(('Dolphins', 'Elephants'), 'Horses')",50
+285,"(('Dolphins', 'Rhinos'), 'Horses')",50
+286,"(('Dolphins', 'Seals'), 'Horses')",40
+287,"(('Dolphins',), 'Horses')",40
+288,"(('Donkeys', 'Beavers'), 'All mammals')",40
+289,"(('Donkeys', 'Giraffes'), 'All mammals')",40
+290,"(('Donkeys', 'Hamsters'), 'All mammals')",40
+291,"(('Donkeys', 'Hamsters'), 'Zebras')",50
+292,"(('Donkeys', 'Horses'), 'All mammals')",35
+293,"(('Donkeys', 'Lions'), 'All mammals')",40
+294,"(('Donkeys',), 'All mammals')",30
+295,"(('Donkeys',), 'Horses')",80
+296,"(('Donkeys',), 'Llamas')",60
+297,"(('Donkeys',), 'Zebras')",70
+298,"(('Doves', 'Herons'), 'All birds')",40
+299,"(('Doves', 'Herons'), 'Storks')",70
+300,"(('Doves', 'Magpies'), 'All birds')",35
+301,"(('Doves', 'Swallows'), 'Peacocks')",60
+302,"(('Doves', 'Turkeys'), 'All birds')",35
+303,"(('Doves',), 'All birds')",30
+304,"(('Doves',), 'Ducks')",70
+305,"(('Doves',), 'Peacocks')",70
+306,"(('Doves',), 'Robins')",70
+307,"(('Doves',), 'Storks')",70
+308,"(('Doves',), 'Swallows')",70
+309,"(('Ducks', 'Magpies'), 'Turkeys')",60
+310,"(('Ducks', 'Ostriches'), 'All birds')",40
+311,"(('Ducks', 'Storks'), 'All birds')",40
+312,"(('Ducks', 'Storks'), 'Eagles')",60
+313,"(('Ducks', 'Storks'), 'Pelicans')",70
+314,"(('Ducks', 'Swallows'), 'Chickens')",70
+315,"(('Ducks', 'Turkeys'), 'Pelicans')",70
+316,"(('Ducks', 'Vultures'), 'Turkeys')",60
+317,"(('Ducks',), 'All birds')",30
+318,"(('Ducks',), 'Chickens')",70
+319,"(('Ducks',), 'Eagles')",60
+320,"(('Ducks',), 'Magpies')",70
+321,"(('Ducks',), 'Pelicans')",70
+322,"(('Ducks',), 'Seagulls')",70
+323,"(('Ducks',), 'Sparrows')",60
+324,"(('Ducks',), 'Storks')",70
+325,"(('Ducks',), 'Turkeys')",70
+326,"(('Eagles', 'Blackbirds'), 'Magpies')",75
+327,"(('Eagles', 'Ostriches'), 'Blackbirds')",50
+328,"(('Eagles', 'Parrots'), 'Falcons')",75
+329,"(('Eagles', 'Peacocks'), 'All birds')",40
+330,"(('Eagles', 'Pelicans'), 'All birds')",40
+331,"(('Eagles', 'Robins'), 'All birds')",40
+332,"(('Eagles', 'Storks'), 'All birds')",40
+333,"(('Eagles', 'Turkeys'), 'Vultures')",70
+334,"(('Eagles', 'Vultures'), 'All birds')",40
+335,"(('Eagles', 'Vultures'), 'Canaries')",50
+336,"(('Eagles',), 'All birds')",30
+337,"(('Eagles',), 'Blackbirds')",60
+338,"(('Eagles',), 'Canaries')",60
+339,"(('Eagles',), 'Falcons')",80
+340,"(('Eagles',), 'Magpies')",60
+341,"(('Eagles',), 'Robins')",70
+342,"(('Eagles',), 'Turkeys')",60
+343,"(('Eagles',), 'Vultures')",70
+344,"(('Elephants', 'Camels'), 'All mammals')",40
+345,"(('Elephants', 'Donkeys'), 'Horses')",70
+346,"(('Elephants', 'Giraffes'), 'All mammals')",35
+347,"(('Elephants', 'Hedgehogs'), 'All mammals')",40
+348,"(('Elephants', 'Llamas'), 'All mammals')",40
+349,"(('Elephants', 'Llamas'), 'Squirrels')",50
+350,"(('Elephants', 'Rhinos'), 'All mammals')",35
+351,"(('Elephants', 'Rhinos'), 'Horses')",50
+352,"(('Elephants', 'Zebras'), 'All mammals')",40
+353,"(('Elephants',), 'All mammals')",30
+354,"(('Elephants',), 'Hamsters')",40
+355,"(('Elephants',), 'Hedgehogs')",40
+356,"(('Elephants',), 'Horses')",60
+357,"(('Elephants',), 'Mice')",50
+358,"(('Elephants',), 'Squirrels')",50
+359,"(('Elephants',), 'Wolves')",50
+360,"(('Falcons', 'Eagles'), 'All birds')",40
+361,"(('Falcons', 'Robins'), 'Sparrows')",75
+362,"(('Falcons', 'Sparrows'), 'Robins')",75
+363,"(('Falcons', 'Storks'), 'All birds')",40
+364,"(('Falcons', 'Swans'), 'All birds')",40
+365,"(('Falcons', 'Vultures'), 'All birds')",35
+366,"(('Falcons', 'Woodpeckers'), 'Swans')",50
+367,"(('Falcons',), 'All birds')",30
+368,"(('Falcons',), 'Canaries')",70
+369,"(('Falcons',), 'Herons')",60
+370,"(('Falcons',), 'Robins')",70
+371,"(('Falcons',), 'Sparrows')",70
+372,"(('Falcons',), 'Swans')",60
+373,"(('Foxes', 'Beavers'), 'All mammals')",40
+374,"(('Foxes', 'Deer'), 'Hippos')",40
+375,"(('Foxes', 'Donkeys'), 'All mammals')",40
+376,"(('Foxes', 'Elephants'), 'All mammals')",40
+377,"(('Foxes', 'Hamsters'), 'All mammals')",40
+378,"(('Foxes', 'Lions'), 'All mammals')",40
+379,"(('Foxes', 'Llamas'), 'Tigers')",50
+380,"(('Foxes', 'Squirrels'), 'Wolves')",60
+381,"(('Foxes', 'Wolves'), 'All mammals')",35
+382,"(('Foxes',), 'All mammals')",30
+383,"(('Foxes',), 'Cows')",50
+384,"(('Foxes',), 'Hippos')",40
+385,"(('Foxes',), 'Tigers')",70
+386,"(('Foxes',), 'Wolves')",80
+387,"(('Giraffes', 'Dogs'), 'Foxes')",70
+388,"(('Giraffes', 'Elephants'), 'Hamsters')",40
+389,"(('Giraffes', 'Hippos'), 'All mammals')",40
+390,"(('Giraffes', 'Tigers'), 'Mice')",50
+391,"(('Giraffes',), 'All mammals')",25
+392,"(('Giraffes',), 'Cats')",50
+393,"(('Giraffes',), 'Elephants')",60
+394,"(('Giraffes',), 'Foxes')",50
+395,"(('Giraffes',), 'Hamsters')",40
+396,"(('Giraffes',), 'Llamas')",60
+397,"(('Giraffes',), 'Mice')",40
+398,"(('Gorillas', 'Mice'), 'Horses')",60
+399,"(('Gorillas', 'Squirrels'), 'Horses')",50
+400,"(('Gorillas',), 'Horses')",40
+401,"(('Hamsters', 'Beavers'), 'All mammals')",40
+402,"(('Hamsters', 'Camels'), 'Hedgehogs')",50
+403,"(('Hamsters', 'Cats'), 'Rabbits')",70
+404,"(('Hamsters', 'Deer'), 'All mammals')",40
+405,"(('Hamsters', 'Deer'), 'Squirrels')",70
+406,"(('Hamsters', 'Donkeys'), 'Llamas')",60
+407,"(('Hamsters', 'Elephants'), 'Mice')",60
+408,"(('Hamsters', 'Giraffes'), 'Foxes')",50
+409,"(('Hamsters', 'Hedgehogs'), 'All mammals')",35
+410,"(('Hamsters', 'Llamas'), 'All mammals')",40
+411,"(('Hamsters', 'Squirrels'), 'All mammals')",40
+412,"(('Hamsters', 'Tigers'), 'Cats')",70
+413,"(('Hamsters',), 'All mammals')",30
+414,"(('Hamsters',), 'Cats')",60
+415,"(('Hamsters',), 'Donkeys')",40
+416,"(('Hamsters',), 'Foxes')",60
+417,"(('Hamsters',), 'Giraffes')",40
+418,"(('Hamsters',), 'Hedgehogs')",60
+419,"(('Hamsters',), 'Lions')",60
+420,"(('Hamsters',), 'Llamas')",40
+421,"(('Hamsters',), 'Mice')",70
+422,"(('Hamsters',), 'Rabbits')",70
+423,"(('Hamsters',), 'Squirrels')",70
+424,"(('Hamsters',), 'Zebras')",40
+425,"(('Hawks',), 'Falcons')",80
+426,"(('Hedgehogs', 'Beavers'), 'All mammals')",40
+427,"(('Hedgehogs', 'Cats'), 'All mammals')",40
+428,"(('Hedgehogs', 'Hamsters'), 'Donkeys')",40
+429,"(('Hedgehogs', 'Mice'), 'Elephants')",40
+430,"(('Hedgehogs', 'Sheep'), 'All mammals')",40
+431,"(('Hedgehogs', 'Sheep'), 'Elephants')",50
+432,"(('Hedgehogs', 'Wolves'), 'Elephants')",50
+433,"(('Hedgehogs',), 'All mammals')",30
+434,"(('Hedgehogs',), 'Donkeys')",40
+435,"(('Hedgehogs',), 'Elephants')",40
+436,"(('Hedgehogs',), 'Rhinos')",40
+437,"(('Hedgehogs',), 'Wolves')",50
+438,"(('Hedgehogs',), 'Zebras')",40
+439,"(('Helicopters', 'Boats'), 'All vehicles')",40
+440,"(('Helicopters', 'Buses'), 'Boats')",50
+441,"(('Helicopters', 'Carriages'), 'Airplanes')",50
+442,"(('Helicopters', 'Cars'), 'Sleds')",50
+443,"(('Helicopters', 'Hovercraft'), 'All vehicles')",40
+444,"(('Helicopters', 'Hovercraft'), 'Bicycles')",40
+445,"(('Helicopters', 'Hovercraft'), 'Rockets')",60
+446,"(('Helicopters', 'Rockets'), 'All vehicles')",40
+447,"(('Helicopters', 'Rockets'), 'Trams')",40
+448,"(('Helicopters', 'Skateboards'), 'Zeppelins')",50
+449,"(('Helicopters', 'Submarines'), 'All vehicles')",40
+450,"(('Helicopters', 'Trains'), 'All vehicles')",40
+451,"(('Helicopters', 'Trucks'), 'Jeeps')",70
+452,"(('Helicopters', 'Zeppelins'), 'All vehicles')",35
+453,"(('Helicopters',), 'Airplanes')",80
+454,"(('Helicopters',), 'All vehicles')",30
+455,"(('Helicopters',), 'Bicycles')",50
+456,"(('Helicopters',), 'Boats')",50
+457,"(('Helicopters',), 'Jeeps')",40
+458,"(('Helicopters',), 'Rockets')",70
+459,"(('Helicopters',), 'Skateboards')",40
+460,"(('Helicopters',), 'Sleds')",40
+461,"(('Helicopters',), 'Trams')",40
+462,"(('Helicopters',), 'Zeppelins')",60
+463,"(('Herons', 'Blackbirds'), 'Doves')",70
+464,"(('Herons', 'Eagles'), 'All birds')",40
+465,"(('Herons', 'Magpies'), 'Crows')",70
+466,"(('Herons', 'Magpies'), 'Storks')",60
+467,"(('Herons', 'Peacocks'), 'All birds')",35
+468,"(('Herons', 'Pelicans'), 'All birds')",35
+469,"(('Herons', 'Storks'), 'All birds')",35
+470,"(('Herons', 'Storks'), 'Ostriches')",60
+471,"(('Herons', 'Swallows'), 'Sparrows')",70
+472,"(('Herons', 'Swans'), 'Doves')",60
+473,"(('Herons', 'Vultures'), 'All birds')",40
+474,"(('Herons', 'Woodpeckers'), 'All birds')",35
+475,"(('Herons', 'Woodpeckers'), 'Doves')",50
+476,"(('Herons',), 'All birds')",30
+477,"(('Herons',), 'Crows')",60
+478,"(('Herons',), 'Doves')",60
+479,"(('Herons',), 'Ostriches')",60
+480,"(('Herons',), 'Peacocks')",60
+481,"(('Herons',), 'Sparrows')",60
+482,"(('Herons',), 'Storks')",70
+483,"(('Hippos', 'Cats'), 'Tigers')",70
+484,"(('Hippos', 'Elephants'), 'All mammals')",35
+485,"(('Hippos', 'Giraffes'), 'Mice')",50
+486,"(('Hippos', 'Hedgehogs'), 'All mammals')",40
+487,"(('Hippos', 'Hedgehogs'), 'Zebras')",50
+488,"(('Hippos', 'Horses'), 'Cows')",70
+489,"(('Hippos', 'Tigers'), 'Rhinos')",60
+490,"(('Hippos', 'Wolves'), 'Dogs')",70
+491,"(('Hippos',), 'All mammals')",25
+492,"(('Hippos',), 'Beavers')",60
+493,"(('Hippos',), 'Cows')",60
+494,"(('Hippos',), 'Deer')",60
+495,"(('Hippos',), 'Dogs')",40
+496,"(('Hippos',), 'Donkeys')",50
+497,"(('Hippos',), 'Mice')",40
+498,"(('Hippos',), 'Rabbits')",40
+499,"(('Hippos',), 'Rhinos')",70
+500,"(('Hippos',), 'Tigers')",50
+501,"(('Hippos',), 'Zebras')",50
+502,"(('Horses', 'Cats'), 'All mammals')",40
+503,"(('Horses', 'Cows'), 'All mammals')",40
+504,"(('Horses', 'Deer'), 'Zebras')",70
+505,"(('Horses', 'Foxes'), 'All mammals')",40
+506,"(('Horses', 'Hamsters'), 'All mammals')",40
+507,"(('Horses', 'Hippos'), 'Donkeys')",60
+508,"(('Horses', 'Lions'), 'Hedgehogs')",50
+509,"(('Horses', 'Squirrels'), 'All mammals')",40
+510,"(('Horses', 'Tigers'), 'Donkeys')",60
+511,"(('Horses', 'Wolves'), 'Foxes')",70
+512,"(('Horses',), 'All mammals')",30
+513,"(('Horses',), 'Cats')",60
+514,"(('Horses',), 'Cows')",70
+515,"(('Horses',), 'Donkeys')",80
+516,"(('Horses',), 'Foxes')",60
+517,"(('Horses',), 'Hedgehogs')",40
+518,"(('Horses',), 'Ponies')",85
+519,"(('Horses',), 'Tigers')",50
+520,"(('Horses',), 'Zebras')",80
+521,"(('Hovercraft', 'Airplanes'), 'All vehicles')",40
+522,"(('Hovercraft', 'Bicycles'), 'All vehicles')",40
+523,"(('Hovercraft', 'Cars'), 'All vehicles')",40
+524,"(('Hovercraft', 'Rockets'), 'All vehicles')",40
+525,"(('Hovercraft', 'Submarines'), 'All vehicles')",40
+526,"(('Hovercraft', 'Submarines'), 'Motorbikes')",40
+527,"(('Hovercraft', 'Tractors'), 'All vehicles')",40
+528,"(('Hovercraft', 'Tractors'), 'Vans')",50
+529,"(('Hovercraft',), 'All vehicles')",30
+530,"(('Hovercraft',), 'Bicycles')",50
+531,"(('Hovercraft',), 'Boats')",60
+532,"(('Hovercraft',), 'Motorbikes')",50
+533,"(('Hovercraft',), 'Rockets')",60
+534,"(('Hovercraft',), 'Tractors')",50
+535,"(('Hovercraft',), 'Vans')",40
+536,"(('Jeeps', 'Airplanes'), 'Tractors')",50
+537,"(('Jeeps', 'Bicycles'), 'All vehicles')",40
+538,"(('Jeeps', 'Helicopters'), 'All vehicles')",40
+539,"(('Jeeps', 'Mopeds'), 'Motorbikes')",75
+540,"(('Jeeps', 'Sleds'), 'All vehicles')",35
+541,"(('Jeeps', 'Trucks'), 'Submarines')",40
+542,"(('Jeeps',), 'All vehicles')",30
+543,"(('Jeeps',), 'Cars')",80
+544,"(('Jeeps',), 'Helicopters')",40
+545,"(('Jeeps',), 'Motorbikes')",60
+546,"(('Jeeps',), 'Rockets')",30
+547,"(('Jeeps',), 'Submarines')",30
+548,"(('Jeeps',), 'Tractors')",60
+549,"(('Lions', 'Camels'), 'All mammals')",40
+550,"(('Lions', 'Cows'), 'Hippos')",50
+551,"(('Lions', 'Cows'), 'Rhinos')",50
+552,"(('Lions', 'Hamsters'), 'All mammals')",40
+553,"(('Lions', 'Hedgehogs'), 'Rhinos')",50
+554,"(('Lions', 'Hippos'), 'Rhinos')",70
+555,"(('Lions', 'Mice'), 'Dogs')",60
+556,"(('Lions', 'Wolves'), 'Hedgehogs')",40
+557,"(('Lions', 'Zebras'), 'All mammals')",40
+558,"(('Lions',), 'All mammals')",30
+559,"(('Lions',), 'Cats')",80
+560,"(('Lions',), 'Dogs')",60
+561,"(('Lions',), 'Hedgehogs')",40
+562,"(('Lions',), 'Hippos')",40
+563,"(('Lions',), 'Rhinos')",40
+564,"(('Lions',), 'Squirrels')",40
+565,"(('Llamas', 'Beavers'), 'Hamsters')",50
+566,"(('Llamas', 'Camels'), 'All mammals')",35
+567,"(('Llamas', 'Dogs'), 'All mammals')",40
+568,"(('Llamas', 'Donkeys'), 'Horses')",70
+569,"(('Llamas', 'Hamsters'), 'Giraffes')",50
+570,"(('Llamas', 'Lions'), 'All mammals')",40
+571,"(('Llamas', 'Lions'), 'Cats')",60
+572,"(('Llamas', 'Squirrels'), 'All mammals')",40
+573,"(('Llamas', 'Zebras'), 'Giraffes')",50
+574,"(('Llamas',), 'All mammals')",30
+575,"(('Llamas',), 'Cats')",40
+576,"(('Llamas',), 'Dogs')",50
+577,"(('Llamas',), 'Giraffes')",60
+578,"(('Llamas',), 'Hamsters')",40
+579,"(('Llamas',), 'Horses')",70
+580,"(('Llamas',), 'Squirrels')",40
+581,"(('Llamas',), 'Tigers')",50
+582,"(('Llamas',), 'Zebras')",50
+583,"(('Magpies', 'Chickens'), 'Turkeys')",70
+584,"(('Magpies', 'Crows'), 'Swans')",40
+585,"(('Magpies', 'Ducks'), 'All birds')",40
+586,"(('Magpies', 'Herons'), 'All birds')",35
+587,"(('Magpies', 'Pelicans'), 'All birds')",35
+588,"(('Magpies', 'Roosters'), 'Chickens')",75
+589,"(('Magpies', 'Seagulls'), 'Falcons')",70
+590,"(('Magpies',), 'All birds')",30
+591,"(('Magpies',), 'Blackbirds')",70
+592,"(('Magpies',), 'Chickens')",60
+593,"(('Magpies',), 'Crows')",75
+594,"(('Magpies',), 'Ducks')",60
+595,"(('Magpies',), 'Falcons')",70
+596,"(('Magpies',), 'Storks')",60
+597,"(('Magpies',), 'Swans')",60
+598,"(('Magpies',), 'Turkeys')",40
+599,"(('Magpies',), 'Woodpeckers')",60
+600,"(('Mice', 'Dogs'), 'All mammals')",40
+601,"(('Mice', 'Dolphins'), 'Horses')",50
+602,"(('Mice', 'Hamsters'), 'All mammals')",40
+603,"(('Mice', 'Hedgehogs'), 'All mammals')",35
+604,"(('Mice', 'Hedgehogs'), 'Wolves')",50
+605,"(('Mice', 'Horses'), 'All mammals')",40
+606,"(('Mice', 'Llamas'), 'All mammals')",40
+607,"(('Mice', 'Rabbits'), 'All mammals')",40
+608,"(('Mice', 'Rabbits'), 'Hippos')",40
+609,"(('Mice', 'Squirrels'), 'All mammals')",40
+610,"(('Mice', 'Squirrels'), 'Horses')",40
+611,"(('Mice', 'Wolves'), 'All mammals')",40
+612,"(('Mice',), 'All mammals')",35
+613,"(('Mice',), 'Cats')",60
+614,"(('Mice',), 'Dogs')",60
+615,"(('Mice',), 'Elephants')",50
+616,"(('Mice',), 'Giraffes')",50
+617,"(('Mice',), 'Hamsters')",75
+618,"(('Mice',), 'Hippos')",40
+619,"(('Mice',), 'Horses')",50
+620,"(('Mice',), 'Rabbits')",70
+621,"(('Mice',), 'Wolves')",60
+622,"(('Mopeds', 'Airplanes'), 'All vehicles')",40
+623,"(('Mopeds', 'Bicycles'), 'Submarines')",30
+624,"(('Mopeds', 'Cars'), 'Motorbikes')",75
+625,"(('Mopeds', 'Helicopters'), 'Skateboards')",40
+626,"(('Mopeds', 'Trucks'), 'All vehicles')",40
+627,"(('Mopeds',), 'All vehicles')",30
+628,"(('Mopeds',), 'Cars')",70
+629,"(('Mopeds',), 'Jeeps')",60
+630,"(('Mopeds',), 'Motorbikes')",80
+631,"(('Mopeds',), 'Rockets')",40
+632,"(('Mopeds',), 'Scooters')",80
+633,"(('Mopeds',), 'Skateboards')",40
+634,"(('Mopeds',), 'Submarines')",40
+635,"(('Motorbikes', 'Buses'), 'Trains')",70
+636,"(('Motorbikes', 'Cars'), 'All vehicles')",40
+637,"(('Motorbikes', 'Sleds'), 'Bicycles')",70
+638,"(('Motorbikes', 'Taxis'), 'All vehicles')",40
+639,"(('Motorbikes', 'Trucks'), 'Bicycles')",50
+640,"(('Motorbikes',), 'All vehicles')",30
+641,"(('Motorbikes',), 'Bicycles')",70
+642,"(('Motorbikes',), 'Buses')",70
+643,"(('Motorbikes',), 'Carriages')",40
+644,"(('Motorbikes',), 'Cars')",80
+645,"(('Motorbikes',), 'Jeeps')",60
+646,"(('Motorbikes',), 'Mopeds')",80
+647,"(('Motorbikes',), 'Rockets')",60
+648,"(('Motorbikes',), 'Trains')",60
+649,"(('Ostriches', 'Blackbirds'), 'Swallows')",75
+650,"(('Ostriches', 'Doves'), 'Ducks')",70
+651,"(('Ostriches', 'Ducks'), 'Magpies')",70
+652,"(('Ostriches', 'Ducks'), 'Storks')",70
+653,"(('Ostriches', 'Eagles'), 'All birds')",40
+654,"(('Ostriches', 'Parrots'), 'All birds')",40
+655,"(('Ostriches', 'Peacocks'), 'All birds')",40
+656,"(('Ostriches', 'Pelicans'), 'All birds')",40
+657,"(('Ostriches', 'Storks'), 'Canaries')",60
+658,"(('Ostriches', 'Storks'), 'Robins')",60
+659,"(('Ostriches', 'Swans'), 'Crows')",50
+660,"(('Ostriches', 'Turkeys'), 'All birds')",40
+661,"(('Ostriches', 'Vultures'), 'Canaries')",50
+662,"(('Ostriches',), 'All birds')",30
+663,"(('Ostriches',), 'Blackbirds')",60
+664,"(('Ostriches',), 'Canaries')",60
+665,"(('Ostriches',), 'Crows')",60
+666,"(('Ostriches',), 'Ducks')",60
+667,"(('Ostriches',), 'Magpies')",40
+668,"(('Ostriches',), 'Pelicans')",60
+669,"(('Ostriches',), 'Robins')",60
+670,"(('Ostriches',), 'Sparrows')",60
+671,"(('Ostriches',), 'Storks')",60
+672,"(('Ostriches',), 'Swallows')",60
+673,"(('Parrots', 'Canaries'), 'All birds')",40
+674,"(('Parrots', 'Chickens'), 'All birds')",40
+675,"(('Parrots', 'Chickens'), 'Roosters')",90
+676,"(('Parrots', 'Ducks'), 'Sparrows')",60
+677,"(('Parrots', 'Eagles'), 'Vultures')",70
+678,"(('Parrots', 'Magpies'), 'All birds')",40
+679,"(('Parrots', 'Robins'), 'All birds')",40
+680,"(('Parrots', 'Roosters'), 'All birds')",40
+681,"(('Parrots', 'Sparrows'), 'All birds')",40
+682,"(('Parrots', 'Vultures'), 'Crows')",70
+683,"(('Parrots', 'Woodpeckers'), 'All birds')",35
+684,"(('Parrots',), 'All birds')",30
+685,"(('Parrots',), 'Crows')",70
+686,"(('Parrots',), 'Doves')",70
+687,"(('Parrots',), 'Ducks')",60
+688,"(('Parrots',), 'Eagles')",70
+689,"(('Parrots',), 'Falcons')",70
+690,"(('Parrots',), 'Ostriches')",60
+691,"(('Parrots',), 'Roosters')",70
+692,"(('Parrots',), 'Sparrows')",70
+693,"(('Parrots',), 'Turkeys')",60
+694,"(('Parrots',), 'Vultures')",60
+695,"(('Peacocks', 'Falcons'), 'All birds')",40
+696,"(('Peacocks', 'Magpies'), 'All birds')",40
+697,"(('Peacocks', 'Seagulls'), 'Turkeys')",50
+698,"(('Peacocks', 'Swans'), 'All birds')",35
+699,"(('Peacocks', 'Swans'), 'Ducks')",60
+700,"(('Peacocks', 'Vultures'), 'All birds')",40
+701,"(('Peacocks',), 'All birds')",30
+702,"(('Peacocks',), 'Ducks')",60
+703,"(('Peacocks',), 'Roosters')",70
+704,"(('Peacocks',), 'Seagulls')",50
+705,"(('Peacocks',), 'Turkeys')",60
+706,"(('Pelicans', 'Blackbirds'), 'Sparrows')",70
+707,"(('Pelicans', 'Chickens'), 'All birds')",40
+708,"(('Pelicans', 'Ducks'), 'All birds')",40
+709,"(('Pelicans', 'Falcons'), 'Canaries')",60
+710,"(('Pelicans', 'Falcons'), 'Herons')",70
+711,"(('Pelicans', 'Herons'), 'Doves')",40
+712,"(('Pelicans', 'Ostriches'), 'Canaries')",60
+713,"(('Pelicans', 'Peacocks'), 'All birds')",40
+714,"(('Pelicans', 'Storks'), 'All birds')",35
+715,"(('Pelicans', 'Swallows'), 'All birds')",40
+716,"(('Pelicans', 'Swans'), 'All birds')",40
+717,"(('Pelicans',), 'All birds')",30
+718,"(('Pelicans',), 'Canaries')",60
+719,"(('Pelicans',), 'Doves')",60
+720,"(('Pelicans',), 'Herons')",75
+721,"(('Pelicans',), 'Parrots')",60
+722,"(('Pelicans',), 'Sparrows')",60
+723,"(('Pigeons',), 'Doves')",80
+724,"(('Rabbits', 'Hamsters'), 'All mammals')",40
+725,"(('Rabbits', 'Hedgehogs'), 'All mammals')",35
+726,"(('Rabbits', 'Horses'), 'All mammals')",40
+727,"(('Rabbits', 'Lions'), 'All mammals')",40
+728,"(('Rabbits', 'Llamas'), 'All mammals')",40
+729,"(('Rabbits', 'Squirrels'), 'All mammals')",40
+730,"(('Rabbits',), 'All mammals')",30
+731,"(('Rabbits',), 'Foxes')",60
+732,"(('Rabbits',), 'Hippos')",40
+733,"(('Rabbits',), 'Horses')",60
+734,"(('Rabbits',), 'Lions')",50
+735,"(('Rabbits',), 'Rhinos')",40
+736,"(('Rabbits',), 'Tigers')",50
+737,"(('Rhinos', 'Beavers'), 'All mammals')",40
+738,"(('Rhinos', 'Camels'), 'Mice')",40
+739,"(('Rhinos', 'Donkeys'), 'All mammals')",40
+740,"(('Rhinos', 'Elephants'), 'Squirrels')",40
+741,"(('Rhinos', 'Elephants'), 'Wolves')",40
+742,"(('Rhinos', 'Giraffes'), 'All mammals')",35
+743,"(('Rhinos', 'Hippos'), 'All mammals')",35
+744,"(('Rhinos', 'Hippos'), 'Rabbits')",40
+745,"(('Rhinos',), 'All mammals')",25
+746,"(('Rhinos',), 'Horses')",60
+747,"(('Rhinos',), 'Mice')",40
+748,"(('Rhinos',), 'Rabbits')",40
+749,"(('Rhinos',), 'Squirrels')",40
+750,"(('Rhinos',), 'Wolves')",40
+751,"(('Robins', 'Blackbirds'), 'All birds')",35
+752,"(('Robins', 'Canaries'), 'Eagles')",50
+753,"(('Robins', 'Parrots'), 'Doves')",70
+754,"(('Robins', 'Sparrows'), 'Pelicans')",60
+755,"(('Robins', 'Swallows'), 'Peacocks')",60
+756,"(('Robins',), 'All birds')",30
+757,"(('Robins',), 'Doves')",70
+758,"(('Robins',), 'Eagles')",70
+759,"(('Robins',), 'Falcons')",70
+760,"(('Robins',), 'Herons')",60
+761,"(('Robins',), 'Parrots')",70
+762,"(('Robins',), 'Peacocks')",60
+763,"(('Robins',), 'Pelicans')",60
+764,"(('Robins',), 'Roosters')",70
+765,"(('Robins',), 'Sparrows')",70
+766,"(('Rockets', 'Airplanes'), 'All vehicles')",40
+767,"(('Rockets', 'Bicycles'), 'All vehicles')",50
+768,"(('Rockets', 'Boats'), 'All vehicles')",40
+769,"(('Rockets', 'Carriages'), 'Submarines')",50
+770,"(('Rockets', 'Motorbikes'), 'All vehicles')",40
+771,"(('Rockets', 'Sleds'), 'Bicycles')",50
+772,"(('Rockets', 'Submarines'), 'All vehicles')",40
+773,"(('Rockets', 'Taxis'), 'All vehicles')",40
+774,"(('Rockets', 'Trains'), 'Submarines')",50
+775,"(('Rockets', 'Trams'), 'All vehicles')",40
+776,"(('Rockets', 'Vans'), 'All vehicles')",40
+777,"(('Rockets', 'Zeppelins'), 'Mopeds')",40
+778,"(('Rockets',), 'Airplanes')",70
+779,"(('Rockets',), 'All vehicles')",30
+780,"(('Rockets',), 'Bicycles')",40
+781,"(('Rockets',), 'Mopeds')",40
+782,"(('Rockets',), 'Submarines')",50
+783,"(('Rockets',), 'Trams')",40
+784,"(('Roosters', 'Canaries'), 'All birds')",40
+785,"(('Roosters', 'Chickens'), 'All birds')",40
+786,"(('Roosters', 'Chickens'), 'Blackbirds')",60
+787,"(('Roosters', 'Doves'), 'Robins')",67
+788,"(('Roosters', 'Peacocks'), 'All birds')",35
+789,"(('Roosters', 'Robins'), 'Parrots')",75
+790,"(('Roosters', 'Seagulls'), 'Eagles')",70
+791,"(('Roosters', 'Sparrows'), 'All birds')",40
+792,"(('Roosters', 'Swans'), 'Chickens')",75
+793,"(('Roosters',), 'All birds')",30
+794,"(('Roosters',), 'Blackbirds')",60
+795,"(('Roosters',), 'Chickens')",90
+796,"(('Roosters',), 'Eagles')",60
+797,"(('Roosters',), 'Parrots')",60
+798,"(('Roosters',), 'Robins')",60
+799,"(('Seagulls', 'Blackbirds'), 'All birds')",40
+800,"(('Seagulls', 'Chickens'), 'Roosters')",90
+801,"(('Seagulls', 'Ducks'), 'All birds')",40
+802,"(('Seagulls',), 'All birds')",30
+803,"(('Seagulls',), 'Eagles')",70
+804,"(('Seagulls',), 'Falcons')",70
+805,"(('Seagulls',), 'Robins')",70
+806,"(('Seagulls',), 'Roosters')",60
+807,"(('Seagulls',), 'Storks')",70
+808,"(('Seagulls',), 'Turkeys')",60
+809,"(('Seals',), 'Horses')",50
+810,"(('Sheep', 'Beavers'), 'All mammals')",40
+811,"(('Sheep', 'Camels'), 'All mammals')",40
+812,"(('Sheep', 'Dogs'), 'Rabbits')",60
+813,"(('Sheep', 'Elephants'), 'Hedgehogs')",50
+814,"(('Sheep', 'Giraffes'), 'Elephants')",50
+815,"(('Sheep', 'Hippos'), 'Deer')",50
+816,"(('Sheep', 'Zebras'), 'Beavers')",50
+817,"(('Sheep',), 'All mammals')",30
+818,"(('Sheep',), 'Beavers')",40
+819,"(('Sheep',), 'Deer')",70
+820,"(('Sheep',), 'Elephants')",50
+821,"(('Sheep',), 'Hedgehogs')",40
+822,"(('Sheep',), 'Llamas')",70
+823,"(('Sheep',), 'Mice')",50
+824,"(('Sheep',), 'Rabbits')",60
+825,"(('Skateboards', 'Bicycles'), 'All vehicles')",40
+826,"(('Skateboards', 'Boats'), 'All vehicles')",40
+827,"(('Skateboards', 'Helicopters'), 'All vehicles')",40
+828,"(('Skateboards', 'Hovercraft'), 'All vehicles')",40
+829,"(('Skateboards', 'Jeeps'), 'Tractors')",60
+830,"(('Skateboards', 'Mopeds'), 'All vehicles')",40
+831,"(('Skateboards', 'Rockets'), 'All vehicles')",40
+832,"(('Skateboards', 'Sleds'), 'Helicopters')",40
+833,"(('Skateboards', 'Tractors'), 'Carts')",60
+834,"(('Skateboards', 'Trucks'), 'Rockets')",50
+835,"(('Skateboards', 'Zeppelins'), 'All vehicles')",40
+836,"(('Skateboards',), 'All vehicles')",35
+837,"(('Skateboards',), 'Carts')",60
+838,"(('Skateboards',), 'Helicopters')",40
+839,"(('Skateboards',), 'Mopeds')",60
+840,"(('Skateboards',), 'Rockets')",40
+841,"(('Skateboards',), 'Tractors')",40
+842,"(('Skateboards',), 'Zeppelins')",30
+843,"(('Sleds', 'Cars'), 'All vehicles')",40
+844,"(('Sleds', 'Rockets'), 'All vehicles')",40
+845,"(('Sleds', 'Skateboards'), 'All vehicles')",40
+846,"(('Sleds', 'Submarines'), 'All vehicles')",40
+847,"(('Sleds', 'Tractors'), 'All vehicles')",40
+848,"(('Sleds', 'Vans'), 'All vehicles')",40
+849,"(('Sleds',), 'All vehicles')",30
+850,"(('Sleds',), 'Bicycles')",60
+851,"(('Sleds',), 'Buses')",40
+852,"(('Sleds',), 'Caravans')",40
+853,"(('Sleds',), 'Helicopters')",40
+854,"(('Sleds',), 'Tractors')",50
+855,"(('Sparrows', 'Blackbirds'), 'All birds')",40
+856,"(('Sparrows', 'Canaries'), 'All birds')",35
+857,"(('Sparrows', 'Ducks'), 'All birds')",40
+858,"(('Sparrows', 'Peacocks'), 'Roosters')",75
+859,"(('Sparrows', 'Robins'), 'All birds')",35
+860,"(('Sparrows', 'Robins'), 'Herons')",60
+861,"(('Sparrows', 'Seagulls'), 'Robins')",70
+862,"(('Sparrows', 'Turkeys'), 'All birds')",40
+863,"(('Sparrows', 'Turkeys'), 'Chickens')",75
+864,"(('Sparrows',), 'All birds')",30
+865,"(('Sparrows',), 'Canaries')",75
+866,"(('Sparrows',), 'Chickens')",70
+867,"(('Sparrows',), 'Herons')",70
+868,"(('Sparrows',), 'Pelicans')",70
+869,"(('Sparrows',), 'Robins')",70
+870,"(('Sparrows',), 'Roosters')",70
+871,"(('Squirrels', 'Beavers'), 'All mammals')",40
+872,"(('Squirrels', 'Hamsters'), 'Lions')",40
+873,"(('Squirrels', 'Hedgehogs'), 'All mammals')",35
+874,"(('Squirrels', 'Horses'), 'Zebras')",60
+875,"(('Squirrels', 'Llamas'), 'Zebras')",50
+876,"(('Squirrels', 'Mice'), 'Rabbits')",70
+877,"(('Squirrels', 'Rabbits'), 'Horses')",50
+878,"(('Squirrels', 'Rabbits'), 'Rhinos')",40
+879,"(('Squirrels', 'Rabbits'), 'Tigers')",50
+880,"(('Squirrels', 'Rhinos'), 'Horses')",50
+881,"(('Squirrels', 'Seals'), 'Horses')",50
+882,"(('Squirrels', 'Sheep'), 'All mammals')",40
+883,"(('Squirrels', 'Zebras'), 'All mammals')",40
+884,"(('Squirrels',), 'All mammals')",30
+885,"(('Squirrels',), 'Cats')",60
+886,"(('Squirrels',), 'Horses')",40
+887,"(('Squirrels',), 'Lions')",50
+888,"(('Squirrels',), 'Rabbits')",70
+889,"(('Squirrels',), 'Rhinos')",40
+890,"(('Squirrels',), 'Tigers')",50
+891,"(('Squirrels',), 'Wolves')",50
+892,"(('Squirrels',), 'Zebras')",40
+893,"(('Storks', 'Chickens'), 'Roosters')",90
+894,"(('Storks', 'Doves'), 'All birds')",40
+895,"(('Storks', 'Eagles'), 'Turkeys')",50
+896,"(('Storks', 'Magpies'), 'All birds')",35
+897,"(('Storks', 'Ostriches'), 'All birds')",40
+898,"(('Storks', 'Swallows'), 'Blackbirds')",60
+899,"(('Storks', 'Turkeys'), 'All birds')",40
+900,"(('Storks',), 'All birds')",30
+901,"(('Storks',), 'Blackbirds')",60
+902,"(('Storks',), 'Canaries')",60
+903,"(('Storks',), 'Eagles')",70
+904,"(('Storks',), 'Ostriches')",70
+905,"(('Storks',), 'Pelicans')",70
+906,"(('Storks',), 'Robins')",60
+907,"(('Storks',), 'Roosters')",60
+908,"(('Storks',), 'Turkeys')",60
+909,"(('Submarines', 'Boats'), 'All vehicles')",40
+910,"(('Submarines', 'Boats'), 'Tractors')",40
+911,"(('Submarines', 'Buses'), 'Boats')",75
+912,"(('Submarines', 'Cars'), 'All vehicles')",40
+913,"(('Submarines', 'Hovercraft'), 'Tractors')",50
+914,"(('Submarines', 'Jeeps'), 'Cars')",80
+915,"(('Submarines', 'Mopeds'), 'All vehicles')",40
+916,"(('Submarines', 'Skateboards'), 'All vehicles')",40
+917,"(('Submarines', 'Trucks'), 'All vehicles')",40
+918,"(('Submarines', 'Zeppelins'), 'Caravans')",50
+919,"(('Submarines',), 'All vehicles')",30
+920,"(('Submarines',), 'Boats')",70
+921,"(('Submarines',), 'Caravans')",40
+922,"(('Submarines',), 'Cars')",50
+923,"(('Submarines',), 'Motorbikes')",40
+924,"(('Submarines',), 'Sleds')",40
+925,"(('Submarines',), 'Tractors')",40
+926,"(('Submarines',), 'Vans')",40
+927,"(('Swallows', 'Herons'), 'All birds')",40
+928,"(('Swallows', 'Peacocks'), 'Seagulls')",50
+929,"(('Swallows', 'Roosters'), 'All birds')",40
+930,"(('Swallows', 'Swans'), 'Ducks')",75
+931,"(('Swallows',), 'All birds')",30
+932,"(('Swallows',), 'Blackbirds')",70
+933,"(('Swallows',), 'Chickens')",60
+934,"(('Swallows',), 'Ducks')",60
+935,"(('Swallows',), 'Peacocks')",60
+936,"(('Swallows',), 'Seagulls')",70
+937,"(('Swallows',), 'Sparrows')",70
+938,"(('Swans', 'Blackbirds'), 'All birds')",40
+939,"(('Swans', 'Canaries'), 'Eagles')",50
+940,"(('Swans', 'Ducks'), 'All birds')",40
+941,"(('Swans', 'Magpies'), 'All birds')",40
+942,"(('Swans', 'Magpies'), 'Blackbirds')",70
+943,"(('Swans', 'Magpies'), 'Ducks')",70
+944,"(('Swans', 'Ostriches'), 'All birds')",40
+945,"(('Swans', 'Parrots'), 'All birds')",40
+946,"(('Swans', 'Parrots'), 'Ducks')",70
+947,"(('Swans', 'Parrots'), 'Eagles')",50
+948,"(('Swans', 'Sparrows'), 'All birds')",40
+949,"(('Swans', 'Woodpeckers'), 'All birds')",40
+950,"(('Swans', 'Woodpeckers'), 'Sparrows')",60
+951,"(('Swans',), 'All birds')",30
+952,"(('Swans',), 'Blackbirds')",60
+953,"(('Swans',), 'Chickens')",60
+954,"(('Swans',), 'Crows')",60
+955,"(('Swans',), 'Doves')",60
+956,"(('Swans',), 'Ducks')",70
+957,"(('Swans',), 'Eagles')",60
+958,"(('Swans',), 'Sparrows')",60
+959,"(('Swans',), 'Woodpeckers')",40
+960,"(('Taxis', 'Boats'), 'Carts')",50
+961,"(('Taxis', 'Carts'), 'All vehicles')",40
+962,"(('Taxis', 'Motorbikes'), 'Cars')",75
+963,"(('Taxis', 'Skateboards'), 'All vehicles')",40
+964,"(('Taxis', 'Trains'), 'All vehicles')",40
+965,"(('Taxis', 'Trains'), 'Cars')",75
+966,"(('Taxis',), 'All vehicles')",30
+967,"(('Taxis',), 'Cabs')",95
+968,"(('Taxis',), 'Cars')",90
+969,"(('Taxis',), 'Carts')",60
+970,"(('Taxis',), 'Mopeds')",60
+971,"(('Taxis',), 'Trains')",60
+972,"(('Tigers', 'Cats'), 'All mammals')",40
+973,"(('Tigers', 'Cats'), 'Lions')",80
+974,"(('Tigers', 'Deer'), 'Squirrels')",50
+975,"(('Tigers', 'Donkeys'), 'All mammals')",40
+976,"(('Tigers', 'Hamsters'), 'All mammals')",40
+977,"(('Tigers', 'Hedgehogs'), 'All mammals')",40
+978,"(('Tigers', 'Horses'), 'All mammals')",40
+979,"(('Tigers', 'Lions'), 'Squirrels')",40
+980,"(('Tigers', 'Llamas'), 'Cats')",60
+981,"(('Tigers', 'Rabbits'), 'Lions')",70
+982,"(('Tigers', 'Squirrels'), 'Cats')",70
+983,"(('Tigers',), 'All mammals')",30
+984,"(('Tigers',), 'Cats')",80
+985,"(('Tigers',), 'Donkeys')",40
+986,"(('Tigers',), 'Lions')",80
+987,"(('Tigers',), 'Mice')",40
+988,"(('Tigers',), 'Rhinos')",40
+989,"(('Tigers',), 'Squirrels')",40
+990,"(('Tractors', 'Airplanes'), 'Jeeps')",50
+991,"(('Tractors', 'Carriages'), 'All vehicles')",40
+992,"(('Tractors', 'Mopeds'), 'Jeeps')",70
+993,"(('Tractors', 'Rockets'), 'All vehicles')",40
+994,"(('Tractors', 'Skateboards'), 'Zeppelins')",50
+995,"(('Tractors', 'Taxis'), 'Mopeds')",50
+996,"(('Tractors', 'Trams'), 'All vehicles')",40
+997,"(('Tractors',), 'All vehicles')",30
+998,"(('Tractors',), 'Carts')",60
+999,"(('Tractors',), 'Jeeps')",60
+1000,"(('Tractors',), 'Mopeds')",50
+1001,"(('Tractors',), 'Vans')",60
+1002,"(('Tractors',), 'Zeppelins')",40
+1003,"(('Trains', 'Boats'), 'Trams')",70
+1004,"(('Trains', 'Carriages'), 'Carts')",70
+1005,"(('Trains', 'Skateboards'), 'All vehicles')",40
+1006,"(('Trains', 'Tractors'), 'All vehicles')",40
+1007,"(('Trains', 'Trucks'), 'Caravans')",70
+1008,"(('Trains',), 'All vehicles')",30
+1009,"(('Trains',), 'Caravans')",50
+1010,"(('Trains',), 'Cars')",70
+1011,"(('Trains',), 'Carts')",60
+1012,"(('Trains',), 'Submarines')",50
+1013,"(('Trains',), 'Trams')",80
+1014,"(('Trams', 'Bicycles'), 'Boats')",50
+1015,"(('Trams', 'Boats'), 'Hovercraft')",60
+1016,"(('Trams', 'Buses'), 'Trains')",75
+1017,"(('Trams', 'Buses'), 'Vans')",60
+1018,"(('Trams', 'Carriages'), 'Jeeps')",50
+1019,"(('Trams', 'Cars'), 'All vehicles')",40
+1020,"(('Trams', 'Jeeps'), 'All vehicles')",40
+1021,"(('Trams', 'Mopeds'), 'Motorbikes')",70
+1022,"(('Trams', 'Sleds'), 'All vehicles')",40
+1023,"(('Trams', 'Taxis'), 'Trains')",70
+1024,"(('Trams', 'Trains'), 'All vehicles')",40
+1025,"(('Trams', 'Trucks'), 'Cars')",70
+1026,"(('Trams', 'Vans'), 'Caravans')",70
+1027,"(('Trams', 'Vans'), 'Trucks')",70
+1028,"(('Trams',), 'All vehicles')",30
+1029,"(('Trams',), 'Boats')",40
+1030,"(('Trams',), 'Buses')",70
+1031,"(('Trams',), 'Caravans')",40
+1032,"(('Trams',), 'Cars')",70
+1033,"(('Trams',), 'Hovercraft')",50
+1034,"(('Trams',), 'Jeeps')",50
+1035,"(('Trams',), 'Motorbikes')",50
+1036,"(('Trams',), 'Trains')",80
+1037,"(('Trams',), 'Trucks')",60
+1038,"(('Trams',), 'Vans')",50
+1039,"(('Trucks', 'Boats'), 'All vehicles')",40
+1040,"(('Trucks', 'Buses'), 'Carriages')",50
+1041,"(('Trucks', 'Caravans'), 'All vehicles')",40
+1042,"(('Trucks', 'Carriages'), 'All vehicles')",40
+1043,"(('Trucks', 'Cars'), 'All vehicles')",40
+1044,"(('Trucks', 'Motorbikes'), 'Buses')",70
+1045,"(('Trucks', 'Motorbikes'), 'Mopeds')",70
+1046,"(('Trucks', 'Sleds'), 'Buses')",60
+1047,"(('Trucks', 'Trains'), 'Submarines')",50
+1048,"(('Trucks', 'Vans'), 'Cars')",70
+1049,"(('Trucks',), 'All vehicles')",40
+1050,"(('Trucks',), 'Bicycles')",50
+1051,"(('Trucks',), 'Buses')",70
+1052,"(('Trucks',), 'Caravans')",60
+1053,"(('Trucks',), 'Carriages')",60
+1054,"(('Trucks',), 'Cars')",80
+1055,"(('Trucks',), 'Jeeps')",70
+1056,"(('Trucks',), 'Lorries')",90
+1057,"(('Trucks',), 'Mopeds')",50
+1058,"(('Trucks',), 'Rockets')",40
+1059,"(('Trucks',), 'Submarines')",40
+1060,"(('Trucks',), 'Trains')",70
+1061,"(('Trucks',), 'Zeppelins')",40
+1062,"(('Turkeys', 'Blackbirds'), 'All birds')",40
+1063,"(('Turkeys', 'Crows'), 'Peacocks')",60
+1064,"(('Turkeys', 'Doves'), 'Swallows')",70
+1065,"(('Turkeys', 'Falcons'), 'All birds')",40
+1066,"(('Turkeys', 'Herons'), 'Peacocks')",60
+1067,"(('Turkeys', 'Magpies'), 'All birds')",40
+1068,"(('Turkeys', 'Pelicans'), 'Parrots')",70
+1069,"(('Turkeys', 'Robins'), 'All birds')",40
+1070,"(('Turkeys', 'Roosters'), 'All birds')",40
+1071,"(('Turkeys', 'Seagulls'), 'All birds')",40
+1072,"(('Turkeys', 'Swans'), 'Woodpeckers')",50
+1073,"(('Turkeys', 'Woodpeckers'), 'All birds')",40
+1074,"(('Turkeys',), 'All birds')",35
+1075,"(('Turkeys',), 'Chickens')",80
+1076,"(('Turkeys',), 'Herons')",60
+1077,"(('Turkeys',), 'Parrots')",60
+1078,"(('Turkeys',), 'Peacocks')",60
+1079,"(('Turkeys',), 'Pelicans')",60
+1080,"(('Turkeys',), 'Swallows')",40
+1081,"(('Turkeys',), 'Vultures')",60
+1082,"(('Turkeys',), 'Woodpeckers')",60
+1083,"(('Vans', 'Boats'), 'All vehicles')",40
+1084,"(('Vans', 'Boats'), 'Caravans')",70
+1085,"(('Vans', 'Cars'), 'All vehicles')",40
+1086,"(('Vans', 'Cars'), 'Taxis')",80
+1087,"(('Vans', 'Jeeps'), 'Helicopters')",40
+1088,"(('Vans', 'Jeeps'), 'Rockets')",30
+1089,"(('Vans', 'Taxis'), 'Mopeds')",50
+1090,"(('Vans', 'Trains'), 'All vehicles')",40
+1091,"(('Vans', 'Trucks'), 'Trains')",60
+1092,"(('Vans', 'Zeppelins'), 'Buses')",50
+1093,"(('Vans',), 'All vehicles')",30
+1094,"(('Vans',), 'Bicycles')",50
+1095,"(('Vans',), 'Buses')",80
+1096,"(('Vans',), 'Caravans')",70
+1097,"(('Vans',), 'Carriages')",60
+1098,"(('Vans',), 'Cars')",80
+1099,"(('Vans',), 'Helicopters')",40
+1100,"(('Vans',), 'Mopeds')",50
+1101,"(('Vans',), 'Rockets')",40
+1102,"(('Vans',), 'Taxis')",70
+1103,"(('Vans',), 'Trains')",60
+1104,"(('Vans',), 'Trucks')",80
+1105,"(('Vultures', 'Crows'), 'All birds')",40
+1106,"(('Vultures', 'Doves'), 'All birds')",40
+1107,"(('Vultures', 'Magpies'), 'All birds')",40
+1108,"(('Vultures', 'Magpies'), 'Woodpeckers')",60
+1109,"(('Vultures', 'Ostriches'), 'All birds')",40
+1110,"(('Vultures', 'Seagulls'), 'All birds')",40
+1111,"(('Vultures', 'Sparrows'), 'All birds')",40
+1112,"(('Vultures', 'Swallows'), 'All birds')",40
+1113,"(('Vultures', 'Turkeys'), 'All birds')",40
+1114,"(('Vultures', 'Turkeys'), 'Herons')",50
+1115,"(('Vultures', 'Woodpeckers'), 'Storks')",50
+1116,"(('Vultures',), 'All birds')",30
+1117,"(('Vultures',), 'Canaries')",50
+1118,"(('Vultures',), 'Crows')",70
+1119,"(('Vultures',), 'Herons')",60
+1120,"(('Vultures',), 'Storks')",60
+1121,"(('Vultures',), 'Turkeys')",40
+1122,"(('Vultures',), 'Woodpeckers')",50
+1123,"(('Wolves', 'Beavers'), 'All mammals')",40
+1124,"(('Wolves', 'Beavers'), 'Dogs')",75
+1125,"(('Wolves', 'Cats'), 'Squirrels')",50
+1126,"(('Wolves', 'Elephants'), 'All mammals')",40
+1127,"(('Wolves', 'Hippos'), 'Beavers')",50
+1128,"(('Wolves', 'Horses'), 'All mammals')",40
+1129,"(('Wolves', 'Llamas'), 'All mammals')",40
+1130,"(('Wolves', 'Zebras'), 'All mammals')",40
+1131,"(('Wolves',), 'All mammals')",30
+1132,"(('Wolves',), 'Beavers')",40
+1133,"(('Wolves',), 'Dogs')",80
+1134,"(('Wolves',), 'Elephants')",40
+1135,"(('Wolves',), 'Foxes')",75
+1136,"(('Wolves',), 'Hedgehogs')",40
+1137,"(('Wolves',), 'Llamas')",40
+1138,"(('Wolves',), 'Squirrels')",40
+1139,"(('Woodpeckers', 'Blackbirds'), 'All birds')",40
+1140,"(('Woodpeckers', 'Canaries'), 'All birds')",40
+1141,"(('Woodpeckers', 'Canaries'), 'Swans')",50
+1142,"(('Woodpeckers', 'Chickens'), 'All birds')",40
+1143,"(('Woodpeckers', 'Magpies'), 'All birds')",40
+1144,"(('Woodpeckers', 'Ostriches'), 'Sparrows')",60
+1145,"(('Woodpeckers', 'Peacocks'), 'Roosters')",70
+1146,"(('Woodpeckers', 'Seagulls'), 'Eagles')",70
+1147,"(('Woodpeckers', 'Swallows'), 'All birds')",35
+1148,"(('Woodpeckers',), 'All birds')",30
+1149,"(('Woodpeckers',), 'Doves')",50
+1150,"(('Woodpeckers',), 'Eagles')",60
+1151,"(('Woodpeckers',), 'Roosters')",60
+1152,"(('Woodpeckers',), 'Sparrows')",60
+1153,"(('Woodpeckers',), 'Storks')",40
+1154,"(('Woodpeckers',), 'Swans')",40
+1155,"(('Zebras', 'Beavers'), 'Donkeys')",50
+1156,"(('Zebras', 'Cats'), 'All mammals')",40
+1157,"(('Zebras', 'Dogs'), 'All mammals')",40
+1158,"(('Zebras', 'Donkeys'), 'Horses')",75
+1159,"(('Zebras', 'Giraffes'), 'All mammals')",35
+1160,"(('Zebras', 'Hamsters'), 'All mammals')",40
+1161,"(('Zebras', 'Llamas'), 'All mammals')",35
+1162,"(('Zebras', 'Mice'), 'All mammals')",40
+1163,"(('Zebras', 'Mice'), 'Cats')",60
+1164,"(('Zebras', 'Mice'), 'Hamsters')",70
+1165,"(('Zebras', 'Rhinos'), 'Mice')",40
+1166,"(('Zebras', 'Sheep'), 'Llamas')",60
+1167,"(('Zebras',), 'All mammals')",25
+1168,"(('Zebras',), 'Beavers')",40
+1169,"(('Zebras',), 'Cats')",40
+1170,"(('Zebras',), 'Donkeys')",70
+1171,"(('Zebras',), 'Giraffes')",60
+1172,"(('Zebras',), 'Hamsters')",40
+1173,"(('Zebras',), 'Horses')",80
+1174,"(('Zebras',), 'Lions')",50
+1175,"(('Zebras',), 'Llamas')",60
+1176,"(('Zebras',), 'Mice')",40
+1177,"(('Zeppelins', 'Airplanes'), 'Bicycles')",40
+1178,"(('Zeppelins', 'Airplanes'), 'Skateboards')",40
+1179,"(('Zeppelins', 'Boats'), 'All vehicles')",40
+1180,"(('Zeppelins', 'Hovercraft'), 'All vehicles')",40
+1181,"(('Zeppelins', 'Jeeps'), 'All vehicles')",40
+1182,"(('Zeppelins', 'Rockets'), 'All vehicles')",40
+1183,"(('Zeppelins', 'Sleds'), 'Caravans')",50
+1184,"(('Zeppelins', 'Submarines'), 'All vehicles')",35
+1185,"(('Zeppelins', 'Tractors'), 'All vehicles')",40
+1186,"(('Zeppelins', 'Vans'), 'Bicycles')",50
+1187,"(('Zeppelins',), 'All vehicles')",30
+1188,"(('Zeppelins',), 'Bicycles')",40
+1189,"(('Zeppelins',), 'Buses')",40
+1190,"(('Zeppelins',), 'Caravans')",40
+1191,"(('Zeppelins',), 'Mopeds')",40
+1192,"(('Zeppelins',), 'Skateboards')",30
+1193,"(('Zeppelins',), 'Sleds')",40

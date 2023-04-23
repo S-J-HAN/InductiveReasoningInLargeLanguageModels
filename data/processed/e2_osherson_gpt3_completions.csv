@@ -1,0 +1,52 @@
+,argument,domain,conclusion_type,is_single_premise,prompt_generator,model,probabilities,strength_rating,strength_ranking
+0,"(('Bananas', 'Watermelons'), 'Cherries')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998622420295007, 1.1668431793516684e-05)",0.9998505735977072,33.0
+1,"(('Blackberries',), 'Raspberries')",Mammals,Specific,True,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.999908256938652, 1.0188101889139376e-05)",0.9998980688367628,3.0
+2,"(('Canines', 'Puppies'), 'Dogs')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998684391148923, 2.013073297294643e-06)",0.999866426041595,27.0
+3,"(('Chimps', 'Dolphins'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9999033679591764, 3.0964879749770747e-06)",0.9999002714712014,3.0
+4,"(('Chimps', 'Elephants'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998671289181442, 1.1906524866541825e-05)",0.9998552223932776,31.0
+5,"(('Chimps', 'Gorillas'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.999843642585095, 2.6172272738701984e-05)",0.9998174703123562,38.0
+6,"(('Chimps', 'Mice'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998918040236069, 6.220190653467883e-06)",0.9998855838329536,18.0
+7,"(('Chimps', 'Rhinos'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998920433577377, 6.450383316549619e-06)",0.9998855929744211,17.0
+8,"(('Chimps', 'Seals'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.999883936199924, 4.797805174193031e-06)",0.9998791383947498,23.0
+9,"(('Chimps', 'Squirrels'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.999899553655072, 5.737953180435486e-06)",0.9998938157018916,7.0
+10,"(('Chimps',), 'Horses')",Mammals,Specific,True,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9939152770642666, 0.00596421221529851)",0.987951064848968,9.0
+11,"(('Cows', 'Chimps'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998939495537462, 1.9085457372946495e-06)",0.9998920410080088,10.0
+12,"(('Cows', 'Dolphins'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998988394170769, 9.781214427789707e-07)",0.9998978612956342,5.0
+13,"(('Cows', 'Elephants'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998726136743271, 2.3455796526042224e-06)",0.9998702680946744,25.0
+14,"(('Cows', 'Gorillas'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998941870085896, 1.964694098156735e-06)",0.9998922223144914,9.0
+15,"(('Cows', 'Mice'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998977647723771, 1.2202839260807205e-06)",0.999896544488451,6.0
+16,"(('Cows', 'Rhinos'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.999899553655072, 1.284035121342642e-06)",0.9998982696199508,4.0
+17,"(('Cows', 'Seals'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998877504404533, 1.6983913832868872e-06)",0.99988605204907,16.0
+18,"(('Cows', 'Squirrels'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998943071358843, 1.254580881652286e-06)",0.9998930525550028,8.0
+19,"(('Cows',), 'Horses')",Mammals,Specific,True,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9999070630849027, 5.938577092516567e-06)",0.9999011245078102,2.0
+20,"(('Dogs',), 'Canines')",Mammals,Specific,True,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9999108774116539, 3.2313388563627133e-06)",0.9999076460727976,1.0
+21,"(('Dolphins', 'Elephants'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.999894904062965, 3.661506072402454e-06)",0.9998912425568924,12.0
+22,"(('Dolphins', 'Rhinos'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998914464363645, 4.530904361926741e-06)",0.9998869155320026,13.0
+23,"(('Dolphins', 'Seals'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998881089602694, 6.309702688708875e-06)",0.9998817992575808,22.0
+24,"(('Dolphins',), 'Horses')",Mammals,Specific,True,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9991847145559256, 0.0007144850389513027)",0.9984702295169744,4.0
+25,"(('Elephants', 'Rhinos'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998678450132397, 7.348355582815902e-06)",0.9998604966576567,29.0
+26,"(('Elephants',), 'Horses')",Mammals,Specific,True,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.99903617957357, 0.000709740391903329)",0.9983264391816667,5.0
+27,"(('Gorillas', 'Dolphins'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9999076600036, 3.498966215844051e-06)",0.999904161037384,1.0
+28,"(('Gorillas', 'Elephants'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998612875514614, 1.1086205170130948e-05)",0.9998502013462912,34.0
+29,"(('Gorillas', 'Mice'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998621237658017, 4.17276363276324e-06)",0.999857951002169,30.0
+30,"(('Gorillas', 'Rhinos'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998542543019363, 4.413934894552779e-06)",0.9998498403670416,35.0
+31,"(('Gorillas', 'Seals'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998491281423035, 5.647062836063473e-06)",0.9998434810794676,36.0
+32,"(('Gorillas', 'Squirrels'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998691561408045, 4.929145063792674e-06)",0.9998642269957408,28.0
+33,"(('Gorillas',), 'Horses')",Mammals,Specific,True,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9444233097519856, 0.055413967282079785)",0.8890093424699058,12.0
+34,"(('Lemons', 'Limes'), 'Cherries')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998400668906635, 2.6243663199305422e-05)",0.9998138232274644,39.0
+35,"(('Mice', 'Dolphins'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998944263432907, 2.742946089631938e-06)",0.9998916833972012,11.0
+36,"(('Mice', 'Elephants'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998749984933395, 5.263599235043304e-06)",0.9998697348941044,26.0
+37,"(('Mice', 'Rhinos'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998903727395073, 4.0909432132927295e-06)",0.999886281796294,15.0
+38,"(('Mice', 'Seals'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998853684157022, 3.3542545600249038e-06)",0.9998820141611422,21.0
+39,"(('Mice', 'Squirrels'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998871553974312, 5.087454249313133e-06)",0.999882067943182,20.0
+40,"(('Mice',), 'Horses')",Mammals,Specific,True,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9983274793241925, 0.0014586917596404172)",0.996868787564552,7.0
+41,"(('Pineapples',), 'Raspberries')",Mammals,Specific,True,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9986191244871934, 0.0012682427475552735)",0.997350881739638,6.0
+42,"(('Rhinos',), 'Horses')",Mammals,Specific,True,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9953251111685665, 0.004428262429369333)",0.9908968487391971,8.0
+43,"(('Seals', 'Elephants'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998469827183386, 8.774331270556048e-06)",0.999838208387068,37.0
+44,"(('Seals', 'Rhinos'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998933526372343, 6.599497818056529e-06)",0.9998867531394164,14.0
+45,"(('Seals',), 'Horses')",Mammals,Specific,True,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9791224340053192, 0.02072586586632407)",0.9583965681389952,10.0
+46,"(('Squirrels', 'Dolphins'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9999032478307931, 2.718897746624372e-06)",0.9999005289330464,2.0
+47,"(('Squirrels', 'Elephants'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998589018352825, 6.6804447051789496e-06)",0.9998522213905772,32.0
+48,"(('Squirrels', 'Rhinos'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998883482895162, 6.071675265196206e-06)",0.999882276614251,19.0
+49,"(('Squirrels', 'Seals'), 'Horses')",Mammals,Specific,False,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9998831027730134, 4.302492723879388e-06)",0.9998788002802896,24.0
+50,"(('Squirrels',), 'Horses')",Mammals,Specific,True,two_choice_isitlikelythattheclaimistrue,text-davinci-003,"(0.9716898488359978, 0.028150459535510534)",0.9435393893004872,11.0

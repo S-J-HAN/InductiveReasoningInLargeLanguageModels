@@ -1,0 +1,56 @@
+,prompt_type,prompt_template
+0,handmade,"Argument A:
+Fact - {P1} have property P.
+Claim - {C1} have property P.
+
+Argument B:
+Fact - {P2} have property P.
+Claim - {C2} have property P."
+1,handmade,"Argument A: If {P1} have property P, then {C1} probably have property P.
+Argument B: If {P2} have property P, then {C2} probably have property P."
+2,handmade,"Argument A: It is likely that {C1} have property P because we know that {P1} have property P.
+Argument B: It is likely that {C2} have property P because we know that {P2} have property P."
+3,gpt3_generated,"Argument A: We can infer that {C1} have property P because we know that {P1} have property P.
+Argument B: We can infer that {C2} have property P because we know that {P2} have property P."
+4,gpt3_generated,"Argument A: Based on evidence that {P1} have property P, we can infer that {C1} have property P.
+Argument B: Based on evidence that {P2} have property P, we can infer that {C2} have property P."
+5,gpt3_generated,"Argument A: The evidence suggests that {C1} have property P because {P1} have property P.
+Argument B: The evidence suggests that {C2} have property P because {P2} have property P."
+6,gpt3_generated,"Argument A: {P1} have property P, so it is reasonable to assume that {C1} also have property P.
+Argument B: {P2} have property P, so it is reasonable to assume that {C2} also have property P."
+7,gpt3_generated,"Argument A: We can infer that {C1} possess property P because {P1} possess property P.
+Argument B: We can infer that {C2} possess property P because {P2} possess property P."
+8,gpt3_generated,"Argument A: Given that {P1} have property P, it is reasonable to assume that {C1} have property P.
+Argument B: Given that {P2} have property P, it is reasonable to assume that {C2} have property P."
+9,gpt3_generated,"Argument A: Based on the fact that {P1} have property P, it is reasonable to assume that {C1} have property P.
+Argument B: Based on the fact that {P2} have property P, it is reasonable to assume that {C2} have property P."
+10,gpt3_generated,"Argument A: We can infer that {C1} have property P because {P1} have property P.
+Argument B: We can infer that {C2} have property P because {P2} have property P."
+11,gpt3_generated,"Argument A: We can conclude that {C1} have property P because {P1} have property P.
+Argument B: We can conclude that {C2} have property P because {P2} have property P."
+12,gpt3_generated,"Argument A: {P1} demonstrate property P, so it is likely that {C1} have property P as well.
+Argument B: {P2} demonstrate property P, so it is likely that {C2} have property P as well."
+13,gpt3_generated,"Argument A: We can conclude that {C1} have property P since {P1} have property P.
+Argument B: We can conclude that {C2} have property P since {P2} have property P."
+14,gpt3_generated,"Argument A: Given that {P1} have property P, it stands to reason that {C1} have property P.
+Argument B: Given that {P2} have property P, it stands to reason that {C2} have property P."
+15,gpt3_generated,"Argument A: {P1} are known to have property P, so it is reasonable to assume that {C1} also have property P.
+Argument B: {P2} are known to have property P, so it is reasonable to assume that {C2} also have property P."
+16,gpt3_generated,"Argument A: Based on the evidence that {P1} have property P, it can be inferred that {C1} have property P.
+Argument B: Based on the evidence that {P2} have property P, it can be inferred that {C2} have property P."
+17,gpt3_generated,"Argument A: We can assume that {C1} have property P since {P1} have property P.
+Argument B: We can assume that {C2} have property P since {P2} have property P."
+18,gpt3_generated,"Argument A: Since {P1} have property P, it follows that {C1} likely have property P.
+Argument B: Since {P2} have property P, it follows that {C2} likely have property P."
+19,gpt3_generated,"Argument A: {P1} have property P, which suggests that {C1} also have property P.
+Argument B: {P2} have property P, which suggests that {C2} also have property P."
+20,gpt3_generated,"Argument A: We can infer that {C1} have property P since {P1} have property P.
+Argument B: We can infer that {C2} have property P since {P2} have property P."
+21,gpt3_generated,"Argument A: {P1} possess property P, so it is reasonable to assume that {C1} also possess property P.
+Argument B: {P2} possess property P, so it is reasonable to assume that {C2} also possess property P."
+22,gpt3_generated,"Argument A: We can infer that {C1} have property P from the fact that {P1} have property P.
+Argument B: We can infer that {C2} have property P from the fact that {P2} have property P."
+23,gpt3_generated,"Argument A: Since {P1} have property P, it is reasonable to assume that {C1} also have property P. 
+Argument B: Since {P2} have property P, it is reasonable to assume that {C2} also have property P."
+24,gpt3_generated,"Argument A: We can assume that {C1} have property P because {P1} have property P.
+Argument B: We can assume that {C2} have property P because {P2} have property P."
