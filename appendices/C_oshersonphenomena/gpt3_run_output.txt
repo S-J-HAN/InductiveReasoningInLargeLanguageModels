@@ -1,0 +1,44 @@
+
+My Answer: B - Argument A is moderately stronger. 
+Reasoning: Argument A provides two facts that support the claim that sparrows have property P, which is more evidence than Argument B provides for the claim that geese have property P. Therefore, Argument A makes a moderately stronger case for the claim.
+****************
+
+C - Argument A is slightly stronger. 
+
+The fact that robins have property P provides some evidence that all birds have property P, but the fact that penguins have property P provides stronger evidence that all birds have property P. Therefore, Argument B makes a slightly stronger case for the claim than Argument A.
+****************
+
+Answer: B - Argument A is moderately stronger. 
+Reasoning: Argument A makes a stronger case for the claim because it is more specific and limited in scope. It states that all birds have property P, which is supported by the facts given. Argument B states that all animals have property P, which is not supported by the facts given since only birds have been mentioned. Therefore, Argument A is moderately stronger.
+****************
+
+Answer: B - Argument A is moderately stronger. 
+Reasoning: Argument A provides more evidence for the claim that all birds have property P, as it includes three facts that support the claim. Argument B only includes two facts, which is not as strong of a case for the claim. Therefore, Argument A is moderately stronger than Argument B.
+****************
+
+Answer: B - Argument A is moderately stronger.
+Reasoning: Argument A provides more evidence for the claim that gorillas have property P, as it includes three facts that all support the claim. Argument B only includes two facts, so it provides less evidence for the claim. Therefore, Argument A is moderately stronger than Argument B.
+****************
+
+Answer: B - Argument A is moderately stronger. 
+Reasoning: Argument A provides two examples of mammals that have property P, while Argument B provides only one. This suggests that Argument A provides a better case for the claim that all mammals have property P.
+****************
+
+Answer: B - Argument A is moderately stronger.
+Reasoning: Argument A provides two facts that are both relevant to the claim, which makes it a moderately stronger argument than Argument B, which only provides one relevant fact.
+****************
+
+Answer: E - Argument B is moderately stronger.
+Reasoning: Argument B provides more evidence for the claim that all birds have property P by providing an additional fact that rabbits have property P. This additional fact strengthens the argument that all birds have property P, making Argument B moderately stronger than Argument A.
+****************
+
+Answer: B - Argument A is moderately stronger.
+Reasoning: Argument A provides one fact that supports the claim that bees have property P, while Argument B provides two facts that support the claim. Therefore, Argument B makes a stronger case for the claim that bees have property P.
+****************
+
+Answer: F - Argument B is much stronger. The fact given in Argument B directly supports the claim, while the fact given in Argument A does not. Therefore, Argument B makes a much stronger case for the claim than Argument A.
+****************
+
+Answer: B - Argument A is moderately stronger.
+Reasoning: Argument A makes a stronger case for the claim because it states that all birds have property P, which is supported by the fact that robins have property P. Argument B states that ostriches have property P, but does not provide any evidence to support this claim. Therefore, Argument A is moderately stronger.
+****************

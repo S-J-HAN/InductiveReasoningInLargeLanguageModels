@@ -1,0 +1,260 @@
+
+You are an expert on animals and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.
+
+We are interested in how people evaluate arguments. On each trial there will be two arguments labeled 'A' and 'B.' Each will contain one, two, or three statements separated from a claim by a line. Assume that the statements above the line are facts, and choose the argument whose facts provide a better reason for believing the claim. These are subjective judgments; there are no right or wrong answers.
+
+Argument A: 
+Fact - Robins have property P.
+Fact - Bluejays have property P.
+Claim - Sparrows have property P.
+
+Argument B: 
+Fact - Robins have property P.
+Fact - Bluejays have property P.
+Claim - Geese have property P.
+
+Question: Assuming all the facts given are true, which argument makes a stronger case for the claim? To get the best answer, first write down your reasoning. Then, based on this, indicate your preference by providing one of the following options:
+A - Argument A is much stronger
+B - Argument A is moderately stronger
+C - Argument A is slightly stronger
+D - Argument B is slightly stronger
+E - Argument B is moderately stronger
+F - Argument B is much stronger
+
+****************
+
+You are an expert on animals and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.
+
+We are interested in how people evaluate arguments. On each trial there will be two arguments labeled 'A' and 'B.' Each will contain one, two, or three statements separated from a claim by a line. Assume that the statements above the line are facts, and choose the argument whose facts provide a better reason for believing the claim. These are subjective judgments; there are no right or wrong answers.
+
+Argument A: 
+Fact - Robins have property P.
+Claim - All birds have property P.
+
+Argument B: 
+Fact - Penguins have property P.
+Claim - All birds have property P.
+
+Question: Assuming all the facts given are true, which argument makes a stronger case for the claim? To get the best answer, first write down your reasoning. Then, based on this, indicate your preference by providing one of the following options:
+A - Argument A is much stronger
+B - Argument A is moderately stronger
+C - Argument A is slightly stronger
+D - Argument B is slightly stronger
+E - Argument B is moderately stronger
+F - Argument B is much stronger
+
+****************
+
+You are an expert on animals and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.
+
+We are interested in how people evaluate arguments. On each trial there will be two arguments labeled 'A' and 'B.' Each will contain one, two, or three statements separated from a claim by a line. Assume that the statements above the line are facts, and choose the argument whose facts provide a better reason for believing the claim. These are subjective judgments; there are no right or wrong answers.
+
+Argument A: 
+Fact - Bluejays have property P.
+Fact - Falcons have property P.
+Claim - All birds have property P.
+
+Argument B: 
+Fact - Bluejays have property P.
+Fact - Falcons have property P.
+Claim - All animals have property P.
+
+Question: Assuming all the facts given are true, which argument makes a stronger case for the claim? To get the best answer, first write down your reasoning. Then, based on this, indicate your preference by providing one of the following options:
+A - Argument A is much stronger
+B - Argument A is moderately stronger
+C - Argument A is slightly stronger
+D - Argument B is slightly stronger
+E - Argument B is moderately stronger
+F - Argument B is much stronger
+
+****************
+
+You are an expert on animals and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.
+
+We are interested in how people evaluate arguments. On each trial there will be two arguments labeled 'A' and 'B.' Each will contain one, two, or three statements separated from a claim by a line. Assume that the statements above the line are facts, and choose the argument whose facts provide a better reason for believing the claim. These are subjective judgments; there are no right or wrong answers.
+
+Argument A: 
+Fact - Sparrows have property P.
+Fact - Eagles have property P.
+Fact - Hawks have property P.
+Claim - All birds have property P.
+
+Argument B: 
+Fact - Sparrows have property P.
+Fact - Eagles have property P.
+Claim- All birds have property P.
+
+Question: Assuming all the facts given are true, which argument makes a stronger case for the claim? To get the best answer, first write down your reasoning. Then, based on this, indicate your preference by providing one of the following options:
+A - Argument A is much stronger
+B - Argument A is moderately stronger
+C - Argument A is slightly stronger
+D - Argument B is slightly stronger
+E - Argument B is moderately stronger
+F - Argument B is much stronger
+
+****************
+
+You are an expert on animals and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.
+
+We are interested in how people evaluate arguments. On each trial there will be two arguments labeled 'A' and 'B.' Each will contain one, two, or three statements separated from a claim by a line. Assume that the statements above the line are facts, and choose the argument whose facts provide a better reason for believing the claim. These are subjective judgments; there are no right or wrong answers.
+
+Argument A: 
+Fact - Pigs have property P.
+Fact - Wolves have property P.
+Fact - Foxes have property P.
+Claim - Gorillas have property P.
+
+Argument B: 
+Fact - Pigs have property P.
+Fact - Wolves have property P.
+Claim - Gorillas have property P.
+
+Question: Assuming all the facts given are true, which argument makes a stronger case for the claim? To get the best answer, first write down your reasoning. Then, based on this, indicate your preference by providing one of the following options:
+A - Argument A is much stronger
+B - Argument A is moderately stronger
+C - Argument A is slightly stronger
+D - Argument B is slightly stronger
+E - Argument B is moderately stronger
+F - Argument B is much stronger
+
+****************
+
+You are an expert on animals and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.
+
+We are interested in how people evaluate arguments. On each trial there will be two arguments labeled 'A' and 'B.' Each will contain one, two, or three statements separated from a claim by a line. Assume that the statements above the line are facts, and choose the argument whose facts provide a better reason for believing the claim. These are subjective judgments; there are no right or wrong answers.
+
+Argument A: 
+Fact - Hippos have property P.
+Fact - Hamsters have property P.
+Claim - All mammals have property P.
+
+Argument B: 
+Fact - Hippos have property P.
+Fact - Rhinos have property P.
+Claim - All mammals have property P.
+
+Question: Assuming all the facts given are true, which argument makes a stronger case for the claim? To get the best answer, first write down your reasoning. Then, based on this, indicate your preference by providing one of the following options:
+A - Argument A is much stronger
+B - Argument A is moderately stronger
+C - Argument A is slightly stronger
+D - Argument B is slightly stronger
+E - Argument B is moderately stronger
+F - Argument B is much stronger
+
+****************
+
+You are an expert on animals and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.
+
+We are interested in how people evaluate arguments. On each trial there will be two arguments labeled 'A' and 'B.' Each will contain one, two, or three statements separated from a claim by a line. Assume that the statements above the line are facts, and choose the argument whose facts provide a better reason for believing the claim. These are subjective judgments; there are no right or wrong answers.
+
+Argument A: 
+Fact - Lions have property P.
+Fact - Giraffes have property P.
+Claim - Rabbits have property P.
+
+Argument B: 
+Fact - Lions have property P.
+Fact - Tigers have property P.
+Claim - Rabbits have property P.
+
+Question: Assuming all the facts given are true, which argument makes a stronger case for the claim? To get the best answer, first write down your reasoning. Then, based on this, indicate your preference by providing one of the following options:
+A - Argument A is much stronger
+B - Argument A is moderately stronger
+C - Argument A is slightly stronger
+D - Argument B is slightly stronger
+E - Argument B is moderately stronger
+F - Argument B is much stronger
+
+****************
+
+You are an expert on animals and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.
+
+We are interested in how people evaluate arguments. On each trial there will be two arguments labeled 'A' and 'B.' Each will contain one, two, or three statements separated from a claim by a line. Assume that the statements above the line are facts, and choose the argument whose facts provide a better reason for believing the claim. These are subjective judgments; there are no right or wrong answers.
+
+Argument A: 
+Fact - Crows have property P.
+Fact - Peacocks have property P.
+Claim - All birds have property P.
+
+Argument B: 
+Fact - Crows have property P.
+Fact - Peacocks have property P.
+Fact - Rabbits have property P.
+Claim - All birds have property P.
+
+Question: Assuming all the facts given are true, which argument makes a stronger case for the claim? To get the best answer, first write down your reasoning. Then, based on this, indicate your preference by providing one of the following options:
+A - Argument A is much stronger
+B - Argument A is moderately stronger
+C - Argument A is slightly stronger
+D - Argument B is slightly stronger
+E - Argument B is moderately stronger
+F - Argument B is much stronger
+
+****************
+
+You are an expert on animals and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.
+
+We are interested in how people evaluate arguments. On each trial there will be two arguments labeled 'A' and 'B.' Each will contain one, two, or three statements separated from a claim by a line. Assume that the statements above the line are facts, and choose the argument whose facts provide a better reason for believing the claim. These are subjective judgments; there are no right or wrong answers.
+
+Argument A: 
+Fact - Flies have property P.
+Claim - Bees have property P.
+
+Argument B: 
+Fact - Flies have property P.
+Fact - Orangutans have property P.
+Claim - Bees have property P.
+
+Question: Assuming all the facts given are true, which argument makes a stronger case for the claim? To get the best answer, first write down your reasoning. Then, based on this, indicate your preference by providing one of the following options:
+A - Argument A is much stronger
+B - Argument A is moderately stronger
+C - Argument A is slightly stronger
+D - Argument B is slightly stronger
+E - Argument B is moderately stronger
+F - Argument B is much stronger
+
+****************
+
+You are an expert on animals and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.
+
+We are interested in how people evaluate arguments. On each trial there will be two arguments labeled 'A' and 'B.' Each will contain one, two, or three statements separated from a claim by a line. Assume that the statements above the line are facts, and choose the argument whose facts provide a better reason for believing the claim. These are subjective judgments; there are no right or wrong answers.
+
+Argument A: 
+Fact - Mice have property P.
+Claim - Bats have property P.
+
+Argument B: 
+Fact - Bats have property P.
+Claim - Mice have property P.
+
+Question: Assuming all the facts given are true, which argument makes a stronger case for the claim? To get the best answer, first write down your reasoning. Then, based on this, indicate your preference by providing one of the following options:
+A - Argument A is much stronger
+B - Argument A is moderately stronger
+C - Argument A is slightly stronger
+D - Argument B is slightly stronger
+E - Argument B is moderately stronger
+F - Argument B is much stronger
+
+****************
+
+You are an expert on animals and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.
+
+We are interested in how people evaluate arguments. On each trial there will be two arguments labeled 'A' and 'B.' Each will contain one, two, or three statements separated from a claim by a line. Assume that the statements above the line are facts, and choose the argument whose facts provide a better reason for believing the claim. These are subjective judgments; there are no right or wrong answers.
+
+Argument A: 
+Fact - Robins have property P.
+Claim - All birds have property P.
+
+Argument B: 
+Fact - Robins have property P.
+Claim - Ostriches have property P.
+
+Question: Assuming all the facts given are true, which argument makes a stronger case for the claim? To get the best answer, first write down your reasoning. Then, based on this, indicate your preference by providing one of the following options:
+A - Argument A is much stronger
+B - Argument A is moderately stronger
+C - Argument A is slightly stronger
+D - Argument B is slightly stronger
+E - Argument B is moderately stronger
+F - Argument B is much stronger
+
+****************

@@ -1,0 +1,40 @@
+
+Answer: E - Argument B is moderately stronger. 
+Reasoning: Argument B provides direct evidence that rabbits have property P, while Argument A does not provide any direct evidence that rabbits have property P. Therefore, Argument B makes a stronger case for the claim that carrots have property P.
+****************
+
+Answer: B - Argument A is moderately stronger. 
+Reasoning: Argument A provides a direct connection between the fact and the claim, as bananas are a type of fruit that monkeys eat. Argument B provides an indirect connection, as mice are not typically associated with monkeys. Therefore, Argument A provides a moderately stronger case for the claim that monkeys have property P.
+****************
+
+Answer: B - Argument A is moderately stronger. 
+Reasoning: Argument A provides two facts that are both relevant to the claim, which makes it a moderately stronger argument than Argument B, which only provides one relevant fact.
+****************
+
+Answer: E - Argument B is moderately stronger.
+Reasoning: Argument B provides more evidence for the claim that buffalos have property P by providing three facts about other animals that have property P. This makes the argument stronger than Argument A, which only provides one fact.
+****************
+
+Answer: E - Argument B is moderately stronger. 
+Reasoning: Argument B provides a more direct connection between the fact and the claim, as it states that a Dobermann, which is a type of German shepherd, can bite through wire. This is a more specific example than the fact provided in Argument A, which only states that poodles can bite through wire. Therefore, Argument B makes a moderately stronger case for the claim that German shepherds can bite through wire.
+****************
+
+Answer: E - Argument B is moderately stronger.
+Reasoning: Argument B provides a more direct comparison to the claim, as it states that elephants have skin that is more resistant to penetration than most synthetic fibers. This is a more direct comparison to the claim that hippos have skin that is more resistant to penetration than most synthetic fibers. Argument A only states that house cats have skin that is more resistant to penetration than most synthetic fibers, which is not as direct of a comparison. Therefore, Argument B makes a moderately stronger case for the claim.
+****************
+
+Answer: B - Argument A is moderately stronger. 
+Reasoning: Argument A provides a direct comparison between chickens and hawks, which are both birds, and suggests that hawks likely have livers with two chambers that act as one. Argument B provides a comparison between tigers and hawks, which are not closely related, and does not provide as strong of evidence that hawks have livers with two chambers that act as one.
+****************
+
+Answer: B - Argument A is moderately stronger. 
+Reasoning: Argument A provides a more relevant fact than Argument B, as tigers and hawks are both predatory animals that hunt for food, while chickens are not. Therefore, Argument A provides a better reason for believing the claim that hawks usually gather large amounts of food at once.
+****************
+
+Answer: E - Argument B is moderately stronger.
+Reasoning: Argument B provides a more specific example of an animal with cells in its respiratory system that require carbon dioxide to function, which makes it a stronger argument for the claim that mosquitoes have some cells in their respiratory systems that require carbon dioxide to function.
+****************
+
+Answer: B - Argument A is moderately stronger. 
+Reasoning: Argument A provides a fact about vampire bats, which are closely related to mosquitoes, and thus provides some evidence that the claim about mosquitoes may be true. Argument B provides a fact about ladybugs, which are not closely related to mosquitoes, and thus provides less evidence that the claim about mosquitoes may be true. Therefore, Argument A provides a moderately stronger case for the claim.
+****************
