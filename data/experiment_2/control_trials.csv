@@ -1,0 +1,31 @@
+,domain,conclusion_type,is_single_premise,premises,conclusion
+0,Mammals,General,True,['All animals'],All mammals
+1,Mammals,General,True,['All living things'],All mammals
+2,Mammals,General,True,['All plants and animals'],All mammals
+3,Mammals,General,True,['All things that are alive'],All mammals
+4,Birds,General,True,['All animals'],All birds
+5,Birds,General,True,['All living things'],All birds
+6,Birds,General,True,['All plants and animals'],All birds
+7,Birds,General,True,['All things that are alive'],All birds
+8,Vehicles,General,True,['All man-made things'],All vehicles
+9,Vehicles,General,True,['All things'],All vehicles
+10,Vehicles,General,True,['All things that can move'],All vehicles
+11,Vehicles,General,True,['All things that can carry people'],All vehicles
+12,Mammals,Specific,True,['Dogs'],Canines
+13,Mammals,Specific,True,['Cats'],Felines
+14,Mammals,Specific,True,['Horses'],Ponies
+15,Mammals,Specific,True,['Cows'],Cattle
+16,Birds,Specific,True,['Crows'],Ravens
+17,Birds,Specific,True,['Hawks'],Falcons
+18,Birds,Specific,True,['Pigeons'],Doves
+19,Birds,Specific,True,['Finches'],Sparrows
+20,Vehicles,Specific,True,['Trucks'],Lorries
+21,Vehicles,Specific,True,['Taxis'],Cabs
+22,Vehicles,Specific,True,['Mopeds'],Scooters
+23,Vehicles,Specific,True,['Trains'],Locomotives
+24,Mammals,General,False,"['All animals', 'All organisms']",All mammals
+25,Birds,General,False,"['All animals', 'All organisms']",All birds
+26,Vehicles,General,False,"['All transport', 'All moving things']",All vehicles
+27,Mammals,Specific,False,"['Canines', 'Puppies']",Dogs
+28,Birds,Specific,False,"['Hawks', 'Eagles']",Falcons
+29,Vehicles,Specific,False,"['Locomotives', 'Trams']",Trains

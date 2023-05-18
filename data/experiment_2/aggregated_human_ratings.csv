@@ -1,0 +1,1162 @@
+,argument,domain,conclusion_type,is_single_premise,is_control,premises,conclusion,average_rating,average_ranking,num_ratings
+0,"(('Airplanes',), 'All vehicles')",Vehicles,General,True,False,"('Airplanes',)",All vehicles,38.13636363636363,9.257575757575758,66
+1,"(('Airplanes',), 'Bicycles')",Vehicles,Specific,True,False,"('Airplanes',)",Bicycles,22.285714285714285,14.142857142857142,7
+2,"(('Airplanes',), 'Helicopters')",Vehicles,Specific,True,False,"('Airplanes',)",Helicopters,77.875,4.75,8
+3,"(('Airplanes',), 'Jeeps')",Vehicles,Specific,True,False,"('Airplanes',)",Jeeps,34.25,14.25,8
+4,"(('Airplanes',), 'Skateboards')",Vehicles,Specific,True,False,"('Airplanes',)",Skateboards,23.1875,14.625,16
+5,"(('Airplanes',), 'Tractors')",Vehicles,Specific,True,False,"('Airplanes',)",Tractors,48.875,10.25,8
+6,"(('Airplanes',), 'Trains')",Vehicles,Specific,True,False,"('Airplanes',)",Trains,38.1,11.9,10
+7,"(('Airplanes', 'Buses'), 'All vehicles')",Vehicles,General,False,False,"('Airplanes', 'Buses')",All vehicles,79.57142857142857,3.0,7
+8,"(('Airplanes', 'Helicopters'), 'All vehicles')",Vehicles,General,False,False,"('Airplanes', 'Helicopters')",All vehicles,47.42857142857143,6.571428571428571,7
+9,"(('Airplanes', 'Taxis'), 'All vehicles')",Vehicles,General,False,False,"('Airplanes', 'Taxis')",All vehicles,72.66666666666667,3.3333333333333335,6
+10,"(('Airplanes', 'Trams'), 'Trains')",Vehicles,Specific,False,False,"('Airplanes', 'Trams')",Trains,74.9,4.3,10
+11,"(('Airplanes', 'Zeppelins'), 'All vehicles')",Vehicles,General,False,False,"('Airplanes', 'Zeppelins')",All vehicles,27.428571428571427,7.142857142857143,7
+12,"(('Beavers',), 'All mammals')",Mammals,General,True,False,"('Beavers',)",All mammals,42.94827586206897,8.482758620689655,58
+13,"(('Beavers',), 'Dogs')",Mammals,Specific,True,False,"('Beavers',)",Dogs,31.9375,10.9375,16
+14,"(('Beavers',), 'Donkeys')",Mammals,Specific,True,False,"('Beavers',)",Donkeys,29.25,12.285714285714286,28
+15,"(('Beavers',), 'Elephants')",Mammals,Specific,True,False,"('Beavers',)",Elephants,34.705882352941174,14.588235294117647,17
+16,"(('Beavers',), 'Giraffes')",Mammals,Specific,True,False,"('Beavers',)",Giraffes,21.625,15.375,8
+17,"(('Beavers',), 'Hamsters')",Mammals,Specific,True,False,"('Beavers',)",Hamsters,51.6,7.7,10
+18,"(('Beavers',), 'Horses')",Mammals,Specific,True,False,"('Beavers',)",Horses,39.888888888888886,12.0,9
+19,"(('Beavers',), 'Tigers')",Mammals,Specific,True,False,"('Beavers',)",Tigers,34.705882352941174,15.058823529411764,17
+20,"(('Beavers', 'Camels'), 'Tigers')",Mammals,Specific,False,False,"('Beavers', 'Camels')",Tigers,53.625,6.5,8
+21,"(('Beavers', 'Cats'), 'All mammals')",Mammals,General,False,False,"('Beavers', 'Cats')",All mammals,52.57142857142857,5.857142857142857,7
+22,"(('Beavers', 'Hedgehogs'), 'Elephants')",Mammals,Specific,False,False,"('Beavers', 'Hedgehogs')",Elephants,38.25,7.5,8
+23,"(('Beavers', 'Horses'), 'Tigers')",Mammals,Specific,False,False,"('Beavers', 'Horses')",Tigers,62.888888888888886,4.777777777777778,9
+24,"(('Beavers', 'Llamas'), 'Dogs')",Mammals,Specific,False,False,"('Beavers', 'Llamas')",Dogs,57.25,4.5,8
+25,"(('Beavers', 'Mice'), 'All mammals')",Mammals,General,False,False,"('Beavers', 'Mice')",All mammals,52.166666666666664,5.0,6
+26,"(('Beavers', 'Mice'), 'Giraffes')",Mammals,Specific,False,False,"('Beavers', 'Mice')",Giraffes,42.875,7.125,8
+27,"(('Beavers', 'Mice'), 'Hamsters')",Mammals,Specific,False,False,"('Beavers', 'Mice')",Hamsters,66.0,3.9,10
+28,"(('Beavers', 'Rabbits'), 'All mammals')",Mammals,General,False,False,"('Beavers', 'Rabbits')",All mammals,43.5,6.75,4
+29,"(('Beavers', 'Zebras'), 'Horses')",Mammals,Specific,False,False,"('Beavers', 'Zebras')",Horses,60.888888888888886,4.555555555555555,9
+30,"(('Bicycles',), 'All vehicles')",Vehicles,General,True,False,"('Bicycles',)",All vehicles,36.92424242424242,9.666666666666666,66
+31,"(('Bicycles',), 'Boats')",Vehicles,Specific,True,False,"('Bicycles',)",Boats,41.75,11.0,8
+32,"(('Bicycles',), 'Buses')",Vehicles,Specific,True,False,"('Bicycles',)",Buses,38.7,13.6,10
+33,"(('Bicycles',), 'Carriages')",Vehicles,Specific,True,False,"('Bicycles',)",Carriages,52.75,10.3,20
+34,"(('Bicycles',), 'Rockets')",Vehicles,Specific,True,False,"('Bicycles',)",Rockets,18.5,17.2,10
+35,"(('Bicycles',), 'Skateboards')",Vehicles,Specific,True,False,"('Bicycles',)",Skateboards,55.0,7.875,8
+36,"(('Bicycles',), 'Submarines')",Vehicles,Specific,True,False,"('Bicycles',)",Submarines,28.1,15.5,10
+37,"(('Bicycles',), 'Trams')",Vehicles,Specific,True,False,"('Bicycles',)",Trams,33.25,11.125,8
+38,"(('Bicycles', 'Airplanes'), 'Skateboards')",Vehicles,Specific,False,False,"('Bicycles', 'Airplanes')",Skateboards,44.25,6.75,8
+39,"(('Bicycles', 'Carts'), 'Carriages')",Vehicles,Specific,False,False,"('Bicycles', 'Carts')",Carriages,71.6,3.7,10
+40,"(('Bicycles', 'Mopeds'), 'All vehicles')",Vehicles,General,False,False,"('Bicycles', 'Mopeds')",All vehicles,48.57142857142857,6.428571428571429,7
+41,"(('Bicycles', 'Mopeds'), 'Rockets')",Vehicles,Specific,False,False,"('Bicycles', 'Mopeds')",Rockets,17.0,8.9,10
+42,"(('Bicycles', 'Motorbikes'), 'All vehicles')",Vehicles,General,False,False,"('Bicycles', 'Motorbikes')",All vehicles,45.125,5.625,8
+43,"(('Bicycles', 'Sleds'), 'All vehicles')",Vehicles,General,False,False,"('Bicycles', 'Sleds')",All vehicles,38.333333333333336,7.166666666666667,6
+44,"(('Bicycles', 'Submarines'), 'All vehicles')",Vehicles,General,False,False,"('Bicycles', 'Submarines')",All vehicles,74.28571428571429,3.2857142857142856,7
+45,"(('Bicycles', 'Tractors'), 'All vehicles')",Vehicles,General,False,False,"('Bicycles', 'Tractors')",All vehicles,73.71428571428571,3.857142857142857,7
+46,"(('Bicycles', 'Trains'), 'All vehicles')",Vehicles,General,False,False,"('Bicycles', 'Trains')",All vehicles,74.28571428571429,4.142857142857143,7
+47,"(('Bicycles', 'Trains'), 'Trams')",Vehicles,Specific,False,False,"('Bicycles', 'Trains')",Trams,69.625,3.625,8
+48,"(('Bicycles', 'Trams'), 'All vehicles')",Vehicles,General,False,False,"('Bicycles', 'Trams')",All vehicles,54.0,5.5,6
+49,"(('Blackbirds',), 'All birds')",Birds,General,True,False,"('Blackbirds',)",All birds,49.92307692307692,7.476923076923077,65
+50,"(('Blackbirds',), 'Canaries')",Birds,Specific,True,False,"('Blackbirds',)",Canaries,57.888888888888886,8.777777777777779,18
+51,"(('Blackbirds',), 'Doves')",Birds,Specific,True,False,"('Blackbirds',)",Doves,46.111111111111114,12.0,9
+52,"(('Blackbirds',), 'Falcons')",Birds,Specific,True,False,"('Blackbirds',)",Falcons,42.375,11.25,8
+53,"(('Blackbirds',), 'Magpies')",Birds,Specific,True,False,"('Blackbirds',)",Magpies,64.55555555555556,7.111111111111111,9
+54,"(('Blackbirds',), 'Ostriches')",Birds,Specific,True,False,"('Blackbirds',)",Ostriches,43.4375,13.625,16
+55,"(('Blackbirds',), 'Pelicans')",Birds,Specific,True,False,"('Blackbirds',)",Pelicans,53.2,10.4,10
+56,"(('Blackbirds',), 'Roosters')",Birds,Specific,True,False,"('Blackbirds',)",Roosters,44.9,13.8,10
+57,"(('Blackbirds',), 'Seagulls')",Birds,Specific,True,False,"('Blackbirds',)",Seagulls,63.666666666666664,8.333333333333334,9
+58,"(('Blackbirds',), 'Sparrows')",Birds,Specific,True,False,"('Blackbirds',)",Sparrows,56.25,8.125,8
+59,"(('Blackbirds',), 'Swallows')",Birds,Specific,True,False,"('Blackbirds',)",Swallows,59.94117647058823,9.0,17
+60,"(('Blackbirds', 'Crows'), 'Pelicans')",Birds,Specific,False,False,"('Blackbirds', 'Crows')",Pelicans,46.3,7.1,10
+61,"(('Blackbirds', 'Doves'), 'All birds')",Birds,General,False,False,"('Blackbirds', 'Doves')",All birds,53.5,5.75,4
+62,"(('Blackbirds', 'Ducks'), 'Seagulls')",Birds,Specific,False,False,"('Blackbirds', 'Ducks')",Seagulls,71.11111111111111,5.666666666666667,9
+63,"(('Blackbirds', 'Eagles'), 'Falcons')",Birds,Specific,False,False,"('Blackbirds', 'Eagles')",Falcons,70.125,3.0,8
+64,"(('Blackbirds', 'Parrots'), 'Ostriches')",Birds,Specific,False,False,"('Blackbirds', 'Parrots')",Ostriches,51.22222222222222,6.333333333333333,9
+65,"(('Blackbirds', 'Robins'), 'Roosters')",Birds,Specific,False,False,"('Blackbirds', 'Robins')",Roosters,58.1,5.4,10
+66,"(('Blackbirds', 'Storks'), 'Canaries')",Birds,Specific,False,False,"('Blackbirds', 'Storks')",Canaries,57.7,6.4,10
+67,"(('Boats',), 'All vehicles')",Vehicles,General,True,False,"('Boats',)",All vehicles,32.75757575757576,9.924242424242424,66
+68,"(('Boats',), 'Buses')",Vehicles,Specific,True,False,"('Boats',)",Buses,42.1,11.55,20
+69,"(('Boats',), 'Caravans')",Vehicles,Specific,True,False,"('Boats',)",Caravans,33.88235294117647,12.529411764705882,17
+70,"(('Boats',), 'Cars')",Vehicles,Specific,True,False,"('Boats',)",Cars,25.714285714285715,12.285714285714286,7
+71,"(('Boats',), 'Carts')",Vehicles,Specific,True,False,"('Boats',)",Carts,29.8,14.6,10
+72,"(('Boats',), 'Hovercraft')",Vehicles,Specific,True,False,"('Boats',)",Hovercraft,53.2,9.3,10
+73,"(('Boats',), 'Mopeds')",Vehicles,Specific,True,False,"('Boats',)",Mopeds,31.6,14.75,20
+74,"(('Boats',), 'Skateboards')",Vehicles,Specific,True,False,"('Boats',)",Skateboards,29.333333333333332,14.722222222222221,18
+75,"(('Boats',), 'Tractors')",Vehicles,Specific,True,False,"('Boats',)",Tractors,33.22222222222222,13.333333333333334,18
+76,"(('Boats',), 'Trams')",Vehicles,Specific,True,False,"('Boats',)",Trams,42.2,11.2,10
+77,"(('Boats',), 'Vans')",Vehicles,Specific,True,False,"('Boats',)",Vans,40.2,14.3,10
+78,"(('Boats', 'Bicycles'), 'Buses')",Vehicles,Specific,False,False,"('Boats', 'Bicycles')",Buses,39.9,7.2,10
+79,"(('Boats', 'Hovercraft'), 'All vehicles')",Vehicles,General,False,False,"('Boats', 'Hovercraft')",All vehicles,26.666666666666668,6.333333333333333,6
+80,"(('Boats', 'Jeeps'), 'Cars')",Vehicles,Specific,False,False,"('Boats', 'Jeeps')",Cars,68.28571428571429,3.857142857142857,7
+81,"(('Boats', 'Skateboards'), 'Mopeds')",Vehicles,Specific,False,False,"('Boats', 'Skateboards')",Mopeds,66.4,5.2,10
+82,"(('Boats', 'Submarines'), 'Vans')",Vehicles,Specific,False,False,"('Boats', 'Submarines')",Vans,34.2,8.0,10
+83,"(('Boats', 'Trams'), 'All vehicles')",Vehicles,General,False,False,"('Boats', 'Trams')",All vehicles,58.5,5.0,4
+84,"(('Boats', 'Trams'), 'Buses')",Vehicles,Specific,False,False,"('Boats', 'Trams')",Buses,61.5,5.6,10
+85,"(('Buses',), 'Airplanes')",Vehicles,Specific,True,False,"('Buses',)",Airplanes,36.142857142857146,11.428571428571429,7
+86,"(('Buses',), 'All vehicles')",Vehicles,General,True,False,"('Buses',)",All vehicles,51.484848484848484,5.893939393939394,66
+87,"(('Buses',), 'Boats')",Vehicles,Specific,True,False,"('Buses',)",Boats,46.27777777777778,10.666666666666666,18
+88,"(('Buses',), 'Carriages')",Vehicles,Specific,True,False,"('Buses',)",Carriages,43.333333333333336,10.666666666666666,18
+89,"(('Buses',), 'Cars')",Vehicles,Specific,True,False,"('Buses',)",Cars,60.3,8.6,10
+90,"(('Buses',), 'Trains')",Vehicles,Specific,True,False,"('Buses',)",Trains,63.2,7.55,20
+91,"(('Buses',), 'Vans')",Vehicles,Specific,True,False,"('Buses',)",Vans,79.4,4.3,10
+92,"(('Buses',), 'Zeppelins')",Vehicles,Specific,True,False,"('Buses',)",Zeppelins,33.17857142857143,14.321428571428571,28
+93,"(('Buses', 'Cars'), 'Zeppelins')",Vehicles,Specific,False,False,"('Buses', 'Cars')",Zeppelins,28.3,6.9,10
+94,"(('Buses', 'Mopeds'), 'Cars')",Vehicles,Specific,False,False,"('Buses', 'Mopeds')",Cars,73.4,4.0,10
+95,"(('Buses', 'Rockets'), 'Airplanes')",Vehicles,Specific,False,False,"('Buses', 'Rockets')",Airplanes,48.42857142857143,6.142857142857143,7
+96,"(('Buses', 'Sleds'), 'All vehicles')",Vehicles,General,False,False,"('Buses', 'Sleds')",All vehicles,62.142857142857146,5.857142857142857,7
+97,"(('Buses', 'Trucks'), 'Zeppelins')",Vehicles,Specific,False,False,"('Buses', 'Trucks')",Zeppelins,53.375,6.25,8
+98,"(('Camels',), 'All mammals')",Mammals,General,True,False,"('Camels',)",All mammals,42.293103448275865,9.551724137931034,58
+99,"(('Camels',), 'Cats')",Mammals,Specific,True,False,"('Camels',)",Cats,29.166666666666668,14.722222222222221,18
+100,"(('Camels',), 'Dogs')",Mammals,Specific,True,False,"('Camels',)",Dogs,55.7,9.5,10
+101,"(('Camels',), 'Donkeys')",Mammals,Specific,True,False,"('Camels',)",Donkeys,57.25,7.125,8
+102,"(('Camels',), 'Elephants')",Mammals,Specific,True,False,"('Camels',)",Elephants,57.55555555555556,8.222222222222221,9
+103,"(('Camels',), 'Hedgehogs')",Mammals,Specific,True,False,"('Camels',)",Hedgehogs,20.625,16.375,8
+104,"(('Camels',), 'Llamas')",Mammals,Specific,True,False,"('Camels',)",Llamas,72.57894736842105,5.421052631578948,19
+105,"(('Camels',), 'Mice')",Mammals,Specific,True,False,"('Camels',)",Mice,37.111111111111114,14.333333333333334,9
+106,"(('Camels',), 'Tigers')",Mammals,Specific,True,False,"('Camels',)",Tigers,42.25,12.875,8
+107,"(('Camels', 'Beavers'), 'Donkeys')",Mammals,Specific,False,False,"('Camels', 'Beavers')",Donkeys,59.375,5.0,8
+108,"(('Camels', 'Beavers'), 'Elephants')",Mammals,Specific,False,False,"('Camels', 'Beavers')",Elephants,55.333333333333336,5.777777777777778,9
+109,"(('Camels', 'Cows'), 'All mammals')",Mammals,General,False,False,"('Camels', 'Cows')",All mammals,59.0,5.0,4
+110,"(('Camels', 'Donkeys'), 'All mammals')",Mammals,General,False,False,"('Camels', 'Donkeys')",All mammals,67.125,4.5,8
+111,"(('Camels', 'Giraffes'), 'All mammals')",Mammals,General,False,False,"('Camels', 'Giraffes')",All mammals,63.6,7.2,5
+112,"(('Camels', 'Giraffes'), 'Cats')",Mammals,Specific,False,False,"('Camels', 'Giraffes')",Cats,36.8,7.2,10
+113,"(('Camels', 'Horses'), 'Cats')",Mammals,Specific,False,False,"('Camels', 'Horses')",Cats,37.125,7.625,8
+114,"(('Camels', 'Wolves'), 'Dogs')",Mammals,Specific,False,False,"('Camels', 'Wolves')",Dogs,74.3,3.5,10
+115,"(('Camels', 'Wolves'), 'Llamas')",Mammals,Specific,False,False,"('Camels', 'Wolves')",Llamas,57.6,5.3,10
+116,"(('Canaries',), 'All birds')",Birds,General,True,False,"('Canaries',)",All birds,50.0,8.153846153846153,65
+117,"(('Canaries',), 'Eagles')",Birds,Specific,True,False,"('Canaries',)",Eagles,45.611111111111114,11.38888888888889,18
+118,"(('Canaries',), 'Falcons')",Birds,Specific,True,False,"('Canaries',)",Falcons,36.5,13.25,8
+119,"(('Canaries',), 'Ostriches')",Birds,Specific,True,False,"('Canaries',)",Ostriches,41.714285714285715,11.428571428571429,7
+120,"(('Canaries',), 'Pelicans')",Birds,Specific,True,False,"('Canaries',)",Pelicans,47.25,10.5,8
+121,"(('Canaries',), 'Storks')",Birds,Specific,True,False,"('Canaries',)",Storks,45.6,13.0,25
+122,"(('Canaries',), 'Swans')",Birds,Specific,True,False,"('Canaries',)",Swans,30.5,13.875,8
+123,"(('Canaries', 'Blackbirds'), 'All birds')",Birds,General,False,False,"('Canaries', 'Blackbirds')",All birds,57.25,4.75,4
+124,"(('Canaries', 'Blackbirds'), 'Ostriches')",Birds,Specific,False,False,"('Canaries', 'Blackbirds')",Ostriches,35.42857142857143,7.428571428571429,7
+125,"(('Canaries', 'Chickens'), 'Storks')",Birds,Specific,False,False,"('Canaries', 'Chickens')",Storks,57.0,4.875,8
+126,"(('Canaries', 'Robins'), 'All birds')",Birds,General,False,False,"('Canaries', 'Robins')",All birds,60.8,4.6,5
+127,"(('Canaries', 'Robins'), 'Falcons')",Birds,Specific,False,False,"('Canaries', 'Robins')",Falcons,46.375,5.625,8
+128,"(('Canaries', 'Seagulls'), 'Storks')",Birds,Specific,False,False,"('Canaries', 'Seagulls')",Storks,60.888888888888886,5.222222222222222,9
+129,"(('Canaries', 'Sparrows'), 'Pelicans')",Birds,Specific,False,False,"('Canaries', 'Sparrows')",Pelicans,49.625,5.375,8
+130,"(('Caravans',), 'All vehicles')",Vehicles,General,True,False,"('Caravans',)",All vehicles,39.90909090909091,8.378787878787879,66
+131,"(('Caravans',), 'Jeeps')",Vehicles,Specific,True,False,"('Caravans',)",Jeeps,50.8,9.8,10
+132,"(('Caravans',), 'Skateboards')",Vehicles,Specific,True,False,"('Caravans',)",Skateboards,30.25925925925926,15.037037037037036,27
+133,"(('Caravans', 'Boats'), 'Skateboards')",Vehicles,Specific,False,False,"('Caravans', 'Boats')",Skateboards,30.7,6.6,10
+134,"(('Caravans', 'Sleds'), 'All vehicles')",Vehicles,General,False,False,"('Caravans', 'Sleds')",All vehicles,50.333333333333336,6.166666666666667,6
+135,"(('Carriages',), 'Airplanes')",Vehicles,Specific,True,False,"('Carriages',)",Airplanes,33.9,16.4,10
+136,"(('Carriages',), 'All vehicles')",Vehicles,General,True,False,"('Carriages',)",All vehicles,36.833333333333336,9.515151515151516,66
+137,"(('Carriages',), 'Bicycles')",Vehicles,Specific,True,False,"('Carriages',)",Bicycles,56.57142857142857,7.428571428571429,7
+138,"(('Carriages',), 'Boats')",Vehicles,Specific,True,False,"('Carriages',)",Boats,28.875,15.875,8
+139,"(('Carriages',), 'Caravans')",Vehicles,Specific,True,False,"('Carriages',)",Caravans,53.77777777777778,8.166666666666666,18
+140,"(('Carriages',), 'Carts')",Vehicles,Specific,True,False,"('Carriages',)",Carts,63.125,8.125,8
+141,"(('Carriages',), 'Jeeps')",Vehicles,Specific,True,False,"('Carriages',)",Jeeps,48.53333333333333,10.266666666666667,15
+142,"(('Carriages',), 'Motorbikes')",Vehicles,Specific,True,False,"('Carriages',)",Motorbikes,39.857142857142854,12.0,7
+143,"(('Carriages',), 'Rockets')",Vehicles,Specific,True,False,"('Carriages',)",Rockets,24.0,14.8,10
+144,"(('Carriages',), 'Submarines')",Vehicles,Specific,True,False,"('Carriages',)",Submarines,31.1,16.3,10
+145,"(('Carriages',), 'Tractors')",Vehicles,Specific,True,False,"('Carriages',)",Tractors,43.1,10.7,10
+146,"(('Carriages', 'Boats'), 'All vehicles')",Vehicles,General,False,False,"('Carriages', 'Boats')",All vehicles,35.833333333333336,5.833333333333333,6
+147,"(('Carriages', 'Buses'), 'All vehicles')",Vehicles,General,False,False,"('Carriages', 'Buses')",All vehicles,44.0,5.6,5
+148,"(('Carriages', 'Cars'), 'All vehicles')",Vehicles,General,False,False,"('Carriages', 'Cars')",All vehicles,65.57142857142857,4.571428571428571,7
+149,"(('Carriages', 'Hovercraft'), 'All vehicles')",Vehicles,General,False,False,"('Carriages', 'Hovercraft')",All vehicles,68.14285714285714,4.714285714285714,7
+150,"(('Carriages', 'Hovercraft'), 'Boats')",Vehicles,Specific,False,False,"('Carriages', 'Hovercraft')",Boats,61.0,5.5,8
+151,"(('Carriages', 'Mopeds'), 'Motorbikes')",Vehicles,Specific,False,False,"('Carriages', 'Mopeds')",Motorbikes,67.42857142857143,3.857142857142857,7
+152,"(('Carriages', 'Motorbikes'), 'Rockets')",Vehicles,Specific,False,False,"('Carriages', 'Motorbikes')",Rockets,32.6,8.8,10
+153,"(('Carriages', 'Rockets'), 'Bicycles')",Vehicles,Specific,False,False,"('Carriages', 'Rockets')",Bicycles,34.285714285714285,6.428571428571429,7
+154,"(('Carriages', 'Skateboards'), 'All vehicles')",Vehicles,General,False,False,"('Carriages', 'Skateboards')",All vehicles,40.875,6.75,8
+155,"(('Carriages', 'Sleds'), 'Tractors')",Vehicles,Specific,False,False,"('Carriages', 'Sleds')",Tractors,47.9,5.8,10
+156,"(('Carriages', 'Zeppelins'), 'All vehicles')",Vehicles,General,False,False,"('Carriages', 'Zeppelins')",All vehicles,56.5,5.666666666666667,6
+157,"(('Carriages', 'Zeppelins'), 'Caravans')",Vehicles,Specific,False,False,"('Carriages', 'Zeppelins')",Caravans,57.625,5.25,8
+158,"(('Cars',), 'All vehicles')",Vehicles,General,True,False,"('Cars',)",All vehicles,59.89393939393939,4.5606060606060606,66
+159,"(('Cars',), 'Caravans')",Vehicles,Specific,True,False,"('Cars',)",Caravans,47.142857142857146,8.428571428571429,7
+160,"(('Cars',), 'Carriages')",Vehicles,Specific,True,False,"('Cars',)",Carriages,66.7,7.4,10
+161,"(('Cars',), 'Jeeps')",Vehicles,Specific,True,False,"('Cars',)",Jeeps,78.5,5.222222222222222,18
+162,"(('Cars',), 'Motorbikes')",Vehicles,Specific,True,False,"('Cars',)",Motorbikes,57.3,10.1,10
+163,"(('Cars',), 'Sleds')",Vehicles,Specific,True,False,"('Cars',)",Sleds,30.176470588235293,15.529411764705882,17
+164,"(('Cars',), 'Taxis')",Vehicles,Specific,True,False,"('Cars',)",Taxis,85.5,3.1666666666666665,18
+165,"(('Cars',), 'Zeppelins')",Vehicles,Specific,True,False,"('Cars',)",Zeppelins,33.8,13.9,10
+166,"(('Cars', 'Airplanes'), 'All vehicles')",Vehicles,General,False,False,"('Cars', 'Airplanes')",All vehicles,62.5,3.75,8
+167,"(('Cars', 'Bicycles'), 'Carriages')",Vehicles,Specific,False,False,"('Cars', 'Bicycles')",Carriages,67.2,5.2,10
+168,"(('Cars', 'Boats'), 'All vehicles')",Vehicles,General,False,False,"('Cars', 'Boats')",All vehicles,72.2,3.2,5
+169,"(('Cars', 'Buses'), 'All vehicles')",Vehicles,General,False,False,"('Cars', 'Buses')",All vehicles,76.25,3.75,4
+170,"(('Cars', 'Caravans'), 'Jeeps')",Vehicles,Specific,False,False,"('Cars', 'Caravans')",Jeeps,75.9,3.2,10
+171,"(('Cars', 'Helicopters'), 'All vehicles')",Vehicles,General,False,False,"('Cars', 'Helicopters')",All vehicles,47.25,4.875,8
+172,"(('Cars', 'Motorbikes'), 'Jeeps')",Vehicles,Specific,False,False,"('Cars', 'Motorbikes')",Jeeps,87.375,1.125,8
+173,"(('Cars', 'Rockets'), 'All vehicles')",Vehicles,General,False,False,"('Cars', 'Rockets')",All vehicles,46.333333333333336,4.5,6
+174,"(('Cars', 'Taxis'), 'All vehicles')",Vehicles,General,False,False,"('Cars', 'Taxis')",All vehicles,63.0,3.3333333333333335,6
+175,"(('Cars', 'Zeppelins'), 'All vehicles')",Vehicles,General,False,False,"('Cars', 'Zeppelins')",All vehicles,70.75,3.375,8
+176,"(('Carts',), 'All vehicles')",Vehicles,General,True,False,"('Carts',)",All vehicles,38.81818181818182,9.212121212121213,66
+177,"(('Carts',), 'Caravans')",Vehicles,Specific,True,False,"('Carts',)",Caravans,47.48148148148148,10.222222222222221,27
+178,"(('Carts',), 'Carriages')",Vehicles,Specific,True,False,"('Carts',)",Carriages,68.3,6.5,20
+179,"(('Carts',), 'Helicopters')",Vehicles,Specific,True,False,"('Carts',)",Helicopters,29.444444444444443,14.88888888888889,18
+180,"(('Carts',), 'Jeeps')",Vehicles,Specific,True,False,"('Carts',)",Jeeps,38.3,11.1,10
+181,"(('Carts',), 'Sleds')",Vehicles,Specific,True,False,"('Carts',)",Sleds,42.833333333333336,10.166666666666666,18
+182,"(('Carts', 'Airplanes'), 'Helicopters')",Vehicles,Specific,False,False,"('Carts', 'Airplanes')",Helicopters,74.0,3.875,8
+183,"(('Carts', 'Cars'), 'Caravans')",Vehicles,Specific,False,False,"('Carts', 'Cars')",Caravans,61.285714285714285,4.0,7
+184,"(('Carts', 'Mopeds'), 'Jeeps')",Vehicles,Specific,False,False,"('Carts', 'Mopeds')",Jeeps,63.3,5.3,10
+185,"(('Carts', 'Motorbikes'), 'Carriages')",Vehicles,Specific,False,False,"('Carts', 'Motorbikes')",Carriages,69.3,4.2,10
+186,"(('Carts', 'Skateboards'), 'All vehicles')",Vehicles,General,False,False,"('Carts', 'Skateboards')",All vehicles,40.25,7.25,8
+187,"(('Carts', 'Sleds'), 'All vehicles')",Vehicles,General,False,False,"('Carts', 'Sleds')",All vehicles,53.0,7.285714285714286,7
+188,"(('Carts', 'Submarines'), 'Sleds')",Vehicles,Specific,False,False,"('Carts', 'Submarines')",Sleds,41.0,7.2,10
+189,"(('Carts', 'Vans'), 'Carriages')",Vehicles,Specific,False,False,"('Carts', 'Vans')",Carriages,68.1,3.6,10
+190,"(('Carts', 'Zeppelins'), 'Sleds')",Vehicles,Specific,False,False,"('Carts', 'Zeppelins')",Sleds,58.0,5.75,8
+191,"(('Cats',), 'All mammals')",Mammals,General,True,False,"('Cats',)",All mammals,47.793103448275865,6.879310344827586,58
+192,"(('Cats',), 'Cows')",Mammals,Specific,True,False,"('Cats',)",Cows,43.611111111111114,12.944444444444445,18
+193,"(('Cats',), 'Lions')",Mammals,Specific,True,False,"('Cats',)",Lions,74.0,6.0,9
+194,"(('Cats',), 'Llamas')",Mammals,Specific,True,False,"('Cats',)",Llamas,41.8,14.9,10
+195,"(('Cats',), 'Rabbits')",Mammals,Specific,True,False,"('Cats',)",Rabbits,64.25,8.25,8
+196,"(('Cats',), 'Squirrels')",Mammals,Specific,True,False,"('Cats',)",Squirrels,36.1,11.0,10
+197,"(('Cats',), 'Tigers')",Mammals,Specific,True,False,"('Cats',)",Tigers,76.11111111111111,4.777777777777778,9
+198,"(('Cats', 'Cows'), 'All mammals')",Mammals,General,False,False,"('Cats', 'Cows')",All mammals,54.4,4.4,5
+199,"(('Cats', 'Donkeys'), 'All mammals')",Mammals,General,False,False,"('Cats', 'Donkeys')",All mammals,75.2,5.0,5
+200,"(('Cats', 'Foxes'), 'Cows')",Mammals,Specific,False,False,"('Cats', 'Foxes')",Cows,43.0,7.25,8
+201,"(('Cats', 'Hippos'), 'Cows')",Mammals,Specific,False,False,"('Cats', 'Hippos')",Cows,77.0,3.7,10
+202,"(('Cats', 'Sheep'), 'Llamas')",Mammals,Specific,False,False,"('Cats', 'Sheep')",Llamas,67.3,5.8,10
+203,"(('Cats', 'Squirrels'), 'All mammals')",Mammals,General,False,False,"('Cats', 'Squirrels')",All mammals,60.625,5.125,8
+204,"(('Chickens',), 'All birds')",Birds,General,True,False,"('Chickens',)",All birds,44.246153846153845,9.184615384615384,65
+205,"(('Chickens',), 'Blackbirds')",Birds,Specific,True,False,"('Chickens',)",Blackbirds,56.375,12.25,8
+206,"(('Chickens',), 'Canaries')",Birds,Specific,True,False,"('Chickens',)",Canaries,49.285714285714285,11.428571428571429,7
+207,"(('Chickens',), 'Pelicans')",Birds,Specific,True,False,"('Chickens',)",Pelicans,43.42857142857143,12.428571428571429,7
+208,"(('Chickens',), 'Robins')",Birds,Specific,True,False,"('Chickens',)",Robins,47.875,12.25,8
+209,"(('Chickens',), 'Roosters')",Birds,Specific,True,False,"('Chickens',)",Roosters,85.3076923076923,3.423076923076923,26
+210,"(('Chickens',), 'Storks')",Birds,Specific,True,False,"('Chickens',)",Storks,47.875,12.25,8
+211,"(('Chickens',), 'Turkeys')",Birds,Specific,True,False,"('Chickens',)",Turkeys,73.72222222222223,5.444444444444445,18
+212,"(('Chickens',), 'Woodpeckers')",Birds,Specific,True,False,"('Chickens',)",Woodpeckers,45.125,13.875,8
+213,"(('Chickens', 'Ducks'), 'All birds')",Birds,General,False,False,"('Chickens', 'Ducks')",All birds,51.25,5.0,4
+214,"(('Chickens', 'Eagles'), 'All birds')",Birds,General,False,False,"('Chickens', 'Eagles')",All birds,66.83333333333333,4.666666666666667,6
+215,"(('Chickens', 'Herons'), 'All birds')",Birds,General,False,False,"('Chickens', 'Herons')",All birds,75.0,4.428571428571429,7
+216,"(('Chickens', 'Magpies'), 'All birds')",Birds,General,False,False,"('Chickens', 'Magpies')",All birds,51.07692307692308,6.230769230769231,13
+217,"(('Chickens', 'Ostriches'), 'Pelicans')",Birds,Specific,False,False,"('Chickens', 'Ostriches')",Pelicans,38.714285714285715,6.285714285714286,7
+218,"(('Chickens', 'Parrots'), 'Turkeys')",Birds,Specific,False,False,"('Chickens', 'Parrots')",Turkeys,77.5,4.5,8
+219,"(('Chickens', 'Sparrows'), 'Canaries')",Birds,Specific,False,False,"('Chickens', 'Sparrows')",Canaries,62.857142857142854,3.7142857142857144,7
+220,"(('Chickens', 'Sparrows'), 'Robins')",Birds,Specific,False,False,"('Chickens', 'Sparrows')",Robins,70.5,4.875,8
+221,"(('Cows',), 'All mammals')",Mammals,General,True,False,"('Cows',)",All mammals,51.41379310344828,6.310344827586207,58
+222,"(('Cows',), 'Cats')",Mammals,Specific,True,False,"('Cows',)",Cats,33.4375,13.4375,16
+223,"(('Cows',), 'Donkeys')",Mammals,Specific,True,False,"('Cows',)",Donkeys,52.75,7.625,8
+224,"(('Cows',), 'Hippos')",Mammals,Specific,True,False,"('Cows',)",Hippos,53.44444444444444,8.055555555555555,18
+225,"(('Cows',), 'Llamas')",Mammals,Specific,True,False,"('Cows',)",Llamas,47.22222222222222,11.333333333333334,9
+226,"(('Cows',), 'Mice')",Mammals,Specific,True,False,"('Cows',)",Mice,27.526315789473685,15.157894736842104,19
+227,"(('Cows',), 'Rhinos')",Mammals,Specific,True,False,"('Cows',)",Rhinos,59.333333333333336,7.777777777777778,9
+228,"(('Cows', 'Beavers'), 'Donkeys')",Mammals,Specific,False,False,"('Cows', 'Beavers')",Donkeys,52.0,6.125,8
+229,"(('Cows', 'Elephants'), 'All mammals')",Mammals,General,False,False,"('Cows', 'Elephants')",All mammals,50.285714285714285,6.142857142857143,7
+230,"(('Cows', 'Giraffes'), 'All mammals')",Mammals,General,False,False,"('Cows', 'Giraffes')",All mammals,59.75,4.75,4
+231,"(('Cows', 'Giraffes'), 'Llamas')",Mammals,Specific,False,False,"('Cows', 'Giraffes')",Llamas,69.44444444444444,3.7777777777777777,9
+232,"(('Cows', 'Sheep'), 'Mice')",Mammals,Specific,False,False,"('Cows', 'Sheep')",Mice,37.6,7.0,10
+233,"(('Cows', 'Squirrels'), 'All mammals')",Mammals,General,False,False,"('Cows', 'Squirrels')",All mammals,65.57142857142857,4.857142857142857,7
+234,"(('Crows',), 'All birds')",Birds,General,True,False,"('Crows',)",All birds,51.323076923076925,7.230769230769231,65
+235,"(('Crows',), 'Peacocks')",Birds,Specific,True,False,"('Crows',)",Peacocks,45.44444444444444,13.555555555555555,9
+236,"(('Crows',), 'Pelicans')",Birds,Specific,True,False,"('Crows',)",Pelicans,44.411764705882355,11.941176470588236,17
+237,"(('Crows',), 'Robins')",Birds,Specific,True,False,"('Crows',)",Robins,68.0,7.0,9
+238,"(('Crows',), 'Swans')",Birds,Specific,True,False,"('Crows',)",Swans,32.6,12.6,15
+239,"(('Crows',), 'Woodpeckers')",Birds,Specific,True,False,"('Crows',)",Woodpeckers,57.5,9.75,8
+240,"(('Crows', 'Chickens'), 'All birds')",Birds,General,False,False,"('Crows', 'Chickens')",All birds,74.33333333333333,3.6666666666666665,6
+241,"(('Crows', 'Chickens'), 'Woodpeckers')",Birds,Specific,False,False,"('Crows', 'Chickens')",Woodpeckers,69.125,5.875,8
+242,"(('Crows', 'Eagles'), 'Robins')",Birds,Specific,False,False,"('Crows', 'Eagles')",Robins,63.333333333333336,6.111111111111111,9
+243,"(('Crows', 'Roosters'), 'All birds')",Birds,General,False,False,"('Crows', 'Roosters')",All birds,72.85714285714286,5.142857142857143,7
+244,"(('Crows', 'Sparrows'), 'All birds')",Birds,General,False,False,"('Crows', 'Sparrows')",All birds,59.833333333333336,3.6666666666666665,6
+245,"(('Deer',), 'All mammals')",Mammals,General,True,False,"('Deer',)",All mammals,46.01724137931034,7.4655172413793105,58
+246,"(('Deer',), 'Donkeys')",Mammals,Specific,True,False,"('Deer',)",Donkeys,59.0,7.2631578947368425,19
+247,"(('Deer',), 'Foxes')",Mammals,Specific,True,False,"('Deer',)",Foxes,50.611111111111114,9.222222222222221,18
+248,"(('Deer',), 'Hedgehogs')",Mammals,Specific,True,False,"('Deer',)",Hedgehogs,33.25,12.25,8
+249,"(('Deer',), 'Hippos')",Mammals,Specific,True,False,"('Deer',)",Hippos,48.0,12.0,10
+250,"(('Deer',), 'Lions')",Mammals,Specific,True,False,"('Deer',)",Lions,37.75,10.0,8
+251,"(('Deer',), 'Rhinos')",Mammals,Specific,True,False,"('Deer',)",Rhinos,53.333333333333336,9.555555555555555,9
+252,"(('Deer',), 'Squirrels')",Mammals,Specific,True,False,"('Deer',)",Squirrels,32.8235294117647,13.117647058823529,17
+253,"(('Deer',), 'Zebras')",Mammals,Specific,True,False,"('Deer',)",Zebras,75.0,5.25,8
+254,"(('Deer', 'Cats'), 'All mammals')",Mammals,General,False,False,"('Deer', 'Cats')",All mammals,59.0,4.857142857142857,7
+255,"(('Deer', 'Horses'), 'Donkeys')",Mammals,Specific,False,False,"('Deer', 'Horses')",Donkeys,77.1,3.6,10
+256,"(('Deer', 'Rabbits'), 'Foxes')",Mammals,Specific,False,False,"('Deer', 'Rabbits')",Foxes,68.6,4.5,10
+257,"(('Deer', 'Rabbits'), 'Rhinos')",Mammals,Specific,False,False,"('Deer', 'Rabbits')",Rhinos,51.44444444444444,6.777777777777778,9
+258,"(('Deer', 'Rhinos'), 'All mammals')",Mammals,General,False,False,"('Deer', 'Rhinos')",All mammals,63.0,4.833333333333333,6
+259,"(('Deer', 'Squirrels'), 'All mammals')",Mammals,General,False,False,"('Deer', 'Squirrels')",All mammals,68.25,3.0,4
+260,"(('Deer', 'Wolves'), 'Hedgehogs')",Mammals,Specific,False,False,"('Deer', 'Wolves')",Hedgehogs,52.375,6.875,8
+261,"(('Deer', 'Zebras'), 'Lions')",Mammals,Specific,False,False,"('Deer', 'Zebras')",Lions,61.125,5.375,8
+262,"(('Dogs',), 'All mammals')",Mammals,General,True,False,"('Dogs',)",All mammals,51.189655172413794,6.137931034482759,58
+263,"(('Dogs',), 'Cats')",Mammals,Specific,True,False,"('Dogs',)",Cats,54.705882352941174,8.117647058823529,17
+264,"(('Dogs',), 'Foxes')",Mammals,Specific,True,False,"('Dogs',)",Foxes,70.1,7.1,10
+265,"(('Dogs',), 'Rabbits')",Mammals,Specific,True,False,"('Dogs',)",Rabbits,29.5,11.7,10
+266,"(('Dogs', 'Cows'), 'Cats')",Mammals,Specific,False,False,"('Dogs', 'Cows')",Cats,64.125,5.125,8
+267,"(('Dogs', 'Foxes'), 'All mammals')",Mammals,General,False,False,"('Dogs', 'Foxes')",All mammals,60.6,6.4,5
+268,"(('Dogs', 'Hamsters'), 'All mammals')",Mammals,General,False,False,"('Dogs', 'Hamsters')",All mammals,61.4,5.0,5
+269,"(('Dogs', 'Hedgehogs'), 'All mammals')",Mammals,General,False,False,"('Dogs', 'Hedgehogs')",All mammals,49.0,5.0,5
+270,"(('Dogs', 'Horses'), 'All mammals')",Mammals,General,False,False,"('Dogs', 'Horses')",All mammals,69.0,4.0,5
+271,"(('Dogs', 'Wolves'), 'All mammals')",Mammals,General,False,False,"('Dogs', 'Wolves')",All mammals,47.142857142857146,6.428571428571429,7
+272,"(('Donkeys',), 'All mammals')",Mammals,General,True,False,"('Donkeys',)",All mammals,45.41379310344828,7.982758620689655,58
+273,"(('Donkeys',), 'Horses')",Mammals,Specific,True,False,"('Donkeys',)",Horses,78.26923076923077,5.038461538461538,26
+274,"(('Donkeys',), 'Llamas')",Mammals,Specific,True,False,"('Donkeys',)",Llamas,56.0,9.0,9
+275,"(('Donkeys',), 'Zebras')",Mammals,Specific,True,False,"('Donkeys',)",Zebras,70.26923076923077,5.153846153846154,26
+276,"(('Donkeys', 'Beavers'), 'All mammals')",Mammals,General,False,False,"('Donkeys', 'Beavers')",All mammals,64.125,4.75,8
+277,"(('Donkeys', 'Giraffes'), 'All mammals')",Mammals,General,False,False,"('Donkeys', 'Giraffes')",All mammals,62.142857142857146,6.0,7
+278,"(('Donkeys', 'Hamsters'), 'All mammals')",Mammals,General,False,False,"('Donkeys', 'Hamsters')",All mammals,54.375,6.25,8
+279,"(('Donkeys', 'Hamsters'), 'Zebras')",Mammals,Specific,False,False,"('Donkeys', 'Hamsters')",Zebras,67.2,4.4,10
+280,"(('Donkeys', 'Horses'), 'All mammals')",Mammals,General,False,False,"('Donkeys', 'Horses')",All mammals,56.6,7.4,5
+281,"(('Donkeys', 'Lions'), 'All mammals')",Mammals,General,False,False,"('Donkeys', 'Lions')",All mammals,66.71428571428571,4.0,7
+282,"(('Doves',), 'All birds')",Birds,General,True,False,"('Doves',)",All birds,53.03076923076923,7.1692307692307695,65
+283,"(('Doves',), 'Ducks')",Birds,Specific,True,False,"('Doves',)",Ducks,51.375,12.125,8
+284,"(('Doves',), 'Peacocks')",Birds,Specific,True,False,"('Doves',)",Peacocks,31.625,14.0,8
+285,"(('Doves',), 'Robins')",Birds,Specific,True,False,"('Doves',)",Robins,56.25,8.0,8
+286,"(('Doves',), 'Storks')",Birds,Specific,True,False,"('Doves',)",Storks,49.35294117647059,11.411764705882353,17
+287,"(('Doves',), 'Swallows')",Birds,Specific,True,False,"('Doves',)",Swallows,56.55555555555556,9.333333333333334,9
+288,"(('Doves', 'Herons'), 'All birds')",Birds,General,False,False,"('Doves', 'Herons')",All birds,49.125,6.375,8
+289,"(('Doves', 'Herons'), 'Storks')",Birds,Specific,False,False,"('Doves', 'Herons')",Storks,69.77777777777777,4.333333333333333,9
+290,"(('Doves', 'Magpies'), 'All birds')",Birds,General,False,False,"('Doves', 'Magpies')",All birds,47.75,7.0,4
+291,"(('Doves', 'Swallows'), 'Peacocks')",Birds,Specific,False,False,"('Doves', 'Swallows')",Peacocks,51.0,5.25,8
+292,"(('Doves', 'Turkeys'), 'All birds')",Birds,General,False,False,"('Doves', 'Turkeys')",All birds,60.25,4.5,8
+293,"(('Ducks',), 'All birds')",Birds,General,True,False,"('Ducks',)",All birds,43.49230769230769,9.338461538461539,65
+294,"(('Ducks',), 'Chickens')",Birds,Specific,True,False,"('Ducks',)",Chickens,65.62962962962963,7.62962962962963,27
+295,"(('Ducks',), 'Eagles')",Birds,Specific,True,False,"('Ducks',)",Eagles,25.125,16.25,8
+296,"(('Ducks',), 'Magpies')",Birds,Specific,True,False,"('Ducks',)",Magpies,43.44444444444444,14.666666666666666,18
+297,"(('Ducks',), 'Pelicans')",Birds,Specific,True,False,"('Ducks',)",Pelicans,55.76923076923077,9.807692307692308,26
+298,"(('Ducks',), 'Seagulls')",Birds,Specific,True,False,"('Ducks',)",Seagulls,54.333333333333336,10.88888888888889,9
+299,"(('Ducks',), 'Sparrows')",Birds,Specific,True,False,"('Ducks',)",Sparrows,52.666666666666664,12.555555555555555,9
+300,"(('Ducks',), 'Storks')",Birds,Specific,True,False,"('Ducks',)",Storks,66.375,7.625,8
+301,"(('Ducks',), 'Turkeys')",Birds,Specific,True,False,"('Ducks',)",Turkeys,60.44,8.48,25
+302,"(('Ducks', 'Magpies'), 'Turkeys')",Birds,Specific,False,False,"('Ducks', 'Magpies')",Turkeys,50.333333333333336,7.222222222222222,9
+303,"(('Ducks', 'Ostriches'), 'All birds')",Birds,General,False,False,"('Ducks', 'Ostriches')",All birds,60.2,5.4,5
+304,"(('Ducks', 'Storks'), 'All birds')",Birds,General,False,False,"('Ducks', 'Storks')",All birds,40.0,8.2,5
+305,"(('Ducks', 'Storks'), 'Eagles')",Birds,Specific,False,False,"('Ducks', 'Storks')",Eagles,47.25,6.5,8
+306,"(('Ducks', 'Storks'), 'Pelicans')",Birds,Specific,False,False,"('Ducks', 'Storks')",Pelicans,76.77777777777777,3.6666666666666665,9
+307,"(('Ducks', 'Swallows'), 'Chickens')",Birds,Specific,False,False,"('Ducks', 'Swallows')",Chickens,68.0,5.555555555555555,9
+308,"(('Ducks', 'Turkeys'), 'Pelicans')",Birds,Specific,False,False,"('Ducks', 'Turkeys')",Pelicans,56.0,4.428571428571429,7
+309,"(('Ducks', 'Vultures'), 'Turkeys')",Birds,Specific,False,False,"('Ducks', 'Vultures')",Turkeys,53.5,4.5,8
+310,"(('Eagles',), 'All birds')",Birds,General,True,False,"('Eagles',)",All birds,50.292307692307695,7.876923076923077,65
+311,"(('Eagles',), 'Blackbirds')",Birds,Specific,True,False,"('Eagles',)",Blackbirds,51.625,12.75,8
+312,"(('Eagles',), 'Canaries')",Birds,Specific,True,False,"('Eagles',)",Canaries,35.75,13.125,8
+313,"(('Eagles',), 'Falcons')",Birds,Specific,True,False,"('Eagles',)",Falcons,76.72222222222223,4.611111111111111,18
+314,"(('Eagles',), 'Magpies')",Birds,Specific,True,False,"('Eagles',)",Magpies,46.0,14.222222222222221,9
+315,"(('Eagles',), 'Robins')",Birds,Specific,True,False,"('Eagles',)",Robins,48.44444444444444,14.0,9
+316,"(('Eagles',), 'Turkeys')",Birds,Specific,True,False,"('Eagles',)",Turkeys,52.75,10.375,8
+317,"(('Eagles',), 'Vultures')",Birds,Specific,True,False,"('Eagles',)",Vultures,64.46666666666667,7.533333333333333,15
+318,"(('Eagles', 'Blackbirds'), 'Magpies')",Birds,Specific,False,False,"('Eagles', 'Blackbirds')",Magpies,62.666666666666664,6.444444444444445,9
+319,"(('Eagles', 'Ostriches'), 'Blackbirds')",Birds,Specific,False,False,"('Eagles', 'Ostriches')",Blackbirds,77.625,4.875,8
+320,"(('Eagles', 'Parrots'), 'Falcons')",Birds,Specific,False,False,"('Eagles', 'Parrots')",Falcons,66.3,4.6,10
+321,"(('Eagles', 'Peacocks'), 'All birds')",Birds,General,False,False,"('Eagles', 'Peacocks')",All birds,60.875,4.75,8
+322,"(('Eagles', 'Pelicans'), 'All birds')",Birds,General,False,False,"('Eagles', 'Pelicans')",All birds,62.0,3.75,4
+323,"(('Eagles', 'Robins'), 'All birds')",Birds,General,False,False,"('Eagles', 'Robins')",All birds,64.66666666666667,5.333333333333333,6
+324,"(('Eagles', 'Storks'), 'All birds')",Birds,General,False,False,"('Eagles', 'Storks')",All birds,52.75,5.75,4
+325,"(('Eagles', 'Turkeys'), 'Vultures')",Birds,Specific,False,False,"('Eagles', 'Turkeys')",Vultures,67.71428571428571,3.4285714285714284,7
+326,"(('Eagles', 'Vultures'), 'All birds')",Birds,General,False,False,"('Eagles', 'Vultures')",All birds,43.625,6.375,8
+327,"(('Eagles', 'Vultures'), 'Canaries')",Birds,Specific,False,False,"('Eagles', 'Vultures')",Canaries,43.875,6.375,8
+328,"(('Elephants',), 'All mammals')",Mammals,General,True,False,"('Elephants',)",All mammals,44.775862068965516,8.327586206896552,58
+329,"(('Elephants',), 'Hamsters')",Mammals,Specific,True,False,"('Elephants',)",Hamsters,25.875,13.125,8
+330,"(('Elephants',), 'Hedgehogs')",Mammals,Specific,True,False,"('Elephants',)",Hedgehogs,34.333333333333336,14.222222222222221,9
+331,"(('Elephants',), 'Horses')",Mammals,Specific,True,False,"('Elephants',)",Horses,41.5625,10.5625,16
+332,"(('Elephants',), 'Mice')",Mammals,Specific,True,False,"('Elephants',)",Mice,16.75,14.875,8
+333,"(('Elephants',), 'Squirrels')",Mammals,Specific,True,False,"('Elephants',)",Squirrels,26.0,15.944444444444445,18
+334,"(('Elephants',), 'Wolves')",Mammals,Specific,True,False,"('Elephants',)",Wolves,45.89473684210526,12.526315789473685,19
+335,"(('Elephants', 'Camels'), 'All mammals')",Mammals,General,False,False,"('Elephants', 'Camels')",All mammals,61.857142857142854,5.142857142857143,7
+336,"(('Elephants', 'Donkeys'), 'Horses')",Mammals,Specific,False,False,"('Elephants', 'Donkeys')",Horses,56.0,6.625,8
+337,"(('Elephants', 'Giraffes'), 'All mammals')",Mammals,General,False,False,"('Elephants', 'Giraffes')",All mammals,56.2,6.8,5
+338,"(('Elephants', 'Hedgehogs'), 'All mammals')",Mammals,General,False,False,"('Elephants', 'Hedgehogs')",All mammals,49.4,5.0,5
+339,"(('Elephants', 'Llamas'), 'All mammals')",Mammals,General,False,False,"('Elephants', 'Llamas')",All mammals,55.2,3.4,5
+340,"(('Elephants', 'Llamas'), 'Squirrels')",Mammals,Specific,False,False,"('Elephants', 'Llamas')",Squirrels,30.3,7.7,10
+341,"(('Elephants', 'Rhinos'), 'All mammals')",Mammals,General,False,False,"('Elephants', 'Rhinos')",All mammals,49.285714285714285,6.285714285714286,7
+342,"(('Elephants', 'Zebras'), 'All mammals')",Mammals,General,False,False,"('Elephants', 'Zebras')",All mammals,50.75,3.25,4
+343,"(('Falcons',), 'All birds')",Birds,General,True,False,"('Falcons',)",All birds,48.55384615384615,8.846153846153847,65
+344,"(('Falcons',), 'Canaries')",Birds,Specific,True,False,"('Falcons',)",Canaries,44.75,15.375,8
+345,"(('Falcons',), 'Herons')",Birds,Specific,True,False,"('Falcons',)",Herons,65.55555555555556,8.555555555555555,9
+346,"(('Falcons',), 'Robins')",Birds,Specific,True,False,"('Falcons',)",Robins,54.111111111111114,11.777777777777779,9
+347,"(('Falcons',), 'Sparrows')",Birds,Specific,True,False,"('Falcons',)",Sparrows,46.25,10.625,8
+348,"(('Falcons',), 'Swans')",Birds,Specific,True,False,"('Falcons',)",Swans,32.42857142857143,13.285714285714286,7
+349,"(('Falcons', 'Eagles'), 'All birds')",Birds,General,False,False,"('Falcons', 'Eagles')",All birds,53.8,5.8,5
+350,"(('Falcons', 'Robins'), 'Sparrows')",Birds,Specific,False,False,"('Falcons', 'Robins')",Sparrows,71.25,3.25,8
+351,"(('Falcons', 'Sparrows'), 'Robins')",Birds,Specific,False,False,"('Falcons', 'Sparrows')",Robins,68.77777777777777,5.333333333333333,9
+352,"(('Falcons', 'Storks'), 'All birds')",Birds,General,False,False,"('Falcons', 'Storks')",All birds,55.8,5.8,5
+353,"(('Falcons', 'Swans'), 'All birds')",Birds,General,False,False,"('Falcons', 'Swans')",All birds,62.57142857142857,4.857142857142857,7
+354,"(('Falcons', 'Vultures'), 'All birds')",Birds,General,False,False,"('Falcons', 'Vultures')",All birds,50.833333333333336,5.833333333333333,12
+355,"(('Falcons', 'Woodpeckers'), 'Swans')",Birds,Specific,False,False,"('Falcons', 'Woodpeckers')",Swans,44.0,5.857142857142857,7
+356,"(('Foxes',), 'All mammals')",Mammals,General,True,False,"('Foxes',)",All mammals,47.48275862068966,7.206896551724138,58
+357,"(('Foxes',), 'Cows')",Mammals,Specific,True,False,"('Foxes',)",Cows,36.92307692307692,13.23076923076923,26
+358,"(('Foxes',), 'Hippos')",Mammals,Specific,True,False,"('Foxes',)",Hippos,44.1,14.1,10
+359,"(('Foxes',), 'Tigers')",Mammals,Specific,True,False,"('Foxes',)",Tigers,45.833333333333336,11.11111111111111,18
+360,"(('Foxes',), 'Wolves')",Mammals,Specific,True,False,"('Foxes',)",Wolves,75.55555555555556,4.777777777777778,9
+361,"(('Foxes', 'Beavers'), 'All mammals')",Mammals,General,False,False,"('Foxes', 'Beavers')",All mammals,53.142857142857146,5.142857142857143,7
+362,"(('Foxes', 'Deer'), 'Hippos')",Mammals,Specific,False,False,"('Foxes', 'Deer')",Hippos,56.5,6.3,10
+363,"(('Foxes', 'Donkeys'), 'All mammals')",Mammals,General,False,False,"('Foxes', 'Donkeys')",All mammals,76.8,4.0,5
+364,"(('Foxes', 'Elephants'), 'All mammals')",Mammals,General,False,False,"('Foxes', 'Elephants')",All mammals,47.5,4.0,4
+365,"(('Foxes', 'Hamsters'), 'All mammals')",Mammals,General,False,False,"('Foxes', 'Hamsters')",All mammals,62.166666666666664,5.0,6
+366,"(('Foxes', 'Lions'), 'All mammals')",Mammals,General,False,False,"('Foxes', 'Lions')",All mammals,57.125,5.75,8
+367,"(('Foxes', 'Llamas'), 'Tigers')",Mammals,Specific,False,False,"('Foxes', 'Llamas')",Tigers,44.44444444444444,6.444444444444445,9
+368,"(('Foxes', 'Squirrels'), 'Wolves')",Mammals,Specific,False,False,"('Foxes', 'Squirrels')",Wolves,56.22222222222222,4.555555555555555,9
+369,"(('Foxes', 'Wolves'), 'All mammals')",Mammals,General,False,False,"('Foxes', 'Wolves')",All mammals,66.375,4.375,8
+370,"(('Giraffes',), 'All mammals')",Mammals,General,True,False,"('Giraffes',)",All mammals,39.827586206896555,10.0,58
+371,"(('Giraffes',), 'Cats')",Mammals,Specific,True,False,"('Giraffes',)",Cats,22.4,15.6,10
+372,"(('Giraffes',), 'Elephants')",Mammals,Specific,True,False,"('Giraffes',)",Elephants,42.5,10.5,10
+373,"(('Giraffes',), 'Foxes')",Mammals,Specific,True,False,"('Giraffes',)",Foxes,40.611111111111114,13.722222222222221,18
+374,"(('Giraffes',), 'Hamsters')",Mammals,Specific,True,False,"('Giraffes',)",Hamsters,23.875,13.25,8
+375,"(('Giraffes',), 'Llamas')",Mammals,Specific,True,False,"('Giraffes',)",Llamas,64.44444444444444,7.333333333333333,9
+376,"(('Giraffes',), 'Mice')",Mammals,Specific,True,False,"('Giraffes',)",Mice,33.411764705882355,13.647058823529411,17
+377,"(('Giraffes', 'Dogs'), 'Foxes')",Mammals,Specific,False,False,"('Giraffes', 'Dogs')",Foxes,65.4,5.8,10
+378,"(('Giraffes', 'Elephants'), 'Hamsters')",Mammals,Specific,False,False,"('Giraffes', 'Elephants')",Hamsters,24.25,8.625,8
+379,"(('Giraffes', 'Hippos'), 'All mammals')",Mammals,General,False,False,"('Giraffes', 'Hippos')",All mammals,52.4,5.0,5
+380,"(('Giraffes', 'Tigers'), 'Mice')",Mammals,Specific,False,False,"('Giraffes', 'Tigers')",Mice,32.0,7.666666666666667,9
+381,"(('Hamsters',), 'All mammals')",Mammals,General,True,False,"('Hamsters',)",All mammals,40.1551724137931,9.327586206896552,58
+382,"(('Hamsters',), 'Cats')",Mammals,Specific,True,False,"('Hamsters',)",Cats,42.55555555555556,12.666666666666666,9
+383,"(('Hamsters',), 'Donkeys')",Mammals,Specific,True,False,"('Hamsters',)",Donkeys,45.6,13.6,10
+384,"(('Hamsters',), 'Foxes')",Mammals,Specific,True,False,"('Hamsters',)",Foxes,35.75,14.0,8
+385,"(('Hamsters',), 'Giraffes')",Mammals,Specific,True,False,"('Hamsters',)",Giraffes,26.037037037037038,15.666666666666666,27
+386,"(('Hamsters',), 'Hedgehogs')",Mammals,Specific,True,False,"('Hamsters',)",Hedgehogs,69.875,5.875,8
+387,"(('Hamsters',), 'Lions')",Mammals,Specific,True,False,"('Hamsters',)",Lions,34.4,13.3,10
+388,"(('Hamsters',), 'Llamas')",Mammals,Specific,True,False,"('Hamsters',)",Llamas,42.94736842105263,14.052631578947368,19
+389,"(('Hamsters',), 'Mice')",Mammals,Specific,True,False,"('Hamsters',)",Mice,85.625,3.25,8
+390,"(('Hamsters',), 'Rabbits')",Mammals,Specific,True,False,"('Hamsters',)",Rabbits,68.125,8.0,8
+391,"(('Hamsters',), 'Squirrels')",Mammals,Specific,True,False,"('Hamsters',)",Squirrels,59.888888888888886,8.777777777777779,9
+392,"(('Hamsters',), 'Zebras')",Mammals,Specific,True,False,"('Hamsters',)",Zebras,19.5,16.7,10
+393,"(('Hamsters', 'Beavers'), 'All mammals')",Mammals,General,False,False,"('Hamsters', 'Beavers')",All mammals,38.75,6.0,4
+394,"(('Hamsters', 'Camels'), 'Hedgehogs')",Mammals,Specific,False,False,"('Hamsters', 'Camels')",Hedgehogs,50.5,6.125,8
+395,"(('Hamsters', 'Cats'), 'Rabbits')",Mammals,Specific,False,False,"('Hamsters', 'Cats')",Rabbits,77.5,3.875,8
+396,"(('Hamsters', 'Deer'), 'All mammals')",Mammals,General,False,False,"('Hamsters', 'Deer')",All mammals,63.142857142857146,5.142857142857143,7
+397,"(('Hamsters', 'Deer'), 'Squirrels')",Mammals,Specific,False,False,"('Hamsters', 'Deer')",Squirrels,62.22222222222222,4.666666666666667,9
+398,"(('Hamsters', 'Donkeys'), 'Llamas')",Mammals,Specific,False,False,"('Hamsters', 'Donkeys')",Llamas,58.888888888888886,4.888888888888889,9
+399,"(('Hamsters', 'Elephants'), 'Mice')",Mammals,Specific,False,False,"('Hamsters', 'Elephants')",Mice,65.75,3.75,8
+400,"(('Hamsters', 'Giraffes'), 'Foxes')",Mammals,Specific,False,False,"('Hamsters', 'Giraffes')",Foxes,58.5,5.875,8
+401,"(('Hamsters', 'Hedgehogs'), 'All mammals')",Mammals,General,False,False,"('Hamsters', 'Hedgehogs')",All mammals,63.8,6.6,5
+402,"(('Hamsters', 'Llamas'), 'All mammals')",Mammals,General,False,False,"('Hamsters', 'Llamas')",All mammals,56.857142857142854,4.142857142857143,7
+403,"(('Hamsters', 'Squirrels'), 'All mammals')",Mammals,General,False,False,"('Hamsters', 'Squirrels')",All mammals,46.25,7.0,4
+404,"(('Hamsters', 'Tigers'), 'Cats')",Mammals,Specific,False,False,"('Hamsters', 'Tigers')",Cats,70.11111111111111,3.7777777777777777,9
+405,"(('Hedgehogs',), 'All mammals')",Mammals,General,True,False,"('Hedgehogs',)",All mammals,38.43103448275862,10.344827586206897,58
+406,"(('Hedgehogs',), 'Donkeys')",Mammals,Specific,True,False,"('Hedgehogs',)",Donkeys,42.0,14.7,10
+407,"(('Hedgehogs',), 'Elephants')",Mammals,Specific,True,False,"('Hedgehogs',)",Elephants,35.0,15.416666666666666,36
+408,"(('Hedgehogs',), 'Rhinos')",Mammals,Specific,True,False,"('Hedgehogs',)",Rhinos,35.0,14.375,8
+409,"(('Hedgehogs',), 'Wolves')",Mammals,Specific,True,False,"('Hedgehogs',)",Wolves,38.55555555555556,14.222222222222221,9
+410,"(('Hedgehogs',), 'Zebras')",Mammals,Specific,True,False,"('Hedgehogs',)",Zebras,31.125,15.0,8
+411,"(('Hedgehogs', 'Beavers'), 'All mammals')",Mammals,General,False,False,"('Hedgehogs', 'Beavers')",All mammals,58.0,6.285714285714286,7
+412,"(('Hedgehogs', 'Cats'), 'All mammals')",Mammals,General,False,False,"('Hedgehogs', 'Cats')",All mammals,46.5,5.0,4
+413,"(('Hedgehogs', 'Hamsters'), 'Donkeys')",Mammals,Specific,False,False,"('Hedgehogs', 'Hamsters')",Donkeys,40.8,8.5,10
+414,"(('Hedgehogs', 'Mice'), 'Elephants')",Mammals,Specific,False,False,"('Hedgehogs', 'Mice')",Elephants,41.8,7.8,10
+415,"(('Hedgehogs', 'Sheep'), 'All mammals')",Mammals,General,False,False,"('Hedgehogs', 'Sheep')",All mammals,67.0,4.333333333333333,6
+416,"(('Hedgehogs', 'Sheep'), 'Elephants')",Mammals,Specific,False,False,"('Hedgehogs', 'Sheep')",Elephants,41.55555555555556,7.666666666666667,9
+417,"(('Hedgehogs', 'Wolves'), 'Elephants')",Mammals,Specific,False,False,"('Hedgehogs', 'Wolves')",Elephants,38.666666666666664,7.222222222222222,9
+418,"(('Helicopters',), 'Airplanes')",Vehicles,Specific,True,False,"('Helicopters',)",Airplanes,71.3,7.6,10
+419,"(('Helicopters',), 'All vehicles')",Vehicles,General,True,False,"('Helicopters',)",All vehicles,33.31818181818182,10.530303030303031,66
+420,"(('Helicopters',), 'Bicycles')",Vehicles,Specific,True,False,"('Helicopters',)",Bicycles,24.4,15.4,10
+421,"(('Helicopters',), 'Boats')",Vehicles,Specific,True,False,"('Helicopters',)",Boats,46.75,11.625,8
+422,"(('Helicopters',), 'Jeeps')",Vehicles,Specific,True,False,"('Helicopters',)",Jeeps,30.6,14.95,20
+423,"(('Helicopters',), 'Rockets')",Vehicles,Specific,True,False,"('Helicopters',)",Rockets,47.8,9.7,10
+424,"(('Helicopters',), 'Skateboards')",Vehicles,Specific,True,False,"('Helicopters',)",Skateboards,27.875,15.0,8
+425,"(('Helicopters',), 'Sleds')",Vehicles,Specific,True,False,"('Helicopters',)",Sleds,28.16,14.24,25
+426,"(('Helicopters',), 'Trams')",Vehicles,Specific,True,False,"('Helicopters',)",Trams,38.27777777777778,13.833333333333334,18
+427,"(('Helicopters',), 'Zeppelins')",Vehicles,Specific,True,False,"('Helicopters',)",Zeppelins,53.1,8.6,10
+428,"(('Helicopters', 'Boats'), 'All vehicles')",Vehicles,General,False,False,"('Helicopters', 'Boats')",All vehicles,67.375,3.875,8
+429,"(('Helicopters', 'Buses'), 'Boats')",Vehicles,Specific,False,False,"('Helicopters', 'Buses')",Boats,63.75,4.5,8
+430,"(('Helicopters', 'Carriages'), 'Airplanes')",Vehicles,Specific,False,False,"('Helicopters', 'Carriages')",Airplanes,61.6,5.1,10
+431,"(('Helicopters', 'Cars'), 'Sleds')",Vehicles,Specific,False,False,"('Helicopters', 'Cars')",Sleds,25.714285714285715,7.142857142857143,7
+432,"(('Helicopters', 'Hovercraft'), 'All vehicles')",Vehicles,General,False,False,"('Helicopters', 'Hovercraft')",All vehicles,41.6,6.6,5
+433,"(('Helicopters', 'Hovercraft'), 'Bicycles')",Vehicles,Specific,False,False,"('Helicopters', 'Hovercraft')",Bicycles,36.2,8.3,10
+434,"(('Helicopters', 'Hovercraft'), 'Rockets')",Vehicles,Specific,False,False,"('Helicopters', 'Hovercraft')",Rockets,69.0,4.6,10
+435,"(('Helicopters', 'Rockets'), 'All vehicles')",Vehicles,General,False,False,"('Helicopters', 'Rockets')",All vehicles,52.25,6.25,4
+436,"(('Helicopters', 'Rockets'), 'Trams')",Vehicles,Specific,False,False,"('Helicopters', 'Rockets')",Trams,33.6,7.6,10
+437,"(('Helicopters', 'Skateboards'), 'Zeppelins')",Vehicles,Specific,False,False,"('Helicopters', 'Skateboards')",Zeppelins,43.0,6.6,10
+438,"(('Helicopters', 'Submarines'), 'All vehicles')",Vehicles,General,False,False,"('Helicopters', 'Submarines')",All vehicles,46.0,5.75,8
+439,"(('Helicopters', 'Trains'), 'All vehicles')",Vehicles,General,False,False,"('Helicopters', 'Trains')",All vehicles,56.857142857142854,4.714285714285714,7
+440,"(('Helicopters', 'Trucks'), 'Jeeps')",Vehicles,Specific,False,False,"('Helicopters', 'Trucks')",Jeeps,66.7,4.5,10
+441,"(('Helicopters', 'Zeppelins'), 'All vehicles')",Vehicles,General,False,False,"('Helicopters', 'Zeppelins')",All vehicles,38.25,6.875,8
+442,"(('Herons',), 'All birds')",Birds,General,True,False,"('Herons',)",All birds,43.815384615384616,9.876923076923077,65
+443,"(('Herons',), 'Crows')",Birds,Specific,True,False,"('Herons',)",Crows,53.21052631578947,11.263157894736842,19
+444,"(('Herons',), 'Doves')",Birds,Specific,True,False,"('Herons',)",Doves,53.76470588235294,11.411764705882353,34
+445,"(('Herons',), 'Ostriches')",Birds,Specific,True,False,"('Herons',)",Ostriches,56.88235294117647,11.176470588235293,17
+446,"(('Herons',), 'Peacocks')",Birds,Specific,True,False,"('Herons',)",Peacocks,52.75,8.375,8
+447,"(('Herons',), 'Sparrows')",Birds,Specific,True,False,"('Herons',)",Sparrows,43.75,10.5,8
+448,"(('Herons',), 'Storks')",Birds,Specific,True,False,"('Herons',)",Storks,68.72222222222223,7.555555555555555,18
+449,"(('Herons', 'Blackbirds'), 'Doves')",Birds,Specific,False,False,"('Herons', 'Blackbirds')",Doves,67.22222222222223,5.0,9
+450,"(('Herons', 'Eagles'), 'All birds')",Birds,General,False,False,"('Herons', 'Eagles')",All birds,53.083333333333336,5.75,12
+451,"(('Herons', 'Magpies'), 'Crows')",Birds,Specific,False,False,"('Herons', 'Magpies')",Crows,67.0,5.1,10
+452,"(('Herons', 'Magpies'), 'Storks')",Birds,Specific,False,False,"('Herons', 'Magpies')",Storks,70.44444444444444,5.777777777777778,9
+453,"(('Herons', 'Peacocks'), 'All birds')",Birds,General,False,False,"('Herons', 'Peacocks')",All birds,48.5,6.5,4
+454,"(('Herons', 'Pelicans'), 'All birds')",Birds,General,False,False,"('Herons', 'Pelicans')",All birds,45.57142857142857,6.0,7
+455,"(('Herons', 'Storks'), 'All birds')",Birds,General,False,False,"('Herons', 'Storks')",All birds,48.8,6.4,5
+456,"(('Herons', 'Storks'), 'Ostriches')",Birds,Specific,False,False,"('Herons', 'Storks')",Ostriches,62.888888888888886,5.888888888888889,9
+457,"(('Herons', 'Swallows'), 'Sparrows')",Birds,Specific,False,False,"('Herons', 'Swallows')",Sparrows,56.25,4.625,8
+458,"(('Herons', 'Swans'), 'Doves')",Birds,Specific,False,False,"('Herons', 'Swans')",Doves,73.625,5.625,8
+459,"(('Herons', 'Vultures'), 'All birds')",Birds,General,False,False,"('Herons', 'Vultures')",All birds,56.0,5.75,8
+460,"(('Herons', 'Woodpeckers'), 'All birds')",Birds,General,False,False,"('Herons', 'Woodpeckers')",All birds,51.75,5.75,4
+461,"(('Herons', 'Woodpeckers'), 'Doves')",Birds,Specific,False,False,"('Herons', 'Woodpeckers')",Doves,71.625,5.375,8
+462,"(('Hippos',), 'All mammals')",Mammals,General,True,False,"('Hippos',)",All mammals,41.44827586206897,9.362068965517242,58
+463,"(('Hippos',), 'Beavers')",Mammals,Specific,True,False,"('Hippos',)",Beavers,38.55555555555556,13.777777777777779,9
+464,"(('Hippos',), 'Cows')",Mammals,Specific,True,False,"('Hippos',)",Cows,52.733333333333334,8.366666666666667,30
+465,"(('Hippos',), 'Deer')",Mammals,Specific,True,False,"('Hippos',)",Deer,37.44444444444444,12.0,9
+466,"(('Hippos',), 'Dogs')",Mammals,Specific,True,False,"('Hippos',)",Dogs,44.111111111111114,11.666666666666666,9
+467,"(('Hippos',), 'Donkeys')",Mammals,Specific,True,False,"('Hippos',)",Donkeys,37.2,11.3,10
+468,"(('Hippos',), 'Mice')",Mammals,Specific,True,False,"('Hippos',)",Mice,20.666666666666668,16.333333333333332,18
+469,"(('Hippos',), 'Rabbits')",Mammals,Specific,True,False,"('Hippos',)",Rabbits,33.888888888888886,15.444444444444445,9
+470,"(('Hippos',), 'Rhinos')",Mammals,Specific,True,False,"('Hippos',)",Rhinos,72.23529411764706,6.411764705882353,17
+471,"(('Hippos',), 'Tigers')",Mammals,Specific,True,False,"('Hippos',)",Tigers,36.96,12.68,25
+472,"(('Hippos',), 'Zebras')",Mammals,Specific,True,False,"('Hippos',)",Zebras,47.25,12.25,8
+473,"(('Hippos', 'Cats'), 'Tigers')",Mammals,Specific,False,False,"('Hippos', 'Cats')",Tigers,60.44444444444444,4.777777777777778,9
+474,"(('Hippos', 'Elephants'), 'All mammals')",Mammals,General,False,False,"('Hippos', 'Elephants')",All mammals,60.714285714285715,5.714285714285714,7
+475,"(('Hippos', 'Giraffes'), 'Mice')",Mammals,Specific,False,False,"('Hippos', 'Giraffes')",Mice,35.875,8.125,8
+476,"(('Hippos', 'Hedgehogs'), 'All mammals')",Mammals,General,False,False,"('Hippos', 'Hedgehogs')",All mammals,49.5,5.75,4
+477,"(('Hippos', 'Hedgehogs'), 'Zebras')",Mammals,Specific,False,False,"('Hippos', 'Hedgehogs')",Zebras,58.375,5.875,8
+478,"(('Hippos', 'Horses'), 'Cows')",Mammals,Specific,False,False,"('Hippos', 'Horses')",Cows,70.6,4.0,10
+479,"(('Hippos', 'Tigers'), 'Rhinos')",Mammals,Specific,False,False,"('Hippos', 'Tigers')",Rhinos,73.77777777777777,3.888888888888889,9
+480,"(('Hippos', 'Wolves'), 'Dogs')",Mammals,Specific,False,False,"('Hippos', 'Wolves')",Dogs,74.88888888888889,3.4444444444444446,9
+481,"(('Horses',), 'All mammals')",Mammals,General,True,False,"('Horses',)",All mammals,50.310344827586206,6.275862068965517,58
+482,"(('Horses',), 'Cats')",Mammals,Specific,True,False,"('Horses',)",Cats,36.4375,14.0625,16
+483,"(('Horses',), 'Cows')",Mammals,Specific,True,False,"('Horses',)",Cows,55.611111111111114,7.388888888888889,18
+484,"(('Horses',), 'Donkeys')",Mammals,Specific,True,False,"('Horses',)",Donkeys,83.82758620689656,2.9655172413793105,29
+485,"(('Horses',), 'Foxes')",Mammals,Specific,True,False,"('Horses',)",Foxes,47.875,10.875,8
+486,"(('Horses',), 'Hedgehogs')",Mammals,Specific,True,False,"('Horses',)",Hedgehogs,21.25,14.125,8
+487,"(('Horses',), 'Tigers')",Mammals,Specific,True,False,"('Horses',)",Tigers,42.44444444444444,13.0,9
+488,"(('Horses',), 'Zebras')",Mammals,Specific,True,False,"('Horses',)",Zebras,87.375,3.0,16
+489,"(('Horses', 'Cats'), 'All mammals')",Mammals,General,False,False,"('Horses', 'Cats')",All mammals,61.5,4.25,4
+490,"(('Horses', 'Cows'), 'All mammals')",Mammals,General,False,False,"('Horses', 'Cows')",All mammals,55.25,6.25,4
+491,"(('Horses', 'Deer'), 'Zebras')",Mammals,Specific,False,False,"('Horses', 'Deer')",Zebras,85.125,2.625,8
+492,"(('Horses', 'Foxes'), 'All mammals')",Mammals,General,False,False,"('Horses', 'Foxes')",All mammals,54.125,6.375,8
+493,"(('Horses', 'Hamsters'), 'All mammals')",Mammals,General,False,False,"('Horses', 'Hamsters')",All mammals,57.0,4.0,5
+494,"(('Horses', 'Hippos'), 'Donkeys')",Mammals,Specific,False,False,"('Horses', 'Hippos')",Donkeys,78.1,2.7,10
+495,"(('Horses', 'Lions'), 'Hedgehogs')",Mammals,Specific,False,False,"('Horses', 'Lions')",Hedgehogs,33.625,7.0,8
+496,"(('Horses', 'Squirrels'), 'All mammals')",Mammals,General,False,False,"('Horses', 'Squirrels')",All mammals,71.42857142857143,3.7142857142857144,7
+497,"(('Horses', 'Tigers'), 'Donkeys')",Mammals,Specific,False,False,"('Horses', 'Tigers')",Donkeys,76.0,3.2222222222222223,9
+498,"(('Horses', 'Wolves'), 'Foxes')",Mammals,Specific,False,False,"('Horses', 'Wolves')",Foxes,77.125,3.5,8
+499,"(('Hovercraft',), 'All vehicles')",Vehicles,General,True,False,"('Hovercraft',)",All vehicles,27.62121212121212,11.681818181818182,66
+500,"(('Hovercraft',), 'Bicycles')",Vehicles,Specific,True,False,"('Hovercraft',)",Bicycles,32.2,14.0,10
+501,"(('Hovercraft',), 'Boats')",Vehicles,Specific,True,False,"('Hovercraft',)",Boats,65.125,7.125,8
+502,"(('Hovercraft',), 'Motorbikes')",Vehicles,Specific,True,False,"('Hovercraft',)",Motorbikes,29.75,12.875,8
+503,"(('Hovercraft',), 'Rockets')",Vehicles,Specific,True,False,"('Hovercraft',)",Rockets,32.1,13.8,10
+504,"(('Hovercraft',), 'Tractors')",Vehicles,Specific,True,False,"('Hovercraft',)",Tractors,24.166666666666668,14.222222222222221,18
+505,"(('Hovercraft',), 'Vans')",Vehicles,Specific,True,False,"('Hovercraft',)",Vans,32.2,16.7,10
+506,"(('Hovercraft', 'Airplanes'), 'All vehicles')",Vehicles,General,False,False,"('Hovercraft', 'Airplanes')",All vehicles,33.5,7.166666666666667,6
+507,"(('Hovercraft', 'Bicycles'), 'All vehicles')",Vehicles,General,False,False,"('Hovercraft', 'Bicycles')",All vehicles,49.875,5.0,8
+508,"(('Hovercraft', 'Cars'), 'All vehicles')",Vehicles,General,False,False,"('Hovercraft', 'Cars')",All vehicles,63.0,5.142857142857143,7
+509,"(('Hovercraft', 'Rockets'), 'All vehicles')",Vehicles,General,False,False,"('Hovercraft', 'Rockets')",All vehicles,26.625,8.25,8
+510,"(('Hovercraft', 'Submarines'), 'All vehicles')",Vehicles,General,False,False,"('Hovercraft', 'Submarines')",All vehicles,37.625,7.75,8
+511,"(('Hovercraft', 'Submarines'), 'Motorbikes')",Vehicles,Specific,False,False,"('Hovercraft', 'Submarines')",Motorbikes,43.75,6.875,8
+512,"(('Hovercraft', 'Tractors'), 'All vehicles')",Vehicles,General,False,False,"('Hovercraft', 'Tractors')",All vehicles,62.4,4.2,5
+513,"(('Hovercraft', 'Tractors'), 'Vans')",Vehicles,Specific,False,False,"('Hovercraft', 'Tractors')",Vans,59.4,5.5,10
+514,"(('Jeeps',), 'All vehicles')",Vehicles,General,True,False,"('Jeeps',)",All vehicles,47.803030303030305,6.924242424242424,66
+515,"(('Jeeps',), 'Cars')",Vehicles,Specific,True,False,"('Jeeps',)",Cars,81.6,3.6666666666666665,15
+516,"(('Jeeps',), 'Helicopters')",Vehicles,Specific,True,False,"('Jeeps',)",Helicopters,28.2,17.1,10
+517,"(('Jeeps',), 'Motorbikes')",Vehicles,Specific,True,False,"('Jeeps',)",Motorbikes,50.4,10.0,10
+518,"(('Jeeps',), 'Rockets')",Vehicles,Specific,True,False,"('Jeeps',)",Rockets,24.2,15.5,10
+519,"(('Jeeps',), 'Submarines')",Vehicles,Specific,True,False,"('Jeeps',)",Submarines,20.9,16.3,10
+520,"(('Jeeps',), 'Tractors')",Vehicles,Specific,True,False,"('Jeeps',)",Tractors,55.44,9.2,25
+521,"(('Jeeps', 'Airplanes'), 'Tractors')",Vehicles,Specific,False,False,"('Jeeps', 'Airplanes')",Tractors,74.625,4.25,8
+522,"(('Jeeps', 'Bicycles'), 'All vehicles')",Vehicles,General,False,False,"('Jeeps', 'Bicycles')",All vehicles,66.42857142857143,4.142857142857143,7
+523,"(('Jeeps', 'Helicopters'), 'All vehicles')",Vehicles,General,False,False,"('Jeeps', 'Helicopters')",All vehicles,73.375,3.25,8
+524,"(('Jeeps', 'Mopeds'), 'Motorbikes')",Vehicles,Specific,False,False,"('Jeeps', 'Mopeds')",Motorbikes,78.3,3.1,10
+525,"(('Jeeps', 'Sleds'), 'All vehicles')",Vehicles,General,False,False,"('Jeeps', 'Sleds')",All vehicles,48.875,5.875,8
+526,"(('Jeeps', 'Trucks'), 'Submarines')",Vehicles,Specific,False,False,"('Jeeps', 'Trucks')",Submarines,14.8,9.0,10
+527,"(('Lions',), 'All mammals')",Mammals,General,True,False,"('Lions',)",All mammals,49.224137931034484,6.810344827586207,58
+528,"(('Lions',), 'Cats')",Mammals,Specific,True,False,"('Lions',)",Cats,75.72222222222223,5.444444444444445,18
+529,"(('Lions',), 'Dogs')",Mammals,Specific,True,False,"('Lions',)",Dogs,47.333333333333336,10.0,9
+530,"(('Lions',), 'Hedgehogs')",Mammals,Specific,True,False,"('Lions',)",Hedgehogs,23.9375,15.4375,16
+531,"(('Lions',), 'Hippos')",Mammals,Specific,True,False,"('Lions',)",Hippos,38.125,13.875,8
+532,"(('Lions',), 'Rhinos')",Mammals,Specific,True,False,"('Lions',)",Rhinos,47.0,11.857142857142858,35
+533,"(('Lions',), 'Squirrels')",Mammals,Specific,True,False,"('Lions',)",Squirrels,14.9,16.3,10
+534,"(('Lions', 'Camels'), 'All mammals')",Mammals,General,False,False,"('Lions', 'Camels')",All mammals,47.5,4.25,4
+535,"(('Lions', 'Cows'), 'Hippos')",Mammals,Specific,False,False,"('Lions', 'Cows')",Hippos,70.625,4.375,8
+536,"(('Lions', 'Cows'), 'Rhinos')",Mammals,Specific,False,False,"('Lions', 'Cows')",Rhinos,71.33333333333333,4.222222222222222,9
+537,"(('Lions', 'Hamsters'), 'All mammals')",Mammals,General,False,False,"('Lions', 'Hamsters')",All mammals,53.57142857142857,4.571428571428571,7
+538,"(('Lions', 'Hedgehogs'), 'Rhinos')",Mammals,Specific,False,False,"('Lions', 'Hedgehogs')",Rhinos,53.125,6.875,8
+539,"(('Lions', 'Hippos'), 'Rhinos')",Mammals,Specific,False,False,"('Lions', 'Hippos')",Rhinos,76.5,4.375,8
+540,"(('Lions', 'Mice'), 'Dogs')",Mammals,Specific,False,False,"('Lions', 'Mice')",Dogs,52.77777777777778,5.333333333333333,9
+541,"(('Lions', 'Wolves'), 'Hedgehogs')",Mammals,Specific,False,False,"('Lions', 'Wolves')",Hedgehogs,25.375,7.625,8
+542,"(('Lions', 'Zebras'), 'All mammals')",Mammals,General,False,False,"('Lions', 'Zebras')",All mammals,53.2,4.0,5
+543,"(('Llamas',), 'All mammals')",Mammals,General,True,False,"('Llamas',)",All mammals,43.48275862068966,8.913793103448276,58
+544,"(('Llamas',), 'Cats')",Mammals,Specific,True,False,"('Llamas',)",Cats,31.294117647058822,13.588235294117647,17
+545,"(('Llamas',), 'Dogs')",Mammals,Specific,True,False,"('Llamas',)",Dogs,41.61538461538461,11.115384615384615,26
+546,"(('Llamas',), 'Giraffes')",Mammals,Specific,True,False,"('Llamas',)",Giraffes,54.75,8.9375,16
+547,"(('Llamas',), 'Hamsters')",Mammals,Specific,True,False,"('Llamas',)",Hamsters,30.9,11.1,10
+548,"(('Llamas',), 'Horses')",Mammals,Specific,True,False,"('Llamas',)",Horses,70.16666666666667,6.722222222222222,18
+549,"(('Llamas',), 'Squirrels')",Mammals,Specific,True,False,"('Llamas',)",Squirrels,24.0,13.38888888888889,18
+550,"(('Llamas',), 'Tigers')",Mammals,Specific,True,False,"('Llamas',)",Tigers,34.111111111111114,13.333333333333334,9
+551,"(('Llamas',), 'Zebras')",Mammals,Specific,True,False,"('Llamas',)",Zebras,65.66666666666667,7.333333333333333,9
+552,"(('Llamas', 'Beavers'), 'Hamsters')",Mammals,Specific,False,False,"('Llamas', 'Beavers')",Hamsters,52.0,5.8,10
+553,"(('Llamas', 'Camels'), 'All mammals')",Mammals,General,False,False,"('Llamas', 'Camels')",All mammals,59.8,5.4,5
+554,"(('Llamas', 'Dogs'), 'All mammals')",Mammals,General,False,False,"('Llamas', 'Dogs')",All mammals,50.0,3.5,4
+555,"(('Llamas', 'Donkeys'), 'Horses')",Mammals,Specific,False,False,"('Llamas', 'Donkeys')",Horses,83.9,2.9,10
+556,"(('Llamas', 'Hamsters'), 'Giraffes')",Mammals,Specific,False,False,"('Llamas', 'Hamsters')",Giraffes,62.625,5.5,8
+557,"(('Llamas', 'Lions'), 'All mammals')",Mammals,General,False,False,"('Llamas', 'Lions')",All mammals,47.857142857142854,6.285714285714286,7
+558,"(('Llamas', 'Lions'), 'Cats')",Mammals,Specific,False,False,"('Llamas', 'Lions')",Cats,69.77777777777777,3.111111111111111,9
+559,"(('Llamas', 'Squirrels'), 'All mammals')",Mammals,General,False,False,"('Llamas', 'Squirrels')",All mammals,70.2,3.2,5
+560,"(('Llamas', 'Zebras'), 'Giraffes')",Mammals,Specific,False,False,"('Llamas', 'Zebras')",Giraffes,69.25,3.75,8
+561,"(('Magpies',), 'All birds')",Birds,General,True,False,"('Magpies',)",All birds,49.03076923076923,8.430769230769231,65
+562,"(('Magpies',), 'Blackbirds')",Birds,Specific,True,False,"('Magpies',)",Blackbirds,68.61111111111111,8.88888888888889,18
+563,"(('Magpies',), 'Chickens')",Birds,Specific,True,False,"('Magpies',)",Chickens,40.625,11.0,8
+564,"(('Magpies',), 'Crows')",Birds,Specific,True,False,"('Magpies',)",Crows,68.2,6.4,10
+565,"(('Magpies',), 'Ducks')",Birds,Specific,True,False,"('Magpies',)",Ducks,54.388888888888886,11.222222222222221,18
+566,"(('Magpies',), 'Falcons')",Birds,Specific,True,False,"('Magpies',)",Falcons,48.888888888888886,13.777777777777779,9
+567,"(('Magpies',), 'Storks')",Birds,Specific,True,False,"('Magpies',)",Storks,58.333333333333336,11.0,9
+568,"(('Magpies',), 'Swans')",Birds,Specific,True,False,"('Magpies',)",Swans,26.857142857142858,14.714285714285714,7
+569,"(('Magpies',), 'Turkeys')",Birds,Specific,True,False,"('Magpies',)",Turkeys,50.26315789473684,12.736842105263158,19
+570,"(('Magpies',), 'Woodpeckers')",Birds,Specific,True,False,"('Magpies',)",Woodpeckers,55.1764705882353,10.647058823529411,17
+571,"(('Magpies', 'Chickens'), 'Turkeys')",Birds,Specific,False,False,"('Magpies', 'Chickens')",Turkeys,67.2,4.6,10
+572,"(('Magpies', 'Crows'), 'Swans')",Birds,Specific,False,False,"('Magpies', 'Crows')",Swans,40.0,6.428571428571429,7
+573,"(('Magpies', 'Ducks'), 'All birds')",Birds,General,False,False,"('Magpies', 'Ducks')",All birds,61.09090909090909,6.0,11
+574,"(('Magpies', 'Herons'), 'All birds')",Birds,General,False,False,"('Magpies', 'Herons')",All birds,58.0,5.4,5
+575,"(('Magpies', 'Pelicans'), 'All birds')",Birds,General,False,False,"('Magpies', 'Pelicans')",All birds,53.875,6.0,8
+576,"(('Magpies', 'Roosters'), 'Chickens')",Birds,Specific,False,False,"('Magpies', 'Roosters')",Chickens,74.75,2.875,8
+577,"(('Magpies', 'Seagulls'), 'Falcons')",Birds,Specific,False,False,"('Magpies', 'Seagulls')",Falcons,60.111111111111114,6.444444444444445,9
+578,"(('Mice',), 'All mammals')",Mammals,General,True,False,"('Mice',)",All mammals,39.206896551724135,9.517241379310345,58
+579,"(('Mice',), 'Cats')",Mammals,Specific,True,False,"('Mice',)",Cats,40.25,11.25,8
+580,"(('Mice',), 'Dogs')",Mammals,Specific,True,False,"('Mice',)",Dogs,33.55555555555556,13.333333333333334,9
+581,"(('Mice',), 'Elephants')",Mammals,Specific,True,False,"('Mice',)",Elephants,36.0,16.7,10
+582,"(('Mice',), 'Giraffes')",Mammals,Specific,True,False,"('Mice',)",Giraffes,21.0,15.5,8
+583,"(('Mice',), 'Hamsters')",Mammals,Specific,True,False,"('Mice',)",Hamsters,74.0,5.368421052631579,19
+584,"(('Mice',), 'Hippos')",Mammals,Specific,True,False,"('Mice',)",Hippos,38.111111111111114,13.444444444444445,9
+585,"(('Mice',), 'Rabbits')",Mammals,Specific,True,False,"('Mice',)",Rabbits,60.625,8.25,8
+586,"(('Mice',), 'Wolves')",Mammals,Specific,True,False,"('Mice',)",Wolves,35.333333333333336,14.666666666666666,9
+587,"(('Mice', 'Dogs'), 'All mammals')",Mammals,General,False,False,"('Mice', 'Dogs')",All mammals,62.0,5.6,5
+588,"(('Mice', 'Hamsters'), 'All mammals')",Mammals,General,False,False,"('Mice', 'Hamsters')",All mammals,26.857142857142858,8.571428571428571,7
+589,"(('Mice', 'Hedgehogs'), 'All mammals')",Mammals,General,False,False,"('Mice', 'Hedgehogs')",All mammals,47.857142857142854,5.714285714285714,7
+590,"(('Mice', 'Hedgehogs'), 'Wolves')",Mammals,Specific,False,False,"('Mice', 'Hedgehogs')",Wolves,44.111111111111114,7.555555555555555,9
+591,"(('Mice', 'Horses'), 'All mammals')",Mammals,General,False,False,"('Mice', 'Horses')",All mammals,65.14285714285714,4.428571428571429,7
+592,"(('Mice', 'Llamas'), 'All mammals')",Mammals,General,False,False,"('Mice', 'Llamas')",All mammals,51.4,4.8,5
+593,"(('Mice', 'Rabbits'), 'All mammals')",Mammals,General,False,False,"('Mice', 'Rabbits')",All mammals,35.0,7.0,4
+594,"(('Mice', 'Rabbits'), 'Hippos')",Mammals,Specific,False,False,"('Mice', 'Rabbits')",Hippos,31.444444444444443,8.11111111111111,9
+595,"(('Mice', 'Squirrels'), 'All mammals')",Mammals,General,False,False,"('Mice', 'Squirrels')",All mammals,50.6,5.6,5
+596,"(('Mice', 'Wolves'), 'All mammals')",Mammals,General,False,False,"('Mice', 'Wolves')",All mammals,55.42857142857143,4.714285714285714,7
+597,"(('Mopeds',), 'All vehicles')",Vehicles,General,True,False,"('Mopeds',)",All vehicles,39.81818181818182,8.712121212121213,66
+598,"(('Mopeds',), 'Cars')",Vehicles,Specific,True,False,"('Mopeds',)",Cars,58.6,7.4,10
+599,"(('Mopeds',), 'Jeeps')",Vehicles,Specific,True,False,"('Mopeds',)",Jeeps,42.5,10.5,10
+600,"(('Mopeds',), 'Motorbikes')",Vehicles,Specific,True,False,"('Mopeds',)",Motorbikes,82.97142857142858,3.4285714285714284,35
+601,"(('Mopeds',), 'Rockets')",Vehicles,Specific,True,False,"('Mopeds',)",Rockets,23.75,17.75,20
+602,"(('Mopeds',), 'Skateboards')",Vehicles,Specific,True,False,"('Mopeds',)",Skateboards,48.375,10.875,8
+603,"(('Mopeds',), 'Submarines')",Vehicles,Specific,True,False,"('Mopeds',)",Submarines,26.2,16.0,10
+604,"(('Mopeds', 'Airplanes'), 'All vehicles')",Vehicles,General,False,False,"('Mopeds', 'Airplanes')",All vehicles,54.25,5.25,4
+605,"(('Mopeds', 'Bicycles'), 'Submarines')",Vehicles,Specific,False,False,"('Mopeds', 'Bicycles')",Submarines,19.4,7.6,10
+606,"(('Mopeds', 'Cars'), 'Motorbikes')",Vehicles,Specific,False,False,"('Mopeds', 'Cars')",Motorbikes,77.3,2.7,10
+607,"(('Mopeds', 'Helicopters'), 'Skateboards')",Vehicles,Specific,False,False,"('Mopeds', 'Helicopters')",Skateboards,46.375,6.5,8
+608,"(('Mopeds', 'Trucks'), 'All vehicles')",Vehicles,General,False,False,"('Mopeds', 'Trucks')",All vehicles,62.0,4.625,8
+609,"(('Motorbikes',), 'All vehicles')",Vehicles,General,True,False,"('Motorbikes',)",All vehicles,44.04545454545455,7.712121212121212,66
+610,"(('Motorbikes',), 'Bicycles')",Vehicles,Specific,True,False,"('Motorbikes',)",Bicycles,60.5,7.5,18
+611,"(('Motorbikes',), 'Buses')",Vehicles,Specific,True,False,"('Motorbikes',)",Buses,44.11764705882353,10.411764705882353,17
+612,"(('Motorbikes',), 'Carriages')",Vehicles,Specific,True,False,"('Motorbikes',)",Carriages,43.6,12.0,30
+613,"(('Motorbikes',), 'Cars')",Vehicles,Specific,True,False,"('Motorbikes',)",Cars,56.36666666666667,8.4,30
+614,"(('Motorbikes',), 'Jeeps')",Vehicles,Specific,True,False,"('Motorbikes',)",Jeeps,63.5,7.0,8
+615,"(('Motorbikes',), 'Mopeds')",Vehicles,Specific,True,False,"('Motorbikes',)",Mopeds,83.9,3.8,10
+616,"(('Motorbikes',), 'Rockets')",Vehicles,Specific,True,False,"('Motorbikes',)",Rockets,32.5,14.4,10
+617,"(('Motorbikes',), 'Trains')",Vehicles,Specific,True,False,"('Motorbikes',)",Trains,41.55,12.8,20
+618,"(('Motorbikes', 'Buses'), 'Trains')",Vehicles,Specific,False,False,"('Motorbikes', 'Buses')",Trains,54.1,5.4,10
+619,"(('Motorbikes', 'Cars'), 'All vehicles')",Vehicles,General,False,False,"('Motorbikes', 'Cars')",All vehicles,65.14285714285714,3.7142857142857144,7
+620,"(('Motorbikes', 'Sleds'), 'Bicycles')",Vehicles,Specific,False,False,"('Motorbikes', 'Sleds')",Bicycles,71.875,4.125,8
+621,"(('Motorbikes', 'Taxis'), 'All vehicles')",Vehicles,General,False,False,"('Motorbikes', 'Taxis')",All vehicles,69.875,3.25,8
+622,"(('Motorbikes', 'Trucks'), 'Bicycles')",Vehicles,Specific,False,False,"('Motorbikes', 'Trucks')",Bicycles,54.4,5.0,10
+623,"(('Ostriches',), 'All birds')",Birds,General,True,False,"('Ostriches',)",All birds,36.4,11.6,65
+624,"(('Ostriches',), 'Blackbirds')",Birds,Specific,True,False,"('Ostriches',)",Blackbirds,47.6875,14.375,16
+625,"(('Ostriches',), 'Canaries')",Birds,Specific,True,False,"('Ostriches',)",Canaries,47.03703703703704,14.074074074074074,27
+626,"(('Ostriches',), 'Crows')",Birds,Specific,True,False,"('Ostriches',)",Crows,46.44444444444444,13.555555555555555,18
+627,"(('Ostriches',), 'Ducks')",Birds,Specific,True,False,"('Ostriches',)",Ducks,41.25,15.75,8
+628,"(('Ostriches',), 'Magpies')",Birds,Specific,True,False,"('Ostriches',)",Magpies,47.44444444444444,14.11111111111111,9
+629,"(('Ostriches',), 'Pelicans')",Birds,Specific,True,False,"('Ostriches',)",Pelicans,38.285714285714285,12.142857142857142,7
+630,"(('Ostriches',), 'Robins')",Birds,Specific,True,False,"('Ostriches',)",Robins,56.22222222222222,12.88888888888889,9
+631,"(('Ostriches',), 'Sparrows')",Birds,Specific,True,False,"('Ostriches',)",Sparrows,39.611111111111114,15.38888888888889,18
+632,"(('Ostriches',), 'Storks')",Birds,Specific,True,False,"('Ostriches',)",Storks,60.25,9.625,8
+633,"(('Ostriches',), 'Swallows')",Birds,Specific,True,False,"('Ostriches',)",Swallows,42.64705882352941,12.529411764705882,17
+634,"(('Ostriches', 'Blackbirds'), 'Swallows')",Birds,Specific,False,False,"('Ostriches', 'Blackbirds')",Swallows,65.77777777777777,6.222222222222222,9
+635,"(('Ostriches', 'Doves'), 'Ducks')",Birds,Specific,False,False,"('Ostriches', 'Doves')",Ducks,71.625,5.75,8
+636,"(('Ostriches', 'Ducks'), 'Magpies')",Birds,Specific,False,False,"('Ostriches', 'Ducks')",Magpies,56.333333333333336,6.333333333333333,9
+637,"(('Ostriches', 'Ducks'), 'Storks')",Birds,Specific,False,False,"('Ostriches', 'Ducks')",Storks,76.875,4.75,8
+638,"(('Ostriches', 'Eagles'), 'All birds')",Birds,General,False,False,"('Ostriches', 'Eagles')",All birds,70.25,3.5,4
+639,"(('Ostriches', 'Parrots'), 'All birds')",Birds,General,False,False,"('Ostriches', 'Parrots')",All birds,51.75,5.0,4
+640,"(('Ostriches', 'Peacocks'), 'All birds')",Birds,General,False,False,"('Ostriches', 'Peacocks')",All birds,45.75,7.0,4
+641,"(('Ostriches', 'Pelicans'), 'All birds')",Birds,General,False,False,"('Ostriches', 'Pelicans')",All birds,51.0,5.428571428571429,7
+642,"(('Ostriches', 'Storks'), 'Canaries')",Birds,Specific,False,False,"('Ostriches', 'Storks')",Canaries,50.888888888888886,8.0,9
+643,"(('Ostriches', 'Storks'), 'Robins')",Birds,Specific,False,False,"('Ostriches', 'Storks')",Robins,65.88888888888889,5.777777777777778,9
+644,"(('Ostriches', 'Swans'), 'Crows')",Birds,Specific,False,False,"('Ostriches', 'Swans')",Crows,68.0,6.25,8
+645,"(('Ostriches', 'Turkeys'), 'All birds')",Birds,General,False,False,"('Ostriches', 'Turkeys')",All birds,56.6,5.2,5
+646,"(('Ostriches', 'Vultures'), 'Canaries')",Birds,Specific,False,False,"('Ostriches', 'Vultures')",Canaries,68.33333333333333,4.888888888888889,9
+647,"(('Parrots',), 'All birds')",Birds,General,True,False,"('Parrots',)",All birds,47.01538461538462,8.553846153846154,65
+648,"(('Parrots',), 'Crows')",Birds,Specific,True,False,"('Parrots',)",Crows,58.44444444444444,10.88888888888889,9
+649,"(('Parrots',), 'Doves')",Birds,Specific,True,False,"('Parrots',)",Doves,53.55555555555556,12.11111111111111,9
+650,"(('Parrots',), 'Ducks')",Birds,Specific,True,False,"('Parrots',)",Ducks,59.125,10.25,8
+651,"(('Parrots',), 'Eagles')",Birds,Specific,True,False,"('Parrots',)",Eagles,50.6875,10.8125,16
+652,"(('Parrots',), 'Falcons')",Birds,Specific,True,False,"('Parrots',)",Falcons,53.0,11.3,10
+653,"(('Parrots',), 'Ostriches')",Birds,Specific,True,False,"('Parrots',)",Ostriches,40.0,17.11111111111111,9
+654,"(('Parrots',), 'Roosters')",Birds,Specific,True,False,"('Parrots',)",Roosters,48.05882352941177,13.176470588235293,17
+655,"(('Parrots',), 'Sparrows')",Birds,Specific,True,False,"('Parrots',)",Sparrows,51.875,10.9375,16
+656,"(('Parrots',), 'Turkeys')",Birds,Specific,True,False,"('Parrots',)",Turkeys,43.125,15.0,8
+657,"(('Parrots',), 'Vultures')",Birds,Specific,True,False,"('Parrots',)",Vultures,42.5,15.625,8
+658,"(('Parrots', 'Canaries'), 'All birds')",Birds,General,False,False,"('Parrots', 'Canaries')",All birds,55.8,5.6,5
+659,"(('Parrots', 'Chickens'), 'All birds')",Birds,General,False,False,"('Parrots', 'Chickens')",All birds,50.75,5.0,4
+660,"(('Parrots', 'Chickens'), 'Roosters')",Birds,Specific,False,False,"('Parrots', 'Chickens')",Roosters,72.55555555555556,3.888888888888889,9
+661,"(('Parrots', 'Ducks'), 'Sparrows')",Birds,Specific,False,False,"('Parrots', 'Ducks')",Sparrows,70.44444444444444,5.222222222222222,9
+662,"(('Parrots', 'Eagles'), 'Vultures')",Birds,Specific,False,False,"('Parrots', 'Eagles')",Vultures,78.75,4.5,8
+663,"(('Parrots', 'Magpies'), 'All birds')",Birds,General,False,False,"('Parrots', 'Magpies')",All birds,53.0,6.0,8
+664,"(('Parrots', 'Robins'), 'All birds')",Birds,General,False,False,"('Parrots', 'Robins')",All birds,46.625,5.875,8
+665,"(('Parrots', 'Roosters'), 'All birds')",Birds,General,False,False,"('Parrots', 'Roosters')",All birds,56.57142857142857,5.714285714285714,7
+666,"(('Parrots', 'Sparrows'), 'All birds')",Birds,General,False,False,"('Parrots', 'Sparrows')",All birds,62.4,4.0,5
+667,"(('Parrots', 'Vultures'), 'Crows')",Birds,Specific,False,False,"('Parrots', 'Vultures')",Crows,62.77777777777778,5.444444444444445,9
+668,"(('Parrots', 'Woodpeckers'), 'All birds')",Birds,General,False,False,"('Parrots', 'Woodpeckers')",All birds,71.16666666666667,3.8333333333333335,6
+669,"(('Peacocks',), 'All birds')",Birds,General,True,False,"('Peacocks',)",All birds,37.723076923076924,11.015384615384615,65
+670,"(('Peacocks',), 'Ducks')",Birds,Specific,True,False,"('Peacocks',)",Ducks,56.5,11.875,8
+671,"(('Peacocks',), 'Roosters')",Birds,Specific,True,False,"('Peacocks',)",Roosters,59.8125,9.125,16
+672,"(('Peacocks',), 'Seagulls')",Birds,Specific,True,False,"('Peacocks',)",Seagulls,43.5625,13.0,16
+673,"(('Peacocks',), 'Turkeys')",Birds,Specific,True,False,"('Peacocks',)",Turkeys,61.9,8.4,10
+674,"(('Peacocks', 'Falcons'), 'All birds')",Birds,General,False,False,"('Peacocks', 'Falcons')",All birds,75.5,2.25,4
+675,"(('Peacocks', 'Magpies'), 'All birds')",Birds,General,False,False,"('Peacocks', 'Magpies')",All birds,54.5,5.0,6
+676,"(('Peacocks', 'Seagulls'), 'Turkeys')",Birds,Specific,False,False,"('Peacocks', 'Seagulls')",Turkeys,61.2,5.1,10
+677,"(('Peacocks', 'Swans'), 'All birds')",Birds,General,False,False,"('Peacocks', 'Swans')",All birds,51.0,4.833333333333333,6
+678,"(('Peacocks', 'Swans'), 'Ducks')",Birds,Specific,False,False,"('Peacocks', 'Swans')",Ducks,67.875,6.625,8
+679,"(('Peacocks', 'Vultures'), 'All birds')",Birds,General,False,False,"('Peacocks', 'Vultures')",All birds,57.4,5.8,5
+680,"(('Pelicans',), 'All birds')",Birds,General,True,False,"('Pelicans',)",All birds,43.184615384615384,9.63076923076923,65
+681,"(('Pelicans',), 'Canaries')",Birds,Specific,True,False,"('Pelicans',)",Canaries,56.470588235294116,11.176470588235293,17
+682,"(('Pelicans',), 'Doves')",Birds,Specific,True,False,"('Pelicans',)",Doves,62.22222222222222,9.0,9
+683,"(('Pelicans',), 'Herons')",Birds,Specific,True,False,"('Pelicans',)",Herons,68.94444444444444,6.777777777777778,18
+684,"(('Pelicans',), 'Parrots')",Birds,Specific,True,False,"('Pelicans',)",Parrots,44.5,14.6,10
+685,"(('Pelicans',), 'Sparrows')",Birds,Specific,True,False,"('Pelicans',)",Sparrows,34.75,13.125,8
+686,"(('Pelicans', 'Blackbirds'), 'Sparrows')",Birds,Specific,False,False,"('Pelicans', 'Blackbirds')",Sparrows,58.0,4.625,8
+687,"(('Pelicans', 'Chickens'), 'All birds')",Birds,General,False,False,"('Pelicans', 'Chickens')",All birds,61.666666666666664,6.333333333333333,6
+688,"(('Pelicans', 'Ducks'), 'All birds')",Birds,General,False,False,"('Pelicans', 'Ducks')",All birds,69.85714285714286,5.857142857142857,7
+689,"(('Pelicans', 'Falcons'), 'Canaries')",Birds,Specific,False,False,"('Pelicans', 'Falcons')",Canaries,69.75,6.0,8
+690,"(('Pelicans', 'Falcons'), 'Herons')",Birds,Specific,False,False,"('Pelicans', 'Falcons')",Herons,65.88888888888889,6.111111111111111,9
+691,"(('Pelicans', 'Herons'), 'Doves')",Birds,Specific,False,False,"('Pelicans', 'Herons')",Doves,75.0,3.5555555555555554,9
+692,"(('Pelicans', 'Ostriches'), 'Canaries')",Birds,Specific,False,False,"('Pelicans', 'Ostriches')",Canaries,54.333333333333336,6.666666666666667,9
+693,"(('Pelicans', 'Peacocks'), 'All birds')",Birds,General,False,False,"('Pelicans', 'Peacocks')",All birds,55.75,4.75,8
+694,"(('Pelicans', 'Storks'), 'All birds')",Birds,General,False,False,"('Pelicans', 'Storks')",All birds,54.2,6.6,5
+695,"(('Pelicans', 'Swallows'), 'All birds')",Birds,General,False,False,"('Pelicans', 'Swallows')",All birds,70.0,3.6,5
+696,"(('Pelicans', 'Swans'), 'All birds')",Birds,General,False,False,"('Pelicans', 'Swans')",All birds,49.5,7.833333333333333,6
+697,"(('Rabbits',), 'All mammals')",Mammals,General,True,False,"('Rabbits',)",All mammals,42.327586206896555,8.706896551724139,58
+698,"(('Rabbits',), 'Foxes')",Mammals,Specific,True,False,"('Rabbits',)",Foxes,53.6,10.3,10
+699,"(('Rabbits',), 'Hippos')",Mammals,Specific,True,False,"('Rabbits',)",Hippos,26.0,16.11111111111111,9
+700,"(('Rabbits',), 'Horses')",Mammals,Specific,True,False,"('Rabbits',)",Horses,27.5,13.25,8
+701,"(('Rabbits',), 'Lions')",Mammals,Specific,True,False,"('Rabbits',)",Lions,41.375,12.125,8
+702,"(('Rabbits',), 'Rhinos')",Mammals,Specific,True,False,"('Rabbits',)",Rhinos,24.57894736842105,15.578947368421053,19
+703,"(('Rabbits',), 'Tigers')",Mammals,Specific,True,False,"('Rabbits',)",Tigers,31.625,15.1875,16
+704,"(('Rabbits', 'Hamsters'), 'All mammals')",Mammals,General,False,False,"('Rabbits', 'Hamsters')",All mammals,46.0,6.166666666666667,6
+705,"(('Rabbits', 'Hedgehogs'), 'All mammals')",Mammals,General,False,False,"('Rabbits', 'Hedgehogs')",All mammals,42.6,6.6,5
+706,"(('Rabbits', 'Horses'), 'All mammals')",Mammals,General,False,False,"('Rabbits', 'Horses')",All mammals,67.33333333333333,3.6666666666666665,6
+707,"(('Rabbits', 'Lions'), 'All mammals')",Mammals,General,False,False,"('Rabbits', 'Lions')",All mammals,61.0,5.0,6
+708,"(('Rabbits', 'Llamas'), 'All mammals')",Mammals,General,False,False,"('Rabbits', 'Llamas')",All mammals,62.5,5.0,4
+709,"(('Rabbits', 'Squirrels'), 'All mammals')",Mammals,General,False,False,"('Rabbits', 'Squirrels')",All mammals,49.142857142857146,6.428571428571429,7
+710,"(('Rhinos',), 'All mammals')",Mammals,General,True,False,"('Rhinos',)",All mammals,41.12068965517241,9.810344827586206,58
+711,"(('Rhinos',), 'Mice')",Mammals,Specific,True,False,"('Rhinos',)",Mice,27.833333333333332,16.944444444444443,18
+712,"(('Rhinos',), 'Rabbits')",Mammals,Specific,True,False,"('Rhinos',)",Rabbits,39.111111111111114,13.333333333333334,9
+713,"(('Rhinos',), 'Squirrels')",Mammals,Specific,True,False,"('Rhinos',)",Squirrels,26.0,17.875,8
+714,"(('Rhinos',), 'Wolves')",Mammals,Specific,True,False,"('Rhinos',)",Wolves,30.392857142857142,14.142857142857142,28
+715,"(('Rhinos', 'Beavers'), 'All mammals')",Mammals,General,False,False,"('Rhinos', 'Beavers')",All mammals,54.142857142857146,4.428571428571429,7
+716,"(('Rhinos', 'Camels'), 'Mice')",Mammals,Specific,False,False,"('Rhinos', 'Camels')",Mice,45.55555555555556,7.333333333333333,9
+717,"(('Rhinos', 'Donkeys'), 'All mammals')",Mammals,General,False,False,"('Rhinos', 'Donkeys')",All mammals,69.0,4.0,7
+718,"(('Rhinos', 'Elephants'), 'Squirrels')",Mammals,Specific,False,False,"('Rhinos', 'Elephants')",Squirrels,33.5,8.125,8
+719,"(('Rhinos', 'Elephants'), 'Wolves')",Mammals,Specific,False,False,"('Rhinos', 'Elephants')",Wolves,47.0,7.4,10
+720,"(('Rhinos', 'Giraffes'), 'All mammals')",Mammals,General,False,False,"('Rhinos', 'Giraffes')",All mammals,69.4,4.6,5
+721,"(('Rhinos', 'Hippos'), 'All mammals')",Mammals,General,False,False,"('Rhinos', 'Hippos')",All mammals,65.625,4.75,8
+722,"(('Rhinos', 'Hippos'), 'Rabbits')",Mammals,Specific,False,False,"('Rhinos', 'Hippos')",Rabbits,40.22222222222222,7.555555555555555,9
+723,"(('Robins',), 'All birds')",Birds,General,True,False,"('Robins',)",All birds,53.676923076923075,6.707692307692308,65
+724,"(('Robins',), 'Doves')",Birds,Specific,True,False,"('Robins',)",Doves,69.55555555555556,7.222222222222222,9
+725,"(('Robins',), 'Eagles')",Birds,Specific,True,False,"('Robins',)",Eagles,54.4,10.7,10
+726,"(('Robins',), 'Falcons')",Birds,Specific,True,False,"('Robins',)",Falcons,53.36,10.72,25
+727,"(('Robins',), 'Herons')",Birds,Specific,True,False,"('Robins',)",Herons,60.333333333333336,11.0,9
+728,"(('Robins',), 'Parrots')",Birds,Specific,True,False,"('Robins',)",Parrots,60.111111111111114,8.555555555555555,9
+729,"(('Robins',), 'Peacocks')",Birds,Specific,True,False,"('Robins',)",Peacocks,44.44444444444444,14.777777777777779,9
+730,"(('Robins',), 'Pelicans')",Birds,Specific,True,False,"('Robins',)",Pelicans,51.375,14.125,8
+731,"(('Robins',), 'Roosters')",Birds,Specific,True,False,"('Robins',)",Roosters,47.0,13.0,10
+732,"(('Robins',), 'Sparrows')",Birds,Specific,True,False,"('Robins',)",Sparrows,79.5,3.625,8
+733,"(('Robins', 'Blackbirds'), 'All birds')",Birds,General,False,False,"('Robins', 'Blackbirds')",All birds,54.666666666666664,6.833333333333333,6
+734,"(('Robins', 'Canaries'), 'Eagles')",Birds,Specific,False,False,"('Robins', 'Canaries')",Eagles,59.6,4.9,10
+735,"(('Robins', 'Parrots'), 'Doves')",Birds,Specific,False,False,"('Robins', 'Parrots')",Doves,69.88888888888889,4.111111111111111,9
+736,"(('Robins', 'Sparrows'), 'Pelicans')",Birds,Specific,False,False,"('Robins', 'Sparrows')",Pelicans,57.125,7.875,8
+737,"(('Robins', 'Swallows'), 'Peacocks')",Birds,Specific,False,False,"('Robins', 'Swallows')",Peacocks,53.22222222222222,6.666666666666667,9
+738,"(('Rockets',), 'Airplanes')",Vehicles,Specific,True,False,"('Rockets',)",Airplanes,51.857142857142854,7.285714285714286,7
+739,"(('Rockets',), 'All vehicles')",Vehicles,General,True,False,"('Rockets',)",All vehicles,27.363636363636363,12.333333333333334,66
+740,"(('Rockets',), 'Bicycles')",Vehicles,Specific,True,False,"('Rockets',)",Bicycles,20.608695652173914,14.91304347826087,23
+741,"(('Rockets',), 'Mopeds')",Vehicles,Specific,True,False,"('Rockets',)",Mopeds,34.125,13.125,8
+742,"(('Rockets',), 'Submarines')",Vehicles,Specific,True,False,"('Rockets',)",Submarines,42.4,13.8,10
+743,"(('Rockets',), 'Trams')",Vehicles,Specific,True,False,"('Rockets',)",Trams,32.44444444444444,16.88888888888889,18
+744,"(('Rockets', 'Airplanes'), 'All vehicles')",Vehicles,General,False,False,"('Rockets', 'Airplanes')",All vehicles,72.57142857142857,3.857142857142857,7
+745,"(('Rockets', 'Bicycles'), 'All vehicles')",Vehicles,General,False,False,"('Rockets', 'Bicycles')",All vehicles,46.0,7.0,4
+746,"(('Rockets', 'Boats'), 'All vehicles')",Vehicles,General,False,False,"('Rockets', 'Boats')",All vehicles,51.75,5.25,8
+747,"(('Rockets', 'Carriages'), 'Submarines')",Vehicles,Specific,False,False,"('Rockets', 'Carriages')",Submarines,50.9,7.0,10
+748,"(('Rockets', 'Motorbikes'), 'All vehicles')",Vehicles,General,False,False,"('Rockets', 'Motorbikes')",All vehicles,59.5,4.25,4
+749,"(('Rockets', 'Sleds'), 'Bicycles')",Vehicles,Specific,False,False,"('Rockets', 'Sleds')",Bicycles,40.125,7.625,8
+750,"(('Rockets', 'Submarines'), 'All vehicles')",Vehicles,General,False,False,"('Rockets', 'Submarines')",All vehicles,54.57142857142857,5.714285714285714,7
+751,"(('Rockets', 'Taxis'), 'All vehicles')",Vehicles,General,False,False,"('Rockets', 'Taxis')",All vehicles,49.833333333333336,4.833333333333333,6
+752,"(('Rockets', 'Trains'), 'Submarines')",Vehicles,Specific,False,False,"('Rockets', 'Trains')",Submarines,59.2,5.1,10
+753,"(('Rockets', 'Trams'), 'All vehicles')",Vehicles,General,False,False,"('Rockets', 'Trams')",All vehicles,64.57142857142857,5.285714285714286,7
+754,"(('Rockets', 'Vans'), 'All vehicles')",Vehicles,General,False,False,"('Rockets', 'Vans')",All vehicles,47.875,5.0,8
+755,"(('Rockets', 'Zeppelins'), 'Mopeds')",Vehicles,Specific,False,False,"('Rockets', 'Zeppelins')",Mopeds,34.125,7.375,8
+756,"(('Roosters',), 'All birds')",Birds,General,True,False,"('Roosters',)",All birds,42.6,9.723076923076922,65
+757,"(('Roosters',), 'Blackbirds')",Birds,Specific,True,False,"('Roosters',)",Blackbirds,56.125,12.625,8
+758,"(('Roosters',), 'Chickens')",Birds,Specific,True,False,"('Roosters',)",Chickens,79.33333333333333,3.6,15
+759,"(('Roosters',), 'Eagles')",Birds,Specific,True,False,"('Roosters',)",Eagles,55.111111111111114,11.555555555555555,9
+760,"(('Roosters',), 'Parrots')",Birds,Specific,True,False,"('Roosters',)",Parrots,52.473684210526315,11.421052631578947,19
+761,"(('Roosters',), 'Robins')",Birds,Specific,True,False,"('Roosters',)",Robins,44.0,10.875,8
+762,"(('Roosters', 'Canaries'), 'All birds')",Birds,General,False,False,"('Roosters', 'Canaries')",All birds,68.2,5.2,5
+763,"(('Roosters', 'Chickens'), 'All birds')",Birds,General,False,False,"('Roosters', 'Chickens')",All birds,45.125,6.25,8
+764,"(('Roosters', 'Chickens'), 'Blackbirds')",Birds,Specific,False,False,"('Roosters', 'Chickens')",Blackbirds,69.5,5.75,8
+765,"(('Roosters', 'Doves'), 'Robins')",Birds,Specific,False,False,"('Roosters', 'Doves')",Robins,51.5,5.25,8
+766,"(('Roosters', 'Peacocks'), 'All birds')",Birds,General,False,False,"('Roosters', 'Peacocks')",All birds,68.28571428571429,5.285714285714286,7
+767,"(('Roosters', 'Robins'), 'Parrots')",Birds,Specific,False,False,"('Roosters', 'Robins')",Parrots,60.44444444444444,7.222222222222222,9
+768,"(('Roosters', 'Seagulls'), 'Eagles')",Birds,Specific,False,False,"('Roosters', 'Seagulls')",Eagles,64.33333333333333,6.0,9
+769,"(('Roosters', 'Sparrows'), 'All birds')",Birds,General,False,False,"('Roosters', 'Sparrows')",All birds,65.0,4.2,5
+770,"(('Roosters', 'Swans'), 'Chickens')",Birds,Specific,False,False,"('Roosters', 'Swans')",Chickens,73.85714285714286,3.5714285714285716,7
+771,"(('Seagulls',), 'All birds')",Birds,General,True,False,"('Seagulls',)",All birds,49.323076923076925,8.076923076923077,65
+772,"(('Seagulls',), 'Eagles')",Birds,Specific,True,False,"('Seagulls',)",Eagles,64.47058823529412,7.764705882352941,17
+773,"(('Seagulls',), 'Falcons')",Birds,Specific,True,False,"('Seagulls',)",Falcons,62.44444444444444,8.444444444444445,9
+774,"(('Seagulls',), 'Robins')",Birds,Specific,True,False,"('Seagulls',)",Robins,49.625,13.75,8
+775,"(('Seagulls',), 'Roosters')",Birds,Specific,True,False,"('Seagulls',)",Roosters,44.77777777777778,14.777777777777779,18
+776,"(('Seagulls',), 'Storks')",Birds,Specific,True,False,"('Seagulls',)",Storks,66.88888888888889,6.888888888888889,9
+777,"(('Seagulls',), 'Turkeys')",Birds,Specific,True,False,"('Seagulls',)",Turkeys,40.7,16.2,10
+778,"(('Seagulls', 'Blackbirds'), 'All birds')",Birds,General,False,False,"('Seagulls', 'Blackbirds')",All birds,64.28571428571429,4.428571428571429,7
+779,"(('Seagulls', 'Chickens'), 'Roosters')",Birds,Specific,False,False,"('Seagulls', 'Chickens')",Roosters,77.66666666666667,3.2222222222222223,9
+780,"(('Seagulls', 'Ducks'), 'All birds')",Birds,General,False,False,"('Seagulls', 'Ducks')",All birds,59.36363636363637,5.2727272727272725,11
+781,"(('Sheep',), 'All mammals')",Mammals,General,True,False,"('Sheep',)",All mammals,47.810344827586206,7.827586206896552,58
+782,"(('Sheep',), 'Beavers')",Mammals,Specific,True,False,"('Sheep',)",Beavers,27.2,13.2,10
+783,"(('Sheep',), 'Deer')",Mammals,Specific,True,False,"('Sheep',)",Deer,52.22222222222222,9.333333333333334,9
+784,"(('Sheep',), 'Elephants')",Mammals,Specific,True,False,"('Sheep',)",Elephants,35.10526315789474,13.473684210526315,19
+785,"(('Sheep',), 'Hedgehogs')",Mammals,Specific,True,False,"('Sheep',)",Hedgehogs,42.77777777777778,11.88888888888889,9
+786,"(('Sheep',), 'Llamas')",Mammals,Specific,True,False,"('Sheep',)",Llamas,60.733333333333334,7.1,30
+787,"(('Sheep',), 'Mice')",Mammals,Specific,True,False,"('Sheep',)",Mice,27.0,14.5,10
+788,"(('Sheep',), 'Rabbits')",Mammals,Specific,True,False,"('Sheep',)",Rabbits,41.27777777777778,10.61111111111111,18
+789,"(('Sheep', 'Beavers'), 'All mammals')",Mammals,General,False,False,"('Sheep', 'Beavers')",All mammals,77.8,4.4,5
+790,"(('Sheep', 'Camels'), 'All mammals')",Mammals,General,False,False,"('Sheep', 'Camels')",All mammals,52.5,5.333333333333333,6
+791,"(('Sheep', 'Dogs'), 'Rabbits')",Mammals,Specific,False,False,"('Sheep', 'Dogs')",Rabbits,45.4,6.5,10
+792,"(('Sheep', 'Elephants'), 'Hedgehogs')",Mammals,Specific,False,False,"('Sheep', 'Elephants')",Hedgehogs,59.44444444444444,5.888888888888889,9
+793,"(('Sheep', 'Giraffes'), 'Elephants')",Mammals,Specific,False,False,"('Sheep', 'Giraffes')",Elephants,65.4,5.1,10
+794,"(('Sheep', 'Hippos'), 'Deer')",Mammals,Specific,False,False,"('Sheep', 'Hippos')",Deer,54.0,4.555555555555555,9
+795,"(('Sheep', 'Zebras'), 'Beavers')",Mammals,Specific,False,False,"('Sheep', 'Zebras')",Beavers,30.6,7.9,10
+796,"(('Skateboards',), 'All vehicles')",Vehicles,General,True,False,"('Skateboards',)",All vehicles,30.681818181818183,11.227272727272727,66
+797,"(('Skateboards',), 'Carts')",Vehicles,Specific,True,False,"('Skateboards',)",Carts,54.9,11.6,10
+798,"(('Skateboards',), 'Helicopters')",Vehicles,Specific,True,False,"('Skateboards',)",Helicopters,22.0,18.3,10
+799,"(('Skateboards',), 'Mopeds')",Vehicles,Specific,True,False,"('Skateboards',)",Mopeds,46.9,11.1,10
+800,"(('Skateboards',), 'Rockets')",Vehicles,Specific,True,False,"('Skateboards',)",Rockets,22.125,16.625,8
+801,"(('Skateboards',), 'Tractors')",Vehicles,Specific,True,False,"('Skateboards',)",Tractors,32.8,16.5,10
+802,"(('Skateboards',), 'Zeppelins')",Vehicles,Specific,True,False,"('Skateboards',)",Zeppelins,23.470588235294116,15.058823529411764,17
+803,"(('Skateboards', 'Bicycles'), 'All vehicles')",Vehicles,General,False,False,"('Skateboards', 'Bicycles')",All vehicles,38.833333333333336,6.833333333333333,6
+804,"(('Skateboards', 'Boats'), 'All vehicles')",Vehicles,General,False,False,"('Skateboards', 'Boats')",All vehicles,45.0,5.666666666666667,6
+805,"(('Skateboards', 'Helicopters'), 'All vehicles')",Vehicles,General,False,False,"('Skateboards', 'Helicopters')",All vehicles,50.25,6.25,4
+806,"(('Skateboards', 'Hovercraft'), 'All vehicles')",Vehicles,General,False,False,"('Skateboards', 'Hovercraft')",All vehicles,30.5,5.833333333333333,6
+807,"(('Skateboards', 'Jeeps'), 'Tractors')",Vehicles,Specific,False,False,"('Skateboards', 'Jeeps')",Tractors,68.0,4.3,10
+808,"(('Skateboards', 'Mopeds'), 'All vehicles')",Vehicles,General,False,False,"('Skateboards', 'Mopeds')",All vehicles,35.25,6.625,8
+809,"(('Skateboards', 'Rockets'), 'All vehicles')",Vehicles,General,False,False,"('Skateboards', 'Rockets')",All vehicles,39.8,6.2,5
+810,"(('Skateboards', 'Sleds'), 'Helicopters')",Vehicles,Specific,False,False,"('Skateboards', 'Sleds')",Helicopters,32.0,8.1,10
+811,"(('Skateboards', 'Tractors'), 'Carts')",Vehicles,Specific,False,False,"('Skateboards', 'Tractors')",Carts,58.4,5.7,10
+812,"(('Skateboards', 'Trucks'), 'Rockets')",Vehicles,Specific,False,False,"('Skateboards', 'Trucks')",Rockets,35.75,9.0,8
+813,"(('Skateboards', 'Zeppelins'), 'All vehicles')",Vehicles,General,False,False,"('Skateboards', 'Zeppelins')",All vehicles,44.5,7.25,4
+814,"(('Sleds',), 'All vehicles')",Vehicles,General,True,False,"('Sleds',)",All vehicles,25.272727272727273,12.742424242424242,66
+815,"(('Sleds',), 'Bicycles')",Vehicles,Specific,True,False,"('Sleds',)",Bicycles,44.375,10.625,16
+816,"(('Sleds',), 'Buses')",Vehicles,Specific,True,False,"('Sleds',)",Buses,23.625,13.375,8
+817,"(('Sleds',), 'Caravans')",Vehicles,Specific,True,False,"('Sleds',)",Caravans,29.25,11.0,8
+818,"(('Sleds',), 'Helicopters')",Vehicles,Specific,True,False,"('Sleds',)",Helicopters,27.4,17.1,10
+819,"(('Sleds',), 'Tractors')",Vehicles,Specific,True,False,"('Sleds',)",Tractors,19.3,16.7,10
+820,"(('Sleds', 'Cars'), 'All vehicles')",Vehicles,General,False,False,"('Sleds', 'Cars')",All vehicles,55.75,4.625,8
+821,"(('Sleds', 'Rockets'), 'All vehicles')",Vehicles,General,False,False,"('Sleds', 'Rockets')",All vehicles,41.0,6.142857142857143,7
+822,"(('Sleds', 'Skateboards'), 'All vehicles')",Vehicles,General,False,False,"('Sleds', 'Skateboards')",All vehicles,20.666666666666668,6.333333333333333,6
+823,"(('Sleds', 'Submarines'), 'All vehicles')",Vehicles,General,False,False,"('Sleds', 'Submarines')",All vehicles,56.714285714285715,7.0,7
+824,"(('Sleds', 'Tractors'), 'All vehicles')",Vehicles,General,False,False,"('Sleds', 'Tractors')",All vehicles,50.4,5.8,5
+825,"(('Sleds', 'Vans'), 'All vehicles')",Vehicles,General,False,False,"('Sleds', 'Vans')",All vehicles,52.5,4.625,8
+826,"(('Sparrows',), 'All birds')",Birds,General,True,False,"('Sparrows',)",All birds,56.276923076923076,6.1692307692307695,65
+827,"(('Sparrows',), 'Canaries')",Birds,Specific,True,False,"('Sparrows',)",Canaries,63.714285714285715,8.285714285714286,7
+828,"(('Sparrows',), 'Chickens')",Birds,Specific,True,False,"('Sparrows',)",Chickens,47.22222222222222,13.333333333333334,9
+829,"(('Sparrows',), 'Herons')",Birds,Specific,True,False,"('Sparrows',)",Herons,57.22222222222222,10.88888888888889,9
+830,"(('Sparrows',), 'Pelicans')",Birds,Specific,True,False,"('Sparrows',)",Pelicans,46.875,12.625,16
+831,"(('Sparrows',), 'Robins')",Birds,Specific,True,False,"('Sparrows',)",Robins,68.6,6.44,25
+832,"(('Sparrows',), 'Roosters')",Birds,Specific,True,False,"('Sparrows',)",Roosters,40.285714285714285,12.0,7
+833,"(('Sparrows', 'Blackbirds'), 'All birds')",Birds,General,False,False,"('Sparrows', 'Blackbirds')",All birds,55.0,4.333333333333333,6
+834,"(('Sparrows', 'Canaries'), 'All birds')",Birds,General,False,False,"('Sparrows', 'Canaries')",All birds,73.85714285714286,4.714285714285714,7
+835,"(('Sparrows', 'Ducks'), 'All birds')",Birds,General,False,False,"('Sparrows', 'Ducks')",All birds,66.61538461538461,4.538461538461538,13
+836,"(('Sparrows', 'Peacocks'), 'Roosters')",Birds,Specific,False,False,"('Sparrows', 'Peacocks')",Roosters,50.42857142857143,5.571428571428571,7
+837,"(('Sparrows', 'Robins'), 'All birds')",Birds,General,False,False,"('Sparrows', 'Robins')",All birds,65.77777777777777,5.222222222222222,9
+838,"(('Sparrows', 'Robins'), 'Herons')",Birds,Specific,False,False,"('Sparrows', 'Robins')",Herons,67.66666666666667,5.444444444444445,9
+839,"(('Sparrows', 'Seagulls'), 'Robins')",Birds,Specific,False,False,"('Sparrows', 'Seagulls')",Robins,79.375,4.375,8
+840,"(('Sparrows', 'Turkeys'), 'All birds')",Birds,General,False,False,"('Sparrows', 'Turkeys')",All birds,53.0,5.25,4
+841,"(('Sparrows', 'Turkeys'), 'Chickens')",Birds,Specific,False,False,"('Sparrows', 'Turkeys')",Chickens,73.22222222222223,3.6666666666666665,9
+842,"(('Squirrels',), 'All mammals')",Mammals,General,True,False,"('Squirrels',)",All mammals,41.39655172413793,9.10344827586207,58
+843,"(('Squirrels',), 'Cats')",Mammals,Specific,True,False,"('Squirrels',)",Cats,30.2,13.4,10
+844,"(('Squirrels',), 'Horses')",Mammals,Specific,True,False,"('Squirrels',)",Horses,24.25,14.5,8
+845,"(('Squirrels',), 'Lions')",Mammals,Specific,True,False,"('Squirrels',)",Lions,24.166666666666668,14.555555555555555,18
+846,"(('Squirrels',), 'Rabbits')",Mammals,Specific,True,False,"('Squirrels',)",Rabbits,76.75,5.625,8
+847,"(('Squirrels',), 'Rhinos')",Mammals,Specific,True,False,"('Squirrels',)",Rhinos,18.5,15.2,10
+848,"(('Squirrels',), 'Tigers')",Mammals,Specific,True,False,"('Squirrels',)",Tigers,30.75,16.875,8
+849,"(('Squirrels',), 'Wolves')",Mammals,Specific,True,False,"('Squirrels',)",Wolves,31.166666666666668,15.5,18
+850,"(('Squirrels',), 'Zebras')",Mammals,Specific,True,False,"('Squirrels',)",Zebras,30.962962962962962,14.592592592592593,27
+851,"(('Squirrels', 'Beavers'), 'All mammals')",Mammals,General,False,False,"('Squirrels', 'Beavers')",All mammals,64.8,4.2,5
+852,"(('Squirrels', 'Hamsters'), 'Lions')",Mammals,Specific,False,False,"('Squirrels', 'Hamsters')",Lions,28.7,8.4,10
+853,"(('Squirrels', 'Hedgehogs'), 'All mammals')",Mammals,General,False,False,"('Squirrels', 'Hedgehogs')",All mammals,54.125,5.75,8
+854,"(('Squirrels', 'Horses'), 'Zebras')",Mammals,Specific,False,False,"('Squirrels', 'Horses')",Zebras,82.125,3.5,8
+855,"(('Squirrels', 'Llamas'), 'Zebras')",Mammals,Specific,False,False,"('Squirrels', 'Llamas')",Zebras,64.0,5.333333333333333,9
+856,"(('Squirrels', 'Mice'), 'Rabbits')",Mammals,Specific,False,False,"('Squirrels', 'Mice')",Rabbits,71.625,4.25,8
+857,"(('Squirrels', 'Rabbits'), 'Horses')",Mammals,Specific,False,False,"('Squirrels', 'Rabbits')",Horses,55.375,6.375,8
+858,"(('Squirrels', 'Rabbits'), 'Rhinos')",Mammals,Specific,False,False,"('Squirrels', 'Rabbits')",Rhinos,32.5,7.2,10
+859,"(('Squirrels', 'Rabbits'), 'Tigers')",Mammals,Specific,False,False,"('Squirrels', 'Rabbits')",Tigers,40.875,7.75,8
+860,"(('Squirrels', 'Sheep'), 'All mammals')",Mammals,General,False,False,"('Squirrels', 'Sheep')",All mammals,65.0,4.857142857142857,7
+861,"(('Squirrels', 'Zebras'), 'All mammals')",Mammals,General,False,False,"('Squirrels', 'Zebras')",All mammals,78.6,3.8,5
+862,"(('Storks',), 'All birds')",Birds,General,True,False,"('Storks',)",All birds,42.261538461538464,10.215384615384615,65
+863,"(('Storks',), 'Blackbirds')",Birds,Specific,True,False,"('Storks',)",Blackbirds,55.375,11.875,8
+864,"(('Storks',), 'Canaries')",Birds,Specific,True,False,"('Storks',)",Canaries,51.63157894736842,11.894736842105264,19
+865,"(('Storks',), 'Eagles')",Birds,Specific,True,False,"('Storks',)",Eagles,51.75,8.875,8
+866,"(('Storks',), 'Ostriches')",Birds,Specific,True,False,"('Storks',)",Ostriches,57.111111111111114,10.11111111111111,9
+867,"(('Storks',), 'Pelicans')",Birds,Specific,True,False,"('Storks',)",Pelicans,76.625,5.3125,16
+868,"(('Storks',), 'Robins')",Birds,Specific,True,False,"('Storks',)",Robins,47.888888888888886,13.333333333333334,9
+869,"(('Storks',), 'Roosters')",Birds,Specific,True,False,"('Storks',)",Roosters,65.875,10.0,8
+870,"(('Storks',), 'Turkeys')",Birds,Specific,True,False,"('Storks',)",Turkeys,43.5,13.75,8
+871,"(('Storks', 'Chickens'), 'Roosters')",Birds,Specific,False,False,"('Storks', 'Chickens')",Roosters,78.875,4.625,8
+872,"(('Storks', 'Doves'), 'All birds')",Birds,General,False,False,"('Storks', 'Doves')",All birds,57.0,5.75,4
+873,"(('Storks', 'Eagles'), 'Turkeys')",Birds,Specific,False,False,"('Storks', 'Eagles')",Turkeys,72.875,5.875,8
+874,"(('Storks', 'Magpies'), 'All birds')",Birds,General,False,False,"('Storks', 'Magpies')",All birds,59.857142857142854,4.571428571428571,7
+875,"(('Storks', 'Ostriches'), 'All birds')",Birds,General,False,False,"('Storks', 'Ostriches')",All birds,49.25,6.125,8
+876,"(('Storks', 'Swallows'), 'Blackbirds')",Birds,Specific,False,False,"('Storks', 'Swallows')",Blackbirds,73.125,6.25,8
+877,"(('Storks', 'Turkeys'), 'All birds')",Birds,General,False,False,"('Storks', 'Turkeys')",All birds,73.0,4.857142857142857,7
+878,"(('Submarines',), 'All vehicles')",Vehicles,General,True,False,"('Submarines',)",All vehicles,27.560606060606062,12.0,66
+879,"(('Submarines',), 'Boats')",Vehicles,Specific,True,False,"('Submarines',)",Boats,72.96153846153847,5.423076923076923,26
+880,"(('Submarines',), 'Caravans')",Vehicles,Specific,True,False,"('Submarines',)",Caravans,32.5,14.875,8
+881,"(('Submarines',), 'Cars')",Vehicles,Specific,True,False,"('Submarines',)",Cars,39.375,13.375,8
+882,"(('Submarines',), 'Motorbikes')",Vehicles,Specific,True,False,"('Submarines',)",Motorbikes,24.5,13.875,8
+883,"(('Submarines',), 'Sleds')",Vehicles,Specific,True,False,"('Submarines',)",Sleds,22.8,16.1,10
+884,"(('Submarines',), 'Tractors')",Vehicles,Specific,True,False,"('Submarines',)",Tractors,29.45,15.4,20
+885,"(('Submarines',), 'Vans')",Vehicles,Specific,True,False,"('Submarines',)",Vans,25.8,16.75,20
+886,"(('Submarines', 'Boats'), 'All vehicles')",Vehicles,General,False,False,"('Submarines', 'Boats')",All vehicles,29.857142857142858,7.142857142857143,7
+887,"(('Submarines', 'Boats'), 'Tractors')",Vehicles,Specific,False,False,"('Submarines', 'Boats')",Tractors,45.6,7.1,10
+888,"(('Submarines', 'Buses'), 'Boats')",Vehicles,Specific,False,False,"('Submarines', 'Buses')",Boats,63.1,5.0,10
+889,"(('Submarines', 'Cars'), 'All vehicles')",Vehicles,General,False,False,"('Submarines', 'Cars')",All vehicles,66.16666666666667,4.0,6
+890,"(('Submarines', 'Hovercraft'), 'Tractors')",Vehicles,Specific,False,False,"('Submarines', 'Hovercraft')",Tractors,50.0,6.5,10
+891,"(('Submarines', 'Jeeps'), 'Cars')",Vehicles,Specific,False,False,"('Submarines', 'Jeeps')",Cars,63.75,5.625,8
+892,"(('Submarines', 'Mopeds'), 'All vehicles')",Vehicles,General,False,False,"('Submarines', 'Mopeds')",All vehicles,67.14285714285714,4.0,7
+893,"(('Submarines', 'Skateboards'), 'All vehicles')",Vehicles,General,False,False,"('Submarines', 'Skateboards')",All vehicles,52.75,5.125,8
+894,"(('Submarines', 'Trucks'), 'All vehicles')",Vehicles,General,False,False,"('Submarines', 'Trucks')",All vehicles,61.857142857142854,6.571428571428571,7
+895,"(('Submarines', 'Zeppelins'), 'Caravans')",Vehicles,Specific,False,False,"('Submarines', 'Zeppelins')",Caravans,52.0,6.25,8
+896,"(('Swallows',), 'All birds')",Birds,General,True,False,"('Swallows',)",All birds,52.753846153846155,6.907692307692308,65
+897,"(('Swallows',), 'Blackbirds')",Birds,Specific,True,False,"('Swallows',)",Blackbirds,61.3125,8.6875,16
+898,"(('Swallows',), 'Chickens')",Birds,Specific,True,False,"('Swallows',)",Chickens,60.888888888888886,10.777777777777779,9
+899,"(('Swallows',), 'Ducks')",Birds,Specific,True,False,"('Swallows',)",Ducks,53.72222222222222,11.5,18
+900,"(('Swallows',), 'Peacocks')",Birds,Specific,True,False,"('Swallows',)",Peacocks,42.23529411764706,13.411764705882353,17
+901,"(('Swallows',), 'Seagulls')",Birds,Specific,True,False,"('Swallows',)",Seagulls,54.4375,11.1875,16
+902,"(('Swallows',), 'Sparrows')",Birds,Specific,True,False,"('Swallows',)",Sparrows,66.8125,5.6875,16
+903,"(('Swallows', 'Herons'), 'All birds')",Birds,General,False,False,"('Swallows', 'Herons')",All birds,53.375,5.5,8
+904,"(('Swallows', 'Peacocks'), 'Seagulls')",Birds,Specific,False,False,"('Swallows', 'Peacocks')",Seagulls,52.42857142857143,4.142857142857143,7
+905,"(('Swallows', 'Roosters'), 'All birds')",Birds,General,False,False,"('Swallows', 'Roosters')",All birds,59.2,4.4,5
+906,"(('Swallows', 'Swans'), 'Ducks')",Birds,Specific,False,False,"('Swallows', 'Swans')",Ducks,69.55555555555556,3.6666666666666665,9
+907,"(('Swans',), 'All birds')",Birds,General,True,False,"('Swans',)",All birds,46.41538461538462,9.138461538461538,65
+908,"(('Swans',), 'Blackbirds')",Birds,Specific,True,False,"('Swans',)",Blackbirds,56.666666666666664,11.444444444444445,9
+909,"(('Swans',), 'Chickens')",Birds,Specific,True,False,"('Swans',)",Chickens,49.42857142857143,10.0,7
+910,"(('Swans',), 'Crows')",Birds,Specific,True,False,"('Swans',)",Crows,53.75,12.875,8
+911,"(('Swans',), 'Doves')",Birds,Specific,True,False,"('Swans',)",Doves,57.5,10.875,8
+912,"(('Swans',), 'Ducks')",Birds,Specific,True,False,"('Swans',)",Ducks,78.23076923076923,4.769230769230769,26
+913,"(('Swans',), 'Eagles')",Birds,Specific,True,False,"('Swans',)",Eagles,42.5,13.8125,16
+914,"(('Swans',), 'Sparrows')",Birds,Specific,True,False,"('Swans',)",Sparrows,56.125,11.25,8
+915,"(('Swans',), 'Woodpeckers')",Birds,Specific,True,False,"('Swans',)",Woodpeckers,45.94736842105263,13.736842105263158,19
+916,"(('Swans', 'Blackbirds'), 'All birds')",Birds,General,False,False,"('Swans', 'Blackbirds')",All birds,81.57142857142857,3.2857142857142856,7
+917,"(('Swans', 'Canaries'), 'Eagles')",Birds,Specific,False,False,"('Swans', 'Canaries')",Eagles,40.625,6.625,8
+918,"(('Swans', 'Ducks'), 'All birds')",Birds,General,False,False,"('Swans', 'Ducks')",All birds,43.0,7.0,8
+919,"(('Swans', 'Magpies'), 'All birds')",Birds,General,False,False,"('Swans', 'Magpies')",All birds,50.0,5.0,4
+920,"(('Swans', 'Magpies'), 'Blackbirds')",Birds,Specific,False,False,"('Swans', 'Magpies')",Blackbirds,69.44444444444444,5.555555555555555,9
+921,"(('Swans', 'Magpies'), 'Ducks')",Birds,Specific,False,False,"('Swans', 'Magpies')",Ducks,70.44444444444444,5.111111111111111,9
+922,"(('Swans', 'Ostriches'), 'All birds')",Birds,General,False,False,"('Swans', 'Ostriches')",All birds,48.333333333333336,5.166666666666667,6
+923,"(('Swans', 'Parrots'), 'All birds')",Birds,General,False,False,"('Swans', 'Parrots')",All birds,68.75,4.583333333333333,12
+924,"(('Swans', 'Parrots'), 'Ducks')",Birds,Specific,False,False,"('Swans', 'Parrots')",Ducks,67.75,5.875,8
+925,"(('Swans', 'Parrots'), 'Eagles')",Birds,Specific,False,False,"('Swans', 'Parrots')",Eagles,73.0,5.0,8
+926,"(('Swans', 'Sparrows'), 'All birds')",Birds,General,False,False,"('Swans', 'Sparrows')",All birds,70.44444444444444,4.0,9
+927,"(('Swans', 'Woodpeckers'), 'All birds')",Birds,General,False,False,"('Swans', 'Woodpeckers')",All birds,67.0,3.4,5
+928,"(('Swans', 'Woodpeckers'), 'Sparrows')",Birds,Specific,False,False,"('Swans', 'Woodpeckers')",Sparrows,77.875,3.75,8
+929,"(('Taxis',), 'All vehicles')",Vehicles,General,True,False,"('Taxis',)",All vehicles,52.07575757575758,5.712121212121212,66
+930,"(('Taxis',), 'Cars')",Vehicles,Specific,True,False,"('Taxis',)",Cars,87.55555555555556,2.5,18
+931,"(('Taxis',), 'Carts')",Vehicles,Specific,True,False,"('Taxis',)",Carts,53.3,9.3,10
+932,"(('Taxis',), 'Mopeds')",Vehicles,Specific,True,False,"('Taxis',)",Mopeds,42.5,11.277777777777779,18
+933,"(('Taxis',), 'Trains')",Vehicles,Specific,True,False,"('Taxis',)",Trains,52.6,11.4,10
+934,"(('Taxis', 'Boats'), 'Carts')",Vehicles,Specific,False,False,"('Taxis', 'Boats')",Carts,58.0,5.9,10
+935,"(('Taxis', 'Carts'), 'All vehicles')",Vehicles,General,False,False,"('Taxis', 'Carts')",All vehicles,68.0,4.142857142857143,7
+936,"(('Taxis', 'Motorbikes'), 'Cars')",Vehicles,Specific,False,False,"('Taxis', 'Motorbikes')",Cars,86.6,2.0,10
+937,"(('Taxis', 'Skateboards'), 'All vehicles')",Vehicles,General,False,False,"('Taxis', 'Skateboards')",All vehicles,52.4,5.4,5
+938,"(('Taxis', 'Trains'), 'All vehicles')",Vehicles,General,False,False,"('Taxis', 'Trains')",All vehicles,55.8,4.8,5
+939,"(('Taxis', 'Trains'), 'Cars')",Vehicles,Specific,False,False,"('Taxis', 'Trains')",Cars,86.625,1.875,8
+940,"(('Tigers',), 'All mammals')",Mammals,General,True,False,"('Tigers',)",All mammals,46.58620689655172,8.241379310344827,58
+941,"(('Tigers',), 'Cats')",Mammals,Specific,True,False,"('Tigers',)",Cats,81.14814814814815,4.074074074074074,27
+942,"(('Tigers',), 'Donkeys')",Mammals,Specific,True,False,"('Tigers',)",Donkeys,41.111111111111114,13.0,9
+943,"(('Tigers',), 'Lions')",Mammals,Specific,True,False,"('Tigers',)",Lions,83.05882352941177,4.176470588235294,17
+944,"(('Tigers',), 'Mice')",Mammals,Specific,True,False,"('Tigers',)",Mice,25.333333333333332,16.444444444444443,9
+945,"(('Tigers',), 'Rhinos')",Mammals,Specific,True,False,"('Tigers',)",Rhinos,48.64705882352941,10.882352941176471,17
+946,"(('Tigers',), 'Squirrels')",Mammals,Specific,True,False,"('Tigers',)",Squirrels,22.833333333333332,13.555555555555555,18
+947,"(('Tigers', 'Cats'), 'All mammals')",Mammals,General,False,False,"('Tigers', 'Cats')",All mammals,41.142857142857146,7.0,7
+948,"(('Tigers', 'Cats'), 'Lions')",Mammals,Specific,False,False,"('Tigers', 'Cats')",Lions,92.22222222222223,1.5555555555555556,9
+949,"(('Tigers', 'Deer'), 'Squirrels')",Mammals,Specific,False,False,"('Tigers', 'Deer')",Squirrels,43.0,6.625,8
+950,"(('Tigers', 'Donkeys'), 'All mammals')",Mammals,General,False,False,"('Tigers', 'Donkeys')",All mammals,66.5,4.375,8
+951,"(('Tigers', 'Hamsters'), 'All mammals')",Mammals,General,False,False,"('Tigers', 'Hamsters')",All mammals,53.833333333333336,6.333333333333333,6
+952,"(('Tigers', 'Hedgehogs'), 'All mammals')",Mammals,General,False,False,"('Tigers', 'Hedgehogs')",All mammals,76.0,3.8,5
+953,"(('Tigers', 'Horses'), 'All mammals')",Mammals,General,False,False,"('Tigers', 'Horses')",All mammals,57.857142857142854,3.7142857142857144,7
+954,"(('Tigers', 'Lions'), 'Squirrels')",Mammals,Specific,False,False,"('Tigers', 'Lions')",Squirrels,31.5,7.6,10
+955,"(('Tigers', 'Llamas'), 'Cats')",Mammals,Specific,False,False,"('Tigers', 'Llamas')",Cats,57.0,5.5,8
+956,"(('Tigers', 'Rabbits'), 'Lions')",Mammals,Specific,False,False,"('Tigers', 'Rabbits')",Lions,82.0,2.75,8
+957,"(('Tigers', 'Squirrels'), 'Cats')",Mammals,Specific,False,False,"('Tigers', 'Squirrels')",Cats,72.5,4.0,10
+958,"(('Tractors',), 'All vehicles')",Vehicles,General,True,False,"('Tractors',)",All vehicles,41.09090909090909,8.681818181818182,66
+959,"(('Tractors',), 'Carts')",Vehicles,Specific,True,False,"('Tractors',)",Carts,46.6,12.6,10
+960,"(('Tractors',), 'Jeeps')",Vehicles,Specific,True,False,"('Tractors',)",Jeeps,58.357142857142854,7.607142857142857,28
+961,"(('Tractors',), 'Mopeds')",Vehicles,Specific,True,False,"('Tractors',)",Mopeds,41.0,10.6,10
+962,"(('Tractors',), 'Vans')",Vehicles,Specific,True,False,"('Tractors',)",Vans,52.2,11.2,10
+963,"(('Tractors',), 'Zeppelins')",Vehicles,Specific,True,False,"('Tractors',)",Zeppelins,14.0,16.857142857142858,7
+964,"(('Tractors', 'Airplanes'), 'Jeeps')",Vehicles,Specific,False,False,"('Tractors', 'Airplanes')",Jeeps,64.375,4.5,8
+965,"(('Tractors', 'Carriages'), 'All vehicles')",Vehicles,General,False,False,"('Tractors', 'Carriages')",All vehicles,60.0,4.875,8
+966,"(('Tractors', 'Mopeds'), 'Jeeps')",Vehicles,Specific,False,False,"('Tractors', 'Mopeds')",Jeeps,70.3,5.0,10
+967,"(('Tractors', 'Rockets'), 'All vehicles')",Vehicles,General,False,False,"('Tractors', 'Rockets')",All vehicles,70.71428571428571,4.428571428571429,7
+968,"(('Tractors', 'Skateboards'), 'Zeppelins')",Vehicles,Specific,False,False,"('Tractors', 'Skateboards')",Zeppelins,22.285714285714285,7.285714285714286,7
+969,"(('Tractors', 'Taxis'), 'Mopeds')",Vehicles,Specific,False,False,"('Tractors', 'Taxis')",Mopeds,47.8,5.7,10
+970,"(('Tractors', 'Trams'), 'All vehicles')",Vehicles,General,False,False,"('Tractors', 'Trams')",All vehicles,45.833333333333336,4.5,6
+971,"(('Trains',), 'All vehicles')",Vehicles,General,True,False,"('Trains',)",All vehicles,43.13636363636363,7.833333333333333,66
+972,"(('Trains',), 'Caravans')",Vehicles,Specific,True,False,"('Trains',)",Caravans,42.9,11.2,10
+973,"(('Trains',), 'Cars')",Vehicles,Specific,True,False,"('Trains',)",Cars,56.5,8.25,8
+974,"(('Trains',), 'Carts')",Vehicles,Specific,True,False,"('Trains',)",Carts,40.5,11.75,8
+975,"(('Trains',), 'Submarines')",Vehicles,Specific,True,False,"('Trains',)",Submarines,31.185185185185187,13.666666666666666,27
+976,"(('Trains',), 'Trams')",Vehicles,Specific,True,False,"('Trains',)",Trams,76.77777777777777,4.444444444444445,18
+977,"(('Trains', 'Boats'), 'Trams')",Vehicles,Specific,False,False,"('Trains', 'Boats')",Trams,65.8,4.8,10
+978,"(('Trains', 'Carriages'), 'Carts')",Vehicles,Specific,False,False,"('Trains', 'Carriages')",Carts,66.25,5.25,8
+979,"(('Trains', 'Skateboards'), 'All vehicles')",Vehicles,General,False,False,"('Trains', 'Skateboards')",All vehicles,67.85714285714286,4.714285714285714,7
+980,"(('Trains', 'Tractors'), 'All vehicles')",Vehicles,General,False,False,"('Trains', 'Tractors')",All vehicles,50.833333333333336,3.1666666666666665,6
+981,"(('Trains', 'Trucks'), 'Caravans')",Vehicles,Specific,False,False,"('Trains', 'Trucks')",Caravans,69.9,4.1,10
+982,"(('Trams',), 'All vehicles')",Vehicles,General,True,False,"('Trams',)",All vehicles,38.42424242424242,9.43939393939394,66
+983,"(('Trams',), 'Boats')",Vehicles,Specific,True,False,"('Trams',)",Boats,38.92857142857143,13.142857142857142,28
+984,"(('Trams',), 'Buses')",Vehicles,Specific,True,False,"('Trams',)",Buses,68.1,6.2,10
+985,"(('Trams',), 'Caravans')",Vehicles,Specific,True,False,"('Trams',)",Caravans,51.8,9.2,10
+986,"(('Trams',), 'Cars')",Vehicles,Specific,True,False,"('Trams',)",Cars,41.25,9.0,8
+987,"(('Trams',), 'Hovercraft')",Vehicles,Specific,True,False,"('Trams',)",Hovercraft,24.1,16.0,10
+988,"(('Trams',), 'Jeeps')",Vehicles,Specific,True,False,"('Trams',)",Jeeps,52.375,9.875,8
+989,"(('Trams',), 'Motorbikes')",Vehicles,Specific,True,False,"('Trams',)",Motorbikes,38.75,10.625,8
+990,"(('Trams',), 'Trains')",Vehicles,Specific,True,False,"('Trams',)",Trains,75.43333333333334,4.633333333333334,30
+991,"(('Trams',), 'Trucks')",Vehicles,Specific,True,False,"('Trams',)",Trucks,53.7,9.75,20
+992,"(('Trams',), 'Vans')",Vehicles,Specific,True,False,"('Trams',)",Vans,65.4,7.3,10
+993,"(('Trams', 'Bicycles'), 'Boats')",Vehicles,Specific,False,False,"('Trams', 'Bicycles')",Boats,55.125,6.375,8
+994,"(('Trams', 'Boats'), 'Hovercraft')",Vehicles,Specific,False,False,"('Trams', 'Boats')",Hovercraft,54.5,6.4,10
+995,"(('Trams', 'Buses'), 'Trains')",Vehicles,Specific,False,False,"('Trams', 'Buses')",Trains,79.9,3.0,10
+996,"(('Trams', 'Buses'), 'Vans')",Vehicles,Specific,False,False,"('Trams', 'Buses')",Vans,81.1,2.8,10
+997,"(('Trams', 'Carriages'), 'Jeeps')",Vehicles,Specific,False,False,"('Trams', 'Carriages')",Jeeps,68.5,4.75,8
+998,"(('Trams', 'Cars'), 'All vehicles')",Vehicles,General,False,False,"('Trams', 'Cars')",All vehicles,50.25,5.25,8
+999,"(('Trams', 'Jeeps'), 'All vehicles')",Vehicles,General,False,False,"('Trams', 'Jeeps')",All vehicles,48.5,5.5,8
+1000,"(('Trams', 'Mopeds'), 'Motorbikes')",Vehicles,Specific,False,False,"('Trams', 'Mopeds')",Motorbikes,81.5,2.875,8
+1001,"(('Trams', 'Sleds'), 'All vehicles')",Vehicles,General,False,False,"('Trams', 'Sleds')",All vehicles,48.25,6.0,8
+1002,"(('Trams', 'Taxis'), 'Trains')",Vehicles,Specific,False,False,"('Trams', 'Taxis')",Trains,73.8,3.5,10
+1003,"(('Trams', 'Trains'), 'All vehicles')",Vehicles,General,False,False,"('Trams', 'Trains')",All vehicles,44.75,4.5,8
+1004,"(('Trams', 'Trucks'), 'Cars')",Vehicles,Specific,False,False,"('Trams', 'Trucks')",Cars,82.375,2.875,8
+1005,"(('Trams', 'Vans'), 'Caravans')",Vehicles,Specific,False,False,"('Trams', 'Vans')",Caravans,71.4,3.5,10
+1006,"(('Trams', 'Vans'), 'Trucks')",Vehicles,Specific,False,False,"('Trams', 'Vans')",Trucks,70.9,3.7,10
+1007,"(('Trucks',), 'All vehicles')",Vehicles,General,True,False,"('Trucks',)",All vehicles,53.03030303030303,6.0,66
+1008,"(('Trucks',), 'Bicycles')",Vehicles,Specific,True,False,"('Trucks',)",Bicycles,28.6,15.1,10
+1009,"(('Trucks',), 'Buses')",Vehicles,Specific,True,False,"('Trucks',)",Buses,66.52,5.8,25
+1010,"(('Trucks',), 'Caravans')",Vehicles,Specific,True,False,"('Trucks',)",Caravans,61.2,8.0,10
+1011,"(('Trucks',), 'Carriages')",Vehicles,Specific,True,False,"('Trucks',)",Carriages,46.3,10.1,10
+1012,"(('Trucks',), 'Cars')",Vehicles,Specific,True,False,"('Trucks',)",Cars,76.38888888888889,5.166666666666667,18
+1013,"(('Trucks',), 'Jeeps')",Vehicles,Specific,True,False,"('Trucks',)",Jeeps,80.3,4.5,10
+1014,"(('Trucks',), 'Mopeds')",Vehicles,Specific,True,False,"('Trucks',)",Mopeds,45.0,10.5,10
+1015,"(('Trucks',), 'Rockets')",Vehicles,Specific,True,False,"('Trucks',)",Rockets,29.75,14.875,8
+1016,"(('Trucks',), 'Submarines')",Vehicles,Specific,True,False,"('Trucks',)",Submarines,19.41176470588235,15.647058823529411,17
+1017,"(('Trucks',), 'Trains')",Vehicles,Specific,True,False,"('Trucks',)",Trains,52.8,10.4,10
+1018,"(('Trucks',), 'Zeppelins')",Vehicles,Specific,True,False,"('Trucks',)",Zeppelins,28.875,16.25,8
+1019,"(('Trucks', 'Boats'), 'All vehicles')",Vehicles,General,False,False,"('Trucks', 'Boats')",All vehicles,49.0,5.6,5
+1020,"(('Trucks', 'Buses'), 'Carriages')",Vehicles,Specific,False,False,"('Trucks', 'Buses')",Carriages,52.7,5.3,10
+1021,"(('Trucks', 'Caravans'), 'All vehicles')",Vehicles,General,False,False,"('Trucks', 'Caravans')",All vehicles,68.42857142857143,5.142857142857143,7
+1022,"(('Trucks', 'Carriages'), 'All vehicles')",Vehicles,General,False,False,"('Trucks', 'Carriages')",All vehicles,70.75,3.5,4
+1023,"(('Trucks', 'Cars'), 'All vehicles')",Vehicles,General,False,False,"('Trucks', 'Cars')",All vehicles,58.285714285714285,4.714285714285714,7
+1024,"(('Trucks', 'Motorbikes'), 'Buses')",Vehicles,Specific,False,False,"('Trucks', 'Motorbikes')",Buses,73.57142857142857,3.2857142857142856,7
+1025,"(('Trucks', 'Motorbikes'), 'Mopeds')",Vehicles,Specific,False,False,"('Trucks', 'Motorbikes')",Mopeds,76.7,3.8,10
+1026,"(('Trucks', 'Sleds'), 'Buses')",Vehicles,Specific,False,False,"('Trucks', 'Sleds')",Buses,68.75,4.25,8
+1027,"(('Trucks', 'Trains'), 'Submarines')",Vehicles,Specific,False,False,"('Trucks', 'Trains')",Submarines,20.285714285714285,7.142857142857143,7
+1028,"(('Trucks', 'Vans'), 'Cars')",Vehicles,Specific,False,False,"('Trucks', 'Vans')",Cars,74.2,3.3,10
+1029,"(('Turkeys',), 'All birds')",Birds,General,True,False,"('Turkeys',)",All birds,43.8,9.353846153846154,65
+1030,"(('Turkeys',), 'Chickens')",Birds,Specific,True,False,"('Turkeys',)",Chickens,78.11111111111111,4.444444444444445,9
+1031,"(('Turkeys',), 'Herons')",Birds,Specific,True,False,"('Turkeys',)",Herons,48.5,10.375,8
+1032,"(('Turkeys',), 'Parrots')",Birds,Specific,True,False,"('Turkeys',)",Parrots,48.578947368421055,13.210526315789474,19
+1033,"(('Turkeys',), 'Peacocks')",Birds,Specific,True,False,"('Turkeys',)",Peacocks,61.705882352941174,8.235294117647058,17
+1034,"(('Turkeys',), 'Pelicans')",Birds,Specific,True,False,"('Turkeys',)",Pelicans,43.75,12.875,16
+1035,"(('Turkeys',), 'Swallows')",Birds,Specific,True,False,"('Turkeys',)",Swallows,45.35294117647059,12.647058823529411,17
+1036,"(('Turkeys',), 'Vultures')",Birds,Specific,True,False,"('Turkeys',)",Vultures,48.857142857142854,9.428571428571429,7
+1037,"(('Turkeys',), 'Woodpeckers')",Birds,Specific,True,False,"('Turkeys',)",Woodpeckers,44.1764705882353,14.588235294117647,17
+1038,"(('Turkeys', 'Blackbirds'), 'All birds')",Birds,General,False,False,"('Turkeys', 'Blackbirds')",All birds,63.8,4.4,5
+1039,"(('Turkeys', 'Crows'), 'Peacocks')",Birds,Specific,False,False,"('Turkeys', 'Crows')",Peacocks,64.11111111111111,5.333333333333333,9
+1040,"(('Turkeys', 'Doves'), 'Swallows')",Birds,Specific,False,False,"('Turkeys', 'Doves')",Swallows,75.77777777777777,3.5555555555555554,9
+1041,"(('Turkeys', 'Falcons'), 'All birds')",Birds,General,False,False,"('Turkeys', 'Falcons')",All birds,81.28571428571429,3.142857142857143,7
+1042,"(('Turkeys', 'Herons'), 'Peacocks')",Birds,Specific,False,False,"('Turkeys', 'Herons')",Peacocks,52.5,5.75,8
+1043,"(('Turkeys', 'Magpies'), 'All birds')",Birds,General,False,False,"('Turkeys', 'Magpies')",All birds,70.75,4.25,4
+1044,"(('Turkeys', 'Pelicans'), 'Parrots')",Birds,Specific,False,False,"('Turkeys', 'Pelicans')",Parrots,44.6,7.1,10
+1045,"(('Turkeys', 'Robins'), 'All birds')",Birds,General,False,False,"('Turkeys', 'Robins')",All birds,58.875,5.25,8
+1046,"(('Turkeys', 'Roosters'), 'All birds')",Birds,General,False,False,"('Turkeys', 'Roosters')",All birds,58.81818181818182,6.454545454545454,11
+1047,"(('Turkeys', 'Seagulls'), 'All birds')",Birds,General,False,False,"('Turkeys', 'Seagulls')",All birds,55.0,4.5,6
+1048,"(('Turkeys', 'Swans'), 'Woodpeckers')",Birds,Specific,False,False,"('Turkeys', 'Swans')",Woodpeckers,60.77777777777778,7.555555555555555,9
+1049,"(('Turkeys', 'Woodpeckers'), 'All birds')",Birds,General,False,False,"('Turkeys', 'Woodpeckers')",All birds,53.333333333333336,5.666666666666667,6
+1050,"(('Vans',), 'All vehicles')",Vehicles,General,True,False,"('Vans',)",All vehicles,49.666666666666664,6.348484848484849,66
+1051,"(('Vans',), 'Bicycles')",Vehicles,Specific,True,False,"('Vans',)",Bicycles,36.9,13.1,10
+1052,"(('Vans',), 'Buses')",Vehicles,Specific,True,False,"('Vans',)",Buses,82.75,4.125,8
+1053,"(('Vans',), 'Caravans')",Vehicles,Specific,True,False,"('Vans',)",Caravans,60.57142857142857,7.892857142857143,28
+1054,"(('Vans',), 'Carriages')",Vehicles,Specific,True,False,"('Vans',)",Carriages,41.2,10.9,10
+1055,"(('Vans',), 'Cars')",Vehicles,Specific,True,False,"('Vans',)",Cars,75.2,5.45,20
+1056,"(('Vans',), 'Helicopters')",Vehicles,Specific,True,False,"('Vans',)",Helicopters,33.7,15.7,10
+1057,"(('Vans',), 'Mopeds')",Vehicles,Specific,True,False,"('Vans',)",Mopeds,59.5,7.75,8
+1058,"(('Vans',), 'Rockets')",Vehicles,Specific,True,False,"('Vans',)",Rockets,23.6,16.1,10
+1059,"(('Vans',), 'Taxis')",Vehicles,Specific,True,False,"('Vans',)",Taxis,68.8,6.8,10
+1060,"(('Vans',), 'Trains')",Vehicles,Specific,True,False,"('Vans',)",Trains,42.5,12.7,10
+1061,"(('Vans',), 'Trucks')",Vehicles,Specific,True,False,"('Vans',)",Trucks,78.55,4.85,20
+1062,"(('Vans', 'Boats'), 'All vehicles')",Vehicles,General,False,False,"('Vans', 'Boats')",All vehicles,52.333333333333336,3.6666666666666665,6
+1063,"(('Vans', 'Boats'), 'Caravans')",Vehicles,Specific,False,False,"('Vans', 'Boats')",Caravans,72.1,3.6,10
+1064,"(('Vans', 'Cars'), 'All vehicles')",Vehicles,General,False,False,"('Vans', 'Cars')",All vehicles,82.0,2.0,4
+1065,"(('Vans', 'Cars'), 'Taxis')",Vehicles,Specific,False,False,"('Vans', 'Cars')",Taxis,80.3,2.8,10
+1066,"(('Vans', 'Jeeps'), 'Helicopters')",Vehicles,Specific,False,False,"('Vans', 'Jeeps')",Helicopters,28.4,8.6,10
+1067,"(('Vans', 'Jeeps'), 'Rockets')",Vehicles,Specific,False,False,"('Vans', 'Jeeps')",Rockets,23.7,8.1,10
+1068,"(('Vans', 'Taxis'), 'Mopeds')",Vehicles,Specific,False,False,"('Vans', 'Taxis')",Mopeds,63.25,4.125,8
+1069,"(('Vans', 'Trains'), 'All vehicles')",Vehicles,General,False,False,"('Vans', 'Trains')",All vehicles,74.71428571428571,3.4285714285714284,7
+1070,"(('Vans', 'Trucks'), 'Trains')",Vehicles,Specific,False,False,"('Vans', 'Trucks')",Trains,61.2,4.8,10
+1071,"(('Vans', 'Zeppelins'), 'Buses')",Vehicles,Specific,False,False,"('Vans', 'Zeppelins')",Buses,57.125,5.125,8
+1072,"(('Vultures',), 'All birds')",Birds,General,True,False,"('Vultures',)",All birds,44.276923076923076,9.415384615384616,65
+1073,"(('Vultures',), 'Canaries')",Birds,Specific,True,False,"('Vultures',)",Canaries,40.0,14.117647058823529,17
+1074,"(('Vultures',), 'Crows')",Birds,Specific,True,False,"('Vultures',)",Crows,59.77777777777778,10.444444444444445,9
+1075,"(('Vultures',), 'Herons')",Birds,Specific,True,False,"('Vultures',)",Herons,56.0,8.375,8
+1076,"(('Vultures',), 'Storks')",Birds,Specific,True,False,"('Vultures',)",Storks,56.888888888888886,11.222222222222221,9
+1077,"(('Vultures',), 'Turkeys')",Birds,Specific,True,False,"('Vultures',)",Turkeys,62.875,6.625,8
+1078,"(('Vultures',), 'Woodpeckers')",Birds,Specific,True,False,"('Vultures',)",Woodpeckers,38.875,13.25,8
+1079,"(('Vultures', 'Crows'), 'All birds')",Birds,General,False,False,"('Vultures', 'Crows')",All birds,51.333333333333336,7.5,6
+1080,"(('Vultures', 'Doves'), 'All birds')",Birds,General,False,False,"('Vultures', 'Doves')",All birds,74.0,3.0,5
+1081,"(('Vultures', 'Magpies'), 'All birds')",Birds,General,False,False,"('Vultures', 'Magpies')",All birds,52.714285714285715,5.285714285714286,7
+1082,"(('Vultures', 'Magpies'), 'Woodpeckers')",Birds,Specific,False,False,"('Vultures', 'Magpies')",Woodpeckers,51.875,4.75,8
+1083,"(('Vultures', 'Ostriches'), 'All birds')",Birds,General,False,False,"('Vultures', 'Ostriches')",All birds,79.0,4.142857142857143,7
+1084,"(('Vultures', 'Seagulls'), 'All birds')",Birds,General,False,False,"('Vultures', 'Seagulls')",All birds,47.125,7.125,8
+1085,"(('Vultures', 'Sparrows'), 'All birds')",Birds,General,False,False,"('Vultures', 'Sparrows')",All birds,59.57142857142857,4.571428571428571,7
+1086,"(('Vultures', 'Swallows'), 'All birds')",Birds,General,False,False,"('Vultures', 'Swallows')",All birds,57.75,4.875,8
+1087,"(('Vultures', 'Turkeys'), 'All birds')",Birds,General,False,False,"('Vultures', 'Turkeys')",All birds,51.8,5.6,5
+1088,"(('Vultures', 'Turkeys'), 'Herons')",Birds,Specific,False,False,"('Vultures', 'Turkeys')",Herons,51.0,6.375,8
+1089,"(('Vultures', 'Woodpeckers'), 'Storks')",Birds,Specific,False,False,"('Vultures', 'Woodpeckers')",Storks,65.11111111111111,5.666666666666667,9
+1090,"(('Wolves',), 'All mammals')",Mammals,General,True,False,"('Wolves',)",All mammals,51.224137931034484,6.344827586206897,58
+1091,"(('Wolves',), 'Beavers')",Mammals,Specific,True,False,"('Wolves',)",Beavers,38.96296296296296,13.555555555555555,27
+1092,"(('Wolves',), 'Dogs')",Mammals,Specific,True,False,"('Wolves',)",Dogs,83.5925925925926,4.037037037037037,27
+1093,"(('Wolves',), 'Elephants')",Mammals,Specific,True,False,"('Wolves',)",Elephants,36.333333333333336,12.88888888888889,9
+1094,"(('Wolves',), 'Foxes')",Mammals,Specific,True,False,"('Wolves',)",Foxes,77.875,5.125,8
+1095,"(('Wolves',), 'Hedgehogs')",Mammals,Specific,True,False,"('Wolves',)",Hedgehogs,22.125,14.8125,16
+1096,"(('Wolves',), 'Llamas')",Mammals,Specific,True,False,"('Wolves',)",Llamas,25.0,12.5,10
+1097,"(('Wolves',), 'Squirrels')",Mammals,Specific,True,False,"('Wolves',)",Squirrels,20.4,14.0,10
+1098,"(('Wolves', 'Beavers'), 'All mammals')",Mammals,General,False,False,"('Wolves', 'Beavers')",All mammals,55.714285714285715,5.714285714285714,7
+1099,"(('Wolves', 'Beavers'), 'Dogs')",Mammals,Specific,False,False,"('Wolves', 'Beavers')",Dogs,54.375,5.375,8
+1100,"(('Wolves', 'Cats'), 'Squirrels')",Mammals,Specific,False,False,"('Wolves', 'Cats')",Squirrels,36.2,7.3,10
+1101,"(('Wolves', 'Elephants'), 'All mammals')",Mammals,General,False,False,"('Wolves', 'Elephants')",All mammals,68.6,4.8,5
+1102,"(('Wolves', 'Hippos'), 'Beavers')",Mammals,Specific,False,False,"('Wolves', 'Hippos')",Beavers,48.111111111111114,6.888888888888889,9
+1103,"(('Wolves', 'Horses'), 'All mammals')",Mammals,General,False,False,"('Wolves', 'Horses')",All mammals,70.28571428571429,3.857142857142857,7
+1104,"(('Wolves', 'Llamas'), 'All mammals')",Mammals,General,False,False,"('Wolves', 'Llamas')",All mammals,55.0,5.5,4
+1105,"(('Wolves', 'Zebras'), 'All mammals')",Mammals,General,False,False,"('Wolves', 'Zebras')",All mammals,66.2,3.8,5
+1106,"(('Woodpeckers',), 'All birds')",Birds,General,True,False,"('Woodpeckers',)",All birds,47.723076923076924,8.615384615384615,65
+1107,"(('Woodpeckers',), 'Doves')",Birds,Specific,True,False,"('Woodpeckers',)",Doves,53.53333333333333,10.266666666666667,15
+1108,"(('Woodpeckers',), 'Eagles')",Birds,Specific,True,False,"('Woodpeckers',)",Eagles,37.875,12.875,8
+1109,"(('Woodpeckers',), 'Roosters')",Birds,Specific,True,False,"('Woodpeckers',)",Roosters,51.333333333333336,13.0,9
+1110,"(('Woodpeckers',), 'Sparrows')",Birds,Specific,True,False,"('Woodpeckers',)",Sparrows,64.18518518518519,8.148148148148149,27
+1111,"(('Woodpeckers',), 'Storks')",Birds,Specific,True,False,"('Woodpeckers',)",Storks,57.666666666666664,11.777777777777779,9
+1112,"(('Woodpeckers',), 'Swans')",Birds,Specific,True,False,"('Woodpeckers',)",Swans,34.2,13.466666666666667,15
+1113,"(('Woodpeckers', 'Blackbirds'), 'All birds')",Birds,General,False,False,"('Woodpeckers', 'Blackbirds')",All birds,70.14285714285714,5.285714285714286,7
+1114,"(('Woodpeckers', 'Canaries'), 'All birds')",Birds,General,False,False,"('Woodpeckers', 'Canaries')",All birds,55.833333333333336,4.5,6
+1115,"(('Woodpeckers', 'Canaries'), 'Swans')",Birds,Specific,False,False,"('Woodpeckers', 'Canaries')",Swans,48.375,6.375,8
+1116,"(('Woodpeckers', 'Chickens'), 'All birds')",Birds,General,False,False,"('Woodpeckers', 'Chickens')",All birds,55.0,5.4,5
+1117,"(('Woodpeckers', 'Magpies'), 'All birds')",Birds,General,False,False,"('Woodpeckers', 'Magpies')",All birds,52.5,5.0,6
+1118,"(('Woodpeckers', 'Ostriches'), 'Sparrows')",Birds,Specific,False,False,"('Woodpeckers', 'Ostriches')",Sparrows,61.9,4.9,10
+1119,"(('Woodpeckers', 'Peacocks'), 'Roosters')",Birds,Specific,False,False,"('Woodpeckers', 'Peacocks')",Roosters,63.77777777777778,6.111111111111111,9
+1120,"(('Woodpeckers', 'Seagulls'), 'Eagles')",Birds,Specific,False,False,"('Woodpeckers', 'Seagulls')",Eagles,47.625,6.375,8
+1121,"(('Woodpeckers', 'Swallows'), 'All birds')",Birds,General,False,False,"('Woodpeckers', 'Swallows')",All birds,56.0,4.875,8
+1122,"(('Zebras',), 'All mammals')",Mammals,General,True,False,"('Zebras',)",All mammals,45.06896551724138,8.431034482758621,58
+1123,"(('Zebras',), 'Beavers')",Mammals,Specific,True,False,"('Zebras',)",Beavers,23.2,15.3,10
+1124,"(('Zebras',), 'Cats')",Mammals,Specific,True,False,"('Zebras',)",Cats,18.875,17.125,8
+1125,"(('Zebras',), 'Donkeys')",Mammals,Specific,True,False,"('Zebras',)",Donkeys,66.25,5.625,8
+1126,"(('Zebras',), 'Giraffes')",Mammals,Specific,True,False,"('Zebras',)",Giraffes,53.5,8.125,8
+1127,"(('Zebras',), 'Hamsters')",Mammals,Specific,True,False,"('Zebras',)",Hamsters,24.8,13.6,10
+1128,"(('Zebras',), 'Horses')",Mammals,Specific,True,False,"('Zebras',)",Horses,76.05882352941177,4.117647058823529,17
+1129,"(('Zebras',), 'Lions')",Mammals,Specific,True,False,"('Zebras',)",Lions,30.166666666666668,11.833333333333334,18
+1130,"(('Zebras',), 'Llamas')",Mammals,Specific,True,False,"('Zebras',)",Llamas,56.4,7.4,10
+1131,"(('Zebras',), 'Mice')",Mammals,Specific,True,False,"('Zebras',)",Mice,30.22222222222222,17.11111111111111,9
+1132,"(('Zebras', 'Beavers'), 'Donkeys')",Mammals,Specific,False,False,"('Zebras', 'Beavers')",Donkeys,58.5,4.625,8
+1133,"(('Zebras', 'Cats'), 'All mammals')",Mammals,General,False,False,"('Zebras', 'Cats')",All mammals,67.0,4.142857142857143,7
+1134,"(('Zebras', 'Dogs'), 'All mammals')",Mammals,General,False,False,"('Zebras', 'Dogs')",All mammals,50.0,4.5,4
+1135,"(('Zebras', 'Donkeys'), 'Horses')",Mammals,Specific,False,False,"('Zebras', 'Donkeys')",Horses,88.0,2.375,8
+1136,"(('Zebras', 'Giraffes'), 'All mammals')",Mammals,General,False,False,"('Zebras', 'Giraffes')",All mammals,33.75,7.25,4
+1137,"(('Zebras', 'Hamsters'), 'All mammals')",Mammals,General,False,False,"('Zebras', 'Hamsters')",All mammals,61.0,2.5,4
+1138,"(('Zebras', 'Llamas'), 'All mammals')",Mammals,General,False,False,"('Zebras', 'Llamas')",All mammals,65.6,7.0,5
+1139,"(('Zebras', 'Mice'), 'All mammals')",Mammals,General,False,False,"('Zebras', 'Mice')",All mammals,66.83333333333333,3.6666666666666665,6
+1140,"(('Zebras', 'Mice'), 'Cats')",Mammals,Specific,False,False,"('Zebras', 'Mice')",Cats,53.125,6.875,8
+1141,"(('Zebras', 'Mice'), 'Hamsters')",Mammals,Specific,False,False,"('Zebras', 'Mice')",Hamsters,58.4,5.6,10
+1142,"(('Zebras', 'Rhinos'), 'Mice')",Mammals,Specific,False,False,"('Zebras', 'Rhinos')",Mice,34.44444444444444,8.222222222222221,9
+1143,"(('Zebras', 'Sheep'), 'Llamas')",Mammals,Specific,False,False,"('Zebras', 'Sheep')",Llamas,73.8,4.0,10
+1144,"(('Zeppelins',), 'All vehicles')",Vehicles,General,True,False,"('Zeppelins',)",All vehicles,25.348484848484848,12.93939393939394,66
+1145,"(('Zeppelins',), 'Bicycles')",Vehicles,Specific,True,False,"('Zeppelins',)",Bicycles,30.235294117647058,13.882352941176471,17
+1146,"(('Zeppelins',), 'Buses')",Vehicles,Specific,True,False,"('Zeppelins',)",Buses,37.5,12.375,8
+1147,"(('Zeppelins',), 'Caravans')",Vehicles,Specific,True,False,"('Zeppelins',)",Caravans,32.9375,12.9375,16
+1148,"(('Zeppelins',), 'Mopeds')",Vehicles,Specific,True,False,"('Zeppelins',)",Mopeds,44.375,12.125,16
+1149,"(('Zeppelins',), 'Skateboards')",Vehicles,Specific,True,False,"('Zeppelins',)",Skateboards,29.5,15.375,8
+1150,"(('Zeppelins',), 'Sleds')",Vehicles,Specific,True,False,"('Zeppelins',)",Sleds,25.333333333333332,13.88888888888889,18
+1151,"(('Zeppelins', 'Airplanes'), 'Bicycles')",Vehicles,Specific,False,False,"('Zeppelins', 'Airplanes')",Bicycles,21.428571428571427,6.857142857142857,7
+1152,"(('Zeppelins', 'Airplanes'), 'Skateboards')",Vehicles,Specific,False,False,"('Zeppelins', 'Airplanes')",Skateboards,34.75,8.25,8
+1153,"(('Zeppelins', 'Boats'), 'All vehicles')",Vehicles,General,False,False,"('Zeppelins', 'Boats')",All vehicles,41.0,6.6,5
+1154,"(('Zeppelins', 'Hovercraft'), 'All vehicles')",Vehicles,General,False,False,"('Zeppelins', 'Hovercraft')",All vehicles,41.625,5.875,8
+1155,"(('Zeppelins', 'Jeeps'), 'All vehicles')",Vehicles,General,False,False,"('Zeppelins', 'Jeeps')",All vehicles,48.625,4.5,8
+1156,"(('Zeppelins', 'Rockets'), 'All vehicles')",Vehicles,General,False,False,"('Zeppelins', 'Rockets')",All vehicles,56.142857142857146,7.0,7
+1157,"(('Zeppelins', 'Sleds'), 'Caravans')",Vehicles,Specific,False,False,"('Zeppelins', 'Sleds')",Caravans,53.25,6.25,8
+1158,"(('Zeppelins', 'Submarines'), 'All vehicles')",Vehicles,General,False,False,"('Zeppelins', 'Submarines')",All vehicles,47.333333333333336,6.666666666666667,6
+1159,"(('Zeppelins', 'Tractors'), 'All vehicles')",Vehicles,General,False,False,"('Zeppelins', 'Tractors')",All vehicles,51.0,4.625,8
+1160,"(('Zeppelins', 'Vans'), 'Bicycles')",Vehicles,Specific,False,False,"('Zeppelins', 'Vans')",Bicycles,53.0,6.8,10
