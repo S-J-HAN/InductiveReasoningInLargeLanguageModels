@@ -114,7 +114,7 @@ def preprocess_experiment_2_results() -> None:
     print(f"Number of participants left after medium cut: {len(df['pid'].unique())}")
 
     # Get argument rankings at a per participant, premise number level
-    df["ratings_rank"] = df.groupby(["pid", "is_single_premise"])['rating'].rank("dense", ascending=False)
+    df["ratings_rank"] = df.groupby(["pid", "is_single_premise"])['rating'].rank(pct="True", ascending=True)
 
     # Aggregate ratings and rankings across participants
     rows = []
