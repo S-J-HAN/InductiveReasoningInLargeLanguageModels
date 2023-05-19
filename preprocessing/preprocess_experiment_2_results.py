@@ -109,9 +109,9 @@ def preprocess_experiment_2_results() -> None:
     df = df[["pid", "tid",  "argument", "domain", "conclusion_type", "is_single_premise", "is_control", "premises", "conclusion", "rating", "light_cut", "medium_cut", "hard_cut"]]
     df.to_csv(f"{config.DATA}/clean_human_ratings.csv")
 
-    # Exclude participants at the medium cut level
-    df = df[~df["medium_cut"]]
-    print(f"Number of participants left after medium cut: {len(df['pid'].unique())}")
+    # Exclude participants at the light cut level
+    df = df[~df["light_cut"]]
+    print(f"Number of participants left after light cut: {len(df['pid'].unique())}")
 
     # Get argument rankings at a per participant, premise number level
     df["ratings_rank"] = df.groupby(["pid", "is_single_premise"])['rating'].rank(pct="True", ascending=True)
