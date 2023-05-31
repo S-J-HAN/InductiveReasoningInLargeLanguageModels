@@ -68,7 +68,7 @@ def preprocess_experiment_2_results() -> None:
     experiment_df = experiment_df[experiment_df["is_osherson"] == 0].reset_index(drop=True)
 
     # Load human ratings
-    human_df = pd.read_csv(f"{config.DATA}/raw_human_ratings.csv")
+    human_df = pd.read_csv(f"{config.DATA}/raw_human_ratings_2.csv")
     human_df["pid"] = human_df["tid"].apply(lambda x: x.split("participant")[-1])
     human_df["tid"] = human_df["trialId"].apply(lambda x: x.replace("tc", ""))
     human_df["premises"] = human_df["premises0"].apply(lambda x: tuple(x.split(":")))
@@ -89,7 +89,7 @@ def preprocess_experiment_2_results() -> None:
     print(f"Merged df nrows: {df.shape[0]}, human_df nrows: {human_df.shape[0]}, experiment_df nrows: {experiment_df.shape[0]}")
     print(f"Total number of PIDs: {len(human_df['pid'].unique())}")
     missing_pids = set(experiment_df["pid"]).difference(set(human_df["pid"]))
-    print(f"Missing PIDs that are in experiment_df but not human_df: {missing_pids}")
+    print(f"Missing PIDs that are in experiment_df but not human_df: {list(missing_pids)}")
     assert df.shape[0] == human_df.shape[0] == experiment_df[~experiment_df["pid"].isin(missing_pids)].shape[0]
     assert len(experiment_df["pid"].unique()) == len(df["pid"].unique()) + len(missing_pids)
     assert all(gdf.shape[0] == 38 for _,gdf in df.groupby("pid"))
