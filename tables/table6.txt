@@ -1,0 +1,17 @@
+\textbf{Conc}. & \textbf{Prems} & \textbf{Domain} &  \human{\textbf{H}} vs \gptfour{\textbf{4}}   & \human{\textbf{H}} vs \gptthree{\textbf{3}}  & \gptfour{\textbf{4}} vs \gptthree{\textbf{3}} & \gptfour{\textbf{4}} vs \gptfourscm{\textbf{4 SCM}} & \gptthree{\textbf{3}} vs \gptthreescm{\textbf{3 SCM}}\\
+\hline
+Specific & Single & Mammals & \human{\textbf{1.0}} & \human{\textbf{1.0}} & \gptfour{\textbf{1.0}} & \gptfourscm{\textbf{0.021}} & \gptthreescm{\textbf{0.0}}\\
+& & Birds & \human{\textbf{0.998}} & \human{\textbf{0.997}} & 0.388 & \gptfourscm{\textbf{0.001}} & \gptthreescm{\textbf{0.002}}\\
+& & Vehicles & \gptfour{\textbf{0.0}} & \human{\textbf{1.0}} & \gptfour{\textbf{1.0}} & \gptfour{\textbf{1.0}} & 0.131\\
+\hline
+Specific & Multi & Mammals & \human{\textbf{0.982}} & \human{\textbf{1.0}} & \gptfour{\textbf{1.0}} & 0.162 & \gptthreescm{\textbf{0.0}}\\
+& & Birds & \human{\textbf{0.978}} & 0.866 & 0.079 & \gptfourscm{\textbf{0.0}} & \gptthreescm{\textbf{0.002}}\\
+& & Vehicles & 0.053 & 0.718 & \gptfour{\textbf{1.0}} & \gptfour{\textbf{0.999}} & 0.577\\
+\hline
+General & Single & Mammals & \human{\textbf{1.0}} & \human{\textbf{0.999}} & \gptthree{\textbf{0.004}} & \gptfourscm{\textbf{0.0}} & \gptthreescm{\textbf{0.0}}\\
+& & Birds & \gptfour{\textbf{0.005}} & \gptthree{\textbf{0.0}} & \gptthree{\textbf{0.05}} & \gptfourscm{\textbf{0.0}} & 0.691\\
+& & Vehicles & \human{\textbf{1.0}} & 0.461 & \gptthree{\textbf{0.0}} & 0.835 & \gptthree{\textbf{1.0}}\\
+\hline
+General & Multi & Mammals & \human{\textbf{0.969}} & 0.606 & \gptthree{\textbf{0.025}} & 0.075 & 0.843\\
+& & Birds & 0.051 & \gptthree{\textbf{0.009}} & 0.151 & 0.498 & \gptthree{\textbf{0.999}}\\
+& & Vehicles & \human{\textbf{0.999}} & 0.138 & \gptthree{\textbf{0.0}} & 0.412 & \gptthree{\textbf{1.0}}\\

@@ -1,0 +1,13 @@
+,domain,conclusion_type,is_single_premise,gpt3_scm_beats_gpt3,gpt3_beats_gpt3_scm,gpt4_beats_gpt3,gpt4_beats_gpt3_scm,gpt3_beats_gpt4_scm,gpt3_beats_gpt4,gpt4_scm_beats_gpt4,gpt4_beats_gpt4_scm,human_scm_beats_gpt4,human_scm_beats_gpt4_scm,human_scm_beats_gpt3,human_scm_beats_gpt3_scm
+0,Birds,General,False,0.001,0.999,0.151,0.99,0.894,0.849,0.502,0.498,0.051,0.045,0.009,0.57
+1,Birds,General,True,0.305,0.691,0.05,0.146,0.015,0.95,1.0,0.0,0.005,0.0,0.0,0.0
+2,Birds,Specific,False,0.998,0.002,0.079,0.002,0.001,0.921,1.0,0.0,0.978,0.055,0.866,0.068
+3,Birds,Specific,True,0.998,0.002,0.388,0.015,0.014,0.612,0.999,0.001,0.998,0.92,0.997,0.942
+4,Mammals,General,False,0.157,0.843,0.025,0.16,0.711,0.975,0.925,0.075,0.969,0.882,0.606,0.921
+5,Mammals,General,True,1.0,0.0,0.004,0.0,0.0,0.996,1.0,0.0,1.0,0.099,0.999,0.409
+6,Mammals,Specific,False,1.0,0.0,1.0,0.199,0.0,0.0,0.838,0.162,0.982,0.969,1.0,0.971
+7,Mammals,Specific,True,1.0,0.0,1.0,0.638,0.0,0.0,0.979,0.021,1.0,1.0,1.0,1.0
+8,Vehicles,General,False,0.0,1.0,0.0,0.675,1.0,1.0,0.588,0.412,0.999,1.0,0.138,1.0
+9,Vehicles,General,True,0.0,1.0,0.0,1.0,1.0,1.0,0.165,0.835,1.0,1.0,0.461,1.0
+10,Vehicles,Specific,False,0.423,0.577,1.0,0.989,0.835,0.0,0.001,0.999,0.053,1.0,0.718,0.892
+11,Vehicles,Specific,True,0.869,0.131,1.0,1.0,0.059,0.0,0.0,1.0,0.0,1.0,1.0,1.0
