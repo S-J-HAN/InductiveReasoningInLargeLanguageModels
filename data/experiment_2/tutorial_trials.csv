@@ -1,0 +1,9 @@
+,trial_num,conclusion_type,is_single_premise,premises,conclusion
+0,1,General,true,"['Papayas']",All fruits
+1,2,General,true,"['Apples']",All fruits
+2,1,General,false,"['Lemons','Limes']",All fruits
+3,2,General,false,"['Bananas','Watermelons']",All fruits
+4,1,Specific,true,"['Blackberries']",Raspberries
+5,2,Specific,true,"['Pineapples']",Raspberries
+6,1,Specific,false,"['Lemons','Limes']",Cherries
+7,2,Specific,false,"['Bananas','Watermelons']",Cherries

@@ -61,14 +61,14 @@ def preprocess_experiment_2_results() -> None:
     """
 
     # Load original experiment split labels
-    experiment_df = pd.read_csv(f"{config.DATA}/experiment_trials.csv", index_col=0)
+    experiment_df = pd.read_csv(f"{config.E2_DATA}/experiment_trials.csv", index_col=0)
     experiment_df["pid"] = experiment_df["pid"].apply(str)
     experiment_df["tid"] = experiment_df["tid"].apply(str)
     experiment_df["premises"] = experiment_df["premises"].apply(lambda x: tuple(eval(x)))
     experiment_df = experiment_df[experiment_df["is_osherson"] == 0].reset_index(drop=True)
 
     # Load human ratings
-    human_df = pd.read_csv(f"{config.DATA}/raw_human_ratings_2.csv")
+    human_df = pd.read_csv(f"{config.E2_DATA}/raw_human_ratings_2.csv")
     human_df["pid"] = human_df["tid"].apply(lambda x: x.split("participant")[-1])
     human_df["tid"] = human_df["trialId"].apply(lambda x: x.replace("tc", ""))
     human_df["premises"] = human_df["premises0"].apply(lambda x: tuple(x.split(":")))
@@ -76,7 +76,7 @@ def preprocess_experiment_2_results() -> None:
     human_df["conclusion_type"] = human_df["conclusionType"].apply(lambda x: x.capitalize())
 
     # Drop participants who were not paid
-    unpaid_participants_df = pd.read_csv(f"{config.DATA}/unpaid_participants.csv", index_col=0)
+    unpaid_participants_df = pd.read_csv(f"{config.E2_DATA}/unpaid_participants.csv", index_col=0)
     drop_uids = unpaid_participants_df[~unpaid_participants_df["paid"]]["uid"].tolist()
     human_df = human_df[~human_df["uid"].isin(drop_uids)].reset_index(drop=True)
 
@@ -96,7 +96,7 @@ def preprocess_experiment_2_results() -> None:
     print()
 
     # Label control trials
-    control_df = pd.read_csv(f"{config.DATA}/control_trials.csv", index_col=0)
+    control_df = pd.read_csv(f"{config.E2_DATA}/control_trials.csv", index_col=0)
     control_df["premises"] = control_df["premises"].apply(lambda x: tuple(eval(x)))
     print("Labelling trials as control or not control...")
     df["is_control"] = [determine_if_row_is_control(row, control_df) for _, row in tqdm.tqdm(df.iterrows())]
@@ -107,7 +107,7 @@ def preprocess_experiment_2_results() -> None:
     df = identify_participants_to_cut(df)
     df["argument"] = [(row["premises"], row["conclusion"]) for _, row in df.iterrows()]
     df = df[["pid", "tid",  "argument", "domain", "conclusion_type", "is_single_premise", "is_control", "premises", "conclusion", "rating", "light_cut", "medium_cut", "hard_cut"]]
-    df.to_csv(f"{config.DATA}/clean_human_ratings.csv")
+    df.to_csv(f"{config.E2_DATA}/clean_human_ratings.csv")
 
     # Exclude participants at the light cut level
     df = df[~df["light_cut"]]
@@ -147,7 +147,7 @@ def preprocess_experiment_2_results() -> None:
         minr, maxr, meanr, sdr = r.min(), r.max(), r.mean(), r.std()
         print(f"    {split}: min - {minr}, max - {maxr}, mean - {meanr:.2f}, sd - {sdr:.2f}")
 
-    aggregated_df.to_csv(f"{config.DATA}/aggregated_human_ratings.csv")
+    aggregated_df.to_csv(f"{config.E2_DATA}/aggregated_human_ratings.csv")
 
 
 if __name__ == "__main__":

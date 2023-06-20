@@ -1,1 +1,0 @@
-DATA = "../data/experiment_2"
