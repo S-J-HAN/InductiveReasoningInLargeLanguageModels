@@ -5,6 +5,7 @@ import openai
 import cohere
 import os
 import requests
+import time
 import config
 
 import numpy as np
@@ -19,6 +20,10 @@ class LLMReasoner(ABC):
     @property
     def name(self) -> str:
         return f"{self.model}-completion"
+
+    @property
+    def vendor(self) -> str:
+        return ""
     
     @abstractmethod
     def generate_response(
@@ -28,12 +33,27 @@ class LLMReasoner(ABC):
     ) -> str:
         """Pass a prompt to LLM API and return its response as a string"""
         pass
-    
-    @abstractmethod
+
     def rate_e2_prompt(
         self,
         prompt: Any,
         temperature: int = config.DEFAULT_TEMPERATURE,
+        num_tries: int = 5,
+        sleep_time: float = 5.0,
+    ) -> Optional[float]:
+        """Make multiple attempts at getting an e2 prompt rating from an LLM API"""
+        for _ in range(num_tries):
+            try:
+                return self.generate_e2_prompt_rating(prompt, temperature)
+            except:
+                time.sleep(sleep_time)
+        return None
+    
+    @abstractmethod
+    def generate_e2_prompt_rating(
+        self,
+        prompt: Any,
+        temperature: int,
     ) -> Optional[float]:
         """Pass inductive reasoning prompt to LLM API and return its rating"""
         pass
@@ -136,10 +156,14 @@ class OpenAIChatReasoner(LLMReasoner):
     def __init__(self, model: str):
         super().__init__(model)
         openai.api_key = os.environ['OPENAI']
+
+    @property
+    def vendor(self) -> str:
+        return "openai"
     
     @property
     def name(self) -> str:
-        return f"{self.model}-openai-chat"
+        return f"{self.model}-{self.vendor}-chat"
     
     def generate_response(
         self,
@@ -154,7 +178,7 @@ class OpenAIChatReasoner(LLMReasoner):
             )
         return completion.choices[0].message.content
 
-    def rate_e2_prompt(
+    def generate_e2_prompt_rating(
         self, 
         prompt: List[Dict[str, str]], 
         temperature: int = config.DEFAULT_TEMPERATURE,
@@ -171,10 +195,14 @@ class OpenAICompletionReasoner(LLMReasoner):
     def __init__(self, model: str):
         super().__init__(model)
         openai.api_key = os.environ['OPENAI']
+
+    @property
+    def vendor(self) -> str:
+        return "openai"
     
     @property
     def name(self) -> str:
-        return f"{self.model}-openai-completion"
+        return f"{self.model}-{self.vendor}-completion"
     
     def generate_response(
         self,
@@ -192,7 +220,7 @@ class OpenAICompletionReasoner(LLMReasoner):
 
         return completion["choices"][0]["text"]
 
-    def rate_e2_prompt(
+    def generate_e2_prompt_rating(
         self, 
         prompt: str, 
         temperature: int = config.DEFAULT_TEMPERATURE,
@@ -214,10 +242,14 @@ class CohereCompletionReasoner(LLMReasoner):
     def __init__(self, model: str):
         super().__init__(model)
         self.co = cohere.Client(os.environ['COHERE'])
+
+    @property
+    def vendor(self) -> str:
+        return "cohere"
     
     @property
     def name(self) -> str:
-        return f"{self.model}-cohere-completion"
+        return f"{self.model}-{self.vendor}-completion"
     
     def generate_response(
         self,
@@ -231,7 +263,7 @@ class CohereCompletionReasoner(LLMReasoner):
             max_tokens=100,
         ).generations[0].text
 
-    def rate_e2_prompt(
+    def generate_e2_prompt_rating(
         self, 
         prompt: str, 
         temperature: int = config.DEFAULT_TEMPERATURE,
@@ -245,8 +277,12 @@ class CohereCompletionReasoner(LLMReasoner):
 class TextSynthCompletionReasoner(LLMReasoner):
 
     @property
+    def vendor(self) -> str:
+        return "textsynth"
+
+    @property
     def name(self) -> str:
-        return f"{self.model}-textsynth-completion"
+        return f"{self.model}-{self.vendor}-completion"
     
     def generate_response(
         self,
@@ -261,7 +297,7 @@ class TextSynthCompletionReasoner(LLMReasoner):
         else:
             return None
 
-    def rate_e2_prompt(
+    def generate_e2_prompt_rating(
         self, 
         prompt: str, 
         temperature: int = 0.11,
