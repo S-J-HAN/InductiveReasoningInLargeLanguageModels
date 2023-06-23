@@ -29,6 +29,11 @@ Model ratings for all arguments from GPT-4, GPT-3, SCM, MaxSim and MeanSim model
 
 Source: Google Colab
 
+#### llm_ratings.csv
+LLM ratings for all arguments in our MTurk experiment. Models include GPT-4 (0314), GPT-3.5 (0613) and GPT-3 (text-danvinci-003)
+
+Source: generate_data/e2_generate_llm_results.py
+
 #### aggregated_human_ratings.csv
 An aggregated version of 'clean_human_ratings.csv', aggregated over every argument after filtering out unreliable MTurkers.
 
@@ -72,5 +77,10 @@ Source: handwritten
 
 #### tutorial_trial_responses.csv
 LLM responses to above fruit argument tutorial trials, saved so that we can use these as the prompt for 'T' prompt LLM experiments.
+
+Source: generate_data/e2_generate_llm_results.py
+
+### llm_prompts.csv
+S3-C1-A1-Q1-O1-T style prompts for every argument used in the MTurk experiment, for every LLM under consideration.
 
 Source: generate_data/e2_generate_llm_results.py
