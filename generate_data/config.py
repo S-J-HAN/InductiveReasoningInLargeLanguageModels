@@ -1,4 +1,18 @@
-E2_DATA = "../data/experiment_2"
+import json
+
+
+def save_map(m: object, filename: str) -> None:
+  with open(filename, 'w') as f:
+    json.dump(m, f)
+
+def load_map(filename: str) -> None:
+  with open(filename, 'r') as f:
+    return json.load(f)
+
+
+DATA = "../data"
+DEDEYNE_DATA = f"{DATA}/dedeyne"
+E2_DATA = f"{DATA}/experiment_2"
 
 DEFAULT_TEMPERATURE = 0
 

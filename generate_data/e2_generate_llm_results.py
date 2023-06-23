@@ -136,7 +136,9 @@ def generate_prompt_df(
 
 
 def get_rating(prompt: str, llm_reasoner: llms.LLMReasoner) -> Tuple[Any, Optional[float]]:
+    """Helper function for multiprocessing, used below"""
     return llm_reasoner.rate_e2_prompt(prompt)
+
 
 def generate_llm_ratings(
     prompt_df: pd.DataFrame,

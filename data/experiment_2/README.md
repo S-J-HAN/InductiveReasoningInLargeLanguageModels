@@ -25,9 +25,9 @@ Source: results/experiment_2.ipynb
 Data extracted after running our MTurk/LLM experiment.
 
 #### model_ratings.csv
-Model ratings for all arguments from GPT-4, GPT-3, SCM, MaxSim and MeanSim models.
+Model ratings for all arguments from GPT-4, GPT-3.5, GPT-3, SCM, MaxSim and MeanSim models.
 
-Source: Google Colab
+Source: generate_data/e2_generate_model_results.py
 
 #### llm_ratings.csv
 LLM ratings for all arguments in our MTurk experiment. Models include GPT-4 (0314), GPT-3.5 (0613) and GPT-3 (text-danvinci-003)
