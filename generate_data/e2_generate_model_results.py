@@ -3,6 +3,7 @@ from typing import List, Dict
 import numpy as np
 import pandas as pd
 
+import helpers
 import config
 
 
@@ -57,11 +58,10 @@ def scm(
 
 if __name__ == "__main__":
 
-    domain_categories = config.load_map(f"{config.DEDEYNE_DATA}/domain_categories.json")
+    domain_categories = helpers.load_map(f"{config.DEDEYNE_DATA}/domain_categories.json")
     similarity_maps = {
-        "gpt3": config.load_map(f"{config.DATA}/gpt3_similarity_map.json"),
-        "gpt4": config.load_map(f"{config.DATA}/gpt4_similarity_map.json"),
-        "human": config.load_map(f"{config.DEDEYNE_DATA}/similarity_map.json")
+        r: helpers.load_map(f"{config.SIMILARITY_DATA}/{r}_similarity_map.json") 
+        for r in ["gpt3", "gpt4", "human"]
     }
 
     # Flatten existing human similarity map, which is split by domains

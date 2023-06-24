@@ -1,6 +1,7 @@
 import llms
 import prompts
 import config
+import helpers
 import tqdm
 import time
 import multiprocessing
@@ -135,41 +136,6 @@ def generate_prompt_df(
     return prompt_df
 
 
-def get_rating(prompt: str, llm_reasoner: llms.LLMReasoner) -> Tuple[Any, Optional[float]]:
-    """Helper function for multiprocessing, used below"""
-    return llm_reasoner.rate_e2_prompt(prompt)
-
-
-def generate_llm_ratings(
-    prompt_df: pd.DataFrame,
-    llm_reasoners: List[llms.LLMReasoner],
-) -> pd.DataFrame:
-    """Generates LLM ratings for a given prompt dataframe"""
-
-    rating_df = prompt_df.copy(deep=True).sort_values(by="llm_reasoner")
-    llm_reasoner_map = {llm_reasoner.name: llm_reasoner for llm_reasoner in llm_reasoners}
-    
-    BATCH_SIZE = 32
-    
-    raw_completions, ratings = [], []
-    for b in tqdm.tqdm(range(0,len(rating_df),BATCH_SIZE)):
-        batch_df = rating_df.iloc[b:b+BATCH_SIZE]
-        inputs = [(row["prompt"], llm_reasoner_map[row["llm_reasoner"]]) for _, row in batch_df.iterrows()]
-        with multiprocessing.Pool(multiprocessing.cpu_count()) as pool:
-            outputs = pool.starmap(get_rating, inputs)
-            raw_completions += [x[0] for x in outputs]
-            ratings += [x[1] for x in outputs]
-        print(len([x[0] for x in outputs if x[0]]))
-        rating_df["llm_raw_completion"] = raw_completions + [None]*(len(rating_df)-len(raw_completions))
-        rating_df["llm_rating"] = ratings + [None]*(len(rating_df)-len(ratings))
-        rating_df.to_csv(f"{config.E2_DATA}/llm_ratings.csv")
-
-    assert len(prompt_df) == len(rating_df)
-    
-    return rating_df
-    
-
-
 if __name__ == "__main__":
 
     prompt = prompts.Experiment2Prompt()
@@ -182,5 +148,5 @@ if __name__ == "__main__":
 
     tutorial_trial_response_map = generate_tutorial_answers(prompt, llm_reasoners)
     prompt_df = generate_prompt_df(tutorial_trial_response_map, prompt, llm_reasoners)
-    rating_df = generate_llm_ratings(prompt_df, llm_reasoners)
+    rating_df = helpers.generate_llm_ratings(prompt_df, llm_reasoners, f"{config.E2_DATA}/llm_ratings.csv")
         

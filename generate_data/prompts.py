@@ -22,7 +22,7 @@ class Experiment2Prompt:
             domain: str,
             is_completion: bool,
             tutorial_prompt: Optional[Any] = None,
-    ) -> str:
+    ) -> Any:
         if is_completion:
             return self._generate_completion_prompt(premises, conclusion, domain, tutorial_prompt)
         else:
@@ -55,7 +55,7 @@ class Experiment2Prompt:
         conclusion: str,
         domain: str,
         tutorial_prompt: List[Dict[str,str]] = [],
-    ) -> str:
+    ) -> config.ChatMessage:
         
         argument_prompt = self.ARGUMENT.format("\n".join([self.FACT.format(p) for p in premises]), conclusion)
         if tutorial_prompt:
@@ -70,4 +70,22 @@ class Experiment2Prompt:
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": context_prompt + "\n\n" + argument_prompt + "\n\n" + self.QUESTION + " " + self.OPTION},
             ]
+        
 
+class SimilarityPrompt:
+
+    QUESTION: str = "You are an expert on {} and the different properties that they have. With these properties in mind, we will ask you whether two {} are similar or not.\n\nQuestion: With their respective properties in mind, how similar are {} and {} on a scale of 0 to 20? Answer with a single number.\nAnswer:"
+
+    def generate_prompt(self, domain: str, category1: str, category2: str, is_completion: bool) -> Any:
+        if is_completion:
+            return self._generate_completion_prompt(domain, category1, category2)
+        else:
+            return self._generate_chat_prompt(domain, category1, category2)
+    
+
+    def _generate_completion_prompt(self, domain: str, category1: str, category2: str) -> str:
+        return self.QUESTION.format(domain.lower(), domain.lower(), category1.lower(), category2.lower())
+
+
+    def _generate_chat_prompt(self, domain: str, category1: str, category2: str) -> config.ChatMessage:
+        return [{"role": "user", "content": self.QUESTION.format(domain.lower(), domain.lower(), category1.lower(), category2.lower())}]
