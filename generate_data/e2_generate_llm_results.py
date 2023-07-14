@@ -4,7 +4,6 @@ import config
 import helpers
 import tqdm
 import time
-import multiprocessing
 import os
 
 import warnings
@@ -12,7 +11,7 @@ warnings.filterwarnings("ignore")
 
 import pandas as pd
 
-from typing import List, Dict, Tuple, Any, Optional
+from typing import List, Dict, Tuple
 
 
 def generate_tutorial_answers(
@@ -95,14 +94,16 @@ def generate_tutorial_answers(
     
         tutorial_trial_response_df = pd.DataFrame(rows, columns=["conclusion_type", "is_single_premise", "parent_domain", "llm_reasoner", "tutorial_prompt"])
         output_df = pd.concat([existing_df, tutorial_trial_response_df], ignore_index=True)
-
+        output_df = output_df.drop_duplicates(subset=["conclusion_type", "is_single_premise", "parent_domain", "llm_reasoner"]).reset_index(drop=True)
         output_df.to_csv(FILE_PATH)
 
     output_df["tutorial_prompt"] = output_df["tutorial_prompt"].apply(lambda x: eval(x) if x[0] == "[" else x)
     output_map = output_df.set_index(["conclusion_type", "is_single_premise", "parent_domain", "llm_reasoner"]).to_dict()["tutorial_prompt"]
 
     assert all(lr.name in set(output_df["llm_reasoner"].tolist()) for lr in llm_reasoners)
-    assert output_df.shape[0] == len(set(output_df["llm_reasoner"].tolist())) * 2 * 2 * 2
+    assert output_df.shape[0] >= len(set(output_df["llm_reasoner"].tolist())) * 2 * 2 * 2
+    assert output_df.shape[0] / len(set(output_df["llm_reasoner"].tolist())) == 2 * 2 * 2
+    assert output_df.shape[0] == output_df.drop_duplicates(subset=["conclusion_type", "is_single_premise", "parent_domain", "llm_reasoner"]).shape[0]
 
     return output_map
 
@@ -122,7 +123,8 @@ def generate_prompt_df(
     for _, row in argument_df.iterrows():
         for llm_reasoner in llm_reasoners:
             tp = tutorial_trial_response_map[(row["conclusion_type"], row["is_single_premise"], config.PARENT_DOMAINS[row["domain"]], llm_reasoner.name)]
-            llm_prompt = prompt.generate_prompt(row["premises"], row["conclusion"], row["domain"], llm_reasoner.api_type == "completion", tp)
+            argument = prompts.Argument(row["premises"], row["conclusion"])
+            llm_prompt = prompt.generate_prompt(argument, row["domain"], llm_reasoner.api_type == "completion", tp)
             rows.append((llm_reasoner.name, llm_reasoner.model) + tuple(row.values) + (llm_prompt,))
     prompt_df = pd.DataFrame(rows, columns=["llm_reasoner", "llm_model", "argument", "domain", "conclusion_type", "is_single_premise", "is_control", "premises", "conclusion", "prompt"])
 
@@ -131,6 +133,7 @@ def generate_prompt_df(
     assert set(prompt_df["llm_reasoner"]) == set([lr.name for lr in llm_reasoners])
     assert set(prompt_df["llm_model"]) == set([lr.model for lr in llm_reasoners])
 
+    prompt_df = prompt_df.sort_values(by=["llm_reasoner", "argument"]).reset_index(drop=True)
     prompt_df.to_csv(f"{config.E2_DATA}/llm_prompts.csv")
 
     return prompt_df
@@ -141,12 +144,15 @@ if __name__ == "__main__":
     prompt = prompts.Experiment2Prompt()
 
     llm_reasoners = [
+        llms.OpenAICompletionReasoner("davinci"),
+        llms.OpenAICompletionReasoner("text-davinci-001"),
+        llms.OpenAICompletionReasoner("text-davinci-002"),
+        llms.OpenAICompletionReasoner("text-davinci-003"),
         llms.OpenAIChatReasoner("gpt-3.5-turbo-0613"),
         llms.OpenAIChatReasoner("gpt-4-0314"),
-        llms.OpenAICompletionReasoner("text-davinci-003"),
     ]
 
     tutorial_trial_response_map = generate_tutorial_answers(prompt, llm_reasoners)
     prompt_df = generate_prompt_df(tutorial_trial_response_map, prompt, llm_reasoners)
-    rating_df = helpers.generate_llm_ratings(prompt_df, llm_reasoners, f"{config.E2_DATA}/llm_ratings.csv")
+    rating_df = helpers.generate_llm_ratings(prompt_df, llm_reasoners, f"{config.E2_DATA}/llm_ratings.csv", is_experiment_2=True)
         

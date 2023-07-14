@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
-from typing import Optional, List, Dict, Any, Tuple
+from typing import Optional, Dict, Any
+from dataclasses import dataclass
 
 import openai
 import cohere
@@ -8,7 +9,14 @@ import requests
 import time
 import config
 
+import prompts
+
 import numpy as np
+
+@dataclass(frozen=True)
+class LLMRating:
+    raw_completion: str
+    parsed_rating: Optional[float]
 
 
 class LLMReasoner(ABC):
@@ -41,31 +49,87 @@ class LLMReasoner(ABC):
     def generate_rating(
         self,
         prompt: Any,
+        is_experiment_2: bool,
         temperature: int = config.DEFAULT_TEMPERATURE,
         num_tries: int = 5,
         sleep_time: float = 10,
-    ) -> Tuple[Any, Optional[float]]:
+    ) -> Optional[LLMRating]:
         """Make multiple attempts at getting a rating from an LLM API"""
         for _ in range(num_tries):
             try:
-                raw_completion, rating = self._generate_rating(prompt, temperature)
+                llm_rating = self._generate_prompt_rating(prompt, is_experiment_2, temperature)
                 time.sleep(config.SLEEP_TIMES[self.vendor])
-                return raw_completion, rating
+                return llm_rating
             except:
                 time.sleep(sleep_time)
         return None
     
     @abstractmethod
-    def _generate_rating(
+    def _generate_prompt_rating(
         self,
         prompt: Any,
+        is_experiment_2: bool,
         temperature: int,
-    ) -> Tuple[Any, Optional[float]]:
-        """Pass a prompt that asks for a rating to LLM API and return its raw response and parsed/processed rating"""
+    ) -> LLMRating:
+        """Pass an prompt that asks for a rating to LLM API and return its raw response and parsed/processed rating"""
         pass
 
     @classmethod
-    def calculate_completion_rating(cls, completion_logprobs: Dict[str, float]) -> float:
+    def calculate_e1_completion_rating(cls, completion: Dict) -> Optional[float]:
+        """Given a completion dictionary from OpenAI Completions endpoint, generates a score between 0 and 5 by
+        taking a probability-weighted average for the answer's letter token within the completion
+        This always works for text-davinci-003, but doesn't really work for 002 and 001, which tend to have underspecified answers.
+        """
+        
+        options = prompts.E1_OPTIONS
+
+        text = completion["choices"][0]["text"]
+        i = None
+        for option in options:
+            if option in text:
+                i = text.index(option)
+                break
+
+        if i == None:
+            return None
+
+        tokens = completion["choices"][0]["logprobs"]["tokens"]
+        token_position = 0
+        for i,t in enumerate(tokens):
+            if text.startswith(option) or text.startswith(" " + option):
+                token_position = i
+                break
+            text = text[len(t):]
+
+        option_logprobs = completion["choices"][0]["logprobs"]["top_logprobs"][token_position]
+        option_probs = {k: np.exp(v) for k,v in option_logprobs.items()}
+        s = sum(option_probs.values())
+        option_probs = {k: v/s for k,v in option_probs.items()}
+
+        output = 0
+        for i,l in enumerate("ABCDE"):
+            if f" {l}" in option_probs:
+                output += i*option_probs[f" {l}"]
+            elif l in option_probs:
+                output += i*option_probs[l]
+
+        return output
+    
+    @classmethod
+    def parse_e1_chat_rating(cls, response: str) -> Optional[float]:
+        """
+        Given a discrete response to a prompt that asks for a multi choice rating, find the rating within the response and return as a float.
+        """
+        options = prompts.E1_OPTIONS
+        
+        for option in options:
+            if option in response or f"({option[0]})" in response or option.split("-")[1] in response:
+                return options.index(option)
+        
+        return None
+
+    @classmethod
+    def calculate_e2_completion_rating(cls, completion_logprobs: Dict[str, float]) -> Optional[float]:
         """Given a dictionary of completion probabilities for numerical ratings at a single token position, 
         converts this into a single rating by taking a probability-weighted average."""
         
@@ -74,16 +138,20 @@ class LLMReasoner(ABC):
         completion_probs = {k: v/s for k,v in completion_probs.items()}
 
         rating = 0
+        c = 0
         for k,v in completion_probs.items():
             try:
                 rating += float(k)*v
             except:
-                pass
+                c += 1
         
-        return rating
+        if c == len(completion_logprobs):
+            return None
+        else:
+            return rating
 
     @classmethod
-    def parse_chat_rating(cls, response: str) -> float:
+    def parse_e2_chat_rating(cls, response: str) -> Optional[float]:
         """
         Given a discrete response to a prompt that asks for a numerical rating, find the rating within the response and return as a float.
         Ideally the entire response is just the rating. If not, look for string matches to potential ratings.
@@ -104,12 +172,14 @@ class LLMReasoner(ABC):
         floats = [f for f in floats if f != 100]
         if len(floats) == 1:
             return floats[0]
-        else:
+        elif len(floats) > 1:
             return np.mean(floats)
+        else:
+            return None
 
 
 class OpenAIChatReasoner(LLMReasoner):
-    """'Chat' style OpenAI models like GPT-4 and GPT-3.5"""
+    """'Chat' style OpenAI models like GPT-4 and GPT-3.5-chat-turbo"""
 
     @property
     def vendor(self) -> str:
@@ -134,20 +204,25 @@ class OpenAIChatReasoner(LLMReasoner):
 
         return completion.choices[0].message.content
 
-    def _generate_e2_prompt_rating(
+    def _generate_prompt_rating(
         self, 
-        prompt: List[Dict[str, str]], 
+        prompt: prompts.ChatMessage, 
+        is_experiment_2: bool,
         temperature: int = config.DEFAULT_TEMPERATURE,
-    ) -> Tuple[Any, Optional[float]]:
+    ) -> LLMRating:
 
         openai.api_key = os.environ['OPENAI']
         assistant_message = self.generate_response(prompt, temperature)
+        if not is_experiment_2:
+            rating = self.parse_e1_chat_rating(assistant_message)
+        else:
+            rating = self.parse_e2_chat_rating(assistant_message)
 
-        return assistant_message, self.parse_chat_rating(assistant_message)
+        return LLMRating(assistant_message, rating)
     
 
 class OpenAICompletionReasoner(LLMReasoner):
-    """'Completion' style OpenAI models like text-danvinci-003"""
+    """'Completion' style OpenAI models like text-danvinci-003, 002, 001"""
 
     @property
     def vendor(self) -> str:
@@ -174,11 +249,12 @@ class OpenAICompletionReasoner(LLMReasoner):
 
         return completion["choices"][0]["text"]
 
-    def _generate_e2_prompt_rating(
+    def _generate_prompt_rating(
         self, 
-        prompt: str, 
+        prompt: str,
+        is_experiment_2: bool,
         temperature: int = config.DEFAULT_TEMPERATURE,
-    ) -> Tuple[Any, Optional[float]]:
+    ) -> LLMRating:
 
         openai.api_key = os.environ['OPENAI']
         completion = openai.Completion.create(
@@ -189,7 +265,12 @@ class OpenAICompletionReasoner(LLMReasoner):
             logprobs=5,
         )
 
-        return completion, self.calculate_completion_rating(completion["choices"][0].logprobs.top_logprobs[-1])
+        if not is_experiment_2:
+            rating = self.calculate_e1_completion_rating(completion["choices"][0].logprobs.top_logprobs[-1])
+        else:
+            rating = self.calculate_e2_completion_rating(completion["choices"][0].logprobs.top_logprobs[-1])
+
+        return LLMRating(completion, rating)
 
 
 class CohereCompletionReasoner(LLMReasoner):
@@ -215,15 +296,20 @@ class CohereCompletionReasoner(LLMReasoner):
             max_tokens=100,
         ).generations[0].text
 
-    def _generate_e2_prompt_rating(
+    def _generate_prompt_rating(
         self, 
-        prompt: str, 
+        prompt: str,
+        is_experiment_2: bool,
         temperature: int = config.DEFAULT_TEMPERATURE,
-    ) -> Tuple[Any, Optional[float]]:
+    ) -> LLMRating:
 
         prediction = self.generate_response(prompt, temperature)
+        if not is_experiment_2:
+            rating = self.parse_e1_chat_rating(prediction)
+        else:
+            rating = self.parse_e2_chat_rating(prediction)
 
-        return prediction, self.parse_chat_rating(prediction)
+        return LLMRating(prediction, rating)
     
 
 class TextSynthCompletionReasoner(LLMReasoner):
@@ -249,12 +335,17 @@ class TextSynthCompletionReasoner(LLMReasoner):
         else:
             return None
 
-    def _generate_e2_prompt_rating(
+    def _generate_prompt_rating(
         self, 
-        prompt: str, 
+        prompt: str,
+        is_experiment_2: bool,
         temperature: int = 0.11,
-    ) -> Tuple[Any, Optional[float]]:
+    ) -> LLMRating:
         
         completion = self.generate_response(prompt, temperature)
+        if not is_experiment_2:
+            rating = self.parse_e1_chat_rating(completion)
+        else:
+            rating = self.parse_e2_chat_rating(completion)
 
-        return completion, self.parse_chat_rating(completion)
+        return LLMRating(completion, rating)

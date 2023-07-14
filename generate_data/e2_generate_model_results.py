@@ -80,13 +80,16 @@ if __name__ == "__main__":
         r = argument_df.iloc[0]
         domain, conclusion_type, premises, conclusion, is_single_premise = r["domain"], r["conclusion_type"], r["premises"], r["conclusion"], r["is_single_premise"]
         
-        gpt3_rating = argument_df[argument_df["llm_model"] == "text-davinci-003"]["llm_rating"].iloc[0]
-        gpt35_rating = argument_df[argument_df["llm_model"] == "gpt-3.5-turbo-0613"]["llm_rating"].iloc[0]
+        gpt3_rating = argument_df[argument_df["llm_model"] == "davinci"]["llm_rating"].iloc[0]
+        gpt3_d1_rating = argument_df[argument_df["llm_model"] == "text-davinci-001"]["llm_rating"].iloc[0]
+        gpt35_d2_rating = argument_df[argument_df["llm_model"] == "text-davinci-002"]["llm_rating"].iloc[0]
+        gpt35_d3_rating = argument_df[argument_df["llm_model"] == "text-davinci-003"]["llm_rating"].iloc[0]
+        gpt35_chat_rating = argument_df[argument_df["llm_model"] == "gpt-3.5-turbo-0613"]["llm_rating"].iloc[0]
         gpt4_rating = argument_df[argument_df["llm_model"] == "gpt-4-0314"]["llm_rating"].iloc[0]
         
-        rows.append((argument, domain, conclusion_type, is_single_premise, premises, conclusion, gpt3_rating, gpt35_rating, gpt4_rating))
+        rows.append((argument, domain, conclusion_type, is_single_premise, premises, conclusion, gpt3_rating, gpt3_d1_rating, gpt35_d2_rating, gpt35_d3_rating, gpt35_chat_rating, gpt4_rating))
 
-    model_df = pd.DataFrame(rows, columns=["argument", "domain", "conclusion_type", "is_single_premise", "premises", "conclusion", "gpt3_rating", "gpt3.5_rating", "gpt4_rating"])
+    model_df = pd.DataFrame(rows, columns=["argument", "domain", "conclusion_type", "is_single_premise", "premises", "conclusion", "gpt3_rating", "gpt3_text1_rating", "gpt3.5_text2_rating", "gpt3.5_text3_rating", "gpt3.5_chat_rating", "gpt4_rating"])
 
     # MaxSim
     for agent, agent_similarity_map in similarity_maps.items():

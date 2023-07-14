@@ -22,7 +22,7 @@ Mean and SEs across all iterations in the above file.
 Source: results/experiment_2.ipynb
 
 # Post experiment data files
-Data extracted after running our MTurk/LLM experiment.
+Data extracted after running our MTurk/LLM experiments.
 
 #### model_ratings.csv
 Model ratings for all arguments from GPT-4, GPT-3.5, GPT-3, SCM, MaxSim and MeanSim models.
@@ -30,7 +30,7 @@ Model ratings for all arguments from GPT-4, GPT-3.5, GPT-3, SCM, MaxSim and Mean
 Source: generate_data/e2_generate_model_results.py
 
 #### llm_ratings.csv
-LLM ratings for all arguments in our MTurk experiment. Models include GPT-4 (0314), GPT-3.5 (0613) and GPT-3 (text-danvinci-003)
+LLM ratings for all arguments in our MTurk experiment. Models include GPT-4 (gpt-4-0314), GPT-3.5 (gpt-3.5-turbo-0613, text-danvinci-003, text-danvinci-002) and GPT-3 (davinci)
 
 Source: generate_data/e2_generate_llm_results.py
 
@@ -55,7 +55,7 @@ Contains MTurk UIDs for participants who were unpaid. Before analysis, we should
 Source: KR
 
 # Pre experiment data files
-Data generated before running our MTurk experiment.
+Data used to run our MTurk/LLM experiments.
 
 #### experiment_trials.csv
 Trial (tid) seen by a participant (pid) in our MTurk experiment. This file was used to generate our MTurk experiment jsons. Does not include tutorial trials.
@@ -66,9 +66,6 @@ Source: Google Colab
 Control trials that appears in experiment 2. There should be 4 trials for each single premise domain/conclusiontype split and 1 for each multi premise split. We only show participants 4 control trials; 3 single and 1 multi.
 
 Source: handwritten
-
-# Pre experiment data files
-Data used to run our MTurk/LLM experiment.
 
 #### tutorial_trials.csv
 Fruit argument tutorial trials used in MTurk experiment and 'T' prompt LLM experiments.

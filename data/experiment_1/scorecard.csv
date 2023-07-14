@@ -1,0 +1,34 @@
+,phenomenon,domain,text-davinci-003_pvalue,gpt-3.5-turbo-0613_pvalue,gpt-4-0314_pvalue,human_pvalue
+7,Similarity,Mammals,0.1686,0.1686,0.0000,0.0000
+4,Similarity,Birds,0.6900,0.4049,0.0000,0.0000
+11,Similarity,Vehicles,0.1078,0.0041,0.0000,0.0000
+16,Typicality,Mammals,0.5413,0.2863,0.0227,0.0000
+20,Typicality,Birds,0.5413,0.1516,0.0015,0.0000
+13,Typicality,Vehicles,1.0000,0.0227,0.0000,0.0000
+34,Specificity,Mammals,0.8388,0.0000,0.0000,0.0000
+30,Specificity,Birds,0.8388,0.0000,0.0000,0.0000
+35,Specificity,Vehicles,0.5413,0.0015,0.0000,0.0000
+42,Monotonicity (General),Mammals,0.0227,0.0000,0.0000,0.0000
+38,Monotonicity (General),Birds,0.5413,0.0000,0.0000,0.0000
+45,Monotonicity (General),Vehicles,0.0015,0.0000,0.0000,0.0000
+53,Monotonicity (Specific),Mammals,0.3075,0.0000,0.0000,0.0639
+50,Monotonicity (Specific),Birds,0.8388,0.0000,0.0000,0.0000
+56,Monotonicity (Specific),Vehicles,0.8388,0.0000,0.0000,0.2863
+65,Diversity (General),Mammals,0.8388,0.3075,0.0000,0.0639
+69,Diversity (General),Birds,0.5413,0.1516,0.0000,1.0000
+66,Diversity (General),Vehicles,1.0000,0.8388,0.0639,0.0347
+74,Diversity (Specific),Mammals,1.0000,1.0000,0.1516,0.0066
+78,Diversity (Specific),Birds,0.5413,0.6776,0.8388,0.6776
+83,Diversity (Specific),Vehicles,0.3075,0.4049,0.1516,0.6776
+87,Nonmonotonicity (General),Mammals,0.0015,1.0000,0.0227,0.0000
+90,Nonmonotonicity (General),Birds,0.3075,0.0639,0.0003,0.0000
+85,Nonmonotonicity (General),Vehicles,0.8388,0.0227,0.1516,0.0066
+104,Nonmonotonicity (Specific),Mammals,1.0000,0.0000,0.0000,0.1516
+101,Nonmonotonicity (Specific),Birds,0.1516,0.0000,0.0000,0.0000
+96,Nonmonotonicity (Specific),Vehicles,1.0000,0.0000,0.0000,0.0066
+111,Asymmetry,Mammals,0.0639,0.8238,0.6776,0.4049
+115,Asymmetry,Birds,0.0639,0.8388,1.0000,0.0009
+108,Asymmetry,Vehicles,0.5413,0.0931,0.8238,0.0525
+127,Inclusion Fallacy,Mammals,0.8388,0.0003,0.0639,0.0639
+123,Inclusion Fallacy,Birds,0.8388,0.0227,0.0015,1.0000
+130,Inclusion Fallacy,Vehicles,0.5413,0.0639,0.5413,0.0015

@@ -431,3 +431,854 @@ Answer: 50
 Now that you've practiced you're ready to continue on to the main trials for this section.
 
 "
+48,General,False,living things,davinci-openai-completion,"You are an expert on living things and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to living things and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other living things have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include two supporting facts. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+Argument B:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument C:
+Fact - Lemons have property P
+
+Argument A:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+
+Argument B:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument C:
+Fact - Bananas have property
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+49,General,False,objects,davinci-openai-completion,"You are an expert on objects and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to objects and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other objects have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include two supporting facts. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+Argument B:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument C:
+Fact - Lemons have property P
+
+Argument A:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+
+Argument B:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument C:
+Fact - Bananas have property
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+50,General,False,living things,text-davinci-002-openai-completion,"You are an expert on living things and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to living things and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other living things have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include two supporting facts. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+50
+
+Argument A:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+100
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+51,General,False,objects,text-davinci-002-openai-completion,"You are an expert on objects and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to objects and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other objects have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include two supporting facts. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+50
+
+Argument A:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+100
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+52,General,True,living things,davinci-openai-completion,"You are an expert on living things and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to living things and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other living things have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include only one supporting fact. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Papayas have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+Argument B:
+Fact - Zebras have property P.
+Claim - All mammals have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument A:
+Fact - Papayas have property P.
+Claim - All fruits have
+
+Argument A:
+Fact - Apples have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+
+Argument B:
+Fact - Apples have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument A:
+Fact - Apples have property P.
+Claim - All fruits have property P
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+53,General,True,objects,davinci-openai-completion,"You are an expert on objects and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to objects and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other objects have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include only one supporting fact. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Papayas have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+Argument B:
+Fact - Zebras have property P.
+Claim - All mammals have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument A:
+Fact - Papayas have property P.
+Claim - All fruits have
+
+Argument A:
+Fact - Apples have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+
+Argument B:
+Fact - Apples have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument A:
+Fact - Apples have property P.
+Claim - All fruits have property P
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+54,General,True,living things,text-davinci-002-openai-completion,"You are an expert on living things and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to living things and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other living things have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include only one supporting fact. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Papayas have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+50
+
+Argument A:
+Fact - Apples have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+100
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+55,General,True,objects,text-davinci-002-openai-completion,"You are an expert on objects and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to objects and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other objects have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include only one supporting fact. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Papayas have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+Argument A:
+Fact - Papayas have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+80
+
+Argument A:
+Fact - Apples have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+100
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+56,Specific,False,living things,davinci-openai-completion,"You are an expert on living things and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to living things and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other living things have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include two supporting facts. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - Cherries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+Argument B:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - Oranges have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument C:
+Fact - Lemons have property P
+
+Argument A:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - Cherries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+
+Argument B:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - Oranges have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument C:
+Fact - Bananas have property
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+57,Specific,False,objects,davinci-openai-completion,"You are an expert on objects and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to objects and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other objects have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include two supporting facts. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - Cherries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+Argument B:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - Oranges have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument A:
+Fact - Lemons have property P
+
+Argument A:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - Cherries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+
+Argument B:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - Cherries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument A:
+Fact - Bananas have property
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+58,Specific,False,living things,text-davinci-002-openai-completion,"You are an expert on living things and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to living things and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other living things have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include two supporting facts. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - Cherries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+50
+
+Argument A:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - Cherries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+0
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+59,Specific,False,objects,text-davinci-002-openai-completion,"You are an expert on objects and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to objects and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other objects have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include two supporting facts. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - Cherries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+50
+
+Argument A:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - Cherries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+75
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+60,Specific,True,living things,davinci-openai-completion,"You are an expert on living things and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to living things and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other living things have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include only one supporting fact. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Blackberries have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+Argument B:
+Fact - Blackberries have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument C:
+Fact - Blackberries have property P.
+Claim - Raspberries have
+
+Argument A:
+Fact - Pineapples have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+
+Argument B:
+Fact - Pineapples have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument C:
+Fact - Pineapples have property P.
+Claim - Rasp
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+61,Specific,True,objects,davinci-openai-completion,"You are an expert on objects and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to objects and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other objects have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include only one supporting fact. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Blackberries have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+Argument B:
+Fact - Blackberries have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument C:
+Fact - Blackberries have property P.
+Claim - Raspberries have
+
+Argument A:
+Fact - Pineapples have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+
+
+Argument B:
+Fact - Pineapples have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+Argument C:
+Fact - Pineapples have property P.
+Claim - Rasp
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+62,Specific,True,living things,text-davinci-002-openai-completion,"You are an expert on living things and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to living things and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other living things have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include only one supporting fact. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Blackberries have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+Argument A:
+Fact - Blackberries have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+80
+
+Argument A:
+Fact - Pineapples have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+0
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+63,Specific,True,objects,text-davinci-002-openai-completion,"You are an expert on objects and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to objects and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other objects have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include only one supporting fact. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Blackberries have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+Argument A:
+Fact - Blackberries have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+80
+
+Argument A:
+Fact - Pineapples have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+0
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+64,General,False,living things,text-davinci-001-openai-completion,"You are an expert on living things and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to living things and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other living things have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include two supporting facts. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+50
+
+Argument A:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+100
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+65,General,False,objects,text-davinci-001-openai-completion,"You are an expert on objects and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to objects and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other objects have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include two supporting facts. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+50
+
+Argument A:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+100
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+66,General,True,living things,text-davinci-001-openai-completion,"You are an expert on living things and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to living things and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other living things have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include only one supporting fact. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Papayas have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+50
+
+Argument A:
+Fact - Apples have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+100
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+67,General,True,objects,text-davinci-001-openai-completion,"You are an expert on objects and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to objects and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other objects have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include only one supporting fact. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Papayas have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+50
+
+Argument A:
+Fact - Apples have property P.
+Claim - All fruits have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+100
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+68,Specific,False,living things,text-davinci-001-openai-completion,"You are an expert on living things and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to living things and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other living things have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include two supporting facts. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - Cherries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+50
+
+Argument A:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - Cherries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+100
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+69,Specific,False,objects,text-davinci-001-openai-completion,"You are an expert on objects and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to objects and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other objects have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include two supporting facts. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Lemons have property P.
+Fact - Limes have property P.
+Claim - Cherries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+50
+
+Argument A:
+Fact - Bananas have property P.
+Fact - Watermelons have property P.
+Claim - Cherries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+100
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+70,Specific,True,living things,text-davinci-001-openai-completion,"You are an expert on living things and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to living things and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other living things have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include only one supporting fact. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Blackberries have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+50
+
+Argument A:
+Fact - Pineapples have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+0
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"
+71,Specific,True,objects,text-davinci-001-openai-completion,"You are an expert on objects and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.We're going to show you a series of claims relating to objects and the properties they share. Rather than mention any specific property (e.g. ""Hyenas have sesamoid bones"") we'll refer to an unspecified property (e.g. ""Hyenas have property P""). Each claim may be true or false, and to help you decide which, we'll provide you with facts about whether or not other objects have the same property (e.g. ""Lions have property P"", and ""Zebras have property P""). This section contains a series of claims that include only one supporting fact. Before we start, we'll give you two examples as practice.
+
+
+
+Argument A:
+Fact - Blackberries have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+50
+
+Argument A:
+Fact - Pineapples have property P.
+Claim - Raspberries have property P.
+
+Question: Given the facts presented, how likely is it that the claim is true? Indicate your answer by providing a number between 0 and 100, where 0 means that the claim is very unlikely and 100 means that the claim is very likely.
+
+
+
+0
+
+Now that you've practiced you're ready to continue on to the main trials for this section.
+
+"

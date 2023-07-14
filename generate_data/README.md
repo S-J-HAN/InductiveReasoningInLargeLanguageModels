@@ -1,3 +1,6 @@
+#### e1_generate_llm_results.py
+Generates LLM results for experiment 1.
+
 #### e2_generate_model_results.py
 Generates SCM model results and combines these with LLM results from below into one dataframe.
 
@@ -16,7 +19,7 @@ Generate category similarity ratings for LLMs.
 Helper classes for generating LLM completions using different API vendors.
 
 #### prompts.py
-Prompt formats for experiment 2, following the S3-C1-A1-Q1-O1-T prompt.
+Prompt formats for experiment 1, following the S3-C1-A1-Q3-O1 prompt, and experiment 2, following the S3-C1-A1-Q1-O1-T prompt.
 
 #### helpers.py
 Misc helper functions.
