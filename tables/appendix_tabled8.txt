@@ -1,0 +1,55 @@
+\begin{table}[t!]
+\centering
+\caption{\small{Quantitative evaluation of GPT-3.5 (text-davinci-003), GPT-3.5 (chat-turbo), GPT-4 and Humans on the 11 phenomena across all three domains. The number represents the p-value on a sign test, with significant p-values indicating a preference for one argument over the other. Most of the time this preference is in the theoretically predicted direction (*), but when the weaker argument is endorsed significantly more ($\circ$) it is in the opposite.}}
+\vspace{1mm}
+\begin{tabular}{|p{0.2\linewidth}| p{0.2\linewidth} | p{0.12\linewidth} p{0.12\linewidth} p{0.12\linewidth} p{0.12\linewidth} |}
+\hline
+\textbf{Phenomenon} & \textbf{Domain} & \gptthreefivethree{\textbf{GPT-3.5 (text-davinci-003)}} & \gptthreefivechat{\textbf{GPT-3.5 (chat-turbo)}} & \gptfour{\textbf{GPT-4}} & \human{\textbf{Humans}}\\ \hline
+Similarity & Mammals & 0.17 & 0.17 & \gptfour{\textbf{$<$0.001 *}} & \human{\textbf{$<$0.001 *}} \\
+  & Birds & 0.69 & 0.4 & \gptfour{\textbf{$<$0.001 *}} & \human{\textbf{$<$0.001 *}} \\
+  & Vehicles & 0.11 & \gptthreefivechat{\textbf{$<$0.001 *}} & \gptfour{\textbf{$<$0.001 *}} & \human{\textbf{$<$0.001 *}} \\
+\hline
+Typicality & Mammals & 0.54 & 0.29 & \gptfour{\textbf{$<$0.02 *}} & \human{\textbf{$<$0.001 *}} \\
+  & Birds & 0.54 & 0.15 & \gptfour{\textbf{$<$0.001 *}} & \human{\textbf{$<$0.001 *}} \\
+  & Vehicles & 1.0 & \gptthreefivechat{\textbf{$<$0.02 *}} & \gptfour{\textbf{$<$0.001 *}} & \human{\textbf{$<$0.001 *}} \\
+\hline
+Specificity & Mammals & 0.84 & \gptthreefivechat{\textbf{$<$0.001 *}} & \gptfour{\textbf{$<$0.001 *}} & \human{\textbf{$<$0.001 *}} \\
+  & Birds & 0.84 & \gptthreefivechat{\textbf{$<$0.001 *}} & \gptfour{\textbf{$<$0.001 *}} & \human{\textbf{$<$0.001 *}} \\
+  & Vehicles & 0.54 & \gptthreefivechat{\textbf{$<$0.001 *}} & \gptfour{\textbf{$<$0.001 *}} & \human{\textbf{$<$0.001 *}} \\
+\hline
+Monotonicity & Mammals & \gptthreefivethree{\textbf{$<$0.02 *}} & \gptthreefivechat{\textbf{$<$0.001 *}} & \gptfour{\textbf{$<$0.001 *}} & \human{\textbf{$<$0.001 *}} \\
+(General) & Birds & 0.54 & \gptthreefivechat{\textbf{$<$0.001 *}} & \gptfour{\textbf{$<$0.001 *}} & \human{\textbf{$<$0.001 *}} \\
+  & Vehicles & \gptthreefivethree{\textbf{$<$0.001 *}} & \gptthreefivechat{\textbf{$<$0.001 *}} & \gptfour{\textbf{$<$0.001 *}} & \human{\textbf{$<$0.001 *}} \\
+\hline
+Monotonicity & Mammals & 0.31 & \gptthreefivechat{\textbf{$<$0.001 *}} & \gptfour{\textbf{$<$0.001 *}} & 0.06 \\
+(Specific) & Birds & 0.84 & \gptthreefivechat{\textbf{$<$0.001 *}} & \gptfour{\textbf{$<$0.001 *}} & \human{\textbf{$<$0.001 *}} \\
+  & Vehicles & 0.84 & \gptthreefivechat{\textbf{$<$0.001 *}} & \gptfour{\textbf{$<$0.001 *}} & 0.29 \\
+\hline
+Diversity & Mammals & 0.84 & 0.31 & \gptfour{\textbf{$<$0.001 *}} & 0.06 \\
+(General) & Birds & 0.54 & 0.15 & \gptfour{\textbf{$<$0.001 *}} & 1.0 \\
+  & Vehicles & 1.0 & 0.84 & 0.06 & \human{\textbf{$<$0.03 $\circ$}} \\
+\hline
+Diversity & Mammals & 1.0 & 1.0 & 0.15 & \human{\textbf{$<$0.01 $\circ$}} \\
+(Specific) & Birds & 0.54 & 0.68 & 0.84 & 0.68 \\
+  & Vehicles & 0.31 & 0.4 & 0.15 & 0.68 \\
+\hline
+Nonmonotonicity & Mammals & \gptthreefivethree{\textbf{$<$0.001 $\circ$}} & 1.0 & \gptfour{\textbf{$<$0.02 *}} & \human{\textbf{$<$0.001 *}} \\
+(General) & Birds & 0.31 & 0.06 & \gptfour{\textbf{$<$0.001 *}} & \human{\textbf{$<$0.001 *}} \\
+  & Vehicles & 0.84 & \gptthreefivechat{\textbf{$<$0.02 $\circ$}} & 0.15 & \human{\textbf{$<$0.01 *}} \\
+\hline
+Nonmonotonicity & Mammals & 1.0 & \gptthreefivechat{\textbf{$<$0.001 $\circ$}} & \gptfour{\textbf{$<$0.001 $\circ$}} & 0.15 \\
+(Specific) & Birds & 0.15 & \gptthreefivechat{\textbf{$<$0.001 $\circ$}} & \gptfour{\textbf{$<$0.001 $\circ$}} & \human{\textbf{$<$0.001 *}} \\
+  & Vehicles & 1.0 & \gptthreefivechat{\textbf{$<$0.001 $\circ$}} & \gptfour{\textbf{$<$0.001 $\circ$}} & \human{\textbf{$<$0.01 *}} \\
+\hline
+Asymmetry & Mammals & 0.06 & 0.82 & 0.68 & 0.4 \\
+  & Birds & 0.06 & 0.84 & 1.0 & \human{\textbf{$<$0.001 *}} \\
+  & Vehicles & 0.54 & 0.09 & 0.82 & 0.05 \\
+\hline
+Inclusion & Mammals & 0.84 & \gptthreefivechat{\textbf{$<$0.001 *}} & 0.06 & 0.06 \\
+Fallacy & Birds & 0.84 & \gptthreefivechat{\textbf{$<$0.02 *}} & \gptfour{\textbf{$<$0.001 $\circ$}} & 1.0 \\
+  & Vehicles & 0.54 & 0.06 & 0.54 & \human{\textbf{$<$0.001 *}} \\
+\hline
+\end{tabular}
+\label{tbl:expt1stats}
+\vspace{-3mm}
+\end{table}

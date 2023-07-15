@@ -1,6 +1,11 @@
 # Results files
 Data used for figures or final analysis.
 
+#### scorecard.csv
+Sign test results for humans and LLMs on experiment 1 argument pairs.
+
+Source: results/experiment_1.ipynb
+
 # Post experiment data files
 Data extracted after running our MTurk/LLM experiments.
 
