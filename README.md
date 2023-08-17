@@ -4,6 +4,8 @@ This repository contains code and data for:
 
 Han, S. J., Ransom, K. J., Perfors, A. & Kemp, C. (2023). Inductive reasoning in humans and large language models. Cognitive Systems Research.
 
+This repository does not contain the code for running our MTurk experiment.
+
 # Folder Structure
 
 #### appendices
