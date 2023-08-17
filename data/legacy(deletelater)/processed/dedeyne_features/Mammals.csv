@@ -1,0 +1,35 @@
+,feature,freq,Monkeys,Beavers,Camels,Squirrels,Hedgehogs,Donkeys,Giraffes,Hamsters,Deer,Dogs,Polar bears,Kangaroos,Cats,Cows,Rabbits,Llamas,Lions,Mice,Rhinos,Hippos,Elephants,Horses,Sheep,Tigers,Pigs,Bats,Foxes,Wolves,Zebras
+0,there are many kinds of it,6,True,False,False,True,False,False,False,True,True,True,False,False,True,True,True,False,False,True,False,False,True,True,True,True,True,True,True,False,False
+1,has a fur (in dutch: vacht),14,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False,False,True,True,True,False,True,True,True,True
+2,has legs,2,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+3,has four paws,7,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+4,is an animal,6,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+5,can have different colors,2,True,False,False,False,False,False,True,True,False,True,False,False,True,True,True,False,False,True,False,False,False,True,True,True,True,False,False,False,True
+6,can swim,2,False,True,False,False,False,True,False,True,True,True,True,False,True,False,False,False,True,True,False,True,True,True,False,True,False,False,True,True,True
+7,lives in the zoo,2,True,True,True,True,False,True,True,False,True,False,True,True,False,False,False,True,True,False,True,True,True,True,False,True,False,True,True,True,True
+8,lives in the wild,3,True,True,True,True,True,False,True,False,True,False,True,True,True,False,True,True,True,True,True,True,True,False,False,True,False,True,True,True,True
+9,lives in water,3,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+10,lives on land  ,8,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True,True,True,True,True,True,True,True
+11,breathes,2,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+12,breathes through lungs,3,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+13,its babies are born alive,13,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+14,eats,2,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+15,dies,2,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+16,has lungs,3,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+17,has eyes,3,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+18,has nipples,2,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+19,is hairy,4,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,False,False,True,True,True,True,False,True,True,True
+20,is a dolphin,2,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+21,is a living being,2,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+22,is a human,15,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+23,comes in different sizes,7,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+24,comes in different shapes,2,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+25,is a vertebrate,4,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+26,is warm-blooded,5,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+27,can't fly,2,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True,True
+28,is able to reproduce,4,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+29,can become ill,2,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+30,lives on land and sea,5,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+31,does not lay eggs,8,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+32,is sometimes kept as a pet,3,True,False,False,False,False,True,False,True,True,True,False,False,True,True,True,False,False,True,False,False,False,True,True,False,True,False,False,False,False
+33,breastfeeds its babies,17,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True

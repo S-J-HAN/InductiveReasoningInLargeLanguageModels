@@ -5,6 +5,7 @@ import pandas as pd
 
 import tqdm
 import openai
+import os
 
 import llms
 import prompts
@@ -13,7 +14,7 @@ import config
 
 if __name__ == "__main__":
 
-    domain_categories = config.load_map(f"{config.DEDEYNE_DATA}/domain_categories.json")
+    domain_categories = helpers.load_map(f"{config.DEDEYNE_DATA}/domain_categories.json")
 
     # {"Mammals": [(Dogs, Cats), (Dogs, Horses), ...], "Birds": [...], ...}
     domain_category_pairs = defaultdict(list)
@@ -41,10 +42,11 @@ if __name__ == "__main__":
                 rows.append((llm_reasoner.name, llm_reasoner.model, domain, c1, c2, p))
     prompt_df = pd.DataFrame(rows, columns=["llm_reasoner", "llm_model", "domain", "category1", "category2", "prompt"])
     prompt_df = prompt_df.sort_values(by="llm_model").reset_index(drop=True)
+    prompt_df["argument"] = prompt_df.index.tolist()
     prompt_df.to_csv(f"{config.SIMILARITY_DATA}/llm_prompts.csv")
 
     # Generate completions
-    ratings_df = helpers.generate_llm_ratings(prompt_df, llm_reasoners, f"{config.SIMILARITY_DATA}/llm_ratings.csv")
+    ratings_df = helpers.generate_llm_ratings(prompt_df, llm_reasoners, "", True)
 
     # Save ratings into json files
     for llm_reasoner in llm_reasoners:
@@ -67,6 +69,7 @@ if __name__ == "__main__":
     
     # Generate embeddings based similarity ratings
     embeddings = {}
+    openai.api_key = os.environ["OPENAI"]
     for domain, dc in tqdm.tqdm(domain_categories.items()):
         r = openai.Embedding.create(
             model="text-embedding-ada-002",

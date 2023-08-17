@@ -24,6 +24,7 @@ class LLMReasoner(ABC):
 
     def __init__(self, model: str):
         self.model = model
+        self.key = os.environ[self.vendor.upper()]
 
     @property
     def vendor(self) -> str:
@@ -57,7 +58,7 @@ class LLMReasoner(ABC):
         """Make multiple attempts at getting a rating from an LLM API"""
         for _ in range(num_tries):
             try:
-                llm_rating = self._generate_prompt_rating(prompt, is_experiment_2, temperature)
+                llm_rating = self._generate_rating(prompt, is_experiment_2, temperature)
                 time.sleep(config.SLEEP_TIMES[self.vendor])
                 return llm_rating
             except:
@@ -65,7 +66,7 @@ class LLMReasoner(ABC):
         return None
     
     @abstractmethod
-    def _generate_prompt_rating(
+    def _generate_rating(
         self,
         prompt: Any,
         is_experiment_2: bool,
@@ -123,6 +124,7 @@ class LLMReasoner(ABC):
         options = prompts.E1_OPTIONS
         
         for option in options:
+            # This if logic looks a little dicey but is written based on a visual inspection of the cases where the first condition alone fails to capture all responses
             if option in response or f"({option[0]})" in response or option.split("-")[1] in response:
                 return options.index(option)
         
@@ -195,7 +197,7 @@ class OpenAIChatReasoner(LLMReasoner):
         temperature: int = config.DEFAULT_TEMPERATURE,
     ) -> str:
         
-        openai.api_key = os.environ['OPENAI']
+        openai.api_key = self.key
         completion = openai.ChatCompletion.create(
               model=self.model,
               messages=prompt,
@@ -204,14 +206,13 @@ class OpenAIChatReasoner(LLMReasoner):
 
         return completion.choices[0].message.content
 
-    def _generate_prompt_rating(
+    def _generate_rating(
         self, 
         prompt: prompts.ChatMessage, 
         is_experiment_2: bool,
         temperature: int = config.DEFAULT_TEMPERATURE,
     ) -> LLMRating:
 
-        openai.api_key = os.environ['OPENAI']
         assistant_message = self.generate_response(prompt, temperature)
         if not is_experiment_2:
             rating = self.parse_e1_chat_rating(assistant_message)
@@ -249,7 +250,7 @@ class OpenAICompletionReasoner(LLMReasoner):
 
         return completion["choices"][0]["text"]
 
-    def _generate_prompt_rating(
+    def _generate_rating(
         self, 
         prompt: str,
         is_experiment_2: bool,
@@ -296,7 +297,7 @@ class CohereCompletionReasoner(LLMReasoner):
             max_tokens=100,
         ).generations[0].text
 
-    def _generate_prompt_rating(
+    def _generate_rating(
         self, 
         prompt: str,
         is_experiment_2: bool,
@@ -335,7 +336,7 @@ class TextSynthCompletionReasoner(LLMReasoner):
         else:
             return None
 
-    def _generate_prompt_rating(
+    def _generate_rating(
         self, 
         prompt: str,
         is_experiment_2: bool,

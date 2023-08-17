@@ -1,8 +1,11 @@
 # similarity
-Folder containg category similarity ratings for humans and LLMs
+Category similarity ratings for humans and LLMs
 
 # dedeyne
-Folder containing all DeDeyne et al. LNCD data.
+DeDeyne et al. LNCD data.
+
+# experiment_1
+All data specific to experiment 1.
 
 # experiment_2
-Folder containg all data specific to experiment 2.
+All data specific to experiment 2.

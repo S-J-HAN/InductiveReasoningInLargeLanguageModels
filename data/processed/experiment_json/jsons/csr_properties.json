@@ -1,8 +1,0 @@
-
-PROPERTY_SET = {
-  property_p: {
-    id: property_p,
-    positive: '$c have property P',
-    negative: '$c don't property P'
-  }
-}

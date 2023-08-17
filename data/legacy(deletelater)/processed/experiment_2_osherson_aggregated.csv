@@ -1,0 +1,52 @@
+,domain,conclusion_type,argument,premises,conclusion,avg_ranking,avg_rating,is_osherson,is_single_premise,is_control,is_tutorial,num_ratings,premise_conclusion_similarity,scm_score,osherson_human_rating,best_scm_score,best_scm_alpha
+0,Mammals,Specific,"(('Bananas', 'Watermelons'), 'Cherries')","('Bananas', 'Watermelons')",Cherries,5.825,63.75,True,False,False,True,40,"(None, None)",0.0,,0.0,1.0
+1,Mammals,Specific,"(('Blackberries',), 'Raspberries')","('Blackberries',)",Raspberries,3.225,74.7,True,True,False,True,40,"(None,)",0.0,,0.0,0.0
+2,Mammals,Specific,"(('Canines', 'Puppies'), 'Dogs')","('Canines', 'Puppies')",Dogs,1.5,94.35,True,False,True,False,40,"(None, None)",0.0,,0.0,1.0
+3,Mammals,Specific,"(('Chimps', 'Dolphins'), 'Horses')","('Chimps', 'Dolphins')",Horses,8.0,55.8,True,False,False,False,10,"(0.6, 0.33)",0.6060000000000001,0.4,0.6,1.0
+4,Mammals,Specific,"(('Chimps', 'Elephants'), 'Horses')","('Chimps', 'Elephants')",Horses,5.6,56.5,True,False,False,False,10,"(0.6, 0.8)",0.728,0.59,0.8,1.0
+5,Mammals,Specific,"(('Chimps', 'Gorillas'), 'Horses')","('Chimps', 'Gorillas')",Horses,5.7,60.8,True,False,False,False,10,"(0.6, 0.62)",0.6335,0.23,0.62,1.0
+6,Mammals,Specific,"(('Chimps', 'Mice'), 'Horses')","('Chimps', 'Mice')",Horses,3.8,60.6,True,False,False,False,10,"(0.6, 0.5)",0.6019999999999999,0.42,0.6,1.0
+7,Mammals,Specific,"(('Chimps', 'Rhinos'), 'Horses')","('Chimps', 'Rhinos')",Horses,6.6,65.7,True,False,False,False,10,"(0.6, 0.74)",0.69,0.64,0.74,1.0
+8,Mammals,Specific,"(('Chimps', 'Seals'), 'Horses')","('Chimps', 'Seals')",Horses,7.0,59.5,True,False,False,False,10,"(0.6, 0.37)",0.601,0.43,0.6,1.0
+9,Mammals,Specific,"(('Chimps', 'Squirrels'), 'Horses')","('Chimps', 'Squirrels')",Horses,6.8,61.35,True,False,False,False,20,"(0.6, 0.54)",0.607,0.4,0.6,1.0
+10,Mammals,Specific,"(('Chimps',), 'Horses')","('Chimps',)",Horses,6.3,48.4,True,True,False,False,40,"(0.6,)",0.5575,,0.515,0.0
+11,Mammals,Specific,"(('Cows', 'Chimps'), 'Horses')","('Cows', 'Chimps')",Horses,4.1,71.7,True,False,False,False,10,"(0.93, 0.6)",0.7949999999999999,0.79,0.93,1.0
+12,Mammals,Specific,"(('Cows', 'Dolphins'), 'Horses')","('Cows', 'Dolphins')",Horses,5.6,64.1,True,False,False,False,10,"(0.93, 0.33)",0.768,0.73,0.93,1.0
+13,Mammals,Specific,"(('Cows', 'Elephants'), 'Horses')","('Cows', 'Elephants')",Horses,3.5,74.2,True,False,False,False,10,"(0.93, 0.8)",0.7785,0.75,0.93,1.0
+14,Mammals,Specific,"(('Cows', 'Gorillas'), 'Horses')","('Cows', 'Gorillas')",Horses,3.4,68.0,True,False,False,False,10,"(0.93, 0.62)",0.785,0.75,0.93,1.0
+15,Mammals,Specific,"(('Cows', 'Mice'), 'Horses')","('Cows', 'Mice')",Horses,5.1,70.8,True,False,False,False,20,"(0.93, 0.5)",0.7745,0.74,0.93,1.0
+16,Mammals,Specific,"(('Cows', 'Rhinos'), 'Horses')","('Cows', 'Rhinos')",Horses,2.9,80.4,True,False,False,False,10,"(0.93, 0.74)",0.777,0.77,0.93,1.0
+17,Mammals,Specific,"(('Cows', 'Seals'), 'Horses')","('Cows', 'Seals')",Horses,4.4,62.7,True,False,False,False,10,"(0.93, 0.37)",0.78,0.73,0.93,1.0
+18,Mammals,Specific,"(('Cows', 'Squirrels'), 'Horses')","('Cows', 'Squirrels')",Horses,5.0,67.3,True,False,False,False,10,"(0.93, 0.54)",0.776,0.72,0.93,1.0
+19,Mammals,Specific,"(('Cows',), 'Horses')","('Cows',)",Horses,3.15,66.875,True,True,False,False,40,"(0.93,)",0.728,,0.526,0.0
+20,Mammals,Specific,"(('Dogs',), 'Canines')","('Dogs',)",Canines,2.025,87.85,True,True,False,False,40,"(None,)",0.0,,0.0,0.0
+21,Mammals,Specific,"(('Dolphins', 'Elephants'), 'Horses')","('Dolphins', 'Elephants')",Horses,7.7,57.8,True,False,False,False,10,"(0.33, 0.8)",0.6975,0.51,0.8,1.0
+22,Mammals,Specific,"(('Dolphins', 'Rhinos'), 'Horses')","('Dolphins', 'Rhinos')",Horses,5.3,69.5,True,False,False,False,10,"(0.33, 0.74)",0.6575,0.54,0.74,1.0
+23,Mammals,Specific,"(('Dolphins', 'Seals'), 'Horses')","('Dolphins', 'Seals')",Horses,8.8,46.7,True,False,False,False,10,"(0.33, 0.37)",0.419,0.06,0.37,1.0
+24,Mammals,Specific,"(('Dolphins',), 'Horses')","('Dolphins',)",Horses,7.95,34.8,True,True,False,False,40,"(0.33,)",0.3299999999999999,,0.32999999999999996,0.0
+25,Mammals,Specific,"(('Elephants', 'Rhinos'), 'Horses')","('Elephants', 'Rhinos')",Horses,5.5,68.3,True,False,False,False,20,"(0.8, 0.74)",0.7015,0.57,0.8,1.0
+26,Mammals,Specific,"(('Elephants',), 'Horses')","('Elephants',)",Horses,5.1,54.55,True,True,False,False,40,"(0.8,)",0.655,,0.51,0.0
+27,Mammals,Specific,"(('Gorillas', 'Dolphins'), 'Horses')","('Gorillas', 'Dolphins')",Horses,7.1,60.1,True,False,False,False,10,"(0.62, 0.33)",0.6115,0.38,0.62,1.0
+28,Mammals,Specific,"(('Gorillas', 'Elephants'), 'Horses')","('Gorillas', 'Elephants')",Horses,4.8,69.3,True,False,False,False,10,"(0.62, 0.8)",0.7190000000000001,0.61,0.8,1.0
+29,Mammals,Specific,"(('Gorillas', 'Mice'), 'Horses')","('Gorillas', 'Mice')",Horses,6.2,63.3,True,False,False,False,10,"(0.62, 0.5)",0.6045,0.48,0.62,1.0
+30,Mammals,Specific,"(('Gorillas', 'Rhinos'), 'Horses')","('Gorillas', 'Rhinos')",Horses,6.6,65.0,True,False,False,False,10,"(0.62, 0.74)",0.685,0.63,0.74,1.0
+31,Mammals,Specific,"(('Gorillas', 'Seals'), 'Horses')","('Gorillas', 'Seals')",Horses,5.8,53.6,True,False,False,False,10,"(0.62, 0.37)",0.6065,0.41,0.62,1.0
+32,Mammals,Specific,"(('Gorillas', 'Squirrels'), 'Horses')","('Gorillas', 'Squirrels')",Horses,5.9,63.4,True,False,False,False,10,"(0.62, 0.54)",0.6155,0.47,0.62,1.0
+33,Mammals,Specific,"(('Gorillas',), 'Horses')","('Gorillas',)",Horses,5.9,49.4,True,True,False,False,40,"(0.62,)",0.563,,0.506,0.0
+34,Mammals,Specific,"(('Lemons', 'Limes'), 'Cherries')","('Lemons', 'Limes')",Cherries,7.325,50.3,True,False,False,True,40,"(None, None)",0.0,,0.0,1.0
+35,Mammals,Specific,"(('Mice', 'Dolphins'), 'Horses')","('Mice', 'Dolphins')",Horses,8.0,54.6,True,False,False,False,10,"(0.5, 0.33)",0.4895,0.28,0.5,1.0
+36,Mammals,Specific,"(('Mice', 'Elephants'), 'Horses')","('Mice', 'Elephants')",Horses,6.6,62.6,True,False,False,False,10,"(0.5, 0.8)",0.6990000000000001,0.58,0.8,1.0
+37,Mammals,Specific,"(('Mice', 'Rhinos'), 'Horses')","('Mice', 'Rhinos')",Horses,6.0,47.8,True,False,False,False,10,"(0.5, 0.74)",0.6625000000000001,0.62,0.74,1.0
+38,Mammals,Specific,"(('Mice', 'Seals'), 'Horses')","('Mice', 'Seals')",Horses,5.8,53.0,True,False,False,False,10,"(0.5, 0.37)",0.497,0.25,0.5,1.0
+39,Mammals,Specific,"(('Mice', 'Squirrels'), 'Horses')","('Mice', 'Squirrels')",Horses,6.9,60.9,True,False,False,False,10,"(0.5, 0.54)",0.5285000000000001,0.17,0.54,1.0
+40,Mammals,Specific,"(('Mice',), 'Horses')","('Mice',)",Horses,7.375,40.9,True,True,False,False,40,"(0.5,)",0.4465,,0.39299999999999996,0.0
+41,Mammals,Specific,"(('Pineapples',), 'Raspberries')","('Pineapples',)",Raspberries,4.875,56.275,True,True,False,True,40,"(None,)",0.0,,0.0,0.0
+42,Mammals,Specific,"(('Rhinos',), 'Horses')","('Rhinos',)",Horses,5.125,55.475,True,True,False,False,40,"(0.74,)",0.6134999999999999,,0.487,0.0
+43,Mammals,Specific,"(('Seals', 'Elephants'), 'Horses')","('Seals', 'Elephants')",Horses,5.3,54.6,True,False,False,False,10,"(0.37, 0.8)",0.7045000000000001,0.51,0.8,1.0
+44,Mammals,Specific,"(('Seals', 'Rhinos'), 'Horses')","('Seals', 'Rhinos')",Horses,6.6,49.5,True,False,False,False,10,"(0.37, 0.74)",0.6625000000000001,0.56,0.74,1.0
+45,Mammals,Specific,"(('Seals',), 'Horses')","('Seals',)",Horses,8.3,35.1,True,True,False,False,40,"(0.37,)",0.368,,0.366,0.0
+46,Mammals,Specific,"(('Squirrels', 'Dolphins'), 'Horses')","('Squirrels', 'Dolphins')",Horses,5.1,57.7,True,False,False,False,10,"(0.54, 0.33)",0.5225,0.32,0.54,1.0
+47,Mammals,Specific,"(('Squirrels', 'Elephants'), 'Horses')","('Squirrels', 'Elephants')",Horses,6.6,63.0,True,False,False,False,10,"(0.54, 0.8)",0.7065,0.54,0.8,1.0
+48,Mammals,Specific,"(('Squirrels', 'Rhinos'), 'Horses')","('Squirrels', 'Rhinos')",Horses,6.2,64.7,True,False,False,False,20,"(0.54, 0.74)",0.6639999999999999,0.61,0.74,1.0
+49,Mammals,Specific,"(('Squirrels', 'Seals'), 'Horses')","('Squirrels', 'Seals')",Horses,6.2,64.8,True,False,False,False,10,"(0.54, 0.37)",0.5315000000000001,0.26,0.54,1.0
+50,Mammals,Specific,"(('Squirrels',), 'Horses')","('Squirrels',)",Horses,6.7,43.9,True,True,False,False,40,"(0.54,)",0.481,,0.422,0.0

@@ -49,7 +49,9 @@ def generate_llm_ratings(
         rating_df["llm_raw_completion"] = raw_completions + [None]*(len(rating_df)-len(raw_completions))
         rating_df["llm_rating"] = ratings + [None]*(len(rating_df)-len(ratings))
         rating_df = rating_df.sort_values(by=["llm_reasoner", "argpair" if not is_experiment_2 else "argument"]).reset_index(drop=True)
-        rating_df.to_csv(output_path)
+
+        if output_path:
+          rating_df.to_csv(output_path)
 
     assert len(prompt_df) == len(rating_df)
     

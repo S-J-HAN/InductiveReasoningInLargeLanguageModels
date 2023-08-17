@@ -1,0 +1,397 @@
+,prompt_generator,phenomenon,domain,rating_type,statistic,pvalue,significant
+0,S1-C1-A1-Q1-O1,Asymmetry,Birds,gpt3_rating,-1.0,0.8388197422027588,False
+1,S1-C1-A1-Q1-O1,Asymmetry,Birds,gpt4_rating,2.0,0.5412561893463135,False
+2,S1-C1-A1-Q1-O1,Asymmetry,Birds,human_rating,8.0,0.0008554458618164062,True
+3,S1-C1-A1-Q1-O1,Asymmetry,Mammals,gpt3_rating,4.0,0.15158963203430176,False
+4,S1-C1-A1-Q1-O1,Asymmetry,Mammals,gpt4_rating,4.0,0.15158963203430176,False
+5,S1-C1-A1-Q1-O1,Asymmetry,Mammals,human_rating,2.5,0.4048728942871094,False
+6,S1-C1-A1-Q1-O1,Asymmetry,Vehicles,gpt3_rating,1.0,0.8388197422027588,False
+7,S1-C1-A1-Q1-O1,Asymmetry,Vehicles,gpt4_rating,-2.0,0.5412561893463135,False
+8,S1-C1-A1-Q1-O1,Asymmetry,Vehicles,human_rating,5.0,0.052478790283203125,False
+9,S1-C1-A1-Q1-O1,Diversity (General),Birds,gpt3_rating,2.0,0.5412561893463135,False
+10,S1-C1-A1-Q1-O1,Diversity (General),Birds,gpt4_rating,0.0,1.0,False
+11,S1-C1-A1-Q1-O1,Diversity (General),Birds,human_rating,0.0,1.0,False
+12,S1-C1-A1-Q1-O1,Diversity (General),Mammals,gpt3_rating,-1.0,0.8388197422027588,False
+13,S1-C1-A1-Q1-O1,Diversity (General),Mammals,gpt4_rating,6.0,0.022655844688415527,True
+14,S1-C1-A1-Q1-O1,Diversity (General),Mammals,human_rating,-5.0,0.06391465663909912,False
+15,S1-C1-A1-Q1-O1,Diversity (General),Vehicles,gpt3_rating,0.0,1.0,False
+16,S1-C1-A1-Q1-O1,Diversity (General),Vehicles,gpt4_rating,-7.0,0.006610751152038574,True
+17,S1-C1-A1-Q1-O1,Diversity (General),Vehicles,human_rating,-5.5,0.03468966484069824,True
+18,S1-C1-A1-Q1-O1,Diversity (Specific),Birds,gpt3_rating,2.0,0.5412561893463135,False
+19,S1-C1-A1-Q1-O1,Diversity (Specific),Birds,gpt4_rating,2.0,0.5412561893463135,False
+20,S1-C1-A1-Q1-O1,Diversity (Specific),Birds,human_rating,-1.5,0.6776394844055176,False
+21,S1-C1-A1-Q1-O1,Diversity (Specific),Mammals,gpt3_rating,0.0,1.0,False
+22,S1-C1-A1-Q1-O1,Diversity (Specific),Mammals,gpt4_rating,0.0,1.0,False
+23,S1-C1-A1-Q1-O1,Diversity (Specific),Mammals,human_rating,-7.0,0.006610751152038574,True
+24,S1-C1-A1-Q1-O1,Diversity (Specific),Vehicles,gpt3_rating,3.0,0.30745625495910645,False
+25,S1-C1-A1-Q1-O1,Diversity (Specific),Vehicles,gpt4_rating,1.0,0.8388197422027588,False
+26,S1-C1-A1-Q1-O1,Diversity (Specific),Vehicles,human_rating,-1.5,0.6776394844055176,False
+27,S1-C1-A1-Q1-O1,Inclusion Fallacy,Birds,gpt3_rating,-1.0,0.8388197422027588,False
+28,S1-C1-A1-Q1-O1,Inclusion Fallacy,Birds,gpt4_rating,-4.0,0.15158963203430176,False
+29,S1-C1-A1-Q1-O1,Inclusion Fallacy,Birds,human_rating,0.0,1.0,False
+30,S1-C1-A1-Q1-O1,Inclusion Fallacy,Mammals,gpt3_rating,1.0,0.8388197422027588,False
+31,S1-C1-A1-Q1-O1,Inclusion Fallacy,Mammals,gpt4_rating,2.0,0.5412561893463135,False
+32,S1-C1-A1-Q1-O1,Inclusion Fallacy,Mammals,human_rating,5.0,0.06391465663909912,False
+33,S1-C1-A1-Q1-O1,Inclusion Fallacy,Vehicles,gpt3_rating,-1.0,0.8388197422027588,False
+34,S1-C1-A1-Q1-O1,Inclusion Fallacy,Vehicles,gpt4_rating,6.0,0.022655844688415527,True
+35,S1-C1-A1-Q1-O1,Inclusion Fallacy,Vehicles,human_rating,8.0,0.001543879508972168,True
+36,S1-C1-A1-Q1-O1,Monotonicity (General),Birds,gpt3_rating,12.0,1.1920928955078125e-07,True
+37,S1-C1-A1-Q1-O1,Monotonicity (General),Birds,gpt4_rating,12.0,1.1920928955078125e-07,True
+38,S1-C1-A1-Q1-O1,Monotonicity (General),Birds,human_rating,12.0,1.1920928955078125e-07,True
+39,S1-C1-A1-Q1-O1,Monotonicity (General),Mammals,gpt3_rating,12.0,1.1920928955078125e-07,True
+40,S1-C1-A1-Q1-O1,Monotonicity (General),Mammals,gpt4_rating,12.0,1.1920928955078125e-07,True
+41,S1-C1-A1-Q1-O1,Monotonicity (General),Mammals,human_rating,12.0,1.1920928955078125e-07,True
+42,S1-C1-A1-Q1-O1,Monotonicity (General),Vehicles,gpt3_rating,12.0,1.1920928955078125e-07,True
+43,S1-C1-A1-Q1-O1,Monotonicity (General),Vehicles,gpt4_rating,12.0,1.1920928955078125e-07,True
+44,S1-C1-A1-Q1-O1,Monotonicity (General),Vehicles,human_rating,11.0,2.9802322387695312e-06,True
+45,S1-C1-A1-Q1-O1,Monotonicity (Specific),Birds,gpt3_rating,12.0,1.1920928955078125e-07,True
+46,S1-C1-A1-Q1-O1,Monotonicity (Specific),Birds,gpt4_rating,12.0,1.1920928955078125e-07,True
+47,S1-C1-A1-Q1-O1,Monotonicity (Specific),Birds,human_rating,12.0,1.1920928955078125e-07,True
+48,S1-C1-A1-Q1-O1,Monotonicity (Specific),Mammals,gpt3_rating,12.0,1.1920928955078125e-07,True
+49,S1-C1-A1-Q1-O1,Monotonicity (Specific),Mammals,gpt4_rating,12.0,1.1920928955078125e-07,True
+50,S1-C1-A1-Q1-O1,Monotonicity (Specific),Mammals,human_rating,5.0,0.06391465663909912,False
+51,S1-C1-A1-Q1-O1,Monotonicity (Specific),Vehicles,gpt3_rating,12.0,1.1920928955078125e-07,True
+52,S1-C1-A1-Q1-O1,Monotonicity (Specific),Vehicles,gpt4_rating,10.0,3.5881996154785156e-05,True
+53,S1-C1-A1-Q1-O1,Monotonicity (Specific),Vehicles,human_rating,3.0,0.28627872467041016,False
+54,S1-C1-A1-Q1-O1,Nonmonotonicity (General),Birds,gpt3_rating,-8.0,0.001543879508972168,True
+55,S1-C1-A1-Q1-O1,Nonmonotonicity (General),Birds,gpt4_rating,-3.0,0.30745625495910645,False
+56,S1-C1-A1-Q1-O1,Nonmonotonicity (General),Birds,human_rating,12.0,1.1920928955078125e-07,True
+57,S1-C1-A1-Q1-O1,Nonmonotonicity (General),Mammals,gpt3_rating,-12.0,1.1920928955078125e-07,True
+58,S1-C1-A1-Q1-O1,Nonmonotonicity (General),Mammals,gpt4_rating,-11.0,2.9802322387695312e-06,True
+59,S1-C1-A1-Q1-O1,Nonmonotonicity (General),Mammals,human_rating,10.0,3.5881996154785156e-05,True
+60,S1-C1-A1-Q1-O1,Nonmonotonicity (General),Vehicles,gpt3_rating,-12.0,1.1920928955078125e-07,True
+61,S1-C1-A1-Q1-O1,Nonmonotonicity (General),Vehicles,gpt4_rating,-5.0,0.06391465663909912,False
+62,S1-C1-A1-Q1-O1,Nonmonotonicity (General),Vehicles,human_rating,7.0,0.006610751152038574,True
+63,S1-C1-A1-Q1-O1,Nonmonotonicity (Specific),Birds,gpt3_rating,-10.0,3.5881996154785156e-05,True
+64,S1-C1-A1-Q1-O1,Nonmonotonicity (Specific),Birds,gpt4_rating,-10.0,3.5881996154785156e-05,True
+65,S1-C1-A1-Q1-O1,Nonmonotonicity (Specific),Birds,human_rating,11.0,2.9802322387695312e-06,True
+66,S1-C1-A1-Q1-O1,Nonmonotonicity (Specific),Mammals,gpt3_rating,-11.0,2.9802322387695312e-06,True
+67,S1-C1-A1-Q1-O1,Nonmonotonicity (Specific),Mammals,gpt4_rating,-12.0,1.1920928955078125e-07,True
+68,S1-C1-A1-Q1-O1,Nonmonotonicity (Specific),Mammals,human_rating,4.0,0.15158963203430176,False
+69,S1-C1-A1-Q1-O1,Nonmonotonicity (Specific),Vehicles,gpt3_rating,-9.0,0.0002771615982055664,True
+70,S1-C1-A1-Q1-O1,Nonmonotonicity (Specific),Vehicles,gpt4_rating,-9.0,0.0002771615982055664,True
+71,S1-C1-A1-Q1-O1,Nonmonotonicity (Specific),Vehicles,human_rating,7.0,0.006610751152038574,True
+72,S1-C1-A1-Q1-O1,Similarity,Birds,gpt3_rating,-2.5,0.42435622215270996,False
+73,S1-C1-A1-Q1-O1,Similarity,Birds,gpt4_rating,6.5,0.01463329792022705,True
+74,S1-C1-A1-Q1-O1,Similarity,Birds,human_rating,10.5,1.9431114196777344e-05,True
+75,S1-C1-A1-Q1-O1,Similarity,Mammals,gpt3_rating,1.0,0.8450189828872681,False
+76,S1-C1-A1-Q1-O1,Similarity,Mammals,gpt4_rating,7.0,0.009355306625366211,True
+77,S1-C1-A1-Q1-O1,Similarity,Mammals,human_rating,12.0,8.046627044677734e-07,True
+78,S1-C1-A1-Q1-O1,Similarity,Vehicles,gpt3_rating,-3.5,0.2295229434967041,False
+79,S1-C1-A1-Q1-O1,Similarity,Vehicles,gpt4_rating,10.5,1.9431114196777344e-05,True
+80,S1-C1-A1-Q1-O1,Similarity,Vehicles,human_rating,11.5,1.5497207641601562e-06,True
+81,S1-C1-A1-Q1-O1,Specificity,Birds,gpt3_rating,1.0,0.8388197422027588,False
+82,S1-C1-A1-Q1-O1,Specificity,Birds,gpt4_rating,12.0,1.1920928955078125e-07,True
+83,S1-C1-A1-Q1-O1,Specificity,Birds,human_rating,12.0,1.1920928955078125e-07,True
+84,S1-C1-A1-Q1-O1,Specificity,Mammals,gpt3_rating,1.0,0.8388197422027588,False
+85,S1-C1-A1-Q1-O1,Specificity,Mammals,gpt4_rating,12.0,1.1920928955078125e-07,True
+86,S1-C1-A1-Q1-O1,Specificity,Mammals,human_rating,12.0,1.1920928955078125e-07,True
+87,S1-C1-A1-Q1-O1,Specificity,Vehicles,gpt3_rating,-2.0,0.5412561893463135,False
+88,S1-C1-A1-Q1-O1,Specificity,Vehicles,gpt4_rating,12.0,1.1920928955078125e-07,True
+89,S1-C1-A1-Q1-O1,Specificity,Vehicles,human_rating,12.0,1.1920928955078125e-07,True
+90,S1-C1-A1-Q1-O1,Typicality,Birds,gpt3_rating,2.0,0.5412561893463135,False
+91,S1-C1-A1-Q1-O1,Typicality,Birds,gpt4_rating,4.0,0.15158963203430176,False
+92,S1-C1-A1-Q1-O1,Typicality,Birds,human_rating,10.0,3.5881996154785156e-05,True
+93,S1-C1-A1-Q1-O1,Typicality,Mammals,gpt3_rating,-2.0,0.5412561893463135,False
+94,S1-C1-A1-Q1-O1,Typicality,Mammals,gpt4_rating,5.0,0.06391465663909912,False
+95,S1-C1-A1-Q1-O1,Typicality,Mammals,human_rating,10.5,5.7220458984375e-06,True
+96,S1-C1-A1-Q1-O1,Typicality,Vehicles,gpt3_rating,0.0,1.0,False
+97,S1-C1-A1-Q1-O1,Typicality,Vehicles,gpt4_rating,9.0,0.0002771615982055664,True
+98,S1-C1-A1-Q1-O1,Typicality,Vehicles,human_rating,12.0,1.1920928955078125e-07,True
+99,S3-C1-A1-Q1-O1,Asymmetry,Birds,gpt3_rating,-1.0,0.8388197422027588,False
+100,S3-C1-A1-Q1-O1,Asymmetry,Birds,gpt4_rating,1.0,0.8388197422027588,False
+101,S3-C1-A1-Q1-O1,Asymmetry,Birds,human_rating,8.0,0.0008554458618164062,True
+102,S3-C1-A1-Q1-O1,Asymmetry,Mammals,gpt3_rating,4.0,0.15158963203430176,False
+103,S3-C1-A1-Q1-O1,Asymmetry,Mammals,gpt4_rating,4.0,0.15158963203430176,False
+104,S3-C1-A1-Q1-O1,Asymmetry,Mammals,human_rating,2.5,0.4048728942871094,False
+105,S3-C1-A1-Q1-O1,Asymmetry,Vehicles,gpt3_rating,1.0,0.8388197422027588,False
+106,S3-C1-A1-Q1-O1,Asymmetry,Vehicles,gpt4_rating,-1.0,0.8388197422027588,False
+107,S3-C1-A1-Q1-O1,Asymmetry,Vehicles,human_rating,5.0,0.052478790283203125,False
+108,S3-C1-A1-Q1-O1,Diversity (General),Birds,gpt3_rating,2.0,0.5412561893463135,False
+109,S3-C1-A1-Q1-O1,Diversity (General),Birds,gpt4_rating,4.0,0.15158963203430176,False
+110,S3-C1-A1-Q1-O1,Diversity (General),Birds,human_rating,0.0,1.0,False
+111,S3-C1-A1-Q1-O1,Diversity (General),Mammals,gpt3_rating,-1.0,0.8388197422027588,False
+112,S3-C1-A1-Q1-O1,Diversity (General),Mammals,gpt4_rating,4.0,0.15158963203430176,False
+113,S3-C1-A1-Q1-O1,Diversity (General),Mammals,human_rating,-5.0,0.06391465663909912,False
+114,S3-C1-A1-Q1-O1,Diversity (General),Vehicles,gpt3_rating,0.0,1.0,False
+115,S3-C1-A1-Q1-O1,Diversity (General),Vehicles,gpt4_rating,-8.0,0.001543879508972168,True
+116,S3-C1-A1-Q1-O1,Diversity (General),Vehicles,human_rating,-5.5,0.03468966484069824,True
+117,S3-C1-A1-Q1-O1,Diversity (Specific),Birds,gpt3_rating,2.0,0.5412561893463135,False
+118,S3-C1-A1-Q1-O1,Diversity (Specific),Birds,gpt4_rating,1.0,0.8388197422027588,False
+119,S3-C1-A1-Q1-O1,Diversity (Specific),Birds,human_rating,-1.5,0.6776394844055176,False
+120,S3-C1-A1-Q1-O1,Diversity (Specific),Mammals,gpt3_rating,0.0,1.0,False
+121,S3-C1-A1-Q1-O1,Diversity (Specific),Mammals,gpt4_rating,-3.0,0.30745625495910645,False
+122,S3-C1-A1-Q1-O1,Diversity (Specific),Mammals,human_rating,-7.0,0.006610751152038574,True
+123,S3-C1-A1-Q1-O1,Diversity (Specific),Vehicles,gpt3_rating,3.0,0.30745625495910645,False
+124,S3-C1-A1-Q1-O1,Diversity (Specific),Vehicles,gpt4_rating,-2.0,0.5412561893463135,False
+125,S3-C1-A1-Q1-O1,Diversity (Specific),Vehicles,human_rating,-1.5,0.6776394844055176,False
+126,S3-C1-A1-Q1-O1,Inclusion Fallacy,Birds,gpt3_rating,-1.0,0.8388197422027588,False
+127,S3-C1-A1-Q1-O1,Inclusion Fallacy,Birds,gpt4_rating,-5.0,0.06391465663909912,False
+128,S3-C1-A1-Q1-O1,Inclusion Fallacy,Birds,human_rating,0.0,1.0,False
+129,S3-C1-A1-Q1-O1,Inclusion Fallacy,Mammals,gpt3_rating,1.0,0.8388197422027588,False
+130,S3-C1-A1-Q1-O1,Inclusion Fallacy,Mammals,gpt4_rating,0.0,1.0,False
+131,S3-C1-A1-Q1-O1,Inclusion Fallacy,Mammals,human_rating,5.0,0.06391465663909912,False
+132,S3-C1-A1-Q1-O1,Inclusion Fallacy,Vehicles,gpt3_rating,-1.0,0.8388197422027588,False
+133,S3-C1-A1-Q1-O1,Inclusion Fallacy,Vehicles,gpt4_rating,4.0,0.15158963203430176,False
+134,S3-C1-A1-Q1-O1,Inclusion Fallacy,Vehicles,human_rating,8.0,0.001543879508972168,True
+135,S3-C1-A1-Q1-O1,Monotonicity (General),Birds,gpt3_rating,12.0,1.1920928955078125e-07,True
+136,S3-C1-A1-Q1-O1,Monotonicity (General),Birds,gpt4_rating,12.0,1.1920928955078125e-07,True
+137,S3-C1-A1-Q1-O1,Monotonicity (General),Birds,human_rating,12.0,1.1920928955078125e-07,True
+138,S3-C1-A1-Q1-O1,Monotonicity (General),Mammals,gpt3_rating,12.0,1.1920928955078125e-07,True
+139,S3-C1-A1-Q1-O1,Monotonicity (General),Mammals,gpt4_rating,12.0,1.1920928955078125e-07,True
+140,S3-C1-A1-Q1-O1,Monotonicity (General),Mammals,human_rating,12.0,1.1920928955078125e-07,True
+141,S3-C1-A1-Q1-O1,Monotonicity (General),Vehicles,gpt3_rating,12.0,1.1920928955078125e-07,True
+142,S3-C1-A1-Q1-O1,Monotonicity (General),Vehicles,gpt4_rating,12.0,1.1920928955078125e-07,True
+143,S3-C1-A1-Q1-O1,Monotonicity (General),Vehicles,human_rating,11.0,2.9802322387695312e-06,True
+144,S3-C1-A1-Q1-O1,Monotonicity (Specific),Birds,gpt3_rating,12.0,1.1920928955078125e-07,True
+145,S3-C1-A1-Q1-O1,Monotonicity (Specific),Birds,gpt4_rating,12.0,1.1920928955078125e-07,True
+146,S3-C1-A1-Q1-O1,Monotonicity (Specific),Birds,human_rating,12.0,1.1920928955078125e-07,True
+147,S3-C1-A1-Q1-O1,Monotonicity (Specific),Mammals,gpt3_rating,12.0,1.1920928955078125e-07,True
+148,S3-C1-A1-Q1-O1,Monotonicity (Specific),Mammals,gpt4_rating,12.0,1.1920928955078125e-07,True
+149,S3-C1-A1-Q1-O1,Monotonicity (Specific),Mammals,human_rating,5.0,0.06391465663909912,False
+150,S3-C1-A1-Q1-O1,Monotonicity (Specific),Vehicles,gpt3_rating,12.0,1.1920928955078125e-07,True
+151,S3-C1-A1-Q1-O1,Monotonicity (Specific),Vehicles,gpt4_rating,11.0,2.9802322387695312e-06,True
+152,S3-C1-A1-Q1-O1,Monotonicity (Specific),Vehicles,human_rating,3.0,0.28627872467041016,False
+153,S3-C1-A1-Q1-O1,Nonmonotonicity (General),Birds,gpt3_rating,-8.0,0.001543879508972168,True
+154,S3-C1-A1-Q1-O1,Nonmonotonicity (General),Birds,gpt4_rating,-4.0,0.15158963203430176,False
+155,S3-C1-A1-Q1-O1,Nonmonotonicity (General),Birds,human_rating,12.0,1.1920928955078125e-07,True
+156,S3-C1-A1-Q1-O1,Nonmonotonicity (General),Mammals,gpt3_rating,-12.0,1.1920928955078125e-07,True
+157,S3-C1-A1-Q1-O1,Nonmonotonicity (General),Mammals,gpt4_rating,-12.0,1.1920928955078125e-07,True
+158,S3-C1-A1-Q1-O1,Nonmonotonicity (General),Mammals,human_rating,10.0,3.5881996154785156e-05,True
+159,S3-C1-A1-Q1-O1,Nonmonotonicity (General),Vehicles,gpt3_rating,-12.0,1.1920928955078125e-07,True
+160,S3-C1-A1-Q1-O1,Nonmonotonicity (General),Vehicles,gpt4_rating,-6.0,0.022655844688415527,True
+161,S3-C1-A1-Q1-O1,Nonmonotonicity (General),Vehicles,human_rating,7.0,0.006610751152038574,True
+162,S3-C1-A1-Q1-O1,Nonmonotonicity (Specific),Birds,gpt3_rating,-10.0,3.5881996154785156e-05,True
+163,S3-C1-A1-Q1-O1,Nonmonotonicity (Specific),Birds,gpt4_rating,-11.0,2.9802322387695312e-06,True
+164,S3-C1-A1-Q1-O1,Nonmonotonicity (Specific),Birds,human_rating,11.0,2.9802322387695312e-06,True
+165,S3-C1-A1-Q1-O1,Nonmonotonicity (Specific),Mammals,gpt3_rating,-11.0,2.9802322387695312e-06,True
+166,S3-C1-A1-Q1-O1,Nonmonotonicity (Specific),Mammals,gpt4_rating,-12.0,1.1920928955078125e-07,True
+167,S3-C1-A1-Q1-O1,Nonmonotonicity (Specific),Mammals,human_rating,4.0,0.15158963203430176,False
+168,S3-C1-A1-Q1-O1,Nonmonotonicity (Specific),Vehicles,gpt3_rating,-9.0,0.0002771615982055664,True
+169,S3-C1-A1-Q1-O1,Nonmonotonicity (Specific),Vehicles,gpt4_rating,-10.0,3.5881996154785156e-05,True
+170,S3-C1-A1-Q1-O1,Nonmonotonicity (Specific),Vehicles,human_rating,7.0,0.006610751152038574,True
+171,S3-C1-A1-Q1-O1,Similarity,Birds,gpt3_rating,-2.5,0.42435622215270996,False
+172,S3-C1-A1-Q1-O1,Similarity,Birds,gpt4_rating,10.5,1.9431114196777344e-05,True
+173,S3-C1-A1-Q1-O1,Similarity,Birds,human_rating,10.5,1.9431114196777344e-05,True
+174,S3-C1-A1-Q1-O1,Similarity,Mammals,gpt3_rating,1.0,0.8450189828872681,False
+175,S3-C1-A1-Q1-O1,Similarity,Mammals,gpt4_rating,8.0,0.002493917942047119,True
+176,S3-C1-A1-Q1-O1,Similarity,Mammals,human_rating,12.0,8.046627044677734e-07,True
+177,S3-C1-A1-Q1-O1,Similarity,Vehicles,gpt3_rating,-3.5,0.2295229434967041,False
+178,S3-C1-A1-Q1-O1,Similarity,Vehicles,gpt4_rating,12.5,5.960464477539063e-08,True
+179,S3-C1-A1-Q1-O1,Similarity,Vehicles,human_rating,11.5,1.5497207641601562e-06,True
+180,S3-C1-A1-Q1-O1,Specificity,Birds,gpt3_rating,1.0,0.8388197422027588,False
+181,S3-C1-A1-Q1-O1,Specificity,Birds,gpt4_rating,12.0,1.1920928955078125e-07,True
+182,S3-C1-A1-Q1-O1,Specificity,Birds,human_rating,12.0,1.1920928955078125e-07,True
+183,S3-C1-A1-Q1-O1,Specificity,Mammals,gpt3_rating,1.0,0.8388197422027588,False
+184,S3-C1-A1-Q1-O1,Specificity,Mammals,gpt4_rating,12.0,1.1920928955078125e-07,True
+185,S3-C1-A1-Q1-O1,Specificity,Mammals,human_rating,12.0,1.1920928955078125e-07,True
+186,S3-C1-A1-Q1-O1,Specificity,Vehicles,gpt3_rating,-2.0,0.5412561893463135,False
+187,S3-C1-A1-Q1-O1,Specificity,Vehicles,gpt4_rating,12.0,1.1920928955078125e-07,True
+188,S3-C1-A1-Q1-O1,Specificity,Vehicles,human_rating,12.0,1.1920928955078125e-07,True
+189,S3-C1-A1-Q1-O1,Typicality,Birds,gpt3_rating,2.0,0.5412561893463135,False
+190,S3-C1-A1-Q1-O1,Typicality,Birds,gpt4_rating,7.0,0.006610751152038574,True
+191,S3-C1-A1-Q1-O1,Typicality,Birds,human_rating,10.0,3.5881996154785156e-05,True
+192,S3-C1-A1-Q1-O1,Typicality,Mammals,gpt3_rating,-2.0,0.5412561893463135,False
+193,S3-C1-A1-Q1-O1,Typicality,Mammals,gpt4_rating,8.0,0.001543879508972168,True
+194,S3-C1-A1-Q1-O1,Typicality,Mammals,human_rating,10.5,5.7220458984375e-06,True
+195,S3-C1-A1-Q1-O1,Typicality,Vehicles,gpt3_rating,0.0,1.0,False
+196,S3-C1-A1-Q1-O1,Typicality,Vehicles,gpt4_rating,12.0,1.1920928955078125e-07,True
+197,S3-C1-A1-Q1-O1,Typicality,Vehicles,human_rating,12.0,1.1920928955078125e-07,True
+198,S3-C1-A1-Q3-O1,Asymmetry,Birds,gpt3_rating,-0.5,1.0,False
+199,S3-C1-A1-Q3-O1,Asymmetry,Birds,gpt4_rating,4.5,0.0931396484375,False
+200,S3-C1-A1-Q3-O1,Asymmetry,Birds,human_rating,8.5,0.00022125244140625,True
+201,S3-C1-A1-Q3-O1,Asymmetry,Mammals,gpt3_rating,4.5,0.0931396484375,False
+202,S3-C1-A1-Q3-O1,Asymmetry,Mammals,gpt4_rating,-2.5,0.4048728942871094,False
+203,S3-C1-A1-Q3-O1,Asymmetry,Mammals,human_rating,2.0,0.5234670639038086,False
+204,S3-C1-A1-Q3-O1,Asymmetry,Vehicles,gpt3_rating,1.5,0.6776394844055176,False
+205,S3-C1-A1-Q3-O1,Asymmetry,Vehicles,gpt4_rating,-0.5,1.0,False
+206,S3-C1-A1-Q3-O1,Asymmetry,Vehicles,human_rating,5.0,0.052478790283203125,False
+207,S3-C1-A1-Q3-O1,Diversity (General),Birds,gpt3_rating,2.0,0.5412561893463135,False
+208,S3-C1-A1-Q3-O1,Diversity (General),Birds,gpt4_rating,12.0,1.1920928955078125e-07,True
+209,S3-C1-A1-Q3-O1,Diversity (General),Birds,human_rating,0.0,1.0,False
+210,S3-C1-A1-Q3-O1,Diversity (General),Mammals,gpt3_rating,-1.0,0.8388197422027588,False
+211,S3-C1-A1-Q3-O1,Diversity (General),Mammals,gpt4_rating,12.0,1.1920928955078125e-07,True
+212,S3-C1-A1-Q3-O1,Diversity (General),Mammals,human_rating,-5.0,0.06391465663909912,False
+213,S3-C1-A1-Q3-O1,Diversity (General),Vehicles,gpt3_rating,0.0,1.0,False
+214,S3-C1-A1-Q3-O1,Diversity (General),Vehicles,gpt4_rating,5.0,0.06391465663909912,False
+215,S3-C1-A1-Q3-O1,Diversity (General),Vehicles,human_rating,-5.5,0.03468966484069824,True
+216,S3-C1-A1-Q3-O1,Diversity (Specific),Birds,gpt3_rating,2.0,0.5412561893463135,False
+217,S3-C1-A1-Q3-O1,Diversity (Specific),Birds,gpt4_rating,1.0,0.8388197422027588,False
+218,S3-C1-A1-Q3-O1,Diversity (Specific),Birds,human_rating,-1.5,0.6776394844055176,False
+219,S3-C1-A1-Q3-O1,Diversity (Specific),Mammals,gpt3_rating,0.0,1.0,False
+220,S3-C1-A1-Q3-O1,Diversity (Specific),Mammals,gpt4_rating,-2.0,0.5412561893463135,False
+221,S3-C1-A1-Q3-O1,Diversity (Specific),Mammals,human_rating,-7.0,0.006610751152038574,True
+222,S3-C1-A1-Q3-O1,Diversity (Specific),Vehicles,gpt3_rating,3.0,0.30745625495910645,False
+223,S3-C1-A1-Q3-O1,Diversity (Specific),Vehicles,gpt4_rating,-1.0,0.8388197422027588,False
+224,S3-C1-A1-Q3-O1,Diversity (Specific),Vehicles,human_rating,-1.5,0.6776394844055176,False
+225,S3-C1-A1-Q3-O1,Inclusion Fallacy,Birds,gpt3_rating,-1.0,0.8388197422027588,False
+226,S3-C1-A1-Q3-O1,Inclusion Fallacy,Birds,gpt4_rating,-8.0,0.001543879508972168,True
+227,S3-C1-A1-Q3-O1,Inclusion Fallacy,Birds,human_rating,0.0,1.0,False
+228,S3-C1-A1-Q3-O1,Inclusion Fallacy,Mammals,gpt3_rating,1.0,0.8388197422027588,False
+229,S3-C1-A1-Q3-O1,Inclusion Fallacy,Mammals,gpt4_rating,-6.0,0.022655844688415527,True
+230,S3-C1-A1-Q3-O1,Inclusion Fallacy,Mammals,human_rating,5.0,0.06391465663909912,False
+231,S3-C1-A1-Q3-O1,Inclusion Fallacy,Vehicles,gpt3_rating,-1.0,0.8388197422027588,False
+232,S3-C1-A1-Q3-O1,Inclusion Fallacy,Vehicles,gpt4_rating,2.0,0.5412561893463135,False
+233,S3-C1-A1-Q3-O1,Inclusion Fallacy,Vehicles,human_rating,8.0,0.001543879508972168,True
+234,S3-C1-A1-Q3-O1,Monotonicity (General),Birds,gpt3_rating,12.0,1.1920928955078125e-07,True
+235,S3-C1-A1-Q3-O1,Monotonicity (General),Birds,gpt4_rating,12.0,1.1920928955078125e-07,True
+236,S3-C1-A1-Q3-O1,Monotonicity (General),Birds,human_rating,12.0,1.1920928955078125e-07,True
+237,S3-C1-A1-Q3-O1,Monotonicity (General),Mammals,gpt3_rating,12.0,1.1920928955078125e-07,True
+238,S3-C1-A1-Q3-O1,Monotonicity (General),Mammals,gpt4_rating,12.0,1.1920928955078125e-07,True
+239,S3-C1-A1-Q3-O1,Monotonicity (General),Mammals,human_rating,12.0,1.1920928955078125e-07,True
+240,S3-C1-A1-Q3-O1,Monotonicity (General),Vehicles,gpt3_rating,12.0,1.1920928955078125e-07,True
+241,S3-C1-A1-Q3-O1,Monotonicity (General),Vehicles,gpt4_rating,12.0,1.1920928955078125e-07,True
+242,S3-C1-A1-Q3-O1,Monotonicity (General),Vehicles,human_rating,11.0,2.9802322387695312e-06,True
+243,S3-C1-A1-Q3-O1,Monotonicity (Specific),Birds,gpt3_rating,12.0,1.1920928955078125e-07,True
+244,S3-C1-A1-Q3-O1,Monotonicity (Specific),Birds,gpt4_rating,12.0,1.1920928955078125e-07,True
+245,S3-C1-A1-Q3-O1,Monotonicity (Specific),Birds,human_rating,12.0,1.1920928955078125e-07,True
+246,S3-C1-A1-Q3-O1,Monotonicity (Specific),Mammals,gpt3_rating,12.0,1.1920928955078125e-07,True
+247,S3-C1-A1-Q3-O1,Monotonicity (Specific),Mammals,gpt4_rating,12.0,1.1920928955078125e-07,True
+248,S3-C1-A1-Q3-O1,Monotonicity (Specific),Mammals,human_rating,5.0,0.06391465663909912,False
+249,S3-C1-A1-Q3-O1,Monotonicity (Specific),Vehicles,gpt3_rating,12.0,1.1920928955078125e-07,True
+250,S3-C1-A1-Q3-O1,Monotonicity (Specific),Vehicles,gpt4_rating,10.0,3.5881996154785156e-05,True
+251,S3-C1-A1-Q3-O1,Monotonicity (Specific),Vehicles,human_rating,3.0,0.28627872467041016,False
+252,S3-C1-A1-Q3-O1,Nonmonotonicity (General),Birds,gpt3_rating,-8.0,0.001543879508972168,True
+253,S3-C1-A1-Q3-O1,Nonmonotonicity (General),Birds,gpt4_rating,9.0,0.0002771615982055664,True
+254,S3-C1-A1-Q3-O1,Nonmonotonicity (General),Birds,human_rating,12.0,1.1920928955078125e-07,True
+255,S3-C1-A1-Q3-O1,Nonmonotonicity (General),Mammals,gpt3_rating,-12.0,1.1920928955078125e-07,True
+256,S3-C1-A1-Q3-O1,Nonmonotonicity (General),Mammals,gpt4_rating,4.0,0.15158963203430176,False
+257,S3-C1-A1-Q3-O1,Nonmonotonicity (General),Mammals,human_rating,10.0,3.5881996154785156e-05,True
+258,S3-C1-A1-Q3-O1,Nonmonotonicity (General),Vehicles,gpt3_rating,-12.0,1.1920928955078125e-07,True
+259,S3-C1-A1-Q3-O1,Nonmonotonicity (General),Vehicles,gpt4_rating,2.0,0.5412561893463135,False
+260,S3-C1-A1-Q3-O1,Nonmonotonicity (General),Vehicles,human_rating,7.0,0.006610751152038574,True
+261,S3-C1-A1-Q3-O1,Nonmonotonicity (Specific),Birds,gpt3_rating,-10.0,3.5881996154785156e-05,True
+262,S3-C1-A1-Q3-O1,Nonmonotonicity (Specific),Birds,gpt4_rating,-11.0,2.9802322387695312e-06,True
+263,S3-C1-A1-Q3-O1,Nonmonotonicity (Specific),Birds,human_rating,11.0,2.9802322387695312e-06,True
+264,S3-C1-A1-Q3-O1,Nonmonotonicity (Specific),Mammals,gpt3_rating,-11.0,2.9802322387695312e-06,True
+265,S3-C1-A1-Q3-O1,Nonmonotonicity (Specific),Mammals,gpt4_rating,-12.0,1.1920928955078125e-07,True
+266,S3-C1-A1-Q3-O1,Nonmonotonicity (Specific),Mammals,human_rating,4.0,0.15158963203430176,False
+267,S3-C1-A1-Q3-O1,Nonmonotonicity (Specific),Vehicles,gpt3_rating,-9.0,0.0002771615982055664,True
+268,S3-C1-A1-Q3-O1,Nonmonotonicity (Specific),Vehicles,gpt4_rating,-11.0,2.9802322387695312e-06,True
+269,S3-C1-A1-Q3-O1,Nonmonotonicity (Specific),Vehicles,human_rating,7.0,0.006610751152038574,True
+270,S3-C1-A1-Q3-O1,Similarity,Birds,gpt3_rating,-2.5,0.42435622215270996,False
+271,S3-C1-A1-Q3-O1,Similarity,Birds,gpt4_rating,11.5,1.5497207641601562e-06,True
+272,S3-C1-A1-Q3-O1,Similarity,Birds,human_rating,10.5,1.9431114196777344e-05,True
+273,S3-C1-A1-Q3-O1,Similarity,Mammals,gpt3_rating,1.0,0.8450189828872681,False
+274,S3-C1-A1-Q3-O1,Similarity,Mammals,gpt4_rating,12.0,8.046627044677734e-07,True
+275,S3-C1-A1-Q3-O1,Similarity,Mammals,human_rating,12.0,8.046627044677734e-07,True
+276,S3-C1-A1-Q3-O1,Similarity,Vehicles,gpt3_rating,-3.5,0.2295229434967041,False
+277,S3-C1-A1-Q3-O1,Similarity,Vehicles,gpt4_rating,11.5,1.5497207641601562e-06,True
+278,S3-C1-A1-Q3-O1,Similarity,Vehicles,human_rating,11.5,1.5497207641601562e-06,True
+279,S3-C1-A1-Q3-O1,Specificity,Birds,gpt3_rating,1.0,0.8388197422027588,False
+280,S3-C1-A1-Q3-O1,Specificity,Birds,gpt4_rating,12.0,1.1920928955078125e-07,True
+281,S3-C1-A1-Q3-O1,Specificity,Birds,human_rating,12.0,1.1920928955078125e-07,True
+282,S3-C1-A1-Q3-O1,Specificity,Mammals,gpt3_rating,1.0,0.8388197422027588,False
+283,S3-C1-A1-Q3-O1,Specificity,Mammals,gpt4_rating,12.0,1.1920928955078125e-07,True
+284,S3-C1-A1-Q3-O1,Specificity,Mammals,human_rating,12.0,1.1920928955078125e-07,True
+285,S3-C1-A1-Q3-O1,Specificity,Vehicles,gpt3_rating,-2.0,0.5412561893463135,False
+286,S3-C1-A1-Q3-O1,Specificity,Vehicles,gpt4_rating,12.0,1.1920928955078125e-07,True
+287,S3-C1-A1-Q3-O1,Specificity,Vehicles,human_rating,12.0,1.1920928955078125e-07,True
+288,S3-C1-A1-Q3-O1,Typicality,Birds,gpt3_rating,2.0,0.5412561893463135,False
+289,S3-C1-A1-Q3-O1,Typicality,Birds,gpt4_rating,7.0,0.006610751152038574,True
+290,S3-C1-A1-Q3-O1,Typicality,Birds,human_rating,10.0,3.5881996154785156e-05,True
+291,S3-C1-A1-Q3-O1,Typicality,Mammals,gpt3_rating,-2.0,0.5412561893463135,False
+292,S3-C1-A1-Q3-O1,Typicality,Mammals,gpt4_rating,4.0,0.15158963203430176,False
+293,S3-C1-A1-Q3-O1,Typicality,Mammals,human_rating,10.5,5.7220458984375e-06,True
+294,S3-C1-A1-Q3-O1,Typicality,Vehicles,gpt3_rating,0.0,1.0,False
+295,S3-C1-A1-Q3-O1,Typicality,Vehicles,gpt4_rating,11.0,2.9802322387695312e-06,True
+296,S3-C1-A1-Q3-O1,Typicality,Vehicles,human_rating,12.0,1.1920928955078125e-07,True
+297,S3-C1-A1-Q4-O1,Asymmetry,Birds,gpt3_rating,-1.0,0.8388197422027588,False
+298,S3-C1-A1-Q4-O1,Asymmetry,Birds,gpt4_rating,2.0,0.5412561893463135,False
+299,S3-C1-A1-Q4-O1,Asymmetry,Birds,human_rating,8.0,0.0008554458618164062,True
+300,S3-C1-A1-Q4-O1,Asymmetry,Mammals,gpt3_rating,4.0,0.15158963203430176,False
+301,S3-C1-A1-Q4-O1,Asymmetry,Mammals,gpt4_rating,-3.0,0.30745625495910645,False
+302,S3-C1-A1-Q4-O1,Asymmetry,Mammals,human_rating,2.5,0.4048728942871094,False
+303,S3-C1-A1-Q4-O1,Asymmetry,Vehicles,gpt3_rating,1.0,0.8388197422027588,False
+304,S3-C1-A1-Q4-O1,Asymmetry,Vehicles,gpt4_rating,1.0,0.8388197422027588,False
+305,S3-C1-A1-Q4-O1,Asymmetry,Vehicles,human_rating,5.0,0.052478790283203125,False
+306,S3-C1-A1-Q4-O1,Diversity (General),Birds,gpt3_rating,2.0,0.5412561893463135,False
+307,S3-C1-A1-Q4-O1,Diversity (General),Birds,gpt4_rating,8.0,0.001543879508972168,True
+308,S3-C1-A1-Q4-O1,Diversity (General),Birds,human_rating,0.0,1.0,False
+309,S3-C1-A1-Q4-O1,Diversity (General),Mammals,gpt3_rating,-1.0,0.8388197422027588,False
+310,S3-C1-A1-Q4-O1,Diversity (General),Mammals,gpt4_rating,12.0,1.1920928955078125e-07,True
+311,S3-C1-A1-Q4-O1,Diversity (General),Mammals,human_rating,-5.0,0.06391465663909912,False
+312,S3-C1-A1-Q4-O1,Diversity (General),Vehicles,gpt3_rating,0.0,1.0,False
+313,S3-C1-A1-Q4-O1,Diversity (General),Vehicles,gpt4_rating,-1.0,0.8388197422027588,False
+314,S3-C1-A1-Q4-O1,Diversity (General),Vehicles,human_rating,-5.5,0.03468966484069824,True
+315,S3-C1-A1-Q4-O1,Diversity (Specific),Birds,gpt3_rating,2.0,0.5412561893463135,False
+316,S3-C1-A1-Q4-O1,Diversity (Specific),Birds,gpt4_rating,-2.0,0.5412561893463135,False
+317,S3-C1-A1-Q4-O1,Diversity (Specific),Birds,human_rating,-1.5,0.6776394844055176,False
+318,S3-C1-A1-Q4-O1,Diversity (Specific),Mammals,gpt3_rating,0.0,1.0,False
+319,S3-C1-A1-Q4-O1,Diversity (Specific),Mammals,gpt4_rating,-1.0,0.8388197422027588,False
+320,S3-C1-A1-Q4-O1,Diversity (Specific),Mammals,human_rating,-7.0,0.006610751152038574,True
+321,S3-C1-A1-Q4-O1,Diversity (Specific),Vehicles,gpt3_rating,3.0,0.30745625495910645,False
+322,S3-C1-A1-Q4-O1,Diversity (Specific),Vehicles,gpt4_rating,-1.0,0.8388197422027588,False
+323,S3-C1-A1-Q4-O1,Diversity (Specific),Vehicles,human_rating,-1.5,0.6776394844055176,False
+324,S3-C1-A1-Q4-O1,Inclusion Fallacy,Birds,gpt3_rating,-1.0,0.8388197422027588,False
+325,S3-C1-A1-Q4-O1,Inclusion Fallacy,Birds,gpt4_rating,-8.0,0.001543879508972168,True
+326,S3-C1-A1-Q4-O1,Inclusion Fallacy,Birds,human_rating,0.0,1.0,False
+327,S3-C1-A1-Q4-O1,Inclusion Fallacy,Mammals,gpt3_rating,1.0,0.8388197422027588,False
+328,S3-C1-A1-Q4-O1,Inclusion Fallacy,Mammals,gpt4_rating,-3.0,0.30745625495910645,False
+329,S3-C1-A1-Q4-O1,Inclusion Fallacy,Mammals,human_rating,5.0,0.06391465663909912,False
+330,S3-C1-A1-Q4-O1,Inclusion Fallacy,Vehicles,gpt3_rating,-1.0,0.8388197422027588,False
+331,S3-C1-A1-Q4-O1,Inclusion Fallacy,Vehicles,gpt4_rating,3.0,0.30745625495910645,False
+332,S3-C1-A1-Q4-O1,Inclusion Fallacy,Vehicles,human_rating,8.0,0.001543879508972168,True
+333,S3-C1-A1-Q4-O1,Monotonicity (General),Birds,gpt3_rating,12.0,1.1920928955078125e-07,True
+334,S3-C1-A1-Q4-O1,Monotonicity (General),Birds,gpt4_rating,12.0,1.1920928955078125e-07,True
+335,S3-C1-A1-Q4-O1,Monotonicity (General),Birds,human_rating,12.0,1.1920928955078125e-07,True
+336,S3-C1-A1-Q4-O1,Monotonicity (General),Mammals,gpt3_rating,12.0,1.1920928955078125e-07,True
+337,S3-C1-A1-Q4-O1,Monotonicity (General),Mammals,gpt4_rating,12.0,1.1920928955078125e-07,True
+338,S3-C1-A1-Q4-O1,Monotonicity (General),Mammals,human_rating,12.0,1.1920928955078125e-07,True
+339,S3-C1-A1-Q4-O1,Monotonicity (General),Vehicles,gpt3_rating,12.0,1.1920928955078125e-07,True
+340,S3-C1-A1-Q4-O1,Monotonicity (General),Vehicles,gpt4_rating,12.0,1.1920928955078125e-07,True
+341,S3-C1-A1-Q4-O1,Monotonicity (General),Vehicles,human_rating,11.0,2.9802322387695312e-06,True
+342,S3-C1-A1-Q4-O1,Monotonicity (Specific),Birds,gpt3_rating,12.0,1.1920928955078125e-07,True
+343,S3-C1-A1-Q4-O1,Monotonicity (Specific),Birds,gpt4_rating,12.0,1.1920928955078125e-07,True
+344,S3-C1-A1-Q4-O1,Monotonicity (Specific),Birds,human_rating,12.0,1.1920928955078125e-07,True
+345,S3-C1-A1-Q4-O1,Monotonicity (Specific),Mammals,gpt3_rating,12.0,1.1920928955078125e-07,True
+346,S3-C1-A1-Q4-O1,Monotonicity (Specific),Mammals,gpt4_rating,12.0,1.1920928955078125e-07,True
+347,S3-C1-A1-Q4-O1,Monotonicity (Specific),Mammals,human_rating,5.0,0.06391465663909912,False
+348,S3-C1-A1-Q4-O1,Monotonicity (Specific),Vehicles,gpt3_rating,12.0,1.1920928955078125e-07,True
+349,S3-C1-A1-Q4-O1,Monotonicity (Specific),Vehicles,gpt4_rating,10.0,3.5881996154785156e-05,True
+350,S3-C1-A1-Q4-O1,Monotonicity (Specific),Vehicles,human_rating,3.0,0.28627872467041016,False
+351,S3-C1-A1-Q4-O1,Nonmonotonicity (General),Birds,gpt3_rating,-8.0,0.001543879508972168,True
+352,S3-C1-A1-Q4-O1,Nonmonotonicity (General),Birds,gpt4_rating,2.0,0.5412561893463135,False
+353,S3-C1-A1-Q4-O1,Nonmonotonicity (General),Birds,human_rating,12.0,1.1920928955078125e-07,True
+354,S3-C1-A1-Q4-O1,Nonmonotonicity (General),Mammals,gpt3_rating,-12.0,1.1920928955078125e-07,True
+355,S3-C1-A1-Q4-O1,Nonmonotonicity (General),Mammals,gpt4_rating,7.0,0.006610751152038574,True
+356,S3-C1-A1-Q4-O1,Nonmonotonicity (General),Mammals,human_rating,10.0,3.5881996154785156e-05,True
+357,S3-C1-A1-Q4-O1,Nonmonotonicity (General),Vehicles,gpt3_rating,-12.0,1.1920928955078125e-07,True
+358,S3-C1-A1-Q4-O1,Nonmonotonicity (General),Vehicles,gpt4_rating,4.0,0.15158963203430176,False
+359,S3-C1-A1-Q4-O1,Nonmonotonicity (General),Vehicles,human_rating,7.0,0.006610751152038574,True
+360,S3-C1-A1-Q4-O1,Nonmonotonicity (Specific),Birds,gpt3_rating,-10.0,3.5881996154785156e-05,True
+361,S3-C1-A1-Q4-O1,Nonmonotonicity (Specific),Birds,gpt4_rating,-8.0,0.001543879508972168,True
+362,S3-C1-A1-Q4-O1,Nonmonotonicity (Specific),Birds,human_rating,11.0,2.9802322387695312e-06,True
+363,S3-C1-A1-Q4-O1,Nonmonotonicity (Specific),Mammals,gpt3_rating,-11.0,2.9802322387695312e-06,True
+364,S3-C1-A1-Q4-O1,Nonmonotonicity (Specific),Mammals,gpt4_rating,-11.0,2.9802322387695312e-06,True
+365,S3-C1-A1-Q4-O1,Nonmonotonicity (Specific),Mammals,human_rating,4.0,0.15158963203430176,False
+366,S3-C1-A1-Q4-O1,Nonmonotonicity (Specific),Vehicles,gpt3_rating,-9.0,0.0002771615982055664,True
+367,S3-C1-A1-Q4-O1,Nonmonotonicity (Specific),Vehicles,gpt4_rating,-10.0,3.5881996154785156e-05,True
+368,S3-C1-A1-Q4-O1,Nonmonotonicity (Specific),Vehicles,human_rating,7.0,0.006610751152038574,True
+369,S3-C1-A1-Q4-O1,Similarity,Birds,gpt3_rating,-2.5,0.42435622215270996,False
+370,S3-C1-A1-Q4-O1,Similarity,Birds,gpt4_rating,11.5,1.5497207641601562e-06,True
+371,S3-C1-A1-Q4-O1,Similarity,Birds,human_rating,10.5,1.9431114196777344e-05,True
+372,S3-C1-A1-Q4-O1,Similarity,Mammals,gpt3_rating,1.0,0.8450189828872681,False
+373,S3-C1-A1-Q4-O1,Similarity,Mammals,gpt4_rating,10.0,8.797645568847656e-05,True
+374,S3-C1-A1-Q4-O1,Similarity,Mammals,human_rating,12.0,8.046627044677734e-07,True
+375,S3-C1-A1-Q4-O1,Similarity,Vehicles,gpt3_rating,-3.5,0.2295229434967041,False
+376,S3-C1-A1-Q4-O1,Similarity,Vehicles,gpt4_rating,12.5,5.960464477539063e-08,True
+377,S3-C1-A1-Q4-O1,Similarity,Vehicles,human_rating,11.5,1.5497207641601562e-06,True
+378,S3-C1-A1-Q4-O1,Specificity,Birds,gpt3_rating,1.0,0.8388197422027588,False
+379,S3-C1-A1-Q4-O1,Specificity,Birds,gpt4_rating,12.0,1.1920928955078125e-07,True
+380,S3-C1-A1-Q4-O1,Specificity,Birds,human_rating,12.0,1.1920928955078125e-07,True
+381,S3-C1-A1-Q4-O1,Specificity,Mammals,gpt3_rating,1.0,0.8388197422027588,False
+382,S3-C1-A1-Q4-O1,Specificity,Mammals,gpt4_rating,12.0,1.1920928955078125e-07,True
+383,S3-C1-A1-Q4-O1,Specificity,Mammals,human_rating,12.0,1.1920928955078125e-07,True
+384,S3-C1-A1-Q4-O1,Specificity,Vehicles,gpt3_rating,-2.0,0.5412561893463135,False
+385,S3-C1-A1-Q4-O1,Specificity,Vehicles,gpt4_rating,12.0,1.1920928955078125e-07,True
+386,S3-C1-A1-Q4-O1,Specificity,Vehicles,human_rating,12.0,1.1920928955078125e-07,True
+387,S3-C1-A1-Q4-O1,Typicality,Birds,gpt3_rating,2.0,0.5412561893463135,False
+388,S3-C1-A1-Q4-O1,Typicality,Birds,gpt4_rating,12.0,1.1920928955078125e-07,True
+389,S3-C1-A1-Q4-O1,Typicality,Birds,human_rating,10.0,3.5881996154785156e-05,True
+390,S3-C1-A1-Q4-O1,Typicality,Mammals,gpt3_rating,-2.0,0.5412561893463135,False
+391,S3-C1-A1-Q4-O1,Typicality,Mammals,gpt4_rating,3.0,0.30745625495910645,False
+392,S3-C1-A1-Q4-O1,Typicality,Mammals,human_rating,10.5,5.7220458984375e-06,True
+393,S3-C1-A1-Q4-O1,Typicality,Vehicles,gpt3_rating,0.0,1.0,False
+394,S3-C1-A1-Q4-O1,Typicality,Vehicles,gpt4_rating,11.0,2.9802322387695312e-06,True
+395,S3-C1-A1-Q4-O1,Typicality,Vehicles,human_rating,12.0,1.1920928955078125e-07,True

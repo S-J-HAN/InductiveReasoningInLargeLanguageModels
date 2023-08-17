@@ -58,7 +58,7 @@ Source: KR
 Data used to run our MTurk/LLM experiments.
 
 #### experiment_trials.csv
-Trial (tid) seen by a participant (pid) in our MTurk experiment. This file was used to generate our MTurk experiment jsons. Does not include tutorial trials.
+Trials (tid) seen by participants (pid) in our MTurk experiment. This file was used to generate our MTurk experiment jsons. Does not include tutorial trials.
 
 Source: Google Colab
 

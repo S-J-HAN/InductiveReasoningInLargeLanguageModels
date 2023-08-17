@@ -1,0 +1,30 @@
+,feature/ exemplar ENGLISH,,eagle,dove,duck,magpie,pheasant,vulture,rooster,turkey,canary,chicken,cuckoo,crow,chickadee,seagull,blackbird,sparrow,stork,parrot,parakeet,peacock,pelican,penguin,heron,robin,woodpecker,ostrich,owl,falcon,swan,swallow
+feature / exemplar DUTCH,,freq,arend,duif,eend,ekster,fazant,gier,haan,kalkoen,kanarie,kip,koekoek,kraai,mees,meeuw,merel,mus,ooievaar,papegaai,parkiet,pauw,pelikaan,pinguïn,reiger,roodborstje,specht,struisvogel,uil,valk,zwaan,zwaluw
+bouwt nesten,builds nests,16,4,4,3,4,4,4,1,3,4,3,3,4,4,4,4,4,4,4,4,4,4,3,4,4,4,3,4,4,3,4
+eet kleine dieren,eats small animals,2,4,0,0,0,0,4,0,0,0,0,0,1,0,1,0,0,2,0,0,0,2,2,2,0,0,2,4,4,1,1
+eet wormen,eats worms,8,1,2,1,4,4,0,3,1,1,3,4,4,3,0,4,2,2,1,1,3,0,0,1,3,4,1,2,1,1,3
+fluit,sings (whistles),7,0,0,0,1,0,0,0,0,4,0,1,0,2,0,2,2,1,1,2,1,0,0,0,2,1,0,0,0,0,1
+heeft een snavel,has a bill,15,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+heeft twee poten,has two paws,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+heeft veren,has feathers,20,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,4,4,4,4,4,4,4,4
+heeft vleugels,has wings,9,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+in kooi,lives in a cage,2,0,0,0,0,0,0,0,0,4,0,1,0,0,0,0,0,0,3,4,0,0,0,0,0,0,0,0,0,0,0
+is een dier,is an animal,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+is een trekvogel,is a migratory bird,4,0,0,3,1,0,0,0,0,0,0,1,1,1,1,1,0,3,2,0,0,1,0,3,0,0,1,0,0,2,4
+kan vliegen,can fly,20,4,4,3,4,4,4,2,2,4,2,4,4,4,4,4,4,4,4,4,2,4,0,4,4,4,0,4,4,4,4
+kraait 's morgens, in the morning,2,0,0,0,0,0,0,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+kraaloogjes,has beady eyes,2,0,0,0,2,0,0,0,0,0,0,0,3,1,0,3,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+leeft in het wild,lives in the wild,3,4,4,4,4,4,4,0,1,2,0,4,4,4,4,4,4,4,4,2,3,4,4,4,4,4,3,4,4,4,3
+legt eieren,lays eggs,20,4,4,4,4,4,4,2,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3
+tsjilpt,chirps,6,0,0,0,0,0,0,0,0,2,0,0,0,2,0,1,4,0,0,1,0,0,0,0,2,0,0,0,0,0,0
+zingt,sings,3,0,0,0,1,0,0,0,0,3,0,1,0,2,0,3,2,0,0,2,1,0,0,0,1,0,0,0,0,1,2
+fladdert,flutters,2,2,4,3,4,2,2,1,1,4,1,3,4,4,4,4,4,3,4,3,1,2,1,3,4,4,1,3,3,2,4
+heeft een bek,has a beak,6,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+heeft luchtzakken,has air sacs,3,3,3,2,3,1,3,1,1,3,1,3,3,3,3,3,3,3,3,3,1,2,2,3,3,3,1,3,3,2,3
+heeft poten,has legs,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+heeft twee vleugels,has two wings,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+kan lopen,can walk,2,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+kan zich voortplanten,is able to reproduce,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+vind je in bomen,is found in trees,5,3,4,0,4,1,3,0,0,4,0,4,4,4,1,4,4,3,4,4,0,2,0,3,4,4,0,4,4,1,2
+wordt soms als huisdier gehouden,is sometimes kept as a pet,2,1,2,3,0,2,0,4,4,4,4,0,0,1,0,1,0,1,4,4,4,0,0,0,0,0,1,0,0,3,0
+wordt soms door mensen gegeten,is sometimes eaten by man,2,0,4,3,0,4,0,3,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0
