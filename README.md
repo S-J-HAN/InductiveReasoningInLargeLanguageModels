@@ -1,4 +1,4 @@
-# InductiveReasoningInLargeLanguageModels
+# Inductive Reasoning In Large Language Models
 
 This repository contains code and data for:
 
