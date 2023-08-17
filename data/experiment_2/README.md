@@ -47,12 +47,12 @@ Source: generate_data/e2_preprocess_mturk_results.py
 #### raw_human_ratings.csv
 Raw human ratings collected from our MTurk experiment.
 
-Source: KR
+Source: Provided by KR
 
 #### unpaid_participants.csv
 Contains MTurk UIDs for participants who were unpaid. Before analysis, we should exclude these participants. These participants have overlapping TIDs with other participants who were paid (also in this file).
 
-Source: KR
+Source: Provided by KR.
 
 # Pre experiment data files
 Data used to run our MTurk/LLM experiments.
@@ -60,7 +60,7 @@ Data used to run our MTurk/LLM experiments.
 #### experiment_trials.csv
 Trials (tid) seen by participants (pid) in our MTurk experiment. This file was used to generate our MTurk experiment jsons. Does not include tutorial trials.
 
-Source: Google Colab
+Source: Google Colab (Also available in drive folder at processed/experiment/experiment_2.csv, although this file is slightly different because a slight code update changed the random sampling)
 
 #### control_trials.csv
 Control trials that appears in experiment 2. There should be 4 trials for each single premise domain/conclusiontype split and 1 for each multi premise split. We only show participants 4 control trials; 3 single and 1 multi.

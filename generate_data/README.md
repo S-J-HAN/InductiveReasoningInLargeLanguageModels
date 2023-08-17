@@ -1,3 +1,12 @@
+# Data generation
+
+Some parts of this process were run in a colab notebook:
+https://colab.research.google.com/drive/1HGTIdvPRt-5YoQzkDRY7aNA0axv9Olq9?usp=sharing
+
+
+The colab code typically corresponds to the first part of this project where we generated experimental stimuli and prepared our human data. The code in this repository corresponds to the second part, where we generate LLM results and produce our final analysis.
+
+
 #### e1_generate_llm_results.py
 Generates LLM results for experiment 1.
 
@@ -12,6 +21,7 @@ Preprocesses raw results files from MTurk experiment 2 and produces clean files 
 
 #### generate_llm_similarity_ratings.py
 Generate category similarity ratings for LLMs.
+
 
 # Helpers
 

@@ -29,3 +29,11 @@ PARENT_DOMAINS = {
     "Birds": "living things",
     "Vehicles": "objects",
 }
+
+# Control trials used in human experiment
+EXPERIMENT_1_CONTROLS = {
+    ((('Hippos',), 'Chickens'), (('Hippos',), 'Rhinos')): True,
+    ((('Lions',), 'Penguins'), (('Lions',), 'Tigers')): True,
+    ((('Mopeds',), 'Motorbikes'), (('Mopeds',), 'Screwdrivers')): False,
+    ((('Robins',), 'Gorillas'), (('Robins',), 'Sparrows')): True
+}

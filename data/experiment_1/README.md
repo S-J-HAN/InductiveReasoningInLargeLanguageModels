@@ -17,17 +17,17 @@ Source: generate_data/e1_generate_llm_results.py
 #### aggregated_human_ratings.csv
 An aggregated version of 'clean_human_ratings.csv', aggregated over every argument after filtering out unreliable MTurkers.
 
-Source: Google Colab (Post-experiment Scripts/Preprocess Human Experiment Results/Experiment 1)
+Source: Google Colab (Also available in drive folder at processed/experiment_1_aggregated.csv)
 
 #### clean_human_ratings.csv
 A cleaned version of 'raw_human_ratings.csv'.
 
-Source: Google Colab (Post-experiment Scripts/Preprocess Human Experiment Results/Experiment 1/Aggregated CSV)
+Source: Google Colab (Also available in drive folder at processed/experiment_1_master.csv)
 
 #### raw_human_ratings.csv
 Raw human ratings collected from our MTurk experiment.
 
-Source: KR
+Source: Provided by KR
 
 # Pre experiment data files
 Data used to run our MTurk/LLM experiments.
