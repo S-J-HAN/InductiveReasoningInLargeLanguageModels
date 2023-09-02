@@ -4,44 +4,122 @@ import json
 openai.api_key = "APIKEY"
 
 system_message = '''
-You will be asked a series of questions that don't have right or wrong answers. You are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.
+You are an expert on animals and the types of real world properties that they have. The questions you'll see don't have right or wrong answers, and you are willing to use your best judgment and commit to a concrete, specific response even in cases where you can't be sure that you are correct.
 '''
 
-questions= [
+context = '''
+We are interested in how people evaluate arguments. On each trial there will be two arguments labeled 'A' and 'B.' Each will contain one, two, or three statements separated from a claim by a line. Assume that the statements above the line are facts, and choose the argument whose facts provide a better reason for believing the claim. These are subjective judgments; there are no right or wrong answers.
 '''
-Animal A has scales and can fly. How likely is it that Animal A has wings?
+
+question = '''
+Question: Assuming all the facts given are true, which argument makes a stronger case for the claim? To get the best answer, first write down your reasoning. Then, based on this, indicate your preference by providing one of the following options:
+A - Argument A is much stronger
+B - Argument A is moderately stronger
+C - Argument A is slightly stronger
+D - Argument B is slightly stronger
+E - Argument B is moderately stronger
+F - Argument B is much stronger
+'''
+
+arguments = [
+'''
+Argument A: 
+Fact - Carrots have property P.
+Claim - Rabbits have property P.
+
+Argument B: 
+Fact - Rabbits have property P.
+Claim - Carrots have property P.
 ''',
 '''
-Animal A has scales and two legs. How likely is it that Animal A has wings?
+Argument A: 
+Fact - Bananas have property P.
+Claim - Monkeys have property P.
+
+Argument B: 
+Fact - Mice have property P.
+Claim - Monkeys have property P.
 ''',
 '''
-Do you think they might grow rice in Florida?
+Argument A: 
+Fact - Fleas have property P.
+Fact - Butterflies have property P.
+Claim - Sparrows have property P.
+
+Argument B: 
+Fact - Fleas have property P.
+Fact - Dogs have property P.
+Claim - Sparrows have property P.
 ''',
 '''
-Can a goose quack?
+Argument A: 
+Fact - Brown bears have property P.
+Claim - Buffalos have property P.
+
+Argument B: 
+Fact - Brown bears have property P.
+Fact - Polar bears have property P.
+Fact - Grizzly bears have property P.
+Claim - Buffalos have property P.
 ''',
 '''
-I have a circle-shaped object that is 3 inches in diameter. Do you think it's more likely to be a pizza or a quarter?
+Argument A: 
+Fact - Poodles can bite through wire.
+Claim - German shepherds can bite through wire.
+
+Argument B: 
+Fact - Dobermanns can bite through wire.
+Claim - German shepherds can bite through wire.
 ''',
 '''
-You are at a party and you learn that one of the guests fell into the pool. Why do you think this happened?
+Argument A: 
+Fact - House cats have skin that is more resistant to penetration than most synthetic fibers.
+Claim - Hippos have skin that is more resistant to penetration than most synthetic fibers.
+
+Argument B: 
+Fact - Elephants have skin that is more resistant to penetration than most synthetic fibers.
+Claim - Hippos have skin that is more resistant to penetration than most synthetic fibers.
 ''',
 '''
-The doctors took a raccoon and shaved away some of its fur. They dyed what was left all black. Then they bleached a single stripe all white down the center of its back. Then, with surgery, they put in its body a sac of super smelly odor, just like a skunk has. When they were done, the animal looked just like a skunk. After the operation was this a skunk or a raccoon?
+Argument A: 
+Fact - Chickens have livers with two chambers that act as one.
+Claim - Hawks have livers with two chambers that act as one.
+
+Argument B: 
+Fact - Tigers have livers with two chambers that act as one.
+Claim - Hawks have livers with two chambers that act as one.
 ''',
 '''
-The doctors took a coffeepot. They sawed off the handle, sealed the top, took off the top knob, sealed closed the spout, and sawed it off. They also sawed off the base and attached a flat piece of metal. They attached a little stick, cut a window in it, and filled the metal container with bird food. After the operation was this a coffeepot or a bird feeder?
+Argument A: 
+Fact - Tigers usually gather large amounts of food at once.
+Claim - Hawks usually gather large amounts of food at once.
+
+Argument B: 
+Fact - Chickens usually gather large amounts of food at once.
+Claim - Hawks usually gather large amounts of food at once.
+''',
+'''
+Argument A: 
+Fact - Ladybugs have some cells in their respiratory systems that require carbon dioxide to function.
+Claim - Mosquitoes have some cells in their respiratory systems that require carbon dioxide to function.
+
+Argument B: 
+Fact - Vampire bats have some cells in their respiratory systems that require carbon dioxide to function.
+Claim - Mosquitoes have some cells in their respiratory systems that require carbon dioxide to function.
+''',
+'''
+Argument A: 
+Fact - After eating, vampire bats travel at speeds of twice their body length per second.
+Claim - After eating, mosquitoes travel at speeds of twice their body length per second.
+
+Argument B: 
+Fact - After eating, ladybugs travel at speeds of twice their body length per second.
+Claim - After eating, mosquitoes travel at speeds of twice their body length per second.
 ''',
 ]
 
-suffix= '''
-Please explain your answer carefully.
-'''
-
-
-
-for question in questions:
-    user_message =  question + suffix
+for argument in arguments:
+    user_message = context + argument + question
     prompt3 = system_message + user_message
     prompt4 = [{"role": "system", "content": system_message}, {"role": "user", "content": user_message}]
 
