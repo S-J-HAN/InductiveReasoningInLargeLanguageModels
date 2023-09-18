@@ -24,7 +24,7 @@ Final figures used in the main paper.
 
 Code used to generate and clean both human and LLM experimental data.
 
-#### results
+#### analysis
 
 Jupyter Notebooks used to generate tables and figures that appear in the main paper.
 
