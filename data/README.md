@@ -6,6 +6,8 @@ https://drive.google.com/drive/folders/1PkE4Dip0RZwyvUKM6G4nNub6ZNEKddYW?usp=sha
 
 The colab generated data typically corresponds to the first part of this project where we generated experimental stimuli and processed our human data. The data in this repository corresponds to the second part, where we generate LLM results and produce our final analysis. All of the data files required to run the code in this repository are available here, and there is some occasional overlap with the Google Drive folder.
 
+These files are also available locally in the 'setup' folder.
+
 
 #### similarity
 Category similarity ratings for humans and LLMs

@@ -1,0 +1,793 @@
+,domain,phenomenon_number,phenomenon_name,sample_num,arg1_premises,arg1_conclusion,arg2_premises,arg2_conclusion,is_osherson,arg2_is_stronger
+0,Birds,1,Premise-conclusion Similarity,-1,"['robin', 'bluejay']",sparrow,"['robin', 'bluejay']",goose,True,False
+1,Birds,1,Premise-conclusion Similarity,2,['Robins'],Blackbirds,['Penguins'],Blackbirds,False,False
+2,Birds,1,Premise-conclusion Similarity,3,['Vultures'],Falcons,['Penguins'],Falcons,False,False
+3,Birds,1,Premise-conclusion Similarity,4,['Ostriches'],Blackbirds,['Robins'],Blackbirds,False,True
+4,Birds,1,Premise-conclusion Similarity,5,['Falcons'],Swallows,['Penguins'],Swallows,False,False
+5,Birds,1,Premise-conclusion Similarity,8,['Crows'],Blackbirds,['Herons'],Blackbirds,False,False
+6,Birds,1,Premise-conclusion Similarity,9,['Roosters'],Chickens,['Penguins'],Chickens,False,False
+7,Birds,1,Premise-conclusion Similarity,10,['Ducks'],Woodpeckers,['Parrots'],Woodpeckers,False,True
+8,Birds,1,Premise-conclusion Similarity,11,['Storks'],Robins,['Doves'],Robins,False,True
+9,Birds,1,Premise-conclusion Similarity,12,['Storks'],Herons,['Penguins'],Herons,False,False
+10,Birds,1,Premise-conclusion Similarity,16,['Vultures'],Crows,['Penguins'],Crows,False,False
+11,Birds,1,Premise-conclusion Similarity,17,['Owls'],Eagles,['Penguins'],Eagles,False,False
+12,Birds,1,Premise-conclusion Similarity,19,['Ostriches'],Vultures,['Ducks'],Vultures,False,False
+13,Birds,1,Premise-conclusion Similarity,21,['Swallows'],Doves,['Ostriches'],Doves,False,False
+14,Birds,1,Premise-conclusion Similarity,22,['Swallows'],Seagulls,['Ostriches'],Seagulls,False,False
+15,Birds,1,Premise-conclusion Similarity,24,['Swallows'],Magpies,['Penguins'],Magpies,False,False
+16,Birds,1,Premise-conclusion Similarity,25,['Herons'],Robins,['Doves'],Robins,False,True
+17,Birds,1,Premise-conclusion Similarity,26,['Penguins'],Robins,['Canaries'],Robins,False,True
+18,Birds,1,Premise-conclusion Similarity,28,['Falcons'],Eagles,['Penguins'],Eagles,False,False
+19,Birds,1,Premise-conclusion Similarity,30,['Ostriches'],Doves,['Magpies'],Doves,False,True
+20,Birds,1,Premise-conclusion Similarity,31,['Roosters'],Storks,['Pelicans'],Storks,False,True
+21,Birds,1,Premise-conclusion Similarity,35,['Swallows'],Magpies,['Ostriches'],Magpies,False,False
+22,Birds,1,Premise-conclusion Similarity,44,['Canaries'],Robins,['Eagles'],Robins,False,False
+23,Birds,1,Premise-conclusion Similarity,46,['Chickens'],Eagles,['Owls'],Eagles,False,True
+24,Birds,2,Premise Typicality,-1,['robin'],Birds,['penguin'],Birds,True,False
+25,Birds,2,Premise Typicality,0,['Doves'],Birds,['Ostriches'],Birds,False,False
+26,Birds,2,Premise Typicality,1,['Crows'],Birds,['Turkeys'],Birds,False,False
+27,Birds,2,Premise Typicality,2,['Doves'],Birds,['Chickens'],Birds,False,False
+28,Birds,2,Premise Typicality,3,['Roosters'],Birds,['Sparrows'],Birds,False,True
+29,Birds,2,Premise Typicality,4,['Penguins'],Birds,['Sparrows'],Birds,False,True
+30,Birds,2,Premise Typicality,5,['Blackbirds'],Birds,['Turkeys'],Birds,False,False
+31,Birds,2,Premise Typicality,6,['Ostriches'],Birds,['Blackbirds'],Birds,False,True
+32,Birds,2,Premise Typicality,7,['Turkeys'],Birds,['Sparrows'],Birds,False,True
+33,Birds,2,Premise Typicality,9,['Chickens'],Birds,['Crows'],Birds,False,True
+34,Birds,2,Premise Typicality,11,['Penguins'],Birds,['Crows'],Birds,False,True
+35,Birds,2,Premise Typicality,13,['Robins'],Birds,['Ostriches'],Birds,False,False
+36,Birds,2,Premise Typicality,14,['Crows'],Birds,['Roosters'],Birds,False,False
+37,Birds,2,Premise Typicality,19,['Robins'],Birds,['Turkeys'],Birds,False,False
+38,Birds,2,Premise Typicality,21,['Sparrows'],Birds,['Ostriches'],Birds,False,False
+39,Birds,2,Premise Typicality,24,['Roosters'],Birds,['Blackbirds'],Birds,False,True
+40,Birds,2,Premise Typicality,26,['Blackbirds'],Birds,['Chickens'],Birds,False,False
+41,Birds,2,Premise Typicality,27,['Penguins'],Birds,['Blackbirds'],Birds,False,True
+42,Birds,2,Premise Typicality,28,['Robins'],Birds,['Roosters'],Birds,False,False
+43,Birds,2,Premise Typicality,30,['Doves'],Birds,['Roosters'],Birds,False,False
+44,Birds,2,Premise Typicality,31,['Penguins'],Birds,['Doves'],Birds,False,True
+45,Birds,2,Premise Typicality,39,['Doves'],Birds,['Turkeys'],Birds,False,False
+46,Birds,2,Premise Typicality,45,['Robins'],Birds,['Penguins'],Birds,False,False
+47,Birds,2,Premise Typicality,46,['Chickens'],Birds,['Sparrows'],Birds,False,True
+48,Birds,3,Conclusion Specificity,-1,"['bluejay', 'falcon']",Animals,"['bluejay', 'falcon']",Birds,True,True
+49,Birds,3,Conclusion Specificity,0,"['Parrots', 'Turkeys']",Birds,"['Parrots', 'Turkeys']",Animals,False,False
+50,Birds,3,Conclusion Specificity,1,"['Pelicans', 'Seagulls']",Birds,"['Pelicans', 'Seagulls']",Animals,False,False
+51,Birds,3,Conclusion Specificity,2,"['Blackbirds', 'Parrots']",Birds,"['Blackbirds', 'Parrots']",Animals,False,False
+52,Birds,3,Conclusion Specificity,3,"['Ducks', 'Woodpeckers']",Animals,"['Ducks', 'Woodpeckers']",Birds,False,True
+53,Birds,3,Conclusion Specificity,4,"['Peacocks', 'Crows']",Animals,"['Peacocks', 'Crows']",Birds,False,True
+54,Birds,3,Conclusion Specificity,5,"['Seagulls', 'Storks']",Birds,"['Seagulls', 'Storks']",Animals,False,False
+55,Birds,3,Conclusion Specificity,6,"['Canaries', 'Crows']",Birds,"['Canaries', 'Crows']",Animals,False,False
+56,Birds,3,Conclusion Specificity,7,"['Eagles', 'Magpies']",Birds,"['Eagles', 'Magpies']",Animals,False,False
+57,Birds,3,Conclusion Specificity,8,"['Crows', 'Chickens']",Birds,"['Crows', 'Chickens']",Animals,False,False
+58,Birds,3,Conclusion Specificity,9,"['Magpies', 'Doves']",Birds,"['Magpies', 'Doves']",Animals,False,False
+59,Birds,3,Conclusion Specificity,10,"['Turkeys', 'Canaries']",Birds,"['Turkeys', 'Canaries']",Animals,False,False
+60,Birds,3,Conclusion Specificity,11,"['Swans', 'Chickens']",Animals,"['Swans', 'Chickens']",Birds,False,True
+61,Birds,3,Conclusion Specificity,12,"['Crows', 'Herons']",Birds,"['Crows', 'Herons']",Animals,False,False
+62,Birds,3,Conclusion Specificity,13,"['Canaries', 'Sparrows']",Animals,"['Canaries', 'Sparrows']",Birds,False,True
+63,Birds,3,Conclusion Specificity,14,"['Woodpeckers', 'Herons']",Birds,"['Woodpeckers', 'Herons']",Animals,False,False
+64,Birds,3,Conclusion Specificity,15,"['Woodpeckers', 'Eagles']",Animals,"['Woodpeckers', 'Eagles']",Birds,False,True
+65,Birds,3,Conclusion Specificity,16,"['Turkeys', 'Eagles']",Animals,"['Turkeys', 'Eagles']",Birds,False,True
+66,Birds,3,Conclusion Specificity,17,"['Ostriches', 'Robins']",Birds,"['Ostriches', 'Robins']",Animals,False,False
+67,Birds,3,Conclusion Specificity,18,"['Ducks', 'Turkeys']",Animals,"['Ducks', 'Turkeys']",Birds,False,True
+68,Birds,3,Conclusion Specificity,19,"['Vultures', 'Sparrows']",Animals,"['Vultures', 'Sparrows']",Birds,False,True
+69,Birds,3,Conclusion Specificity,20,"['Blackbirds', 'Canaries']",Animals,"['Blackbirds', 'Canaries']",Birds,False,True
+70,Birds,3,Conclusion Specificity,21,"['Woodpeckers', 'Robins']",Birds,"['Woodpeckers', 'Robins']",Animals,False,False
+71,Birds,3,Conclusion Specificity,22,"['Ostriches', 'Herons']",Animals,"['Ostriches', 'Herons']",Birds,False,True
+72,Birds,4,Premise Monotonicity (General),-1,"['hawk', 'sparrow', 'eagle']",Birds,"['sparrow', 'eagle']",Birds,True,False
+73,Birds,4,Premise Monotonicity (General),0,"['Magpies', 'Crows', 'Storks']",Birds,"['Magpies', 'Crows']",Birds,False,False
+74,Birds,4,Premise Monotonicity (General),1,"['Crows', 'Woodpeckers', 'Owls']",Birds,"['Crows', 'Woodpeckers']",Birds,False,False
+75,Birds,4,Premise Monotonicity (General),3,"['Peacocks', 'Crows', 'Roosters']",Birds,"['Peacocks', 'Crows']",Birds,False,False
+76,Birds,4,Premise Monotonicity (General),4,"['Eagles', 'Parrots', 'Turkeys']",Birds,"['Eagles', 'Parrots']",Birds,False,False
+77,Birds,4,Premise Monotonicity (General),5,"['Peacocks', 'Chickens']",Birds,"['Peacocks', 'Chickens', 'Penguins']",Birds,False,True
+78,Birds,4,Premise Monotonicity (General),6,"['Storks', 'Turkeys', 'Ostriches']",Birds,"['Storks', 'Turkeys']",Birds,False,False
+79,Birds,4,Premise Monotonicity (General),7,"['Canaries', 'Ducks', 'Turkeys']",Birds,"['Canaries', 'Ducks']",Birds,False,False
+80,Birds,4,Premise Monotonicity (General),8,"['Swans', 'Pelicans']",Birds,"['Swans', 'Pelicans', 'Ostriches']",Birds,False,True
+81,Birds,4,Premise Monotonicity (General),9,"['Swallows', 'Parrots', 'Peacocks']",Birds,"['Swallows', 'Parrots']",Birds,False,False
+82,Birds,4,Premise Monotonicity (General),10,"['Woodpeckers', 'Sparrows']",Birds,"['Woodpeckers', 'Sparrows', 'Pelicans']",Birds,False,True
+83,Birds,4,Premise Monotonicity (General),12,"['Canaries', 'Crows', 'Storks']",Birds,"['Canaries', 'Crows']",Birds,False,False
+84,Birds,4,Premise Monotonicity (General),13,"['Ducks', 'Robins', 'Pelicans']",Birds,"['Ducks', 'Robins']",Birds,False,False
+85,Birds,4,Premise Monotonicity (General),14,"['Magpies', 'Peacocks', 'Ostriches']",Birds,"['Magpies', 'Peacocks']",Birds,False,False
+86,Birds,4,Premise Monotonicity (General),15,"['Swallows', 'Pelicans']",Birds,"['Swallows', 'Pelicans', 'Roosters']",Birds,False,True
+87,Birds,4,Premise Monotonicity (General),16,"['Woodpeckers', 'Crows', 'Pelicans']",Birds,"['Woodpeckers', 'Crows']",Birds,False,False
+88,Birds,4,Premise Monotonicity (General),18,"['Peacocks', 'Sparrows']",Birds,"['Peacocks', 'Sparrows', 'Roosters']",Birds,False,True
+89,Birds,4,Premise Monotonicity (General),20,"['Peacocks', 'Seagulls']",Birds,"['Peacocks', 'Seagulls', 'Ostriches']",Birds,False,True
+90,Birds,4,Premise Monotonicity (General),23,"['Woodpeckers', 'Turkeys', 'Penguins']",Birds,"['Woodpeckers', 'Turkeys']",Birds,False,False
+91,Birds,4,Premise Monotonicity (General),24,"['Seagulls', 'Falcons', 'Pelicans']",Birds,"['Seagulls', 'Falcons']",Birds,False,False
+92,Birds,4,Premise Monotonicity (General),26,"['Chickens', 'Woodpeckers', 'Ostriches']",Birds,"['Chickens', 'Woodpeckers']",Birds,False,False
+93,Birds,4,Premise Monotonicity (General),30,"['Swans', 'Vultures']",Birds,"['Swans', 'Vultures', 'Ostriches']",Birds,False,True
+94,Birds,4,Premise Monotonicity (General),31,"['Peacocks', 'Turkeys', 'Roosters']",Birds,"['Peacocks', 'Turkeys']",Birds,False,False
+95,Birds,4,Premise Monotonicity (General),32,"['Chickens', 'Peacocks', 'Ostriches']",Birds,"['Chickens', 'Peacocks']",Birds,False,False
+96,Birds,5,Premise Monotonicity (Specific),0,"['Woodpeckers', 'Doves', 'Peacocks']",Crows,"['Woodpeckers', 'Doves']",Crows,False,False
+97,Birds,5,Premise Monotonicity (Specific),1,"['Storks', 'Swallows']",Turkeys,"['Storks', 'Swallows', 'Penguins']",Turkeys,False,True
+98,Birds,5,Premise Monotonicity (Specific),3,"['Swallows', 'Owls', 'Roosters']",Blackbirds,"['Swallows', 'Owls']",Blackbirds,False,False
+99,Birds,5,Premise Monotonicity (Specific),4,"['Crows', 'Blackbirds', 'Canaries']",Eagles,"['Crows', 'Blackbirds']",Eagles,False,False
+100,Birds,5,Premise Monotonicity (Specific),5,"['Canaries', 'Blackbirds', 'Falcons']",Chickens,"['Canaries', 'Blackbirds']",Chickens,False,False
+101,Birds,5,Premise Monotonicity (Specific),6,"['Sparrows', 'Doves']",Blackbirds,"['Sparrows', 'Doves', 'Herons']",Blackbirds,False,True
+102,Birds,5,Premise Monotonicity (Specific),9,"['Turkeys', 'Chickens']",Peacocks,"['Turkeys', 'Chickens', 'Ostriches']",Peacocks,False,True
+103,Birds,5,Premise Monotonicity (Specific),10,"['Swallows', 'Peacocks', 'Penguins']",Doves,"['Swallows', 'Peacocks']",Doves,False,False
+104,Birds,5,Premise Monotonicity (Specific),11,"['Storks', 'Ducks', 'Turkeys']",Herons,"['Storks', 'Ducks']",Herons,False,False
+105,Birds,5,Premise Monotonicity (Specific),13,"['Canaries', 'Owls']",Ducks,"['Canaries', 'Owls', 'Storks']",Ducks,False,True
+106,Birds,5,Premise Monotonicity (Specific),15,"['Peacocks', 'Woodpeckers']",Roosters,"['Peacocks', 'Woodpeckers', 'Ostriches']",Roosters,False,True
+107,Birds,5,Premise Monotonicity (Specific),16,"['Owls', 'Magpies', 'Storks']",Ducks,"['Owls', 'Magpies']",Ducks,False,False
+108,Birds,5,Premise Monotonicity (Specific),18,"['Vultures', 'Peacocks', 'Chickens']",Ostriches,"['Vultures', 'Peacocks']",Ostriches,False,False
+109,Birds,5,Premise Monotonicity (Specific),20,"['Falcons', 'Swans', 'Penguins']",Chickens,"['Falcons', 'Swans']",Chickens,False,False
+110,Birds,5,Premise Monotonicity (Specific),24,"['Chickens', 'Turkeys', 'Ostriches']",Crows,"['Chickens', 'Turkeys']",Crows,False,False
+111,Birds,5,Premise Monotonicity (Specific),26,"['Seagulls', 'Pelicans', 'Turkeys']",Woodpeckers,"['Seagulls', 'Pelicans']",Woodpeckers,False,False
+112,Birds,5,Premise Monotonicity (Specific),27,"['Blackbirds', 'Turkeys', 'Penguins']",Doves,"['Blackbirds', 'Turkeys']",Doves,False,False
+113,Birds,5,Premise Monotonicity (Specific),31,"['Owls', 'Storks']",Chickens,"['Owls', 'Storks', 'Penguins']",Chickens,False,True
+114,Birds,5,Premise Monotonicity (Specific),32,"['Eagles', 'Falcons', 'Penguins']",Seagulls,"['Eagles', 'Falcons']",Seagulls,False,False
+115,Birds,5,Premise Monotonicity (Specific),34,"['Chickens', 'Pelicans', 'Penguins']",Ducks,"['Chickens', 'Pelicans']",Ducks,False,False
+116,Birds,5,Premise Monotonicity (Specific),37,"['Doves', 'Owls']",Vultures,"['Doves', 'Owls', 'Chickens']",Vultures,False,True
+117,Birds,5,Premise Monotonicity (Specific),40,"['Sparrows', 'Herons']",Robins,"['Sparrows', 'Herons', 'Vultures']",Robins,False,True
+118,Birds,5,Premise Monotonicity (Specific),42,"['Eagles', 'Chickens', 'Penguins']",Peacocks,"['Eagles', 'Chickens']",Peacocks,False,False
+119,Birds,5,Premise Monotonicity (Specific),47,"['Seagulls', 'Sparrows', 'Swallows']",Roosters,"['Seagulls', 'Sparrows']",Roosters,False,False
+120,Birds,6,Premise Diversity (General),0,"['Robins', 'Eagles']",Birds,"['Robins', 'Doves']",Birds,False,False
+121,Birds,6,Premise Diversity (General),1,"['Blackbirds', 'Robins']",Birds,"['Blackbirds', 'Ostriches']",Birds,False,True
+122,Birds,6,Premise Diversity (General),2,"['Robins', 'Canaries']",Birds,"['Robins', 'Herons']",Birds,False,True
+123,Birds,6,Premise Diversity (General),4,"['Seagulls', 'Ostriches']",Birds,"['Seagulls', 'Swallows']",Birds,False,False
+124,Birds,6,Premise Diversity (General),6,"['Magpies', 'Swans']",Birds,"['Magpies', 'Swallows']",Birds,False,False
+125,Birds,6,Premise Diversity (General),7,"['Sparrows', 'Canaries']",Birds,"['Sparrows', 'Pelicans']",Birds,False,True
+126,Birds,6,Premise Diversity (General),8,"['Eagles', 'Falcons']",Birds,"['Eagles', 'Penguins']",Birds,False,True
+127,Birds,6,Premise Diversity (General),10,"['Blackbirds', 'Swans']",Birds,"['Blackbirds', 'Woodpeckers']",Birds,False,False
+128,Birds,6,Premise Diversity (General),11,"['Blackbirds', 'Magpies']",Birds,"['Blackbirds', 'Herons']",Birds,False,True
+129,Birds,6,Premise Diversity (General),12,"['Seagulls', 'Magpies']",Birds,"['Seagulls', 'Ostriches']",Birds,False,True
+130,Birds,6,Premise Diversity (General),13,"['Canaries', 'Parrots']",Birds,"['Canaries', 'Falcons']",Birds,False,True
+131,Birds,6,Premise Diversity (General),14,"['Herons', 'Penguins']",Birds,"['Herons', 'Pelicans']",Birds,False,False
+132,Birds,6,Premise Diversity (General),15,"['Robins', 'Doves']",Birds,"['Robins', 'Penguins']",Birds,False,True
+133,Birds,6,Premise Diversity (General),18,"['Doves', 'Ostriches']",Birds,"['Doves', 'Chickens']",Birds,False,False
+134,Birds,6,Premise Diversity (General),19,"['Doves', 'Swallows']",Birds,"['Doves', 'Penguins']",Birds,False,True
+135,Birds,6,Premise Diversity (General),20,"['Crows', 'Swans']",Birds,"['Crows', 'Vultures']",Birds,False,False
+136,Birds,6,Premise Diversity (General),21,"['Falcons', 'Penguins']",Birds,"['Falcons', 'Vultures']",Birds,False,False
+137,Birds,6,Premise Diversity (General),22,"['Blackbirds', 'Swans']",Birds,"['Blackbirds', 'Magpies']",Birds,False,False
+138,Birds,6,Premise Diversity (General),23,"['Sparrows', 'Swans']",Birds,"['Sparrows', 'Magpies']",Birds,False,False
+139,Birds,6,Premise Diversity (General),26,"['Sparrows', 'Robins']",Birds,"['Sparrows', 'Vultures']",Birds,False,True
+140,Birds,6,Premise Diversity (General),27,"['Doves', 'Ostriches']",Birds,"['Doves', 'Magpies']",Birds,False,False
+141,Birds,6,Premise Diversity (General),28,"['Canaries', 'Parrots']",Birds,"['Canaries', 'Pelicans']",Birds,False,True
+142,Birds,6,Premise Diversity (General),29,"['Eagles', 'Ducks']",Birds,"['Eagles', 'Herons']",Birds,False,False
+143,Birds,6,Premise Diversity (General),30,"['Eagles', 'Owls']",Birds,"['Eagles', 'Swans']",Birds,False,True
+144,Birds,7,Premise Diversity (Specific),5,"['Peacocks', 'Penguins']",Storks,"['Peacocks', 'Chickens']",Storks,False,False
+145,Birds,7,Premise Diversity (Specific),20,"['Turkeys', 'Penguins']",Ducks,"['Turkeys', 'Peacocks']",Ducks,False,False
+146,Birds,7,Premise Diversity (Specific),21,"['Turkeys', 'Ostriches']",Ducks,"['Turkeys', 'Penguins']",Ducks,False,True
+147,Birds,7,Premise Diversity (Specific),28,"['Roosters', 'Peacocks']",Ducks,"['Roosters', 'Penguins']",Ducks,False,True
+148,Birds,7,Premise Diversity (Specific),34,"['Parrots', 'Penguins']",Seagulls,"['Parrots', 'Canaries']",Seagulls,False,False
+149,Birds,7,Premise Diversity (Specific),54,"['Peacocks', 'Roosters']",Swans,"['Peacocks', 'Penguins']",Swans,False,True
+150,Birds,7,Premise Diversity (Specific),60,"['Chickens', 'Penguins']",Swans,"['Chickens', 'Roosters']",Swans,False,False
+151,Birds,7,Premise Diversity (Specific),75,"['Storks', 'Ostriches']",Falcons,"['Storks', 'Roosters']",Falcons,False,True
+152,Birds,7,Premise Diversity (Specific),91,"['Ostriches', 'Roosters']",Vultures,"['Ostriches', 'Turkeys']",Vultures,False,False
+153,Birds,7,Premise Diversity (Specific),95,"['Turkeys', 'Penguins']",Swans,"['Turkeys', 'Roosters']",Swans,False,False
+154,Birds,7,Premise Diversity (Specific),100,"['Swans', 'Parrots']",Herons,"['Swans', 'Ducks']",Herons,False,False
+155,Birds,7,Premise Diversity (Specific),102,"['Parrots', 'Canaries']",Seagulls,"['Parrots', 'Ducks']",Seagulls,False,True
+156,Birds,7,Premise Diversity (Specific),117,"['Canaries', 'Falcons']",Blackbirds,"['Canaries', 'Parrots']",Blackbirds,False,False
+157,Birds,7,Premise Diversity (Specific),119,"['Swans', 'Ducks']",Seagulls,"['Swans', 'Parrots']",Seagulls,False,True
+158,Birds,7,Premise Diversity (Specific),122,"['Roosters', 'Chickens']",Swallows,"['Roosters', 'Ostriches']",Swallows,False,True
+159,Birds,7,Premise Diversity (Specific),133,"['Eagles', 'Owls']",Crows,"['Eagles', 'Chickens']",Crows,False,True
+160,Birds,7,Premise Diversity (Specific),161,"['Chickens', 'Roosters']",Pelicans,"['Chickens', 'Penguins']",Pelicans,False,True
+161,Birds,7,Premise Diversity (Specific),169,"['Vultures', 'Ostriches']",Seagulls,"['Vultures', 'Chickens']",Seagulls,False,True
+162,Birds,7,Premise Diversity (Specific),197,"['Woodpeckers', 'Chickens']",Blackbirds,"['Woodpeckers', 'Parrots']",Blackbirds,False,False
+163,Birds,7,Premise Diversity (Specific),215,"['Chickens', 'Peacocks']",Pelicans,"['Chickens', 'Penguins']",Pelicans,False,True
+164,Birds,7,Premise Diversity (Specific),241,"['Vultures', 'Ostriches']",Swallows,"['Vultures', 'Ducks']",Swallows,False,True
+165,Birds,7,Premise Diversity (Specific),260,"['Woodpeckers', 'Parrots']",Eagles,"['Woodpeckers', 'Ostriches']",Eagles,False,True
+166,Birds,7,Premise Diversity (Specific),564,"['Woodpeckers', 'Chickens']",Sparrows,"['Woodpeckers', 'Parrots']",Sparrows,False,False
+167,Birds,7,Premise Diversity (Specific),609,"['Swallows', 'Chickens']",Canaries,"['Swallows', 'Falcons']",Canaries,False,False
+168,Birds,8,Nonmonotonicity (General),-1,"['crow', 'peacock', 'rabbit']",Birds,"['crow', 'peacock']",Birds,True,True
+169,Birds,8,Nonmonotonicity (General),0,"['Parrots', 'Swans']",Birds,"['Parrots', 'Swans', 'Cockchafers']",Birds,False,False
+170,Birds,8,Nonmonotonicity (General),1,"['Falcons', 'Vultures', 'Flies']",Birds,"['Falcons', 'Vultures']",Birds,False,True
+171,Birds,8,Nonmonotonicity (General),2,"['Ducks', 'Seagulls', 'Mosquitoes']",Birds,"['Ducks', 'Seagulls']",Birds,False,True
+172,Birds,8,Nonmonotonicity (General),3,"['Seagulls', 'Blackbirds']",Birds,"['Seagulls', 'Blackbirds', 'Spiders']",Birds,False,False
+173,Birds,8,Nonmonotonicity (General),4,"['Eagles', 'Woodpeckers', 'Mosquitoes']",Birds,"['Eagles', 'Woodpeckers']",Birds,False,True
+174,Birds,8,Nonmonotonicity (General),5,"['Parrots', 'Herons']",Birds,"['Parrots', 'Herons', 'Leeches']",Birds,False,False
+175,Birds,8,Nonmonotonicity (General),6,"['Storks', 'Eagles']",Birds,"['Storks', 'Eagles', 'Bumblebees']",Birds,False,False
+176,Birds,8,Nonmonotonicity (General),7,"['Herons', 'Roosters']",Birds,"['Herons', 'Roosters', 'Moths']",Birds,False,False
+177,Birds,8,Nonmonotonicity (General),8,"['Storks', 'Woodpeckers']",Birds,"['Storks', 'Woodpeckers', 'Ladybugs']",Birds,False,False
+178,Birds,8,Nonmonotonicity (General),9,"['Seagulls', 'Eagles', 'Dragonflies']",Birds,"['Seagulls', 'Eagles']",Birds,False,True
+179,Birds,8,Nonmonotonicity (General),10,"['Doves', 'Swans', 'Dragonflies']",Birds,"['Doves', 'Swans']",Birds,False,True
+180,Birds,8,Nonmonotonicity (General),11,"['Roosters', 'Turkeys']",Birds,"['Roosters', 'Turkeys', 'Ants']",Birds,False,False
+181,Birds,8,Nonmonotonicity (General),12,"['Doves', 'Robins', 'Grasshoppers']",Birds,"['Doves', 'Robins']",Birds,False,True
+182,Birds,8,Nonmonotonicity (General),13,"['Swans', 'Storks', 'Spiders']",Birds,"['Swans', 'Storks']",Birds,False,True
+183,Birds,8,Nonmonotonicity (General),14,"['Storks', 'Swans', 'Bumblebees']",Birds,"['Storks', 'Swans']",Birds,False,True
+184,Birds,8,Nonmonotonicity (General),15,"['Pelicans', 'Chickens', 'Cockchafers']",Birds,"['Pelicans', 'Chickens']",Birds,False,True
+185,Birds,8,Nonmonotonicity (General),16,"['Turkeys', 'Peacocks', 'Horseflies']",Birds,"['Turkeys', 'Peacocks']",Birds,False,True
+186,Birds,8,Nonmonotonicity (General),17,"['Turkeys', 'Ostriches', 'Mosquitoes']",Birds,"['Turkeys', 'Ostriches']",Birds,False,True
+187,Birds,8,Nonmonotonicity (General),18,"['Chickens', 'Canaries', 'Bumblebees']",Birds,"['Chickens', 'Canaries']",Birds,False,True
+188,Birds,8,Nonmonotonicity (General),19,"['Eagles', 'Doves', 'Butterflies']",Birds,"['Eagles', 'Doves']",Birds,False,True
+189,Birds,8,Nonmonotonicity (General),20,"['Blackbirds', 'Seagulls', 'Flees']",Birds,"['Blackbirds', 'Seagulls']",Birds,False,True
+190,Birds,8,Nonmonotonicity (General),21,"['Canaries', 'Peacocks', 'Flees']",Birds,"['Canaries', 'Peacocks']",Birds,False,True
+191,Birds,8,Nonmonotonicity (General),22,"['Falcons', 'Doves']",Birds,"['Falcons', 'Doves', 'Horseflies']",Birds,False,False
+192,Birds,9,Nonmonotonicity (Specific),0,['Vultures'],Seagulls,"['Vultures', 'Wasps']",Seagulls,False,False
+193,Birds,9,Nonmonotonicity (Specific),1,"['Peacocks', 'Worms']",Storks,['Peacocks'],Storks,False,True
+194,Birds,9,Nonmonotonicity (Specific),2,['Swans'],Storks,"['Swans', 'Spiders']",Storks,False,False
+195,Birds,9,Nonmonotonicity (Specific),3,"['Ostriches', 'Crickets']",Peacocks,['Ostriches'],Peacocks,False,True
+196,Birds,9,Nonmonotonicity (Specific),4,['Turkeys'],Swallows,"['Turkeys', 'Moths']",Swallows,False,False
+197,Birds,9,Nonmonotonicity (Specific),5,['Herons'],Canaries,"['Herons', 'Dragonflies']",Canaries,False,False
+198,Birds,9,Nonmonotonicity (Specific),6,"['Roosters', 'Ladybugs']",Seagulls,['Roosters'],Seagulls,False,True
+199,Birds,9,Nonmonotonicity (Specific),7,"['Turkeys', 'Bumblebees']",Peacocks,['Turkeys'],Peacocks,False,True
+200,Birds,9,Nonmonotonicity (Specific),8,['Ostriches'],Doves,"['Ostriches', 'Flees']",Doves,False,False
+201,Birds,9,Nonmonotonicity (Specific),9,['Pelicans'],Falcons,"['Pelicans', 'Moths']",Falcons,False,False
+202,Birds,9,Nonmonotonicity (Specific),10,"['Parrots', 'Cockchafers']",Doves,['Parrots'],Doves,False,True
+203,Birds,9,Nonmonotonicity (Specific),11,"['Magpies', 'Bumblebees']",Seagulls,['Magpies'],Seagulls,False,True
+204,Birds,9,Nonmonotonicity (Specific),12,"['Storks', 'Wasps']",Falcons,['Storks'],Falcons,False,True
+205,Birds,9,Nonmonotonicity (Specific),13,"['Canaries', 'Ladybugs']",Blackbirds,['Canaries'],Blackbirds,False,True
+206,Birds,9,Nonmonotonicity (Specific),14,['Crows'],Blackbirds,"['Crows', 'Butterflies']",Blackbirds,False,False
+207,Birds,9,Nonmonotonicity (Specific),15,['Ostriches'],Peacocks,"['Ostriches', 'Caterpillars']",Peacocks,False,False
+208,Birds,9,Nonmonotonicity (Specific),16,['Peacocks'],Blackbirds,"['Peacocks', 'Grasshoppers']",Blackbirds,False,False
+209,Birds,9,Nonmonotonicity (Specific),17,['Turkeys'],Pelicans,"['Turkeys', 'Spiders']",Pelicans,False,False
+210,Birds,9,Nonmonotonicity (Specific),18,"['Chickens', 'Flies']",Canaries,['Chickens'],Canaries,False,True
+211,Birds,9,Nonmonotonicity (Specific),19,"['Turkeys', 'Butterflies']",Swans,['Turkeys'],Swans,False,True
+212,Birds,9,Nonmonotonicity (Specific),20,"['Roosters', 'Bees']",Ostriches,['Roosters'],Ostriches,False,True
+213,Birds,9,Nonmonotonicity (Specific),21,"['Roosters', 'Flies']",Eagles,['Roosters'],Eagles,False,True
+214,Birds,9,Nonmonotonicity (Specific),22,['Ostriches'],Storks,"['Ostriches', 'Bumblebees']",Storks,False,False
+215,Birds,9,Nonmonotonicity (Specific),23,['Chickens'],Turkeys,"['Chickens', 'Flies']",Turkeys,False,False
+216,Birds,10,Premise-conclusion Asymmetry,0,['Roosters'],Robins,['Robins'],Roosters,False,True
+217,Birds,10,Premise-conclusion Asymmetry,1,['Ducks'],Seagulls,['Seagulls'],Ducks,False,True
+218,Birds,10,Premise-conclusion Asymmetry,2,['Turkeys'],Magpies,['Magpies'],Turkeys,False,True
+219,Birds,10,Premise-conclusion Asymmetry,3,['Pelicans'],Sparrows,['Sparrows'],Pelicans,False,True
+220,Birds,10,Premise-conclusion Asymmetry,4,['Eagles'],Pelicans,['Pelicans'],Eagles,False,False
+221,Birds,10,Premise-conclusion Asymmetry,5,['Sparrows'],Swans,['Swans'],Sparrows,False,False
+222,Birds,10,Premise-conclusion Asymmetry,6,['Blackbirds'],Turkeys,['Turkeys'],Blackbirds,False,False
+223,Birds,10,Premise-conclusion Asymmetry,7,['Vultures'],Robins,['Robins'],Vultures,False,True
+224,Birds,10,Premise-conclusion Asymmetry,8,['Canaries'],Roosters,['Roosters'],Canaries,False,False
+225,Birds,10,Premise-conclusion Asymmetry,9,['Crows'],Ostriches,['Ostriches'],Crows,False,False
+226,Birds,10,Premise-conclusion Asymmetry,10,['Penguins'],Magpies,['Magpies'],Penguins,False,True
+227,Birds,10,Premise-conclusion Asymmetry,11,['Peacocks'],Crows,['Crows'],Peacocks,False,True
+228,Birds,10,Premise-conclusion Asymmetry,13,['Pelicans'],Seagulls,['Seagulls'],Pelicans,False,True
+229,Birds,10,Premise-conclusion Asymmetry,14,['Crows'],Pelicans,['Pelicans'],Crows,False,False
+230,Birds,10,Premise-conclusion Asymmetry,15,['Magpies'],Ducks,['Ducks'],Magpies,False,False
+231,Birds,10,Premise-conclusion Asymmetry,16,['Ostriches'],Eagles,['Eagles'],Ostriches,False,True
+232,Birds,10,Premise-conclusion Asymmetry,17,['Doves'],Ostriches,['Ostriches'],Doves,False,False
+233,Birds,10,Premise-conclusion Asymmetry,18,['Vultures'],Swallows,['Swallows'],Vultures,False,True
+234,Birds,10,Premise-conclusion Asymmetry,19,['Ostriches'],Robins,['Robins'],Ostriches,False,True
+235,Birds,10,Premise-conclusion Asymmetry,20,['Chickens'],Eagles,['Eagles'],Chickens,False,True
+236,Birds,10,Premise-conclusion Asymmetry,21,['Eagles'],Ducks,['Ducks'],Eagles,False,False
+237,Birds,10,Premise-conclusion Asymmetry,22,['Ostriches'],Blackbirds,['Blackbirds'],Ostriches,False,True
+238,Birds,10,Premise-conclusion Asymmetry,23,['Seagulls'],Turkeys,['Turkeys'],Seagulls,False,False
+239,Birds,10,Premise-conclusion Asymmetry,24,['Doves'],Roosters,['Roosters'],Doves,False,False
+240,Birds,11,Inclusion Fallacy,-1,['robin'],Birds,['robin'],ostrich,True,False
+241,Birds,11,Inclusion Fallacy,0,['Magpies'],Peacocks,['Magpies'],Birds,False,True
+242,Birds,11,Inclusion Fallacy,1,['Sparrows'],Birds,['Sparrows'],Pelicans,False,False
+243,Birds,11,Inclusion Fallacy,2,['Eagles'],Vultures,['Eagles'],Birds,False,True
+244,Birds,11,Inclusion Fallacy,3,['Magpies'],Penguins,['Magpies'],Birds,False,True
+245,Birds,11,Inclusion Fallacy,4,['Swallows'],Swans,['Swallows'],Birds,False,True
+246,Birds,11,Inclusion Fallacy,5,['Robins'],Birds,['Robins'],Vultures,False,False
+247,Birds,11,Inclusion Fallacy,6,['Blackbirds'],Ducks,['Blackbirds'],Birds,False,True
+248,Birds,11,Inclusion Fallacy,7,['Doves'],Birds,['Doves'],Peacocks,False,False
+249,Birds,11,Inclusion Fallacy,8,['Crows'],Birds,['Crows'],Pelicans,False,False
+250,Birds,11,Inclusion Fallacy,9,['Eagles'],Penguins,['Eagles'],Birds,False,True
+251,Birds,11,Inclusion Fallacy,10,['Swallows'],Birds,['Swallows'],Ostriches,False,False
+252,Birds,11,Inclusion Fallacy,11,['Sparrows'],Penguins,['Sparrows'],Birds,False,True
+253,Birds,11,Inclusion Fallacy,12,['Robins'],Birds,['Robins'],Ostriches,False,False
+254,Birds,11,Inclusion Fallacy,13,['Magpies'],Chickens,['Magpies'],Birds,False,True
+255,Birds,11,Inclusion Fallacy,14,['Eagles'],Ostriches,['Eagles'],Birds,False,True
+256,Birds,11,Inclusion Fallacy,15,['Sparrows'],Birds,['Sparrows'],Ducks,False,False
+257,Birds,11,Inclusion Fallacy,16,['Seagulls'],Birds,['Seagulls'],Ducks,False,False
+258,Birds,11,Inclusion Fallacy,17,['Crows'],Birds,['Crows'],Ostriches,False,False
+259,Birds,11,Inclusion Fallacy,18,['Sparrows'],Birds,['Sparrows'],Swans,False,False
+260,Birds,11,Inclusion Fallacy,19,['Seagulls'],Birds,['Seagulls'],Roosters,False,False
+261,Birds,11,Inclusion Fallacy,20,['Seagulls'],Birds,['Seagulls'],Swans,False,False
+262,Birds,11,Inclusion Fallacy,21,['Magpies'],Turkeys,['Magpies'],Birds,False,True
+263,Birds,11,Inclusion Fallacy,22,['Eagles'],Birds,['Eagles'],Ducks,False,False
+264,Mammals,1,Premise-conclusion Similarity,0,['Zebras'],Donkeys,['Hamsters'],Donkeys,False,False
+265,Mammals,1,Premise-conclusion Similarity,2,['Hippos'],Rhinos,['Hamsters'],Rhinos,False,False
+266,Mammals,1,Premise-conclusion Similarity,3,['Bats'],Tigers,['Zebras'],Tigers,False,True
+267,Mammals,1,Premise-conclusion Similarity,6,['Bats'],Lions,['Tigers'],Lions,False,True
+268,Mammals,1,Premise-conclusion Similarity,7,['Llamas'],Mice,['Hedgehogs'],Mice,False,True
+269,Mammals,1,Premise-conclusion Similarity,8,['Hamsters'],Horses,['Zebras'],Horses,False,True
+270,Mammals,1,Premise-conclusion Similarity,12,['Hippos'],Tigers,['Bats'],Tigers,False,False
+271,Mammals,1,Premise-conclusion Similarity,13,['Camels'],Llamas,['Hedgehogs'],Llamas,False,False
+272,Mammals,1,Premise-conclusion Similarity,14,['Giraffes'],Zebras,['Hedgehogs'],Zebras,False,False
+273,Mammals,1,Premise-conclusion Similarity,15,['Rhinos'],Mice,['Hedgehogs'],Mice,False,True
+274,Mammals,1,Premise-conclusion Similarity,16,['Hedgehogs'],Deer,['Zebras'],Deer,False,True
+275,Mammals,1,Premise-conclusion Similarity,18,['Bats'],Deer,['Zebras'],Deer,False,True
+276,Mammals,1,Premise-conclusion Similarity,20,['Hamsters'],Lions,['Tigers'],Lions,False,True
+277,Mammals,1,Premise-conclusion Similarity,21,['Mice'],Tigers,['Giraffes'],Tigers,False,True
+278,Mammals,1,Premise-conclusion Similarity,23,['Bats'],Zebras,['Hippos'],Zebras,False,True
+279,Mammals,1,Premise-conclusion Similarity,24,['Camels'],Hippos,['Hedgehogs'],Hippos,False,False
+280,Mammals,1,Premise-conclusion Similarity,25,['Giraffes'],Cats,['Rabbits'],Cats,False,True
+281,Mammals,1,Premise-conclusion Similarity,26,['Squirrels'],Hippos,['Camels'],Hippos,False,True
+282,Mammals,1,Premise-conclusion Similarity,28,['Squirrels'],Lions,['Wolves'],Lions,False,True
+283,Mammals,1,Premise-conclusion Similarity,29,['Mice'],Elephants,['Giraffes'],Elephants,False,True
+284,Mammals,1,Premise-conclusion Similarity,30,['Squirrels'],Zebras,['Hippos'],Zebras,False,True
+285,Mammals,1,Premise-conclusion Similarity,31,['Squirrels'],Mice,['Rhinos'],Mice,False,False
+286,Mammals,1,Premise-conclusion Similarity,33,['Camels'],Giraffes,['Squirrels'],Giraffes,False,False
+287,Mammals,1,Premise-conclusion Similarity,36,['Hippos'],Cats,['Rabbits'],Cats,False,True
+288,Mammals,2,Premise Typicality,0,['Dogs'],Mammals,['Camels'],Mammals,False,False
+289,Mammals,2,Premise Typicality,1,['Dogs'],Mammals,['Squirrels'],Mammals,False,False
+290,Mammals,2,Premise Typicality,2,['Cows'],Mammals,['Squirrels'],Mammals,False,False
+291,Mammals,2,Premise Typicality,3,['Monkeys'],Mammals,['Hedgehogs'],Mammals,False,False
+292,Mammals,2,Premise Typicality,5,['Monkeys'],Mammals,['Bats'],Mammals,False,False
+293,Mammals,2,Premise Typicality,7,['Hedgehogs'],Mammals,['Lions'],Mammals,False,True
+294,Mammals,2,Premise Typicality,8,['Camels'],Mammals,['Cats'],Mammals,False,True
+295,Mammals,2,Premise Typicality,9,['Beavers'],Mammals,['Cats'],Mammals,False,True
+296,Mammals,2,Premise Typicality,10,['Cows'],Mammals,['Bats'],Mammals,False,False
+297,Mammals,2,Premise Typicality,12,['Beavers'],Mammals,['Lions'],Mammals,False,True
+298,Mammals,2,Premise Typicality,13,['Monkeys'],Mammals,['Beavers'],Mammals,False,False
+299,Mammals,2,Premise Typicality,14,['Lions'],Mammals,['Squirrels'],Mammals,False,False
+300,Mammals,2,Premise Typicality,15,['Lions'],Mammals,['Bats'],Mammals,False,False
+301,Mammals,2,Premise Typicality,16,['Monkeys'],Mammals,['Squirrels'],Mammals,False,False
+302,Mammals,2,Premise Typicality,18,['Cats'],Mammals,['Squirrels'],Mammals,False,False
+303,Mammals,2,Premise Typicality,22,['Cats'],Mammals,['Bats'],Mammals,False,False
+304,Mammals,2,Premise Typicality,25,['Camels'],Mammals,['Cows'],Mammals,False,True
+305,Mammals,2,Premise Typicality,26,['Beavers'],Mammals,['Dogs'],Mammals,False,True
+306,Mammals,2,Premise Typicality,30,['Beavers'],Mammals,['Cows'],Mammals,False,True
+307,Mammals,2,Premise Typicality,35,['Hedgehogs'],Mammals,['Cows'],Mammals,False,True
+308,Mammals,2,Premise Typicality,49,['Hedgehogs'],Mammals,['Cats'],Mammals,False,True
+309,Mammals,2,Premise Typicality,53,['Bats'],Mammals,['Dogs'],Mammals,False,True
+310,Mammals,2,Premise Typicality,54,['Camels'],Mammals,['Monkeys'],Mammals,False,True
+311,Mammals,2,Premise Typicality,74,['Hedgehogs'],Mammals,['Dogs'],Mammals,False,True
+312,Mammals,3,Conclusion Specificity,0,"['Donkeys', 'Camels']",Animals,"['Donkeys', 'Camels']",Mammals,False,True
+313,Mammals,3,Conclusion Specificity,1,"['Cats', 'Hedgehogs']",Mammals,"['Cats', 'Hedgehogs']",Animals,False,False
+314,Mammals,3,Conclusion Specificity,2,"['Zebras', 'Mice']",Mammals,"['Zebras', 'Mice']",Animals,False,False
+315,Mammals,3,Conclusion Specificity,3,"['Squirrels', 'Sheep']",Animals,"['Squirrels', 'Sheep']",Mammals,False,True
+316,Mammals,3,Conclusion Specificity,4,"['Hamsters', 'Hedgehogs']",Mammals,"['Hamsters', 'Hedgehogs']",Animals,False,False
+317,Mammals,3,Conclusion Specificity,5,"['Llamas', 'Camels']",Animals,"['Llamas', 'Camels']",Mammals,False,True
+318,Mammals,3,Conclusion Specificity,6,"['Giraffes', 'Dogs']",Animals,"['Giraffes', 'Dogs']",Mammals,False,True
+319,Mammals,3,Conclusion Specificity,7,"['Donkeys', 'Cows']",Animals,"['Donkeys', 'Cows']",Mammals,False,True
+320,Mammals,3,Conclusion Specificity,9,"['Rabbits', 'Donkeys']",Animals,"['Rabbits', 'Donkeys']",Mammals,False,True
+321,Mammals,3,Conclusion Specificity,10,"['Hippos', 'Cows']",Animals,"['Hippos', 'Cows']",Mammals,False,True
+322,Mammals,3,Conclusion Specificity,11,"['Mice', 'Hippos']",Mammals,"['Mice', 'Hippos']",Animals,False,False
+323,Mammals,3,Conclusion Specificity,12,"['Hedgehogs', 'Cows']",Animals,"['Hedgehogs', 'Cows']",Mammals,False,True
+324,Mammals,3,Conclusion Specificity,13,"['Hedgehogs', 'Beavers']",Mammals,"['Hedgehogs', 'Beavers']",Animals,False,False
+325,Mammals,3,Conclusion Specificity,14,"['Mice', 'Tigers']",Mammals,"['Mice', 'Tigers']",Animals,False,False
+326,Mammals,3,Conclusion Specificity,15,"['Wolves', 'Foxes']",Mammals,"['Wolves', 'Foxes']",Animals,False,False
+327,Mammals,3,Conclusion Specificity,16,"['Camels', 'Deer']",Animals,"['Camels', 'Deer']",Mammals,False,True
+328,Mammals,3,Conclusion Specificity,17,"['Giraffes', 'Zebras']",Mammals,"['Giraffes', 'Zebras']",Animals,False,False
+329,Mammals,3,Conclusion Specificity,18,"['Lions', 'Mice']",Animals,"['Lions', 'Mice']",Mammals,False,True
+330,Mammals,3,Conclusion Specificity,19,"['Rhinos', 'Lions']",Mammals,"['Rhinos', 'Lions']",Animals,False,False
+331,Mammals,3,Conclusion Specificity,20,"['Foxes', 'Llamas']",Mammals,"['Foxes', 'Llamas']",Animals,False,False
+332,Mammals,3,Conclusion Specificity,21,"['Dogs', 'Sheep']",Mammals,"['Dogs', 'Sheep']",Animals,False,False
+333,Mammals,3,Conclusion Specificity,22,"['Tigers', 'Rabbits']",Animals,"['Tigers', 'Rabbits']",Mammals,False,True
+334,Mammals,3,Conclusion Specificity,23,"['Hedgehogs', 'Zebras']",Animals,"['Hedgehogs', 'Zebras']",Mammals,False,True
+335,Mammals,3,Conclusion Specificity,24,"['Deer', 'Zebras']",Animals,"['Deer', 'Zebras']",Mammals,False,True
+336,Mammals,4,Premise Monotonicity (General),0,"['Rhinos', 'Zebras', 'Beavers']",Mammals,"['Rhinos', 'Zebras']",Mammals,False,False
+337,Mammals,4,Premise Monotonicity (General),1,"['Camels', 'Deer']",Mammals,"['Camels', 'Deer', 'Hedgehogs']",Mammals,False,True
+338,Mammals,4,Premise Monotonicity (General),2,"['Horses', 'Donkeys']",Mammals,"['Horses', 'Donkeys', 'Foxes']",Mammals,False,True
+339,Mammals,4,Premise Monotonicity (General),3,"['Wolves', 'Zebras']",Mammals,"['Wolves', 'Zebras', 'Rhinos']",Mammals,False,True
+340,Mammals,4,Premise Monotonicity (General),4,"['Llamas', 'Hamsters', 'Bats']",Mammals,"['Llamas', 'Hamsters']",Mammals,False,False
+341,Mammals,4,Premise Monotonicity (General),5,"['Hippos', 'Sheep', 'Hedgehogs']",Mammals,"['Hippos', 'Sheep']",Mammals,False,False
+342,Mammals,4,Premise Monotonicity (General),6,"['Cats', 'Elephants']",Mammals,"['Cats', 'Elephants', 'Rhinos']",Mammals,False,True
+343,Mammals,4,Premise Monotonicity (General),7,"['Mice', 'Lions', 'Bats']",Mammals,"['Mice', 'Lions']",Mammals,False,False
+344,Mammals,4,Premise Monotonicity (General),8,"['Zebras', 'Foxes']",Mammals,"['Zebras', 'Foxes', 'Llamas']",Mammals,False,True
+345,Mammals,4,Premise Monotonicity (General),10,"['Tigers', 'Rabbits']",Mammals,"['Tigers', 'Rabbits', 'Mice']",Mammals,False,True
+346,Mammals,4,Premise Monotonicity (General),11,"['Horses', 'Mice']",Mammals,"['Horses', 'Mice', 'Bats']",Mammals,False,True
+347,Mammals,4,Premise Monotonicity (General),12,"['Camels', 'Hippos', 'Hedgehogs']",Mammals,"['Camels', 'Hippos']",Mammals,False,False
+348,Mammals,4,Premise Monotonicity (General),13,"['Rhinos', 'Camels', 'Bats']",Mammals,"['Rhinos', 'Camels']",Mammals,False,False
+349,Mammals,4,Premise Monotonicity (General),14,"['Lions', 'Foxes']",Mammals,"['Lions', 'Foxes', 'Zebras']",Mammals,False,True
+350,Mammals,4,Premise Monotonicity (General),15,"['Rabbits', 'Llamas', 'Squirrels']",Mammals,"['Rabbits', 'Llamas']",Mammals,False,False
+351,Mammals,4,Premise Monotonicity (General),17,"['Squirrels', 'Tigers', 'Hedgehogs']",Mammals,"['Squirrels', 'Tigers']",Mammals,False,False
+352,Mammals,4,Premise Monotonicity (General),18,"['Camels', 'Lions']",Mammals,"['Camels', 'Lions', 'Bats']",Mammals,False,True
+353,Mammals,4,Premise Monotonicity (General),19,"['Llamas', 'Rhinos', 'Bats']",Mammals,"['Llamas', 'Rhinos']",Mammals,False,False
+354,Mammals,4,Premise Monotonicity (General),20,"['Zebras', 'Sheep']",Mammals,"['Zebras', 'Sheep', 'Hippos']",Mammals,False,True
+355,Mammals,4,Premise Monotonicity (General),21,"['Sheep', 'Zebras', 'Giraffes']",Mammals,"['Sheep', 'Zebras']",Mammals,False,False
+356,Mammals,4,Premise Monotonicity (General),23,"['Squirrels', 'Horses', 'Bats']",Mammals,"['Squirrels', 'Horses']",Mammals,False,False
+357,Mammals,4,Premise Monotonicity (General),24,"['Squirrels', 'Llamas', 'Hedgehogs']",Mammals,"['Squirrels', 'Llamas']",Mammals,False,False
+358,Mammals,4,Premise Monotonicity (General),25,"['Lions', 'Horses', 'Mice']",Mammals,"['Lions', 'Horses']",Mammals,False,False
+359,Mammals,4,Premise Monotonicity (General),26,"['Rhinos', 'Hamsters']",Mammals,"['Rhinos', 'Hamsters', 'Squirrels']",Mammals,False,True
+360,Mammals,5,Premise Monotonicity (Specific),-1,"['pig', 'wolf']",gorilla,"['fox', 'pig', 'wolf']",gorilla,True,True
+361,Mammals,5,Premise Monotonicity (Specific),0,"['Donkeys', 'Hippos', 'Hedgehogs']",Cows,"['Donkeys', 'Hippos']",Cows,False,False
+362,Mammals,5,Premise Monotonicity (Specific),1,"['Llamas', 'Cats', 'Hedgehogs']",Lions,"['Llamas', 'Cats']",Lions,False,False
+363,Mammals,5,Premise Monotonicity (Specific),2,"['Monkeys', 'Horses', 'Beavers']",Lions,"['Monkeys', 'Horses']",Lions,False,False
+364,Mammals,5,Premise Monotonicity (Specific),3,"['Foxes', 'Wolves', 'Hedgehogs']",Camels,"['Foxes', 'Wolves']",Camels,False,False
+365,Mammals,5,Premise Monotonicity (Specific),4,"['Mice', 'Llamas', 'Hippos']",Squirrels,"['Mice', 'Llamas']",Squirrels,False,False
+366,Mammals,5,Premise Monotonicity (Specific),6,"['Hamsters', 'Rhinos', 'Bats']",Sheep,"['Hamsters', 'Rhinos']",Sheep,False,False
+367,Mammals,5,Premise Monotonicity (Specific),7,"['Cats', 'Dogs', 'Mice']",Rabbits,"['Cats', 'Dogs']",Rabbits,False,False
+368,Mammals,5,Premise Monotonicity (Specific),10,"['Cows', 'Lions']",Cats,"['Cows', 'Lions', 'Hippos']",Cats,False,True
+369,Mammals,5,Premise Monotonicity (Specific),12,"['Wolves', 'Tigers', 'Hedgehogs']",Llamas,"['Wolves', 'Tigers']",Llamas,False,False
+370,Mammals,5,Premise Monotonicity (Specific),13,"['Squirrels', 'Hippos', 'Hedgehogs']",Llamas,"['Squirrels', 'Hippos']",Llamas,False,False
+371,Mammals,5,Premise Monotonicity (Specific),15,"['Pigs', 'Rhinos', 'Kangaroos']",Hippos,"['Pigs', 'Rhinos']",Hippos,False,False
+372,Mammals,5,Premise Monotonicity (Specific),16,"['Cats', 'Horses', 'Mice']",Elephants,"['Cats', 'Horses']",Elephants,False,False
+373,Mammals,5,Premise Monotonicity (Specific),17,"['Lions', 'Pigs', 'Foxes']",Donkeys,"['Lions', 'Pigs']",Donkeys,False,False
+374,Mammals,5,Premise Monotonicity (Specific),18,"['Donkeys', 'Dogs', 'Mice']",Camels,"['Donkeys', 'Dogs']",Camels,False,False
+375,Mammals,5,Premise Monotonicity (Specific),20,"['Lions', 'Wolves', 'Hedgehogs']",Elephants,"['Lions', 'Wolves']",Elephants,False,False
+376,Mammals,5,Premise Monotonicity (Specific),22,"['Foxes', 'Kangaroos']",Elephants,"['Foxes', 'Kangaroos', 'Beavers']",Elephants,False,True
+377,Mammals,5,Premise Monotonicity (Specific),23,"['Llamas', 'Horses', 'Hamsters']",Giraffes,"['Llamas', 'Horses']",Giraffes,False,False
+378,Mammals,5,Premise Monotonicity (Specific),25,"['Dogs', 'Horses', 'Wolves']",Elephants,"['Dogs', 'Horses']",Elephants,False,False
+379,Mammals,5,Premise Monotonicity (Specific),26,"['Sheep', 'Monkeys', 'Camels']",Squirrels,"['Sheep', 'Monkeys']",Squirrels,False,False
+380,Mammals,5,Premise Monotonicity (Specific),29,"['Wolves', 'Kangaroos', 'Camels']",Hamsters,"['Wolves', 'Kangaroos']",Hamsters,False,False
+381,Mammals,5,Premise Monotonicity (Specific),32,"['Squirrels', 'Cats', 'Bats']",Cows,"['Squirrels', 'Cats']",Cows,False,False
+382,Mammals,5,Premise Monotonicity (Specific),37,"['Foxes', 'Giraffes', 'Hedgehogs']",Rhinos,"['Foxes', 'Giraffes']",Rhinos,False,False
+383,Mammals,5,Premise Monotonicity (Specific),39,"['Monkeys', 'Horses']",Squirrels,"['Monkeys', 'Horses', 'Hippos']",Squirrels,False,True
+384,Mammals,6,Premise Diversity (General),-1,"['hippo', 'rhinocerose']",Mammals,"['hippo', 'hamster']",Mammals,True,True
+385,Mammals,6,Premise Diversity (General),1,"['Hamsters', 'Hedgehogs']",Mammals,"['Hamsters', 'Camels']",Mammals,False,True
+386,Mammals,6,Premise Diversity (General),2,"['Giraffes', 'Squirrels']",Mammals,"['Giraffes', 'Llamas']",Mammals,False,False
+387,Mammals,6,Premise Diversity (General),4,"['Wolves', 'Bats']",Mammals,"['Wolves', 'Foxes']",Mammals,False,False
+388,Mammals,6,Premise Diversity (General),6,"['Zebras', 'Bats']",Mammals,"['Zebras', 'Giraffes']",Mammals,False,False
+389,Mammals,6,Premise Diversity (General),7,"['Hippos', 'Bats']",Mammals,"['Hippos', 'Camels']",Mammals,False,False
+390,Mammals,6,Premise Diversity (General),8,"['Dogs', 'Rhinos']",Mammals,"['Dogs', 'Rabbits']",Mammals,False,False
+391,Mammals,6,Premise Diversity (General),9,"['Giraffes', 'Llamas']",Mammals,"['Giraffes', 'Beavers']",Mammals,False,True
+392,Mammals,6,Premise Diversity (General),11,"['Sheep', 'Llamas']",Mammals,"['Sheep', 'Bats']",Mammals,False,True
+393,Mammals,6,Premise Diversity (General),12,"['Lions', 'Mice']",Mammals,"['Lions', 'Foxes']",Mammals,False,False
+394,Mammals,6,Premise Diversity (General),13,"['Rhinos', 'Bats']",Mammals,"['Rhinos', 'Hippos']",Mammals,False,False
+395,Mammals,6,Premise Diversity (General),15,"['Sheep', 'Bats']",Mammals,"['Sheep', 'Pigs']",Mammals,False,False
+396,Mammals,6,Premise Diversity (General),16,"['Cats', 'Kangaroos']",Mammals,"['Cats', 'Lions']",Mammals,False,False
+397,Mammals,6,Premise Diversity (General),17,"['Cows', 'Donkeys']",Mammals,"['Cows', 'Squirrels']",Mammals,False,True
+398,Mammals,6,Premise Diversity (General),18,"['Cats', 'Rhinos']",Mammals,"['Cats', 'Wolves']",Mammals,False,False
+399,Mammals,6,Premise Diversity (General),19,"['Mice', 'Squirrels']",Mammals,"['Mice', 'Llamas']",Mammals,False,True
+400,Mammals,6,Premise Diversity (General),20,"['Tigers', 'Bats']",Mammals,"['Tigers', 'Wolves']",Mammals,False,False
+401,Mammals,6,Premise Diversity (General),22,"['Dogs', 'Giraffes']",Mammals,"['Dogs', 'Rabbits']",Mammals,False,False
+402,Mammals,6,Premise Diversity (General),23,"['Horses', 'Zebras']",Mammals,"['Horses', 'Rabbits']",Mammals,False,True
+403,Mammals,6,Premise Diversity (General),24,"['Tigers', 'Bats']",Mammals,"['Tigers', 'Foxes']",Mammals,False,False
+404,Mammals,6,Premise Diversity (General),25,"['Zebras', 'Hedgehogs']",Mammals,"['Zebras', 'Giraffes']",Mammals,False,False
+405,Mammals,6,Premise Diversity (General),27,"['Rabbits', 'Elephants']",Mammals,"['Rabbits', 'Hamsters']",Mammals,False,False
+406,Mammals,6,Premise Diversity (General),28,"['Tigers', 'Mice']",Mammals,"['Tigers', 'Llamas']",Mammals,False,False
+407,Mammals,6,Premise Diversity (General),29,"['Tigers', 'Hedgehogs']",Mammals,"['Tigers', 'Foxes']",Mammals,False,False
+408,Mammals,7,Premise Diversity (Specific),-1,"['lion', 'giraffe']",rabbit,"['lion', 'tiger']",rabbit,True,False
+409,Mammals,7,Premise Diversity (Specific),0,"['Hippos', 'Mice']",Foxes,"['Hippos', 'Elephants']",Foxes,False,False
+410,Mammals,7,Premise Diversity (Specific),2,"['Zebras', 'Rhinos']",Sheep,"['Zebras', 'Mice']",Sheep,False,True
+411,Mammals,7,Premise Diversity (Specific),31,"['Hippos', 'Elephants']",Foxes,"['Hippos', 'Bats']",Foxes,False,True
+412,Mammals,7,Premise Diversity (Specific),53,"['Zebras', 'Squirrels']",Sheep,"['Zebras', 'Rhinos']",Sheep,False,False
+413,Mammals,7,Premise Diversity (Specific),54,"['Elephants', 'Mice']",Dogs,"['Elephants', 'Giraffes']",Dogs,False,False
+414,Mammals,7,Premise Diversity (Specific),75,"['Llamas', 'Camels']",Wolves,"['Llamas', 'Beavers']",Wolves,False,True
+415,Mammals,7,Premise Diversity (Specific),81,"['Squirrels', 'Mice']",Foxes,"['Squirrels', 'Giraffes']",Foxes,False,True
+416,Mammals,7,Premise Diversity (Specific),87,"['Squirrels', 'Mice']",Wolves,"['Squirrels', 'Hippos']",Wolves,False,True
+417,Mammals,7,Premise Diversity (Specific),123,"['Beavers', 'Hamsters']",Wolves,"['Beavers', 'Elephants']",Wolves,False,True
+418,Mammals,7,Premise Diversity (Specific),146,"['Rhinos', 'Hippos']",Sheep,"['Rhinos', 'Hedgehogs']",Sheep,False,True
+419,Mammals,7,Premise Diversity (Specific),149,"['Camels', 'Hamsters']",Dogs,"['Camels', 'Giraffes']",Dogs,False,False
+420,Mammals,7,Premise Diversity (Specific),152,"['Squirrels', 'Hedgehogs']",Sheep,"['Squirrels', 'Elephants']",Sheep,False,True
+421,Mammals,7,Premise Diversity (Specific),157,"['Camels', 'Hippos']",Sheep,"['Camels', 'Mice']",Sheep,False,True
+422,Mammals,7,Premise Diversity (Specific),167,"['Beavers', 'Bats']",Rhinos,"['Beavers', 'Hamsters']",Rhinos,False,False
+423,Mammals,7,Premise Diversity (Specific),195,"['Squirrels', 'Zebras']",Foxes,"['Squirrels', 'Hedgehogs']",Foxes,False,False
+424,Mammals,7,Premise Diversity (Specific),211,"['Horses', 'Cows']",Dogs,"['Horses', 'Hamsters']",Dogs,False,True
+425,Mammals,7,Premise Diversity (Specific),225,"['Deer', 'Zebras']",Cats,"['Deer', 'Bats']",Cats,False,True
+426,Mammals,7,Premise Diversity (Specific),248,"['Beavers', 'Hamsters']",Donkeys,"['Beavers', 'Bats']",Donkeys,False,True
+427,Mammals,7,Premise Diversity (Specific),251,"['Giraffes', 'Mice']",Foxes,"['Giraffes', 'Elephants']",Foxes,False,False
+428,Mammals,7,Premise Diversity (Specific),258,"['Deer', 'Monkeys']",Dogs,"['Deer', 'Giraffes']",Dogs,False,False
+429,Mammals,7,Premise Diversity (Specific),259,"['Hippos', 'Squirrels']",Dogs,"['Hippos', 'Rhinos']",Dogs,False,False
+430,Mammals,7,Premise Diversity (Specific),308,"['Beavers', 'Hamsters']",Giraffes,"['Beavers', 'Bats']",Giraffes,False,True
+431,Mammals,7,Premise Diversity (Specific),325,"['Tigers', 'Llamas']",Cats,"['Tigers', 'Mice']",Cats,False,True
+432,Mammals,8,Nonmonotonicity (General),0,"['Hedgehogs', 'Llamas']",Mammals,"['Hedgehogs', 'Llamas', 'Cobras']",Mammals,False,False
+433,Mammals,8,Nonmonotonicity (General),1,"['Squirrels', 'Tigers']",Mammals,"['Squirrels', 'Tigers', 'Iguanas']",Mammals,False,False
+434,Mammals,8,Nonmonotonicity (General),2,"['Beavers', 'Mice', 'Turtles']",Mammals,"['Beavers', 'Mice']",Mammals,False,True
+435,Mammals,8,Nonmonotonicity (General),3,"['Sheep', 'Camels']",Mammals,"['Sheep', 'Camels', 'Toads']",Mammals,False,False
+436,Mammals,8,Nonmonotonicity (General),4,"['Giraffes', 'Horses']",Mammals,"['Giraffes', 'Horses', 'Dinosaurs']",Mammals,False,False
+437,Mammals,8,Nonmonotonicity (General),5,"['Donkeys', 'Lions', 'Cobras']",Mammals,"['Donkeys', 'Lions']",Mammals,False,True
+438,Mammals,8,Nonmonotonicity (General),6,"['Sheep', 'Hedgehogs']",Mammals,"['Sheep', 'Hedgehogs', 'Dinosaurs']",Mammals,False,False
+439,Mammals,8,Nonmonotonicity (General),7,"['Beavers', 'Llamas', 'Alligators']",Mammals,"['Beavers', 'Llamas']",Mammals,False,True
+440,Mammals,8,Nonmonotonicity (General),8,"['Sheep', 'Rhinos']",Mammals,"['Sheep', 'Rhinos', 'Frogs']",Mammals,False,False
+441,Mammals,8,Nonmonotonicity (General),9,"['Squirrels', 'Hamsters']",Mammals,"['Squirrels', 'Hamsters', 'Iguanas']",Mammals,False,False
+442,Mammals,8,Nonmonotonicity (General),10,"['Llamas', 'Zebras', 'Lizards']",Mammals,"['Llamas', 'Zebras']",Mammals,False,True
+443,Mammals,8,Nonmonotonicity (General),11,"['Foxes', 'Beavers']",Mammals,"['Foxes', 'Beavers', 'Snakes']",Mammals,False,False
+444,Mammals,8,Nonmonotonicity (General),12,"['Rabbits', 'Deer']",Mammals,"['Rabbits', 'Deer', 'Chameleons']",Mammals,False,False
+445,Mammals,8,Nonmonotonicity (General),13,"['Squirrels', 'Tigers', 'Tortoises']",Mammals,"['Squirrels', 'Tigers']",Mammals,False,True
+446,Mammals,8,Nonmonotonicity (General),14,"['Rhinos', 'Tigers', 'Tortoises']",Mammals,"['Rhinos', 'Tigers']",Mammals,False,True
+447,Mammals,8,Nonmonotonicity (General),15,"['Rabbits', 'Foxes', 'Snakes']",Mammals,"['Rabbits', 'Foxes']",Mammals,False,True
+448,Mammals,8,Nonmonotonicity (General),16,"['Mice', 'Hippos']",Mammals,"['Mice', 'Hippos', 'Chameleons']",Mammals,False,False
+449,Mammals,8,Nonmonotonicity (General),17,"['Beavers', 'Foxes']",Mammals,"['Beavers', 'Foxes', 'Lizards']",Mammals,False,False
+450,Mammals,8,Nonmonotonicity (General),18,"['Hamsters', 'Giraffes', 'Lizards']",Mammals,"['Hamsters', 'Giraffes']",Mammals,False,True
+451,Mammals,8,Nonmonotonicity (General),19,"['Donkeys', 'Beavers']",Mammals,"['Donkeys', 'Beavers', 'Toads']",Mammals,False,False
+452,Mammals,8,Nonmonotonicity (General),20,"['Foxes', 'Llamas', 'Alligators']",Mammals,"['Foxes', 'Llamas']",Mammals,False,True
+453,Mammals,8,Nonmonotonicity (General),21,"['Hippos', 'Donkeys', 'Vipers']",Mammals,"['Hippos', 'Donkeys']",Mammals,False,True
+454,Mammals,8,Nonmonotonicity (General),22,"['Dogs', 'Llamas']",Mammals,"['Dogs', 'Llamas', 'Iguanas']",Mammals,False,False
+455,Mammals,8,Nonmonotonicity (General),23,"['Lions', 'Tigers', 'Salamanders']",Mammals,"['Lions', 'Tigers']",Mammals,False,True
+456,Mammals,9,Nonmonotonicity (Specific),0,"['Llamas', 'Turtles']",Zebras,['Llamas'],Zebras,False,True
+457,Mammals,9,Nonmonotonicity (Specific),1,"['Beavers', 'Pythons']",Mice,['Beavers'],Mice,False,True
+458,Mammals,9,Nonmonotonicity (Specific),2,['Zebras'],Elephants,"['Zebras', 'Snakes']",Elephants,False,False
+459,Mammals,9,Nonmonotonicity (Specific),3,['Kangaroos'],Rhinos,"['Kangaroos', 'Dinosaurs']",Rhinos,False,False
+460,Mammals,9,Nonmonotonicity (Specific),4,['Elephants'],Deer,"['Elephants', 'Crocodiles']",Deer,False,False
+461,Mammals,9,Nonmonotonicity (Specific),5,"['Hippos', 'Iguanas']",Cats,['Hippos'],Cats,False,True
+462,Mammals,9,Nonmonotonicity (Specific),6,"['Horses', 'Turtles']",Lions,['Horses'],Lions,False,True
+463,Mammals,9,Nonmonotonicity (Specific),7,['Hippos'],Zebras,"['Hippos', 'Tortoises']",Zebras,False,False
+464,Mammals,9,Nonmonotonicity (Specific),8,['Beavers'],Camels,"['Beavers', 'Tortoises']",Camels,False,False
+465,Mammals,9,Nonmonotonicity (Specific),9,['Llamas'],Donkeys,"['Llamas', 'Iguanas']",Donkeys,False,False
+466,Mammals,9,Nonmonotonicity (Specific),10,['Kangaroos'],Cows,"['Kangaroos', 'Toads']",Cows,False,False
+467,Mammals,9,Nonmonotonicity (Specific),11,['Camels'],Rhinos,"['Camels', 'Pythons']",Rhinos,False,False
+468,Mammals,9,Nonmonotonicity (Specific),12,['Hippos'],Lions,"['Hippos', 'Alligators']",Lions,False,False
+469,Mammals,9,Nonmonotonicity (Specific),13,['Squirrels'],Rhinos,"['Squirrels', 'Cobras']",Rhinos,False,False
+470,Mammals,9,Nonmonotonicity (Specific),14,['Hedgehogs'],Squirrels,"['Hedgehogs', 'Chameleons']",Squirrels,False,False
+471,Mammals,9,Nonmonotonicity (Specific),15,['Rhinos'],Wolves,"['Rhinos', 'Geckoes']",Wolves,False,False
+472,Mammals,9,Nonmonotonicity (Specific),16,['Kangaroos'],Zebras,"['Kangaroos', 'Snakes']",Zebras,False,False
+473,Mammals,9,Nonmonotonicity (Specific),17,['Zebras'],Dogs,"['Zebras', 'Vipers']",Dogs,False,False
+474,Mammals,9,Nonmonotonicity (Specific),18,"['Giraffes', 'Vipers']",Wolves,['Giraffes'],Wolves,False,True
+475,Mammals,9,Nonmonotonicity (Specific),19,"['Llamas', 'Dinosaurs']",Horses,['Llamas'],Horses,False,True
+476,Mammals,9,Nonmonotonicity (Specific),20,['Beavers'],Squirrels,"['Beavers', 'Iguanas']",Squirrels,False,False
+477,Mammals,9,Nonmonotonicity (Specific),21,"['Hippos', 'Geckoes']",Llamas,['Hippos'],Llamas,False,True
+478,Mammals,9,Nonmonotonicity (Specific),22,"['Mice', 'Iguanas']",Wolves,['Mice'],Wolves,False,True
+479,Mammals,9,Nonmonotonicity (Specific),23,['Hedgehogs'],Squirrels,"['Hedgehogs', 'Lizards']",Squirrels,False,False
+480,Mammals,10,Premise-conclusion Asymmetry,-1,['bat'],mouse,['mouse'],bat,True,True
+481,Mammals,10,Premise-conclusion Asymmetry,0,['Camels'],Dogs,['Dogs'],Camels,False,True
+482,Mammals,10,Premise-conclusion Asymmetry,1,['Monkeys'],Squirrels,['Squirrels'],Monkeys,False,False
+483,Mammals,10,Premise-conclusion Asymmetry,2,['Lions'],Bats,['Bats'],Lions,False,False
+484,Mammals,10,Premise-conclusion Asymmetry,3,['Lions'],Hippos,['Hippos'],Lions,False,False
+485,Mammals,10,Premise-conclusion Asymmetry,4,['Tigers'],Hamsters,['Hamsters'],Tigers,False,False
+486,Mammals,10,Premise-conclusion Asymmetry,5,['Llamas'],Tigers,['Tigers'],Llamas,False,True
+487,Mammals,10,Premise-conclusion Asymmetry,6,['Bats'],Cats,['Cats'],Bats,False,True
+488,Mammals,10,Premise-conclusion Asymmetry,7,['Tigers'],Rhinos,['Rhinos'],Tigers,False,False
+489,Mammals,10,Premise-conclusion Asymmetry,8,['Sheep'],Hippos,['Hippos'],Sheep,False,False
+490,Mammals,10,Premise-conclusion Asymmetry,9,['Sheep'],Rhinos,['Rhinos'],Sheep,False,False
+491,Mammals,10,Premise-conclusion Asymmetry,10,['Squirrels'],Dogs,['Dogs'],Squirrels,False,True
+492,Mammals,10,Premise-conclusion Asymmetry,11,['Rhinos'],Lions,['Lions'],Rhinos,False,True
+493,Mammals,10,Premise-conclusion Asymmetry,14,['Horses'],Squirrels,['Squirrels'],Horses,False,False
+494,Mammals,10,Premise-conclusion Asymmetry,15,['Hippos'],Pigs,['Pigs'],Hippos,False,True
+495,Mammals,10,Premise-conclusion Asymmetry,16,['Sheep'],Bats,['Bats'],Sheep,False,False
+496,Mammals,10,Premise-conclusion Asymmetry,17,['Bats'],Pigs,['Pigs'],Bats,False,True
+497,Mammals,10,Premise-conclusion Asymmetry,18,['Hedgehogs'],Pigs,['Pigs'],Hedgehogs,False,True
+498,Mammals,10,Premise-conclusion Asymmetry,19,['Cows'],Bats,['Bats'],Cows,False,False
+499,Mammals,10,Premise-conclusion Asymmetry,20,['Squirrels'],Sheep,['Sheep'],Squirrels,False,True
+500,Mammals,10,Premise-conclusion Asymmetry,22,['Kangaroos'],Sheep,['Sheep'],Kangaroos,False,True
+501,Mammals,10,Premise-conclusion Asymmetry,23,['Hamsters'],Monkeys,['Monkeys'],Hamsters,False,True
+502,Mammals,10,Premise-conclusion Asymmetry,24,['Llamas'],Dogs,['Dogs'],Llamas,False,True
+503,Mammals,10,Premise-conclusion Asymmetry,25,['Camels'],Cows,['Cows'],Camels,False,True
+504,Mammals,11,Inclusion Fallacy,0,['Monkeys'],Hippos,['Monkeys'],Mammals,False,True
+505,Mammals,11,Inclusion Fallacy,1,['Cats'],Hamsters,['Cats'],Mammals,False,True
+506,Mammals,11,Inclusion Fallacy,2,['Sheep'],Mammals,['Sheep'],Squirrels,False,False
+507,Mammals,11,Inclusion Fallacy,3,['Horses'],Squirrels,['Horses'],Mammals,False,True
+508,Mammals,11,Inclusion Fallacy,4,['Monkeys'],Mammals,['Monkeys'],Llamas,False,False
+509,Mammals,11,Inclusion Fallacy,5,['Monkeys'],Rhinos,['Monkeys'],Mammals,False,True
+510,Mammals,11,Inclusion Fallacy,6,['Pigs'],Mammals,['Pigs'],Bats,False,False
+511,Mammals,11,Inclusion Fallacy,7,['Dogs'],Mammals,['Dogs'],Hedgehogs,False,False
+512,Mammals,11,Inclusion Fallacy,8,['Dogs'],Squirrels,['Dogs'],Mammals,False,True
+513,Mammals,11,Inclusion Fallacy,9,['Pigs'],Llamas,['Pigs'],Mammals,False,True
+514,Mammals,11,Inclusion Fallacy,10,['Wolves'],Mammals,['Wolves'],Kangaroos,False,False
+515,Mammals,11,Inclusion Fallacy,11,['Pigs'],Mammals,['Pigs'],Squirrels,False,False
+516,Mammals,11,Inclusion Fallacy,12,['Horses'],Mammals,['Horses'],Camels,False,False
+517,Mammals,11,Inclusion Fallacy,14,['Cats'],Mammals,['Cats'],Rhinos,False,False
+518,Mammals,11,Inclusion Fallacy,15,['Tigers'],Mammals,['Tigers'],Hippos,False,False
+519,Mammals,11,Inclusion Fallacy,16,['Sheep'],Rhinos,['Sheep'],Mammals,False,True
+520,Mammals,11,Inclusion Fallacy,17,['Pigs'],Mammals,['Pigs'],Hamsters,False,False
+521,Mammals,11,Inclusion Fallacy,19,['Cows'],Kangaroos,['Cows'],Mammals,False,True
+522,Mammals,11,Inclusion Fallacy,21,['Dogs'],Camels,['Dogs'],Mammals,False,True
+523,Mammals,11,Inclusion Fallacy,22,['Tigers'],Bats,['Tigers'],Mammals,False,True
+524,Mammals,11,Inclusion Fallacy,23,['Lions'],Hippos,['Lions'],Mammals,False,True
+525,Mammals,11,Inclusion Fallacy,24,['Cows'],Camels,['Cows'],Mammals,False,True
+526,Mammals,11,Inclusion Fallacy,26,['Pigs'],Mammals,['Pigs'],Hippos,False,False
+527,Mammals,11,Inclusion Fallacy,27,['Sheep'],Mammals,['Sheep'],Camels,False,False
+528,Vehicles,1,Premise-conclusion Similarity,1,['Mopeds'],Motorbikes,['Rockets'],Motorbikes,False,False
+529,Vehicles,1,Premise-conclusion Similarity,3,['Skateboards'],Buses,['Trains'],Buses,False,True
+530,Vehicles,1,Premise-conclusion Similarity,4,['Skateboards'],Caravans,['Carriages'],Caravans,False,True
+531,Vehicles,1,Premise-conclusion Similarity,8,['Submarines'],Hovercraft,['Skateboards'],Hovercraft,False,False
+532,Vehicles,1,Premise-conclusion Similarity,9,['Rockets'],Airplanes,['Caravans'],Airplanes,False,False
+533,Vehicles,1,Premise-conclusion Similarity,11,['Sleds'],Carts,['Rockets'],Carts,False,False
+534,Vehicles,1,Premise-conclusion Similarity,12,['Skateboards'],Buses,['Vans'],Buses,False,True
+535,Vehicles,1,Premise-conclusion Similarity,13,['Sleds'],Vans,['Caravans'],Vans,False,True
+536,Vehicles,1,Premise-conclusion Similarity,15,['Carriages'],Taxis,['Rockets'],Taxis,False,False
+537,Vehicles,1,Premise-conclusion Similarity,16,['Sleds'],Skateboards,['Rockets'],Skateboards,False,False
+538,Vehicles,1,Premise-conclusion Similarity,17,['Hovercraft'],Carts,['Sleds'],Carts,False,True
+539,Vehicles,1,Premise-conclusion Similarity,18,['Mopeds'],Bicycles,['Submarines'],Bicycles,False,False
+540,Vehicles,1,Premise-conclusion Similarity,21,['Tractors'],Jeeps,['Zeppelins'],Jeeps,False,False
+541,Vehicles,1,Premise-conclusion Similarity,25,['Skateboards'],Boats,['Submarines'],Boats,False,True
+542,Vehicles,1,Premise-conclusion Similarity,27,['Rockets'],Caravans,['Carriages'],Caravans,False,True
+543,Vehicles,1,Premise-conclusion Similarity,28,['Skateboards'],Airplanes,['Helicopters'],Airplanes,False,True
+544,Vehicles,1,Premise-conclusion Similarity,30,['Trucks'],Trains,['Skateboards'],Trains,False,False
+545,Vehicles,1,Premise-conclusion Similarity,35,['Submarines'],Carts,['Sleds'],Carts,False,True
+546,Vehicles,1,Premise-conclusion Similarity,36,['Rockets'],Cars,['Trucks'],Cars,False,True
+547,Vehicles,1,Premise-conclusion Similarity,41,['Skateboards'],Helicopters,['Zeppelins'],Helicopters,False,True
+548,Vehicles,1,Premise-conclusion Similarity,47,['Carriages'],Helicopters,['Zeppelins'],Helicopters,False,True
+549,Vehicles,1,Premise-conclusion Similarity,50,['Carts'],Carriages,['Rockets'],Carriages,False,False
+550,Vehicles,1,Premise-conclusion Similarity,55,['Caravans'],Airplanes,['Helicopters'],Airplanes,False,True
+551,Vehicles,1,Premise-conclusion Similarity,56,['Submarines'],Carriages,['Carts'],Carriages,False,True
+552,Vehicles,2,Premise Typicality,0,['Trains'],Vehicles,['Rockets'],Vehicles,False,False
+553,Vehicles,2,Premise Typicality,1,['Vans'],Vehicles,['Submarines'],Vehicles,False,False
+554,Vehicles,2,Premise Typicality,2,['Sleds'],Vehicles,['Cars'],Vehicles,False,True
+555,Vehicles,2,Premise Typicality,3,['Sleds'],Vehicles,['Jeeps'],Vehicles,False,True
+556,Vehicles,2,Premise Typicality,4,['Skateboards'],Vehicles,['Cars'],Vehicles,False,True
+557,Vehicles,2,Premise Typicality,5,['Jeeps'],Vehicles,['Submarines'],Vehicles,False,False
+558,Vehicles,2,Premise Typicality,7,['Buses'],Vehicles,['Submarines'],Vehicles,False,False
+559,Vehicles,2,Premise Typicality,10,['Trains'],Vehicles,['Skateboards'],Vehicles,False,False
+560,Vehicles,2,Premise Typicality,13,['Buses'],Vehicles,['Sleds'],Vehicles,False,False
+561,Vehicles,2,Premise Typicality,14,['Buses'],Vehicles,['Rockets'],Vehicles,False,False
+562,Vehicles,2,Premise Typicality,15,['Trains'],Vehicles,['Zeppelins'],Vehicles,False,False
+563,Vehicles,2,Premise Typicality,20,['Jeeps'],Vehicles,['Zeppelins'],Vehicles,False,False
+564,Vehicles,2,Premise Typicality,22,['Vans'],Vehicles,['Sleds'],Vehicles,False,False
+565,Vehicles,2,Premise Typicality,23,['Buses'],Vehicles,['Skateboards'],Vehicles,False,False
+566,Vehicles,2,Premise Typicality,24,['Jeeps'],Vehicles,['Skateboards'],Vehicles,False,False
+567,Vehicles,2,Premise Typicality,25,['Zeppelins'],Vehicles,['Buses'],Vehicles,False,True
+568,Vehicles,2,Premise Typicality,28,['Rockets'],Vehicles,['Vans'],Vehicles,False,True
+569,Vehicles,2,Premise Typicality,35,['Skateboards'],Vehicles,['Vans'],Vehicles,False,True
+570,Vehicles,2,Premise Typicality,36,['Sleds'],Vehicles,['Trains'],Vehicles,False,True
+571,Vehicles,2,Premise Typicality,44,['Trains'],Vehicles,['Submarines'],Vehicles,False,False
+572,Vehicles,2,Premise Typicality,49,['Rockets'],Vehicles,['Cars'],Vehicles,False,True
+573,Vehicles,2,Premise Typicality,58,['Zeppelins'],Vehicles,['Cars'],Vehicles,False,True
+574,Vehicles,2,Premise Typicality,77,['Jeeps'],Vehicles,['Rockets'],Vehicles,False,False
+575,Vehicles,2,Premise Typicality,88,['Vans'],Vehicles,['Zeppelins'],Vehicles,False,False
+576,Vehicles,3,Conclusion Specificity,0,"['Bicycles', 'Sleds']",Vehicles,"['Bicycles', 'Sleds']",Things,False,False
+577,Vehicles,3,Conclusion Specificity,1,"['Jeeps', 'Taxis']",Things,"['Jeeps', 'Taxis']",Vehicles,False,True
+578,Vehicles,3,Conclusion Specificity,2,"['Mopeds', 'Zeppelins']",Vehicles,"['Mopeds', 'Zeppelins']",Things,False,False
+579,Vehicles,3,Conclusion Specificity,3,"['Buses', 'Carriages']",Vehicles,"['Buses', 'Carriages']",Things,False,False
+580,Vehicles,3,Conclusion Specificity,4,"['Mopeds', 'Trucks']",Vehicles,"['Mopeds', 'Trucks']",Things,False,False
+581,Vehicles,3,Conclusion Specificity,5,"['Zeppelins', 'Trucks']",Things,"['Zeppelins', 'Trucks']",Vehicles,False,True
+582,Vehicles,3,Conclusion Specificity,7,"['Motorbikes', 'Submarines']",Things,"['Motorbikes', 'Submarines']",Vehicles,False,True
+583,Vehicles,3,Conclusion Specificity,8,"['Airplanes', 'Trams']",Things,"['Airplanes', 'Trams']",Vehicles,False,True
+584,Vehicles,3,Conclusion Specificity,9,"['Taxis', 'Caravans']",Things,"['Taxis', 'Caravans']",Vehicles,False,True
+585,Vehicles,3,Conclusion Specificity,10,"['Trucks', 'Carts']",Vehicles,"['Trucks', 'Carts']",Things,False,False
+586,Vehicles,3,Conclusion Specificity,11,"['Taxis', 'Zeppelins']",Things,"['Taxis', 'Zeppelins']",Vehicles,False,True
+587,Vehicles,3,Conclusion Specificity,12,"['Carts', 'Mopeds']",Vehicles,"['Carts', 'Mopeds']",Things,False,False
+588,Vehicles,3,Conclusion Specificity,13,"['Zeppelins', 'Vans']",Things,"['Zeppelins', 'Vans']",Vehicles,False,True
+589,Vehicles,3,Conclusion Specificity,14,"['Submarines', 'Sleds']",Things,"['Submarines', 'Sleds']",Vehicles,False,True
+590,Vehicles,3,Conclusion Specificity,15,"['Carts', 'Submarines']",Vehicles,"['Carts', 'Submarines']",Things,False,False
+591,Vehicles,3,Conclusion Specificity,16,"['Airplanes', 'Rockets']",Things,"['Airplanes', 'Rockets']",Vehicles,False,True
+592,Vehicles,3,Conclusion Specificity,17,"['Helicopters', 'Carriages']",Vehicles,"['Helicopters', 'Carriages']",Things,False,False
+593,Vehicles,3,Conclusion Specificity,18,"['Hovercraft', 'Trains']",Vehicles,"['Hovercraft', 'Trains']",Things,False,False
+594,Vehicles,3,Conclusion Specificity,19,"['Caravans', 'Hovercraft']",Things,"['Caravans', 'Hovercraft']",Vehicles,False,True
+595,Vehicles,3,Conclusion Specificity,20,"['Trams', 'Motorbikes']",Things,"['Trams', 'Motorbikes']",Vehicles,False,True
+596,Vehicles,3,Conclusion Specificity,21,"['Helicopters', 'Hovercraft']",Things,"['Helicopters', 'Hovercraft']",Vehicles,False,True
+597,Vehicles,3,Conclusion Specificity,22,"['Zeppelins', 'Motorbikes']",Things,"['Zeppelins', 'Motorbikes']",Vehicles,False,True
+598,Vehicles,3,Conclusion Specificity,23,"['Cars', 'Boats']",Things,"['Cars', 'Boats']",Vehicles,False,True
+599,Vehicles,3,Conclusion Specificity,24,"['Trains', 'Airplanes']",Vehicles,"['Trains', 'Airplanes']",Things,False,False
+600,Vehicles,4,Premise Monotonicity (General),0,"['Helicopters', 'Vans']",Vehicles,"['Helicopters', 'Vans', 'Skateboards']",Vehicles,False,True
+601,Vehicles,4,Premise Monotonicity (General),1,"['Helicopters', 'Caravans', 'Carriages']",Vehicles,"['Helicopters', 'Caravans']",Vehicles,False,False
+602,Vehicles,4,Premise Monotonicity (General),2,"['Trucks', 'Taxis']",Vehicles,"['Trucks', 'Taxis', 'Carriages']",Vehicles,False,True
+603,Vehicles,4,Premise Monotonicity (General),3,"['Boats', 'Carriages', 'Carts']",Vehicles,"['Boats', 'Carriages']",Vehicles,False,False
+604,Vehicles,4,Premise Monotonicity (General),4,"['Cars', 'Trains']",Vehicles,"['Cars', 'Trains', 'Caravans']",Vehicles,False,True
+605,Vehicles,4,Premise Monotonicity (General),5,"['Trains', 'Carts']",Vehicles,"['Trains', 'Carts', 'Sleds']",Vehicles,False,True
+606,Vehicles,4,Premise Monotonicity (General),6,"['Mopeds', 'Taxis', 'Rockets']",Vehicles,"['Mopeds', 'Taxis']",Vehicles,False,False
+607,Vehicles,4,Premise Monotonicity (General),8,"['Skateboards', 'Trams', 'Zeppelins']",Vehicles,"['Skateboards', 'Trams']",Vehicles,False,False
+608,Vehicles,4,Premise Monotonicity (General),9,"['Taxis', 'Zeppelins']",Vehicles,"['Taxis', 'Zeppelins', 'Sleds']",Vehicles,False,True
+609,Vehicles,4,Premise Monotonicity (General),11,"['Mopeds', 'Buses', 'Caravans']",Vehicles,"['Mopeds', 'Buses']",Vehicles,False,False
+610,Vehicles,4,Premise Monotonicity (General),12,"['Skateboards', 'Motorbikes', 'Sleds']",Vehicles,"['Skateboards', 'Motorbikes']",Vehicles,False,False
+611,Vehicles,4,Premise Monotonicity (General),13,"['Carriages', 'Tractors']",Vehicles,"['Carriages', 'Tractors', 'Sleds']",Vehicles,False,True
+612,Vehicles,4,Premise Monotonicity (General),14,"['Vans', 'Trams', 'Sleds']",Vehicles,"['Vans', 'Trams']",Vehicles,False,False
+613,Vehicles,4,Premise Monotonicity (General),15,"['Carts', 'Zeppelins', 'Submarines']",Vehicles,"['Carts', 'Zeppelins']",Vehicles,False,False
+614,Vehicles,4,Premise Monotonicity (General),16,"['Boats', 'Jeeps', 'Sleds']",Vehicles,"['Boats', 'Jeeps']",Vehicles,False,False
+615,Vehicles,4,Premise Monotonicity (General),17,"['Trucks', 'Trains', 'Mopeds']",Vehicles,"['Trucks', 'Trains']",Vehicles,False,False
+616,Vehicles,4,Premise Monotonicity (General),19,"['Helicopters', 'Taxis', 'Tractors']",Vehicles,"['Helicopters', 'Taxis']",Vehicles,False,False
+617,Vehicles,4,Premise Monotonicity (General),22,"['Airplanes', 'Cars']",Vehicles,"['Airplanes', 'Cars', 'Rockets']",Vehicles,False,True
+618,Vehicles,4,Premise Monotonicity (General),23,"['Trams', 'Vans']",Vehicles,"['Trams', 'Vans', 'Rockets']",Vehicles,False,True
+619,Vehicles,4,Premise Monotonicity (General),24,"['Vans', 'Jeeps']",Vehicles,"['Vans', 'Jeeps', 'Trains']",Vehicles,False,True
+620,Vehicles,4,Premise Monotonicity (General),25,"['Trucks', 'Airplanes', 'Skateboards']",Vehicles,"['Trucks', 'Airplanes']",Vehicles,False,False
+621,Vehicles,4,Premise Monotonicity (General),26,"['Zeppelins', 'Carriages', 'Rockets']",Vehicles,"['Zeppelins', 'Carriages']",Vehicles,False,False
+622,Vehicles,4,Premise Monotonicity (General),27,"['Boats', 'Jeeps']",Vehicles,"['Boats', 'Jeeps', 'Helicopters']",Vehicles,False,True
+623,Vehicles,4,Premise Monotonicity (General),28,"['Helicopters', 'Carts']",Vehicles,"['Helicopters', 'Carts', 'Rockets']",Vehicles,False,True
+624,Vehicles,5,Premise Monotonicity (Specific),1,"['Trains', 'Mopeds']",Caravans,"['Trains', 'Mopeds', 'Hovercraft']",Caravans,False,True
+625,Vehicles,5,Premise Monotonicity (Specific),4,"['Vans', 'Airplanes', 'Helicopters']",Skateboards,"['Vans', 'Airplanes']",Skateboards,False,False
+626,Vehicles,5,Premise Monotonicity (Specific),5,"['Boats', 'Mopeds']",Helicopters,"['Boats', 'Mopeds', 'Skateboards']",Helicopters,False,True
+627,Vehicles,5,Premise Monotonicity (Specific),6,"['Trains', 'Trucks', 'Submarines']",Vans,"['Trains', 'Trucks']",Vans,False,False
+628,Vehicles,5,Premise Monotonicity (Specific),7,"['Airplanes', 'Mopeds']",Rockets,"['Airplanes', 'Mopeds', 'Carts']",Rockets,False,True
+629,Vehicles,5,Premise Monotonicity (Specific),8,"['Buses', 'Helicopters', 'Caravans']",Rockets,"['Buses', 'Helicopters']",Rockets,False,False
+630,Vehicles,5,Premise Monotonicity (Specific),9,"['Boats', 'Buses']",Zeppelins,"['Boats', 'Buses', 'Tractors']",Zeppelins,False,True
+631,Vehicles,5,Premise Monotonicity (Specific),11,"['Trains', 'Trucks', 'Rockets']",Buses,"['Trains', 'Trucks']",Buses,False,False
+632,Vehicles,5,Premise Monotonicity (Specific),13,"['Trams', 'Boats', 'Helicopters']",Taxis,"['Trams', 'Boats']",Taxis,False,False
+633,Vehicles,5,Premise Monotonicity (Specific),14,"['Trains', 'Trucks', 'Tractors']",Taxis,"['Trains', 'Trucks']",Taxis,False,False
+634,Vehicles,5,Premise Monotonicity (Specific),16,"['Helicopters', 'Jeeps']",Airplanes,"['Helicopters', 'Jeeps', 'Carriages']",Airplanes,False,True
+635,Vehicles,5,Premise Monotonicity (Specific),17,"['Boats', 'Trams']",Helicopters,"['Boats', 'Trams', 'Skateboards']",Helicopters,False,True
+636,Vehicles,5,Premise Monotonicity (Specific),18,"['Boats', 'Mopeds']",Skateboards,"['Boats', 'Mopeds', 'Zeppelins']",Skateboards,False,True
+637,Vehicles,5,Premise Monotonicity (Specific),20,"['Mopeds', 'Buses']",Trucks,"['Mopeds', 'Buses', 'Rockets']",Trucks,False,True
+638,Vehicles,5,Premise Monotonicity (Specific),21,"['Carriages', 'Zeppelins', 'Sleds']",Airplanes,"['Carriages', 'Zeppelins']",Airplanes,False,False
+639,Vehicles,5,Premise Monotonicity (Specific),23,"['Motorbikes', 'Caravans']",Trams,"['Motorbikes', 'Caravans', 'Skateboards']",Trams,False,True
+640,Vehicles,5,Premise Monotonicity (Specific),25,"['Airplanes', 'Zeppelins', 'Rockets']",Trucks,"['Airplanes', 'Zeppelins']",Trucks,False,False
+641,Vehicles,5,Premise Monotonicity (Specific),27,"['Motorbikes', 'Carts', 'Sleds']",Zeppelins,"['Motorbikes', 'Carts']",Zeppelins,False,False
+642,Vehicles,5,Premise Monotonicity (Specific),28,"['Vans', 'Tractors']",Caravans,"['Vans', 'Tractors', 'Zeppelins']",Caravans,False,True
+643,Vehicles,5,Premise Monotonicity (Specific),29,"['Vans', 'Carriages']",Taxis,"['Vans', 'Carriages', 'Hovercraft']",Taxis,False,True
+644,Vehicles,5,Premise Monotonicity (Specific),40,"['Carriages', 'Bicycles']",Caravans,"['Carriages', 'Bicycles', 'Hovercraft']",Caravans,False,True
+645,Vehicles,5,Premise Monotonicity (Specific),41,"['Caravans', 'Buses', 'Carts']",Vans,"['Caravans', 'Buses']",Vans,False,False
+646,Vehicles,5,Premise Monotonicity (Specific),47,"['Skateboards', 'Carts']",Bicycles,"['Skateboards', 'Carts', 'Rockets']",Bicycles,False,True
+647,Vehicles,5,Premise Monotonicity (Specific),61,"['Trams', 'Cars', 'Skateboards']",Jeeps,"['Trams', 'Cars']",Jeeps,False,False
+648,Vehicles,6,Premise Diversity (General),0,"['Helicopters', 'Carts']",Vehicles,"['Helicopters', 'Zeppelins']",Vehicles,False,False
+649,Vehicles,6,Premise Diversity (General),2,"['Jeeps', 'Zeppelins']",Vehicles,"['Jeeps', 'Trucks']",Vehicles,False,False
+650,Vehicles,6,Premise Diversity (General),4,"['Airplanes', 'Rockets']",Vehicles,"['Airplanes', 'Caravans']",Vehicles,False,True
+651,Vehicles,6,Premise Diversity (General),5,"['Boats', 'Sleds']",Vehicles,"['Boats', 'Submarines']",Vehicles,False,False
+652,Vehicles,6,Premise Diversity (General),8,"['Airplanes', 'Sleds']",Vehicles,"['Airplanes', 'Helicopters']",Vehicles,False,False
+653,Vehicles,6,Premise Diversity (General),9,"['Motorbikes', 'Bicycles']",Vehicles,"['Motorbikes', 'Submarines']",Vehicles,False,True
+654,Vehicles,6,Premise Diversity (General),12,"['Carriages', 'Submarines']",Vehicles,"['Carriages', 'Sleds']",Vehicles,False,False
+655,Vehicles,6,Premise Diversity (General),13,"['Trucks', 'Tractors']",Vehicles,"['Trucks', 'Rockets']",Vehicles,False,True
+656,Vehicles,6,Premise Diversity (General),15,"['Hovercraft', 'Submarines']",Vehicles,"['Hovercraft', 'Skateboards']",Vehicles,False,True
+657,Vehicles,6,Premise Diversity (General),16,"['Vans', 'Tractors']",Vehicles,"['Vans', 'Skateboards']",Vehicles,False,True
+658,Vehicles,6,Premise Diversity (General),18,"['Boats', 'Submarines']",Vehicles,"['Boats', 'Helicopters']",Vehicles,False,True
+659,Vehicles,6,Premise Diversity (General),19,"['Bicycles', 'Mopeds']",Vehicles,"['Bicycles', 'Helicopters']",Vehicles,False,True
+660,Vehicles,6,Premise Diversity (General),20,"['Airplanes', 'Carts']",Vehicles,"['Airplanes', 'Rockets']",Vehicles,False,False
+661,Vehicles,6,Premise Diversity (General),23,"['Trains', 'Skateboards']",Vehicles,"['Trains', 'Trams']",Vehicles,False,False
+662,Vehicles,6,Premise Diversity (General),25,"['Helicopters', 'Zeppelins']",Vehicles,"['Helicopters', 'Sleds']",Vehicles,False,True
+663,Vehicles,6,Premise Diversity (General),26,"['Taxis', 'Carriages']",Vehicles,"['Taxis', 'Rockets']",Vehicles,False,True
+664,Vehicles,6,Premise Diversity (General),29,"['Taxis', 'Trams']",Vehicles,"['Taxis', 'Zeppelins']",Vehicles,False,True
+665,Vehicles,6,Premise Diversity (General),31,"['Jeeps', 'Trucks']",Vehicles,"['Jeeps', 'Rockets']",Vehicles,False,True
+666,Vehicles,6,Premise Diversity (General),32,"['Skateboards', 'Sleds']",Vehicles,"['Skateboards', 'Submarines']",Vehicles,False,True
+667,Vehicles,6,Premise Diversity (General),33,"['Trains', 'Skateboards']",Vehicles,"['Trains', 'Trucks']",Vehicles,False,False
+668,Vehicles,6,Premise Diversity (General),36,"['Caravans', 'Carriages']",Vehicles,"['Caravans', 'Rockets']",Vehicles,False,True
+669,Vehicles,6,Premise Diversity (General),37,"['Carts', 'Rockets']",Vehicles,"['Carts', 'Sleds']",Vehicles,False,False
+670,Vehicles,6,Premise Diversity (General),39,"['Skateboards', 'Zeppelins']",Vehicles,"['Skateboards', 'Sleds']",Vehicles,False,False
+671,Vehicles,6,Premise Diversity (General),47,"['Vans', 'Carts']",Vehicles,"['Vans', 'Hovercraft']",Vehicles,False,True
+672,Vehicles,7,Premise Diversity (Specific),0,"['Motorbikes', 'Submarines']",Trains,"['Motorbikes', 'Mopeds']",Trains,False,False
+673,Vehicles,7,Premise Diversity (Specific),6,"['Sleds', 'Skateboards']",Tractors,"['Sleds', 'Submarines']",Tractors,False,True
+674,Vehicles,7,Premise Diversity (Specific),13,"['Helicopters', 'Boats']",Mopeds,"['Helicopters', 'Zeppelins']",Mopeds,False,False
+675,Vehicles,7,Premise Diversity (Specific),15,"['Sleds', 'Submarines']",Caravans,"['Sleds', 'Skateboards']",Caravans,False,False
+676,Vehicles,7,Premise Diversity (Specific),18,"['Carts', 'Rockets']",Boats,"['Carts', 'Sleds']",Boats,False,False
+677,Vehicles,7,Premise Diversity (Specific),26,"['Boats', 'Hovercraft']",Vans,"['Boats', 'Skateboards']",Vans,False,True
+678,Vehicles,7,Premise Diversity (Specific),37,"['Airplanes', 'Skateboards']",Cars,"['Airplanes', 'Rockets']",Cars,False,False
+679,Vehicles,7,Premise Diversity (Specific),38,"['Motorbikes', 'Mopeds']",Trains,"['Motorbikes', 'Hovercraft']",Trains,False,True
+680,Vehicles,7,Premise Diversity (Specific),41,"['Submarines', 'Hovercraft']",Vans,"['Submarines', 'Skateboards']",Vans,False,True
+681,Vehicles,7,Premise Diversity (Specific),56,"['Airplanes', 'Skateboards']",Cars,"['Airplanes', 'Zeppelins']",Cars,False,False
+682,Vehicles,7,Premise Diversity (Specific),60,"['Carts', 'Helicopters']",Boats,"['Carts', 'Sleds']",Boats,False,False
+683,Vehicles,7,Premise Diversity (Specific),90,"['Sleds', 'Skateboards']",Trams,"['Sleds', 'Submarines']",Trams,False,True
+684,Vehicles,7,Premise Diversity (Specific),117,"['Boats', 'Submarines']",Jeeps,"['Boats', 'Sleds']",Jeeps,False,True
+685,Vehicles,7,Premise Diversity (Specific),119,"['Airplanes', 'Zeppelins']",Jeeps,"['Airplanes', 'Bicycles']",Jeeps,False,True
+686,Vehicles,7,Premise Diversity (Specific),168,"['Caravans', 'Carts']",Airplanes,"['Caravans', 'Skateboards']",Airplanes,False,True
+687,Vehicles,7,Premise Diversity (Specific),181,"['Boats', 'Submarines']",Taxis,"['Boats', 'Helicopters']",Taxis,False,True
+688,Vehicles,7,Premise Diversity (Specific),244,"['Carriages', 'Sleds']",Trains,"['Carriages', 'Rockets']",Trains,False,True
+689,Vehicles,7,Premise Diversity (Specific),277,"['Boats', 'Submarines']",Bicycles,"['Boats', 'Helicopters']",Bicycles,False,True
+690,Vehicles,7,Premise Diversity (Specific),291,"['Boats', 'Hovercraft']",Bicycles,"['Boats', 'Helicopters']",Bicycles,False,True
+691,Vehicles,7,Premise Diversity (Specific),299,"['Zeppelins', 'Helicopters']",Trains,"['Zeppelins', 'Motorbikes']",Trains,False,True
+692,Vehicles,7,Premise Diversity (Specific),333,"['Boats', 'Submarines']",Motorbikes,"['Boats', 'Helicopters']",Motorbikes,False,True
+693,Vehicles,7,Premise Diversity (Specific),395,"['Helicopters', 'Boats']",Mopeds,"['Helicopters', 'Airplanes']",Mopeds,False,False
+694,Vehicles,7,Premise Diversity (Specific),447,"['Airplanes', 'Skateboards']",Jeeps,"['Airplanes', 'Zeppelins']",Jeeps,False,False
+695,Vehicles,7,Premise Diversity (Specific),544,"['Trucks', 'Caravans']",Motorbikes,"['Trucks', 'Skateboards']",Motorbikes,False,True
+696,Vehicles,8,Nonmonotonicity (General),0,"['Trams', 'Cars', 'Chisels']",Vehicles,"['Trams', 'Cars']",Vehicles,False,True
+697,Vehicles,8,Nonmonotonicity (General),1,"['Jeeps', 'Taxis']",Vehicles,"['Jeeps', 'Taxis', 'Chisels']",Vehicles,False,False
+698,Vehicles,8,Nonmonotonicity (General),2,"['Rockets', 'Zeppelins']",Vehicles,"['Rockets', 'Zeppelins', 'Wrenches']",Vehicles,False,False
+699,Vehicles,8,Nonmonotonicity (General),3,"['Helicopters', 'Trams', 'Chisels']",Vehicles,"['Helicopters', 'Trams']",Vehicles,False,True
+700,Vehicles,8,Nonmonotonicity (General),4,"['Jeeps', 'Zeppelins']",Vehicles,"['Jeeps', 'Zeppelins', 'Tong']",Vehicles,False,False
+701,Vehicles,8,Nonmonotonicity (General),5,"['Trams', 'Trains', 'Hammers']",Vehicles,"['Trams', 'Trains']",Vehicles,False,True
+702,Vehicles,8,Nonmonotonicity (General),6,"['Mopeds', 'Buses', 'Wheelbarrows']",Vehicles,"['Mopeds', 'Buses']",Vehicles,False,True
+703,Vehicles,8,Nonmonotonicity (General),7,"['Carts', 'Buses', 'Axes']",Vehicles,"['Carts', 'Buses']",Vehicles,False,True
+704,Vehicles,8,Nonmonotonicity (General),8,"['Boats', 'Trucks', 'Axes']",Vehicles,"['Boats', 'Trucks']",Vehicles,False,True
+705,Vehicles,8,Nonmonotonicity (General),9,"['Carriages', 'Vans', 'Wrenches']",Vehicles,"['Carriages', 'Vans']",Vehicles,False,True
+706,Vehicles,8,Nonmonotonicity (General),10,"['Carriages', 'Mopeds', 'Planes']",Vehicles,"['Carriages', 'Mopeds']",Vehicles,False,True
+707,Vehicles,8,Nonmonotonicity (General),11,"['Buses', 'Motorbikes']",Vehicles,"['Buses', 'Motorbikes', 'Files']",Vehicles,False,False
+708,Vehicles,8,Nonmonotonicity (General),12,"['Zeppelins', 'Bicycles', 'Ploughs']",Vehicles,"['Zeppelins', 'Bicycles']",Vehicles,False,True
+709,Vehicles,8,Nonmonotonicity (General),13,"['Motorbikes', 'Caravans', 'Drills']",Vehicles,"['Motorbikes', 'Caravans']",Vehicles,False,True
+710,Vehicles,8,Nonmonotonicity (General),14,"['Jeeps', 'Buses']",Vehicles,"['Jeeps', 'Buses', 'Anvils']",Vehicles,False,False
+711,Vehicles,8,Nonmonotonicity (General),15,"['Cars', 'Hovercraft', 'Files']",Vehicles,"['Cars', 'Hovercraft']",Vehicles,False,True
+712,Vehicles,8,Nonmonotonicity (General),16,"['Carriages', 'Sleds']",Vehicles,"['Carriages', 'Sleds', 'Planes']",Vehicles,False,False
+713,Vehicles,8,Nonmonotonicity (General),17,"['Airplanes', 'Submarines', 'Files']",Vehicles,"['Airplanes', 'Submarines']",Vehicles,False,True
+714,Vehicles,8,Nonmonotonicity (General),18,"['Carts', 'Bicycles', 'Nails']",Vehicles,"['Carts', 'Bicycles']",Vehicles,False,True
+715,Vehicles,8,Nonmonotonicity (General),19,"['Trucks', 'Skateboards']",Vehicles,"['Trucks', 'Skateboards', 'Ploughs']",Vehicles,False,False
+716,Vehicles,8,Nonmonotonicity (General),20,"['Sleds', 'Boats', 'Drills']",Vehicles,"['Sleds', 'Boats']",Vehicles,False,True
+717,Vehicles,8,Nonmonotonicity (General),21,"['Rockets', 'Hovercraft']",Vehicles,"['Rockets', 'Hovercraft', 'Ploughs']",Vehicles,False,False
+718,Vehicles,8,Nonmonotonicity (General),22,"['Trucks', 'Skateboards']",Vehicles,"['Trucks', 'Skateboards', 'Levels']",Vehicles,False,False
+719,Vehicles,8,Nonmonotonicity (General),23,"['Hovercraft', 'Cars']",Vehicles,"['Hovercraft', 'Cars', 'Hammers']",Vehicles,False,False
+720,Vehicles,9,Nonmonotonicity (Specific),0,['Sleds'],Caravans,"['Sleds', 'Drills']",Caravans,False,False
+721,Vehicles,9,Nonmonotonicity (Specific),1,['Hovercraft'],Carriages,"['Hovercraft', 'Screwdrivers']",Carriages,False,False
+722,Vehicles,9,Nonmonotonicity (Specific),2,"['Rockets', 'Levels']",Sleds,['Rockets'],Sleds,False,True
+723,Vehicles,9,Nonmonotonicity (Specific),3,['Rockets'],Carts,"['Rockets', 'Pickaxes']",Carts,False,False
+724,Vehicles,9,Nonmonotonicity (Specific),4,['Skateboards'],Bicycles,"['Skateboards', 'Tong']",Bicycles,False,False
+725,Vehicles,9,Nonmonotonicity (Specific),5,"['Mopeds', 'Files']",Jeeps,['Mopeds'],Jeeps,False,True
+726,Vehicles,9,Nonmonotonicity (Specific),6,['Trams'],Motorbikes,"['Trams', 'Anvils']",Motorbikes,False,False
+727,Vehicles,9,Nonmonotonicity (Specific),7,['Carriages'],Mopeds,"['Carriages', 'Chisels']",Mopeds,False,False
+728,Vehicles,9,Nonmonotonicity (Specific),8,"['Submarines', 'Planes']",Zeppelins,['Submarines'],Zeppelins,False,True
+729,Vehicles,9,Nonmonotonicity (Specific),9,"['Submarines', 'Shovels']",Hovercraft,['Submarines'],Hovercraft,False,True
+730,Vehicles,9,Nonmonotonicity (Specific),10,['Carriages'],Trains,"['Carriages', 'Spanners']",Trains,False,False
+731,Vehicles,9,Nonmonotonicity (Specific),11,['Sleds'],Zeppelins,"['Sleds', 'Wheelbarrows']",Zeppelins,False,False
+732,Vehicles,9,Nonmonotonicity (Specific),12,"['Zeppelins', 'Spanners']",Mopeds,['Zeppelins'],Mopeds,False,True
+733,Vehicles,9,Nonmonotonicity (Specific),13,"['Skateboards', 'Wrenches']",Cars,['Skateboards'],Cars,False,True
+734,Vehicles,9,Nonmonotonicity (Specific),14,"['Tractors', 'Anvils']",Taxis,['Tractors'],Taxis,False,True
+735,Vehicles,9,Nonmonotonicity (Specific),15,['Tractors'],Bicycles,"['Tractors', 'Anvils']",Bicycles,False,False
+736,Vehicles,9,Nonmonotonicity (Specific),16,"['Skateboards', 'Files']",Carriages,['Skateboards'],Carriages,False,True
+737,Vehicles,9,Nonmonotonicity (Specific),17,"['Zeppelins', 'Crowbars']",Boats,['Zeppelins'],Boats,False,True
+738,Vehicles,9,Nonmonotonicity (Specific),18,"['Caravans', 'Spanners']",Trucks,['Caravans'],Trucks,False,True
+739,Vehicles,9,Nonmonotonicity (Specific),19,['Hovercraft'],Trams,"['Hovercraft', 'Wheelbarrows']",Trams,False,False
+740,Vehicles,9,Nonmonotonicity (Specific),20,"['Sleds', 'Nails']",Jeeps,['Sleds'],Jeeps,False,True
+741,Vehicles,9,Nonmonotonicity (Specific),21,['Mopeds'],Jeeps,"['Mopeds', 'Ploughs']",Jeeps,False,False
+742,Vehicles,9,Nonmonotonicity (Specific),22,"['Rockets', 'Levels']",Submarines,['Rockets'],Submarines,False,True
+743,Vehicles,9,Nonmonotonicity (Specific),23,"['Sleds', 'Tong']",Trains,['Sleds'],Trains,False,True
+744,Vehicles,10,Premise-conclusion Asymmetry,0,['Submarines'],Cars,['Cars'],Submarines,False,True
+745,Vehicles,10,Premise-conclusion Asymmetry,1,['Motorbikes'],Zeppelins,['Zeppelins'],Motorbikes,False,False
+746,Vehicles,10,Premise-conclusion Asymmetry,2,['Motorbikes'],Caravans,['Caravans'],Motorbikes,False,False
+747,Vehicles,10,Premise-conclusion Asymmetry,3,['Cars'],Caravans,['Caravans'],Cars,False,False
+748,Vehicles,10,Premise-conclusion Asymmetry,5,['Buses'],Carts,['Carts'],Buses,False,False
+749,Vehicles,10,Premise-conclusion Asymmetry,6,['Vans'],Sleds,['Sleds'],Vans,False,False
+750,Vehicles,10,Premise-conclusion Asymmetry,7,['Skateboards'],Trains,['Trains'],Skateboards,False,True
+751,Vehicles,10,Premise-conclusion Asymmetry,8,['Bicycles'],Submarines,['Submarines'],Bicycles,False,False
+752,Vehicles,10,Premise-conclusion Asymmetry,9,['Vans'],Tractors,['Tractors'],Vans,False,False
+753,Vehicles,10,Premise-conclusion Asymmetry,11,['Trains'],Carts,['Carts'],Trains,False,False
+754,Vehicles,10,Premise-conclusion Asymmetry,12,['Sleds'],Motorbikes,['Motorbikes'],Sleds,False,True
+755,Vehicles,10,Premise-conclusion Asymmetry,14,['Submarines'],Vans,['Vans'],Submarines,False,True
+756,Vehicles,10,Premise-conclusion Asymmetry,15,['Motorbikes'],Rockets,['Rockets'],Motorbikes,False,False
+757,Vehicles,10,Premise-conclusion Asymmetry,16,['Mopeds'],Tractors,['Tractors'],Mopeds,False,False
+758,Vehicles,10,Premise-conclusion Asymmetry,17,['Carriages'],Trucks,['Trucks'],Carriages,False,True
+759,Vehicles,10,Premise-conclusion Asymmetry,19,['Hovercraft'],Jeeps,['Jeeps'],Hovercraft,False,True
+760,Vehicles,10,Premise-conclusion Asymmetry,20,['Buses'],Caravans,['Caravans'],Buses,False,False
+761,Vehicles,10,Premise-conclusion Asymmetry,21,['Trains'],Zeppelins,['Zeppelins'],Trains,False,False
+762,Vehicles,10,Premise-conclusion Asymmetry,24,['Motorbikes'],Hovercraft,['Hovercraft'],Motorbikes,False,False
+763,Vehicles,10,Premise-conclusion Asymmetry,25,['Tractors'],Buses,['Buses'],Tractors,False,True
+764,Vehicles,10,Premise-conclusion Asymmetry,27,['Zeppelins'],Trucks,['Trucks'],Zeppelins,False,True
+765,Vehicles,10,Premise-conclusion Asymmetry,28,['Bicycles'],Carriages,['Carriages'],Bicycles,False,False
+766,Vehicles,10,Premise-conclusion Asymmetry,29,['Trucks'],Submarines,['Submarines'],Trucks,False,False
+767,Vehicles,10,Premise-conclusion Asymmetry,30,['Sleds'],Trucks,['Trucks'],Sleds,False,True
+768,Vehicles,11,Inclusion Fallacy,0,['Cars'],Hovercraft,['Cars'],Vehicles,False,True
+769,Vehicles,11,Inclusion Fallacy,1,['Cars'],Rockets,['Cars'],Vehicles,False,True
+770,Vehicles,11,Inclusion Fallacy,2,['Mopeds'],Vehicles,['Mopeds'],Carriages,False,False
+771,Vehicles,11,Inclusion Fallacy,3,['Taxis'],Caravans,['Taxis'],Vehicles,False,True
+772,Vehicles,11,Inclusion Fallacy,4,['Mopeds'],Vehicles,['Mopeds'],Zeppelins,False,False
+773,Vehicles,11,Inclusion Fallacy,5,['Vans'],Carts,['Vans'],Vehicles,False,True
+774,Vehicles,11,Inclusion Fallacy,6,['Trains'],Vehicles,['Trains'],Caravans,False,False
+775,Vehicles,11,Inclusion Fallacy,7,['Bicycles'],Submarines,['Bicycles'],Vehicles,False,True
+776,Vehicles,11,Inclusion Fallacy,8,['Buses'],Tractors,['Buses'],Vehicles,False,True
+777,Vehicles,11,Inclusion Fallacy,10,['Trucks'],Vehicles,['Trucks'],Carriages,False,False
+778,Vehicles,11,Inclusion Fallacy,11,['Cars'],Skateboards,['Cars'],Vehicles,False,True
+779,Vehicles,11,Inclusion Fallacy,12,['Trucks'],Zeppelins,['Trucks'],Vehicles,False,True
+780,Vehicles,11,Inclusion Fallacy,14,['Bicycles'],Sleds,['Bicycles'],Vehicles,False,True
+781,Vehicles,11,Inclusion Fallacy,15,['Trucks'],Caravans,['Trucks'],Vehicles,False,True
+782,Vehicles,11,Inclusion Fallacy,16,['Taxis'],Vehicles,['Taxis'],Zeppelins,False,False
+783,Vehicles,11,Inclusion Fallacy,17,['Jeeps'],Vehicles,['Jeeps'],Carriages,False,False
+784,Vehicles,11,Inclusion Fallacy,19,['Buses'],Vehicles,['Buses'],Sleds,False,False
+785,Vehicles,11,Inclusion Fallacy,20,['Bicycles'],Vehicles,['Bicycles'],Carts,False,False
+786,Vehicles,11,Inclusion Fallacy,21,['Vans'],Hovercraft,['Vans'],Vehicles,False,True
+787,Vehicles,11,Inclusion Fallacy,23,['Buses'],Vehicles,['Buses'],Carts,False,False
+788,Vehicles,11,Inclusion Fallacy,24,['Trains'],Skateboards,['Trains'],Vehicles,False,True
+789,Vehicles,11,Inclusion Fallacy,25,['Bicycles'],Vehicles,['Bicycles'],Rockets,False,False
+790,Vehicles,11,Inclusion Fallacy,26,['Mopeds'],Vehicles,['Mopeds'],Caravans,False,False
+791,Vehicles,11,Inclusion Fallacy,27,['Mopeds'],Vehicles,['Mopeds'],Submarines,False,False
