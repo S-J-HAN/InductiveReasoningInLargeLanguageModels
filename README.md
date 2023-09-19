@@ -22,7 +22,7 @@ Final figures used in the main paper.
 
 #### generate_data
 
-Code used to generate and clean both human and LLM experimental data.
+Code used to generate and preprocess both human and LLM experimental data.
 
 #### analysis
 
