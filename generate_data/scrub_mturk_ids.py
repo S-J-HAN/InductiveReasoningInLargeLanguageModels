@@ -16,10 +16,10 @@ if __name__ == "__main__":
     
     for experiment in ("experiment_1", "experiment_2"):
 
-        df1 = pd.read_csv(f"../data/{experiment}/raw_human_ratings.csv")
+        df1 = pd.read_csv(f"../data/{experiment}/raw_human_ratings.csv", index_col=0)
         mturk_ids = df1["uid"].tolist()
         if os.path.exists(f"../data/{experiment}/clean_human_ratings.csv") and experiment == "experiment_1":
-            df2 = pd.read_csv(f"../data/{experiment}/clean_human_ratings.csv")
+            df2 = pd.read_csv(f"../data/{experiment}/clean_human_ratings.csv", index_col=0)
             mturk_ids += df2["uid"].tolist()
         
         mturk_ids = list(set(mturk_ids))

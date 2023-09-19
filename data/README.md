@@ -6,14 +6,14 @@ https://drive.google.com/drive/folders/1PkE4Dip0RZwyvUKM6G4nNub6ZNEKddYW?usp=sha
 
 The colab generated data typically corresponds to the first part of this project where we generated experimental stimuli and processed our human data. The data in this repository corresponds to the second part, where we generate LLM results and produce our final analysis. All of the data files required to run the code in this repository are available here, and there is some occasional overlap with the Google Drive folder.
 
-These files are also available locally in the 'setup' folder.
+These files are also available locally in the 'setup' folder. This folder is less well organised than the rest of the repo (sorry!).
 
 
 #### similarity
 Category similarity ratings for humans and LLMs
 
 #### dedeyne
-DeDeyne et al. LNCD data. Most of this is located in the drive folder.
+DeDeyne et al. LNCD data, although most of this is located in the gdrive/setup folder.
 
 #### experiment_1
 All data specific to experiment 1.
